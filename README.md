@@ -2,7 +2,7 @@
 
 A local-first, GCP-aligned machine learning intelligence platform for financial crime analytics. The project is designed as a professional portfolio implementation of fraud detection, AML risk scoring, anomaly detection, graph and network risk modelling, NLP-assisted alert triage, monitoring, governance evidence, and cloud reference architecture.
 
-Milestone 1 establishes the repository scaffold only. It does not yet include production models, pipelines, live cloud integrations, dashboards, or generated datasets.
+Milestone 2 adds deterministic synthetic financial crime data generation. It does not include production models, live cloud integrations, dashboards, or real data.
 
 ## Problem Context
 
@@ -14,7 +14,7 @@ This project is structured around those engineering problems while keeping the i
 
 Google Cloud Platform is relevant to this domain because financial crime workloads often require scalable data processing, governed feature pipelines, model training and serving, secure analytics, auditability, and monitoring. This repository is local-first for development, but its architecture and documentation are aligned to GCP services such as BigQuery, Vertex AI, Cloud Composer, Cloud Storage, Pub/Sub, Dataflow, and Cloud Monitoring.
 
-No live GCP resources or credentials are required for Milestone 1.
+No live GCP resources or credentials are required for the current milestones.
 
 ## Intended Platform Capabilities
 
@@ -32,13 +32,43 @@ The planned platform capabilities include:
 
 ## Milestone-Based Build Approach
 
-The project will be built incrementally to keep scope controlled and each milestone reviewable. Milestone 1 creates the professional project scaffold, package skeleton, configuration placeholders, documentation placeholders, diagram placeholders, CI workflow, and basic tests.
+The project will be built incrementally to keep scope controlled and each milestone reviewable. Milestone 1 created the professional project scaffold, package skeleton, configuration placeholders, documentation placeholders, diagram placeholders, CI workflow, and basic tests.
 
 Future milestones will add data generation, feature engineering, modelling, evaluation, monitoring, governance artefacts, and cloud-aligned architecture examples in deliberate stages.
 
+## Milestone 2: Synthetic Data Generation
+
+Milestone 2 generates fully synthetic sample datasets under `data/sample/` for future fraud detection, AML risk scoring, anomaly detection, graph risk modelling, NLP alert triage, monitoring, and governance evidence workflows.
+
+Generated datasets:
+
+- `customers.csv`
+- `accounts.csv`
+- `transactions.csv`
+- `beneficiaries.csv`
+- `devices.csv`
+- `alerts.csv`
+- `case_notes.csv`
+
+The generator is deterministic when a random seed is provided in `configs/pipeline_config.yaml`. It simulates normal activity and suspicious patterns such as high transaction velocity, round-number payments, unusual amount spikes, new beneficiary risk, high-risk jurisdiction exposure, rapid movement of funds, shared device behaviour, mule-account style behaviour, account takeover style behaviour, and synthetic suspicious case-note narratives.
+
+Generate the sample data:
+
+```bash
+python scripts/generate_demo_data.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli generate-data
+```
+
+The generated files are synthetic demonstration artefacts only. They must not be interpreted as real customer behaviour or real financial crime intelligence.
+
 ## Synthetic Data Only
 
-This repository will use synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
+This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
 
 ## Local-First, GCP-Aligned
 
@@ -50,7 +80,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 1 is a scaffold milestone. The repository contains package structure, configuration placeholders, documentation placeholders, diagram placeholders, CI setup, and minimal tests.
+Milestone 2 is a synthetic data generation milestone. The repository contains the project scaffold plus deterministic generators and sample CSV outputs for synthetic customers, accounts, transactions, beneficiaries, devices, alerts, and case notes.
 
 ## Quick Start
 
@@ -69,3 +99,8 @@ Run the scaffold status command:
 financial-crime-ml
 ```
 
+Generate synthetic demo data:
+
+```bash
+python -m financial_crime_ml.cli generate-data
+```

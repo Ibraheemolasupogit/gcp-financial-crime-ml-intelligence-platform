@@ -8,3 +8,11 @@ paths:
   processed_data: data/processed
   outputs: outputs
 
+data_generation:
+  random_seed: 42
+  number_of_customers: 500
+  number_of_accounts: 700
+  number_of_transactions: 5000
+  number_of_beneficiaries: 800
+  number_of_devices: 600
+  output_path: data/sample

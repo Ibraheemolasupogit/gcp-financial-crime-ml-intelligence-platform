@@ -1,0 +1,901 @@
+alert_id,transaction_id,account_id,alert_type,alert_severity,alert_status,alert_timestamp,alert_reason
+ALERT000001,TXN0000018,ACCT000161,mule_activity,medium,in_review,2025-04-09T21:11:00,Synthetic alert generated for mule account style behaviour.
+ALERT000002,TXN0000021,ACCT000463,new_beneficiary,medium,open,2025-03-03T05:07:00,Synthetic alert generated for new beneficiary risk.
+ALERT000003,TXN0000034,ACCT000521,mule_activity,high,open,2025-05-20T18:46:00,Synthetic alert generated for mule account style behaviour.
+ALERT000004,TXN0000067,ACCT000134,account_takeover,high,closed_false_positive,2025-01-07T08:15:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000005,TXN0000073,ACCT000662,mule_activity,medium,in_review,2025-10-06T06:10:00,Synthetic alert generated for mule account style behaviour.
+ALERT000006,TXN0000079,ACCT000662,rapid_movement,medium,in_review,2025-06-20T06:50:00,Synthetic alert generated for rapid movement of funds.
+ALERT000007,TXN0000080,ACCT000508,jurisdiction_risk,high,in_review,2025-11-19T18:27:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000008,TXN0000087,ACCT000542,shared_device,medium,closed_false_positive,2025-04-14T14:49:00,Synthetic alert generated for shared device behaviour.
+ALERT000009,TXN0000090,ACCT000151,velocity_rule,high,open,2025-03-07T13:58:00,Synthetic alert generated for high transaction velocity.
+ALERT000010,TXN0000094,ACCT000495,jurisdiction_risk,high,in_review,2025-10-09T03:49:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000011,TXN0000096,ACCT000039,velocity_rule,medium,in_review,2025-04-05T22:58:00,Synthetic alert generated for high transaction velocity.
+ALERT000012,TXN0000099,ACCT000311,jurisdiction_risk,high,closed_false_positive,2025-12-04T03:03:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000013,TXN0000113,ACCT000171,account_takeover,high,open,2025-03-16T10:13:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000014,TXN0000121,ACCT000374,jurisdiction_risk,high,escalated,2025-08-17T00:26:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000015,TXN0000127,ACCT000231,rapid_movement,medium,open,2025-08-25T19:40:00,Synthetic alert generated for rapid movement of funds.
+ALERT000016,TXN0000128,ACCT000146,rapid_movement,medium,in_review,2025-03-27T11:48:00,Synthetic alert generated for rapid movement of funds.
+ALERT000017,TXN0000135,ACCT000066,structuring_indicator,medium,in_review,2025-12-09T20:24:00,Synthetic alert generated for round number payments.
+ALERT000018,TXN0000138,ACCT000487,jurisdiction_risk,high,in_review,2025-10-03T13:19:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000019,TXN0000141,ACCT000382,account_takeover,high,escalated,2025-01-04T17:32:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000020,TXN0000145,ACCT000442,velocity_rule,medium,in_review,2025-11-15T07:54:00,Synthetic alert generated for high transaction velocity.
+ALERT000021,TXN0000152,ACCT000395,rapid_movement,medium,in_review,2025-05-23T11:06:00,Synthetic alert generated for rapid movement of funds.
+ALERT000022,TXN0000154,ACCT000163,structuring_indicator,high,escalated,2025-01-08T18:02:00,Synthetic alert generated for round number payments.
+ALERT000023,TXN0000155,ACCT000537,jurisdiction_risk,high,open,2025-07-17T21:44:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000024,TXN0000156,ACCT000348,rapid_movement,medium,in_review,2025-07-18T01:34:00,Synthetic alert generated for rapid movement of funds.
+ALERT000025,TXN0000159,ACCT000085,velocity_rule,high,in_review,2025-12-10T14:08:00,Synthetic alert generated for high transaction velocity.
+ALERT000026,TXN0000169,ACCT000262,structuring_indicator,medium,closed_false_positive,2025-12-04T02:29:00,Synthetic alert generated for round number payments.
+ALERT000027,TXN0000173,ACCT000052,structuring_indicator,high,closed_false_positive,2025-06-28T00:22:00,Synthetic alert generated for round number payments.
+ALERT000028,TXN0000177,ACCT000100,rapid_movement,medium,in_review,2025-07-25T20:27:00,Synthetic alert generated for rapid movement of funds.
+ALERT000029,TXN0000187,ACCT000057,amount_spike,medium,open,2025-10-15T10:17:00,Synthetic alert generated for unusual amount spike.
+ALERT000030,TXN0000192,ACCT000674,new_beneficiary,medium,closed_false_positive,2025-09-16T21:07:00,Synthetic alert generated for new beneficiary risk.
+ALERT000031,TXN0000194,ACCT000210,jurisdiction_risk,high,closed_false_positive,2025-04-20T16:21:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000032,TXN0000199,ACCT000664,jurisdiction_risk,high,open,2025-11-07T06:03:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000033,TXN0000210,ACCT000172,mule_activity,medium,open,2025-05-04T10:54:00,Synthetic alert generated for mule account style behaviour.
+ALERT000034,TXN0000213,ACCT000518,account_takeover,high,open,2025-06-11T17:49:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000035,TXN0000218,ACCT000567,mule_activity,high,open,2025-06-24T07:39:00,Synthetic alert generated for mule account style behaviour.
+ALERT000036,TXN0000223,ACCT000282,rapid_movement,medium,open,2025-05-02T04:01:00,Synthetic alert generated for rapid movement of funds.
+ALERT000037,TXN0000231,ACCT000084,mule_activity,medium,closed_false_positive,2025-10-28T06:35:00,Synthetic alert generated for mule account style behaviour.
+ALERT000038,TXN0000232,ACCT000676,jurisdiction_risk,high,open,2025-11-26T23:26:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000039,TXN0000234,ACCT000299,amount_spike,high,closed_false_positive,2025-05-19T01:37:00,Synthetic alert generated for unusual amount spike.
+ALERT000040,TXN0000255,ACCT000437,structuring_indicator,high,open,2025-11-20T09:50:00,Synthetic alert generated for round number payments.
+ALERT000041,TXN0000256,ACCT000644,velocity_rule,high,closed_false_positive,2025-11-27T12:42:00,Synthetic alert generated for high transaction velocity.
+ALERT000042,TXN0000279,ACCT000116,jurisdiction_risk,high,open,2025-07-26T21:33:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000043,TXN0000284,ACCT000651,account_takeover,high,open,2025-08-15T15:17:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000044,TXN0000301,ACCT000027,rapid_movement,medium,open,2025-03-28T18:16:00,Synthetic alert generated for rapid movement of funds.
+ALERT000045,TXN0000309,ACCT000002,mule_activity,high,in_review,2025-07-16T21:19:00,Synthetic alert generated for mule account style behaviour.
+ALERT000046,TXN0000310,ACCT000647,rapid_movement,high,in_review,2025-10-09T04:14:00,Synthetic alert generated for rapid movement of funds.
+ALERT000047,TXN0000314,ACCT000664,new_beneficiary,medium,in_review,2025-11-14T15:34:00,Synthetic alert generated for new beneficiary risk.
+ALERT000048,TXN0000335,ACCT000397,new_beneficiary,medium,in_review,2025-01-15T16:28:00,Synthetic alert generated for new beneficiary risk.
+ALERT000049,TXN0000340,ACCT000284,account_takeover,high,in_review,2025-01-14T15:58:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000050,TXN0000348,ACCT000281,new_beneficiary,medium,escalated,2025-06-12T23:41:00,Synthetic alert generated for new beneficiary risk.
+ALERT000051,TXN0000353,ACCT000495,velocity_rule,medium,open,2025-10-24T01:15:00,Synthetic alert generated for high transaction velocity.
+ALERT000052,TXN0000355,ACCT000660,new_beneficiary,high,open,2025-09-23T05:50:00,Synthetic alert generated for new beneficiary risk.
+ALERT000053,TXN0000357,ACCT000311,velocity_rule,medium,in_review,2025-08-29T10:13:00,Synthetic alert generated for high transaction velocity.
+ALERT000054,TXN0000368,ACCT000098,amount_spike,medium,closed_false_positive,2025-01-25T03:36:00,Synthetic alert generated for unusual amount spike.
+ALERT000055,TXN0000371,ACCT000627,shared_device,medium,escalated,2025-05-27T09:52:00,Synthetic alert generated for shared device behaviour.
+ALERT000056,TXN0000375,ACCT000307,mule_activity,medium,closed_false_positive,2025-09-30T06:22:00,Synthetic alert generated for mule account style behaviour.
+ALERT000057,TXN0000381,ACCT000383,rapid_movement,medium,open,2025-01-19T07:11:00,Synthetic alert generated for rapid movement of funds.
+ALERT000058,TXN0000385,ACCT000420,jurisdiction_risk,high,closed_false_positive,2025-08-11T00:55:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000059,TXN0000403,ACCT000402,shared_device,high,open,2025-09-11T15:03:00,Synthetic alert generated for shared device behaviour.
+ALERT000060,TXN0000409,ACCT000559,new_beneficiary,high,open,2025-12-08T12:32:00,Synthetic alert generated for new beneficiary risk.
+ALERT000061,TXN0000416,ACCT000454,new_beneficiary,medium,open,2025-06-23T05:49:00,Synthetic alert generated for new beneficiary risk.
+ALERT000062,TXN0000421,ACCT000430,rapid_movement,medium,escalated,2025-02-22T07:13:00,Synthetic alert generated for rapid movement of funds.
+ALERT000063,TXN0000423,ACCT000402,velocity_rule,high,closed_false_positive,2025-11-25T03:23:00,Synthetic alert generated for high transaction velocity.
+ALERT000064,TXN0000424,ACCT000598,structuring_indicator,medium,open,2025-04-25T05:59:00,Synthetic alert generated for round number payments.
+ALERT000065,TXN0000431,ACCT000165,new_beneficiary,medium,open,2025-03-02T19:08:00,Synthetic alert generated for new beneficiary risk.
+ALERT000066,TXN0000433,ACCT000477,new_beneficiary,medium,escalated,2025-03-26T14:37:00,Synthetic alert generated for new beneficiary risk.
+ALERT000067,TXN0000434,ACCT000362,rapid_movement,medium,closed_false_positive,2025-06-03T18:41:00,Synthetic alert generated for rapid movement of funds.
+ALERT000068,TXN0000435,ACCT000679,rapid_movement,high,open,2025-12-03T03:35:00,Synthetic alert generated for rapid movement of funds.
+ALERT000069,TXN0000444,ACCT000655,shared_device,medium,escalated,2025-04-16T20:50:00,Synthetic alert generated for shared device behaviour.
+ALERT000070,TXN0000446,ACCT000676,jurisdiction_risk,high,in_review,2025-06-21T23:53:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000071,TXN0000452,ACCT000502,structuring_indicator,high,in_review,2025-04-01T17:12:00,Synthetic alert generated for round number payments.
+ALERT000072,TXN0000453,ACCT000366,jurisdiction_risk,high,in_review,2025-12-18T18:14:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000073,TXN0000468,ACCT000372,new_beneficiary,medium,closed_false_positive,2025-05-09T07:32:00,Synthetic alert generated for new beneficiary risk.
+ALERT000074,TXN0000470,ACCT000605,amount_spike,medium,open,2025-07-28T06:53:00,Synthetic alert generated for unusual amount spike.
+ALERT000075,TXN0000482,ACCT000676,shared_device,medium,open,2025-04-18T23:03:00,Synthetic alert generated for shared device behaviour.
+ALERT000076,TXN0000489,ACCT000638,account_takeover,high,in_review,2025-03-02T23:01:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000077,TXN0000490,ACCT000428,structuring_indicator,medium,in_review,2025-03-01T19:27:00,Synthetic alert generated for round number payments.
+ALERT000078,TXN0000492,ACCT000564,rapid_movement,medium,closed_false_positive,2025-03-09T12:46:00,Synthetic alert generated for rapid movement of funds.
+ALERT000079,TXN0000494,ACCT000621,account_takeover,high,escalated,2025-01-28T15:26:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000080,TXN0000496,ACCT000315,account_takeover,high,in_review,2025-07-28T10:29:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000081,TXN0000499,ACCT000494,rapid_movement,medium,in_review,2025-04-04T11:53:00,Synthetic alert generated for rapid movement of funds.
+ALERT000082,TXN0000509,ACCT000283,structuring_indicator,medium,in_review,2025-12-18T13:20:00,Synthetic alert generated for round number payments.
+ALERT000083,TXN0000513,ACCT000112,jurisdiction_risk,high,open,2025-09-18T17:09:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000084,TXN0000516,ACCT000180,jurisdiction_risk,high,in_review,2025-04-29T19:03:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000085,TXN0000523,ACCT000186,structuring_indicator,medium,in_review,2025-07-14T09:27:00,Synthetic alert generated for round number payments.
+ALERT000086,TXN0000531,ACCT000037,amount_spike,medium,in_review,2025-09-06T10:50:00,Synthetic alert generated for unusual amount spike.
+ALERT000087,TXN0000547,ACCT000292,amount_spike,medium,closed_false_positive,2025-07-24T07:49:00,Synthetic alert generated for unusual amount spike.
+ALERT000088,TXN0000548,ACCT000230,new_beneficiary,medium,open,2025-08-30T07:14:00,Synthetic alert generated for new beneficiary risk.
+ALERT000089,TXN0000549,ACCT000434,shared_device,high,in_review,2025-09-23T08:49:00,Synthetic alert generated for shared device behaviour.
+ALERT000090,TXN0000558,ACCT000160,mule_activity,medium,closed_false_positive,2025-12-06T10:24:00,Synthetic alert generated for mule account style behaviour.
+ALERT000091,TXN0000563,ACCT000693,rapid_movement,medium,in_review,2025-07-08T10:04:00,Synthetic alert generated for rapid movement of funds.
+ALERT000092,TXN0000564,ACCT000481,structuring_indicator,medium,open,2025-05-29T19:15:00,Synthetic alert generated for round number payments.
+ALERT000093,TXN0000595,ACCT000488,jurisdiction_risk,high,in_review,2025-09-21T08:35:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000094,TXN0000598,ACCT000110,new_beneficiary,medium,closed_false_positive,2025-01-14T08:46:00,Synthetic alert generated for new beneficiary risk.
+ALERT000095,TXN0000599,ACCT000643,account_takeover,high,open,2025-06-21T21:53:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000096,TXN0000604,ACCT000067,structuring_indicator,medium,in_review,2025-06-13T16:07:00,Synthetic alert generated for round number payments.
+ALERT000097,TXN0000606,ACCT000468,velocity_rule,medium,in_review,2025-01-06T07:44:00,Synthetic alert generated for high transaction velocity.
+ALERT000098,TXN0000613,ACCT000113,account_takeover,high,open,2025-08-29T15:49:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000099,TXN0000621,ACCT000067,rapid_movement,medium,in_review,2025-11-14T00:05:00,Synthetic alert generated for rapid movement of funds.
+ALERT000100,TXN0000623,ACCT000516,jurisdiction_risk,high,in_review,2025-06-23T15:34:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000101,TXN0000627,ACCT000526,rapid_movement,high,in_review,2025-06-15T03:10:00,Synthetic alert generated for rapid movement of funds.
+ALERT000102,TXN0000631,ACCT000095,amount_spike,medium,closed_false_positive,2025-04-11T05:44:00,Synthetic alert generated for unusual amount spike.
+ALERT000103,TXN0000638,ACCT000311,amount_spike,medium,open,2025-01-26T08:43:00,Synthetic alert generated for unusual amount spike.
+ALERT000104,TXN0000640,ACCT000469,account_takeover,high,open,2025-06-11T23:22:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000105,TXN0000646,ACCT000474,velocity_rule,medium,in_review,2025-05-20T23:16:00,Synthetic alert generated for high transaction velocity.
+ALERT000106,TXN0000651,ACCT000345,new_beneficiary,medium,open,2025-06-23T19:08:00,Synthetic alert generated for new beneficiary risk.
+ALERT000107,TXN0000653,ACCT000107,rapid_movement,medium,in_review,2025-04-02T01:01:00,Synthetic alert generated for rapid movement of funds.
+ALERT000108,TXN0000666,ACCT000128,mule_activity,medium,in_review,2025-12-15T19:46:00,Synthetic alert generated for mule account style behaviour.
+ALERT000109,TXN0000678,ACCT000336,amount_spike,medium,open,2025-03-16T12:54:00,Synthetic alert generated for unusual amount spike.
+ALERT000110,TXN0000696,ACCT000034,new_beneficiary,high,escalated,2025-04-26T22:44:00,Synthetic alert generated for new beneficiary risk.
+ALERT000111,TXN0000702,ACCT000098,account_takeover,high,in_review,2025-03-22T17:57:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000112,TXN0000703,ACCT000241,shared_device,medium,escalated,2025-05-06T22:20:00,Synthetic alert generated for shared device behaviour.
+ALERT000113,TXN0000707,ACCT000519,rapid_movement,high,open,2025-11-04T01:14:00,Synthetic alert generated for rapid movement of funds.
+ALERT000114,TXN0000721,ACCT000535,structuring_indicator,medium,escalated,2025-01-27T11:20:00,Synthetic alert generated for round number payments.
+ALERT000115,TXN0000725,ACCT000212,velocity_rule,medium,in_review,2025-12-15T07:15:00,Synthetic alert generated for high transaction velocity.
+ALERT000116,TXN0000730,ACCT000580,velocity_rule,high,escalated,2025-07-13T10:00:00,Synthetic alert generated for high transaction velocity.
+ALERT000117,TXN0000734,ACCT000007,velocity_rule,medium,in_review,2025-08-04T01:18:00,Synthetic alert generated for high transaction velocity.
+ALERT000118,TXN0000735,ACCT000025,account_takeover,high,escalated,2025-04-29T10:44:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000119,TXN0000746,ACCT000564,structuring_indicator,medium,open,2025-09-04T20:54:00,Synthetic alert generated for round number payments.
+ALERT000120,TXN0000764,ACCT000013,account_takeover,high,in_review,2025-12-30T18:35:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000121,TXN0000769,ACCT000366,new_beneficiary,medium,open,2025-03-19T04:43:00,Synthetic alert generated for new beneficiary risk.
+ALERT000122,TXN0000772,ACCT000279,shared_device,medium,in_review,2025-07-10T03:10:00,Synthetic alert generated for shared device behaviour.
+ALERT000123,TXN0000773,ACCT000156,rapid_movement,high,in_review,2025-08-01T08:25:00,Synthetic alert generated for rapid movement of funds.
+ALERT000124,TXN0000774,ACCT000659,account_takeover,high,closed_false_positive,2025-10-10T15:58:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000125,TXN0000785,ACCT000546,structuring_indicator,medium,in_review,2025-09-14T04:07:00,Synthetic alert generated for round number payments.
+ALERT000126,TXN0000791,ACCT000108,structuring_indicator,medium,in_review,2025-08-21T17:50:00,Synthetic alert generated for round number payments.
+ALERT000127,TXN0000809,ACCT000252,velocity_rule,medium,escalated,2025-10-10T15:26:00,Synthetic alert generated for high transaction velocity.
+ALERT000128,TXN0000823,ACCT000575,account_takeover,high,escalated,2025-07-04T11:21:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000129,TXN0000826,ACCT000219,velocity_rule,medium,escalated,2025-07-11T11:32:00,Synthetic alert generated for high transaction velocity.
+ALERT000130,TXN0000832,ACCT000065,structuring_indicator,medium,open,2025-06-26T11:24:00,Synthetic alert generated for round number payments.
+ALERT000131,TXN0000837,ACCT000326,amount_spike,medium,escalated,2025-03-18T02:40:00,Synthetic alert generated for unusual amount spike.
+ALERT000132,TXN0000838,ACCT000367,velocity_rule,medium,in_review,2025-02-16T00:17:00,Synthetic alert generated for high transaction velocity.
+ALERT000133,TXN0000842,ACCT000261,shared_device,medium,closed_false_positive,2025-11-09T22:20:00,Synthetic alert generated for shared device behaviour.
+ALERT000134,TXN0000846,ACCT000054,amount_spike,medium,in_review,2025-02-13T10:06:00,Synthetic alert generated for unusual amount spike.
+ALERT000135,TXN0000848,ACCT000337,structuring_indicator,medium,in_review,2025-06-26T13:07:00,Synthetic alert generated for round number payments.
+ALERT000136,TXN0000855,ACCT000584,account_takeover,high,open,2025-12-21T18:29:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000137,TXN0000856,ACCT000503,new_beneficiary,high,open,2025-07-29T01:56:00,Synthetic alert generated for new beneficiary risk.
+ALERT000138,TXN0000867,ACCT000683,structuring_indicator,medium,in_review,2025-08-27T17:11:00,Synthetic alert generated for round number payments.
+ALERT000139,TXN0000869,ACCT000381,structuring_indicator,high,open,2025-12-21T12:17:00,Synthetic alert generated for round number payments.
+ALERT000140,TXN0000875,ACCT000028,new_beneficiary,medium,in_review,2025-01-15T20:38:00,Synthetic alert generated for new beneficiary risk.
+ALERT000141,TXN0000885,ACCT000407,amount_spike,medium,open,2025-11-10T23:07:00,Synthetic alert generated for unusual amount spike.
+ALERT000142,TXN0000887,ACCT000246,account_takeover,high,open,2025-06-09T06:02:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000143,TXN0000891,ACCT000108,rapid_movement,medium,open,2025-10-24T03:31:00,Synthetic alert generated for rapid movement of funds.
+ALERT000144,TXN0000894,ACCT000166,velocity_rule,medium,open,2025-02-10T02:51:00,Synthetic alert generated for high transaction velocity.
+ALERT000145,TXN0000895,ACCT000598,shared_device,high,open,2025-12-22T00:21:00,Synthetic alert generated for shared device behaviour.
+ALERT000146,TXN0000910,ACCT000332,shared_device,medium,closed_false_positive,2025-01-18T12:20:00,Synthetic alert generated for shared device behaviour.
+ALERT000147,TXN0000913,ACCT000543,mule_activity,medium,in_review,2025-05-16T07:08:00,Synthetic alert generated for mule account style behaviour.
+ALERT000148,TXN0000916,ACCT000248,jurisdiction_risk,high,open,2025-12-06T20:51:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000149,TXN0000917,ACCT000005,jurisdiction_risk,high,open,2025-11-07T17:17:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000150,TXN0000919,ACCT000039,mule_activity,high,closed_false_positive,2025-10-29T19:22:00,Synthetic alert generated for mule account style behaviour.
+ALERT000151,TXN0000934,ACCT000393,new_beneficiary,high,open,2025-02-15T14:28:00,Synthetic alert generated for new beneficiary risk.
+ALERT000152,TXN0000935,ACCT000452,shared_device,high,closed_false_positive,2025-07-17T15:41:00,Synthetic alert generated for shared device behaviour.
+ALERT000153,TXN0000942,ACCT000224,structuring_indicator,medium,closed_false_positive,2025-04-08T15:12:00,Synthetic alert generated for round number payments.
+ALERT000154,TXN0000959,ACCT000604,rapid_movement,high,open,2025-10-09T23:39:00,Synthetic alert generated for rapid movement of funds.
+ALERT000155,TXN0000966,ACCT000352,rapid_movement,medium,escalated,2025-06-04T02:12:00,Synthetic alert generated for rapid movement of funds.
+ALERT000156,TXN0000967,ACCT000475,shared_device,medium,in_review,2025-05-15T07:39:00,Synthetic alert generated for shared device behaviour.
+ALERT000157,TXN0000986,ACCT000115,structuring_indicator,medium,closed_false_positive,2025-03-11T02:24:00,Synthetic alert generated for round number payments.
+ALERT000158,TXN0000992,ACCT000596,structuring_indicator,medium,open,2025-06-16T04:02:00,Synthetic alert generated for round number payments.
+ALERT000159,TXN0001000,ACCT000450,new_beneficiary,medium,in_review,2025-07-07T01:31:00,Synthetic alert generated for new beneficiary risk.
+ALERT000160,TXN0001002,ACCT000351,jurisdiction_risk,high,in_review,2025-07-27T07:10:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000161,TXN0001003,ACCT000312,amount_spike,medium,open,2025-02-12T15:29:00,Synthetic alert generated for unusual amount spike.
+ALERT000162,TXN0001004,ACCT000692,rapid_movement,medium,closed_false_positive,2025-02-27T17:25:00,Synthetic alert generated for rapid movement of funds.
+ALERT000163,TXN0001005,ACCT000389,account_takeover,high,closed_false_positive,2025-07-14T13:21:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000164,TXN0001012,ACCT000405,velocity_rule,medium,in_review,2025-04-12T08:07:00,Synthetic alert generated for high transaction velocity.
+ALERT000165,TXN0001025,ACCT000666,mule_activity,medium,closed_false_positive,2025-04-30T17:14:00,Synthetic alert generated for mule account style behaviour.
+ALERT000166,TXN0001027,ACCT000311,jurisdiction_risk,high,open,2025-01-22T17:22:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000167,TXN0001030,ACCT000074,account_takeover,high,closed_false_positive,2025-04-27T13:47:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000168,TXN0001038,ACCT000485,rapid_movement,medium,open,2025-08-01T02:34:00,Synthetic alert generated for rapid movement of funds.
+ALERT000169,TXN0001039,ACCT000571,structuring_indicator,high,escalated,2025-12-18T03:47:00,Synthetic alert generated for round number payments.
+ALERT000170,TXN0001044,ACCT000235,amount_spike,medium,in_review,2025-12-15T21:40:00,Synthetic alert generated for unusual amount spike.
+ALERT000171,TXN0001055,ACCT000347,account_takeover,high,closed_false_positive,2025-06-22T22:35:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000172,TXN0001061,ACCT000646,structuring_indicator,medium,open,2025-04-23T22:01:00,Synthetic alert generated for round number payments.
+ALERT000173,TXN0001062,ACCT000426,mule_activity,high,open,2025-08-02T23:05:00,Synthetic alert generated for mule account style behaviour.
+ALERT000174,TXN0001066,ACCT000290,amount_spike,medium,closed_false_positive,2025-07-29T03:06:00,Synthetic alert generated for unusual amount spike.
+ALERT000175,TXN0001068,ACCT000291,new_beneficiary,medium,in_review,2025-11-21T00:57:00,Synthetic alert generated for new beneficiary risk.
+ALERT000176,TXN0001069,ACCT000117,amount_spike,high,open,2025-04-07T20:22:00,Synthetic alert generated for unusual amount spike.
+ALERT000177,TXN0001072,ACCT000025,shared_device,medium,in_review,2025-03-16T13:44:00,Synthetic alert generated for shared device behaviour.
+ALERT000178,TXN0001078,ACCT000356,shared_device,medium,open,2025-07-12T00:29:00,Synthetic alert generated for shared device behaviour.
+ALERT000179,TXN0001082,ACCT000429,structuring_indicator,medium,in_review,2025-09-02T08:36:00,Synthetic alert generated for round number payments.
+ALERT000180,TXN0001086,ACCT000229,new_beneficiary,medium,closed_false_positive,2025-06-02T09:08:00,Synthetic alert generated for new beneficiary risk.
+ALERT000181,TXN0001099,ACCT000219,structuring_indicator,medium,in_review,2025-08-10T10:44:00,Synthetic alert generated for round number payments.
+ALERT000182,TXN0001102,ACCT000038,rapid_movement,medium,in_review,2025-10-01T13:35:00,Synthetic alert generated for rapid movement of funds.
+ALERT000183,TXN0001106,ACCT000029,structuring_indicator,high,open,2025-10-18T05:14:00,Synthetic alert generated for round number payments.
+ALERT000184,TXN0001107,ACCT000294,velocity_rule,medium,open,2025-09-15T13:02:00,Synthetic alert generated for high transaction velocity.
+ALERT000185,TXN0001110,ACCT000324,amount_spike,medium,open,2025-04-04T19:02:00,Synthetic alert generated for unusual amount spike.
+ALERT000186,TXN0001120,ACCT000076,structuring_indicator,medium,closed_false_positive,2025-12-20T06:42:00,Synthetic alert generated for round number payments.
+ALERT000187,TXN0001121,ACCT000611,amount_spike,medium,open,2025-08-19T23:05:00,Synthetic alert generated for unusual amount spike.
+ALERT000188,TXN0001123,ACCT000684,jurisdiction_risk,high,closed_false_positive,2025-11-16T17:27:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000189,TXN0001124,ACCT000323,shared_device,medium,in_review,2025-01-04T03:49:00,Synthetic alert generated for shared device behaviour.
+ALERT000190,TXN0001130,ACCT000440,mule_activity,medium,escalated,2025-02-22T09:09:00,Synthetic alert generated for mule account style behaviour.
+ALERT000191,TXN0001132,ACCT000647,jurisdiction_risk,high,open,2025-03-23T21:39:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000192,TXN0001135,ACCT000133,amount_spike,high,closed_false_positive,2025-11-02T11:34:00,Synthetic alert generated for unusual amount spike.
+ALERT000193,TXN0001149,ACCT000591,shared_device,medium,closed_false_positive,2025-01-27T13:46:00,Synthetic alert generated for shared device behaviour.
+ALERT000194,TXN0001150,ACCT000044,account_takeover,high,in_review,2025-05-25T23:52:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000195,TXN0001156,ACCT000211,new_beneficiary,high,escalated,2025-11-30T20:47:00,Synthetic alert generated for new beneficiary risk.
+ALERT000196,TXN0001158,ACCT000418,rapid_movement,medium,open,2025-11-12T05:28:00,Synthetic alert generated for rapid movement of funds.
+ALERT000197,TXN0001166,ACCT000322,mule_activity,high,open,2025-12-22T05:40:00,Synthetic alert generated for mule account style behaviour.
+ALERT000198,TXN0001168,ACCT000374,mule_activity,medium,escalated,2025-09-16T18:14:00,Synthetic alert generated for mule account style behaviour.
+ALERT000199,TXN0001176,ACCT000495,amount_spike,high,open,2025-09-03T04:12:00,Synthetic alert generated for unusual amount spike.
+ALERT000200,TXN0001183,ACCT000292,account_takeover,high,open,2025-02-10T17:55:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000201,TXN0001184,ACCT000319,structuring_indicator,high,in_review,2025-11-24T02:01:00,Synthetic alert generated for round number payments.
+ALERT000202,TXN0001186,ACCT000492,amount_spike,medium,escalated,2025-07-27T04:26:00,Synthetic alert generated for unusual amount spike.
+ALERT000203,TXN0001190,ACCT000610,jurisdiction_risk,high,closed_false_positive,2025-09-02T13:13:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000204,TXN0001195,ACCT000194,mule_activity,medium,open,2025-01-25T02:42:00,Synthetic alert generated for mule account style behaviour.
+ALERT000205,TXN0001198,ACCT000105,velocity_rule,medium,in_review,2025-06-02T10:43:00,Synthetic alert generated for high transaction velocity.
+ALERT000206,TXN0001200,ACCT000685,amount_spike,medium,in_review,2025-05-15T23:02:00,Synthetic alert generated for unusual amount spike.
+ALERT000207,TXN0001201,ACCT000671,jurisdiction_risk,high,closed_false_positive,2025-12-30T14:57:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000208,TXN0001204,ACCT000401,account_takeover,high,open,2025-11-20T02:19:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000209,TXN0001205,ACCT000531,rapid_movement,medium,open,2025-01-09T20:49:00,Synthetic alert generated for rapid movement of funds.
+ALERT000210,TXN0001214,ACCT000474,structuring_indicator,medium,closed_false_positive,2025-11-06T15:56:00,Synthetic alert generated for round number payments.
+ALERT000211,TXN0001219,ACCT000053,mule_activity,high,open,2025-01-16T03:28:00,Synthetic alert generated for mule account style behaviour.
+ALERT000212,TXN0001222,ACCT000109,mule_activity,medium,in_review,2025-11-17T20:22:00,Synthetic alert generated for mule account style behaviour.
+ALERT000213,TXN0001235,ACCT000441,rapid_movement,medium,closed_false_positive,2025-09-25T06:14:00,Synthetic alert generated for rapid movement of funds.
+ALERT000214,TXN0001236,ACCT000357,structuring_indicator,medium,in_review,2025-07-08T22:24:00,Synthetic alert generated for round number payments.
+ALERT000215,TXN0001246,ACCT000456,amount_spike,medium,in_review,2025-08-12T01:13:00,Synthetic alert generated for unusual amount spike.
+ALERT000216,TXN0001258,ACCT000052,new_beneficiary,medium,closed_false_positive,2025-01-05T07:22:00,Synthetic alert generated for new beneficiary risk.
+ALERT000217,TXN0001267,ACCT000106,account_takeover,high,in_review,2025-04-09T10:48:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000218,TXN0001269,ACCT000177,shared_device,high,closed_false_positive,2025-07-16T23:25:00,Synthetic alert generated for shared device behaviour.
+ALERT000219,TXN0001270,ACCT000361,amount_spike,high,in_review,2025-09-06T15:11:00,Synthetic alert generated for unusual amount spike.
+ALERT000220,TXN0001271,ACCT000468,account_takeover,high,in_review,2025-06-13T16:15:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000221,TXN0001273,ACCT000335,structuring_indicator,high,in_review,2025-10-08T17:16:00,Synthetic alert generated for round number payments.
+ALERT000222,TXN0001275,ACCT000302,amount_spike,medium,in_review,2025-05-25T16:57:00,Synthetic alert generated for unusual amount spike.
+ALERT000223,TXN0001292,ACCT000018,account_takeover,high,open,2025-09-06T20:18:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000224,TXN0001296,ACCT000180,structuring_indicator,medium,in_review,2025-08-12T09:57:00,Synthetic alert generated for round number payments.
+ALERT000225,TXN0001302,ACCT000587,account_takeover,high,escalated,2025-11-12T21:24:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000226,TXN0001303,ACCT000443,account_takeover,high,in_review,2025-12-04T17:23:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000227,TXN0001307,ACCT000230,shared_device,medium,closed_false_positive,2025-07-10T04:44:00,Synthetic alert generated for shared device behaviour.
+ALERT000228,TXN0001308,ACCT000062,rapid_movement,medium,in_review,2025-10-12T04:00:00,Synthetic alert generated for rapid movement of funds.
+ALERT000229,TXN0001317,ACCT000044,new_beneficiary,medium,in_review,2025-06-26T02:21:00,Synthetic alert generated for new beneficiary risk.
+ALERT000230,TXN0001323,ACCT000477,velocity_rule,medium,in_review,2025-03-14T16:38:00,Synthetic alert generated for high transaction velocity.
+ALERT000231,TXN0001328,ACCT000203,rapid_movement,medium,open,2025-07-26T15:45:00,Synthetic alert generated for rapid movement of funds.
+ALERT000232,TXN0001332,ACCT000515,mule_activity,high,open,2025-08-13T00:17:00,Synthetic alert generated for mule account style behaviour.
+ALERT000233,TXN0001338,ACCT000572,amount_spike,medium,closed_false_positive,2025-10-19T16:56:00,Synthetic alert generated for unusual amount spike.
+ALERT000234,TXN0001347,ACCT000009,amount_spike,high,open,2025-06-27T17:08:00,Synthetic alert generated for unusual amount spike.
+ALERT000235,TXN0001354,ACCT000108,jurisdiction_risk,high,in_review,2025-04-01T04:47:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000236,TXN0001362,ACCT000437,new_beneficiary,medium,in_review,2025-10-02T01:36:00,Synthetic alert generated for new beneficiary risk.
+ALERT000237,TXN0001367,ACCT000652,rapid_movement,medium,open,2025-08-19T04:45:00,Synthetic alert generated for rapid movement of funds.
+ALERT000238,TXN0001373,ACCT000054,jurisdiction_risk,high,open,2025-08-29T00:06:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000239,TXN0001382,ACCT000073,new_beneficiary,high,escalated,2025-01-31T21:52:00,Synthetic alert generated for new beneficiary risk.
+ALERT000240,TXN0001392,ACCT000255,rapid_movement,medium,in_review,2025-12-12T13:48:00,Synthetic alert generated for rapid movement of funds.
+ALERT000241,TXN0001410,ACCT000620,velocity_rule,medium,open,2025-03-08T15:41:00,Synthetic alert generated for high transaction velocity.
+ALERT000242,TXN0001417,ACCT000627,velocity_rule,medium,open,2025-02-06T11:39:00,Synthetic alert generated for high transaction velocity.
+ALERT000243,TXN0001418,ACCT000602,jurisdiction_risk,high,open,2025-02-23T09:03:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000244,TXN0001419,ACCT000421,mule_activity,medium,closed_false_positive,2025-04-09T18:10:00,Synthetic alert generated for mule account style behaviour.
+ALERT000245,TXN0001434,ACCT000691,shared_device,medium,escalated,2025-01-12T05:35:00,Synthetic alert generated for shared device behaviour.
+ALERT000246,TXN0001438,ACCT000162,shared_device,medium,open,2025-09-12T12:18:00,Synthetic alert generated for shared device behaviour.
+ALERT000247,TXN0001454,ACCT000054,jurisdiction_risk,high,in_review,2025-03-02T13:38:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000248,TXN0001464,ACCT000035,structuring_indicator,high,in_review,2025-10-05T13:32:00,Synthetic alert generated for round number payments.
+ALERT000249,TXN0001466,ACCT000042,new_beneficiary,medium,open,2025-10-14T23:26:00,Synthetic alert generated for new beneficiary risk.
+ALERT000250,TXN0001481,ACCT000640,structuring_indicator,medium,in_review,2025-10-07T22:37:00,Synthetic alert generated for round number payments.
+ALERT000251,TXN0001488,ACCT000593,jurisdiction_risk,high,in_review,2025-07-28T04:16:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000252,TXN0001493,ACCT000559,rapid_movement,medium,in_review,2025-11-27T04:50:00,Synthetic alert generated for rapid movement of funds.
+ALERT000253,TXN0001495,ACCT000453,structuring_indicator,medium,escalated,2025-06-06T09:37:00,Synthetic alert generated for round number payments.
+ALERT000254,TXN0001512,ACCT000302,mule_activity,high,in_review,2025-05-04T07:42:00,Synthetic alert generated for mule account style behaviour.
+ALERT000255,TXN0001520,ACCT000416,shared_device,high,open,2025-02-17T04:02:00,Synthetic alert generated for shared device behaviour.
+ALERT000256,TXN0001521,ACCT000209,rapid_movement,medium,in_review,2025-07-01T13:45:00,Synthetic alert generated for rapid movement of funds.
+ALERT000257,TXN0001524,ACCT000381,velocity_rule,medium,open,2025-05-25T11:03:00,Synthetic alert generated for high transaction velocity.
+ALERT000258,TXN0001527,ACCT000303,mule_activity,medium,open,2025-02-16T23:57:00,Synthetic alert generated for mule account style behaviour.
+ALERT000259,TXN0001530,ACCT000108,amount_spike,medium,in_review,2025-02-21T08:47:00,Synthetic alert generated for unusual amount spike.
+ALERT000260,TXN0001532,ACCT000303,rapid_movement,high,open,2025-08-07T14:29:00,Synthetic alert generated for rapid movement of funds.
+ALERT000261,TXN0001537,ACCT000113,rapid_movement,medium,in_review,2025-02-12T04:51:00,Synthetic alert generated for rapid movement of funds.
+ALERT000262,TXN0001542,ACCT000583,account_takeover,high,open,2025-05-03T08:21:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000263,TXN0001543,ACCT000140,mule_activity,medium,escalated,2025-12-17T15:21:00,Synthetic alert generated for mule account style behaviour.
+ALERT000264,TXN0001545,ACCT000495,shared_device,medium,open,2025-12-03T23:41:00,Synthetic alert generated for shared device behaviour.
+ALERT000265,TXN0001547,ACCT000137,structuring_indicator,medium,closed_false_positive,2025-01-26T07:39:00,Synthetic alert generated for round number payments.
+ALERT000266,TXN0001552,ACCT000048,structuring_indicator,medium,in_review,2025-12-01T11:05:00,Synthetic alert generated for round number payments.
+ALERT000267,TXN0001554,ACCT000234,structuring_indicator,medium,escalated,2025-11-13T12:42:00,Synthetic alert generated for round number payments.
+ALERT000268,TXN0001559,ACCT000387,jurisdiction_risk,high,in_review,2025-10-08T15:34:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000269,TXN0001563,ACCT000675,amount_spike,medium,closed_false_positive,2025-03-01T16:34:00,Synthetic alert generated for unusual amount spike.
+ALERT000270,TXN0001564,ACCT000535,mule_activity,high,in_review,2025-12-03T10:56:00,Synthetic alert generated for mule account style behaviour.
+ALERT000271,TXN0001565,ACCT000690,structuring_indicator,medium,open,2025-02-16T03:20:00,Synthetic alert generated for round number payments.
+ALERT000272,TXN0001567,ACCT000610,amount_spike,medium,in_review,2025-12-24T12:58:00,Synthetic alert generated for unusual amount spike.
+ALERT000273,TXN0001569,ACCT000655,rapid_movement,medium,in_review,2025-04-28T15:51:00,Synthetic alert generated for rapid movement of funds.
+ALERT000274,TXN0001577,ACCT000690,shared_device,high,open,2025-10-10T05:28:00,Synthetic alert generated for shared device behaviour.
+ALERT000275,TXN0001593,ACCT000661,velocity_rule,medium,open,2025-04-25T13:24:00,Synthetic alert generated for high transaction velocity.
+ALERT000276,TXN0001596,ACCT000334,velocity_rule,high,open,2025-01-01T15:53:00,Synthetic alert generated for high transaction velocity.
+ALERT000277,TXN0001603,ACCT000687,shared_device,high,in_review,2025-12-08T07:00:00,Synthetic alert generated for shared device behaviour.
+ALERT000278,TXN0001606,ACCT000184,account_takeover,high,open,2025-09-01T07:38:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000279,TXN0001609,ACCT000446,mule_activity,high,closed_false_positive,2025-09-10T18:30:00,Synthetic alert generated for mule account style behaviour.
+ALERT000280,TXN0001618,ACCT000065,rapid_movement,medium,in_review,2025-11-12T05:25:00,Synthetic alert generated for rapid movement of funds.
+ALERT000281,TXN0001620,ACCT000003,rapid_movement,medium,escalated,2025-06-21T17:45:00,Synthetic alert generated for rapid movement of funds.
+ALERT000282,TXN0001622,ACCT000056,amount_spike,high,escalated,2025-12-05T23:05:00,Synthetic alert generated for unusual amount spike.
+ALERT000283,TXN0001623,ACCT000197,velocity_rule,medium,open,2025-03-29T12:09:00,Synthetic alert generated for high transaction velocity.
+ALERT000284,TXN0001630,ACCT000601,mule_activity,medium,open,2025-01-22T11:24:00,Synthetic alert generated for mule account style behaviour.
+ALERT000285,TXN0001631,ACCT000328,account_takeover,high,open,2025-03-04T17:16:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000286,TXN0001636,ACCT000103,account_takeover,high,escalated,2025-11-03T17:52:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000287,TXN0001641,ACCT000627,account_takeover,high,open,2025-12-23T02:16:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000288,TXN0001650,ACCT000576,jurisdiction_risk,high,in_review,2025-08-21T08:23:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000289,TXN0001651,ACCT000135,velocity_rule,medium,open,2025-03-31T04:06:00,Synthetic alert generated for high transaction velocity.
+ALERT000290,TXN0001654,ACCT000147,account_takeover,high,in_review,2025-02-12T05:40:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000291,TXN0001656,ACCT000685,shared_device,medium,open,2025-01-18T15:42:00,Synthetic alert generated for shared device behaviour.
+ALERT000292,TXN0001660,ACCT000470,amount_spike,high,closed_false_positive,2025-09-29T00:20:00,Synthetic alert generated for unusual amount spike.
+ALERT000293,TXN0001663,ACCT000022,mule_activity,medium,in_review,2025-01-03T20:51:00,Synthetic alert generated for mule account style behaviour.
+ALERT000294,TXN0001664,ACCT000360,shared_device,medium,escalated,2025-07-01T03:03:00,Synthetic alert generated for shared device behaviour.
+ALERT000295,TXN0001671,ACCT000516,jurisdiction_risk,high,escalated,2025-04-09T21:45:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000296,TXN0001672,ACCT000358,velocity_rule,medium,closed_false_positive,2025-02-16T03:54:00,Synthetic alert generated for high transaction velocity.
+ALERT000297,TXN0001673,ACCT000113,jurisdiction_risk,high,open,2025-11-21T14:00:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000298,TXN0001695,ACCT000280,amount_spike,medium,open,2025-04-07T22:09:00,Synthetic alert generated for unusual amount spike.
+ALERT000299,TXN0001698,ACCT000238,structuring_indicator,high,open,2025-12-15T15:32:00,Synthetic alert generated for round number payments.
+ALERT000300,TXN0001702,ACCT000296,account_takeover,high,closed_false_positive,2025-01-08T18:36:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000301,TXN0001712,ACCT000420,amount_spike,medium,open,2025-05-18T23:28:00,Synthetic alert generated for unusual amount spike.
+ALERT000302,TXN0001721,ACCT000622,new_beneficiary,high,open,2025-08-03T16:17:00,Synthetic alert generated for new beneficiary risk.
+ALERT000303,TXN0001722,ACCT000541,structuring_indicator,medium,open,2025-04-21T21:13:00,Synthetic alert generated for round number payments.
+ALERT000304,TXN0001725,ACCT000036,structuring_indicator,high,open,2025-09-30T16:00:00,Synthetic alert generated for round number payments.
+ALERT000305,TXN0001741,ACCT000334,amount_spike,medium,in_review,2025-11-04T19:10:00,Synthetic alert generated for unusual amount spike.
+ALERT000306,TXN0001743,ACCT000116,shared_device,high,in_review,2025-04-14T07:05:00,Synthetic alert generated for shared device behaviour.
+ALERT000307,TXN0001747,ACCT000287,velocity_rule,high,open,2025-02-19T20:49:00,Synthetic alert generated for high transaction velocity.
+ALERT000308,TXN0001753,ACCT000267,velocity_rule,high,escalated,2025-01-25T19:31:00,Synthetic alert generated for high transaction velocity.
+ALERT000309,TXN0001755,ACCT000117,structuring_indicator,high,in_review,2025-01-27T07:59:00,Synthetic alert generated for round number payments.
+ALERT000310,TXN0001757,ACCT000178,new_beneficiary,medium,open,2025-12-30T11:05:00,Synthetic alert generated for new beneficiary risk.
+ALERT000311,TXN0001758,ACCT000355,mule_activity,high,closed_false_positive,2025-05-02T20:34:00,Synthetic alert generated for mule account style behaviour.
+ALERT000312,TXN0001760,ACCT000256,account_takeover,high,in_review,2025-04-13T11:42:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000313,TXN0001761,ACCT000657,velocity_rule,medium,in_review,2025-11-06T08:35:00,Synthetic alert generated for high transaction velocity.
+ALERT000314,TXN0001772,ACCT000590,account_takeover,high,closed_false_positive,2025-12-05T15:20:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000315,TXN0001776,ACCT000189,account_takeover,high,in_review,2025-05-08T04:09:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000316,TXN0001785,ACCT000128,account_takeover,high,closed_false_positive,2025-05-05T14:05:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000317,TXN0001787,ACCT000421,mule_activity,medium,open,2025-10-25T17:12:00,Synthetic alert generated for mule account style behaviour.
+ALERT000318,TXN0001797,ACCT000286,structuring_indicator,high,open,2025-01-02T01:44:00,Synthetic alert generated for round number payments.
+ALERT000319,TXN0001802,ACCT000273,mule_activity,medium,in_review,2025-05-13T20:16:00,Synthetic alert generated for mule account style behaviour.
+ALERT000320,TXN0001804,ACCT000548,rapid_movement,medium,closed_false_positive,2025-09-26T06:17:00,Synthetic alert generated for rapid movement of funds.
+ALERT000321,TXN0001811,ACCT000510,jurisdiction_risk,high,closed_false_positive,2025-09-18T09:38:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000322,TXN0001821,ACCT000061,structuring_indicator,medium,escalated,2025-01-17T19:32:00,Synthetic alert generated for round number payments.
+ALERT000323,TXN0001823,ACCT000632,mule_activity,medium,open,2025-07-26T19:02:00,Synthetic alert generated for mule account style behaviour.
+ALERT000324,TXN0001826,ACCT000067,shared_device,medium,escalated,2025-10-04T14:44:00,Synthetic alert generated for shared device behaviour.
+ALERT000325,TXN0001833,ACCT000572,velocity_rule,medium,open,2025-07-08T11:28:00,Synthetic alert generated for high transaction velocity.
+ALERT000326,TXN0001850,ACCT000033,rapid_movement,high,open,2025-05-21T17:53:00,Synthetic alert generated for rapid movement of funds.
+ALERT000327,TXN0001853,ACCT000467,amount_spike,high,in_review,2025-01-06T23:10:00,Synthetic alert generated for unusual amount spike.
+ALERT000328,TXN0001854,ACCT000318,structuring_indicator,medium,open,2025-10-22T10:44:00,Synthetic alert generated for round number payments.
+ALERT000329,TXN0001856,ACCT000485,velocity_rule,medium,open,2025-11-13T00:33:00,Synthetic alert generated for high transaction velocity.
+ALERT000330,TXN0001860,ACCT000127,amount_spike,medium,in_review,2025-10-01T03:34:00,Synthetic alert generated for unusual amount spike.
+ALERT000331,TXN0001872,ACCT000636,mule_activity,high,in_review,2025-01-14T02:22:00,Synthetic alert generated for mule account style behaviour.
+ALERT000332,TXN0001876,ACCT000567,jurisdiction_risk,high,escalated,2025-11-08T07:34:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000333,TXN0001883,ACCT000233,new_beneficiary,medium,escalated,2025-03-03T06:29:00,Synthetic alert generated for new beneficiary risk.
+ALERT000334,TXN0001884,ACCT000298,jurisdiction_risk,high,escalated,2025-09-08T14:02:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000335,TXN0001886,ACCT000696,velocity_rule,medium,in_review,2025-11-29T20:28:00,Synthetic alert generated for high transaction velocity.
+ALERT000336,TXN0001903,ACCT000021,jurisdiction_risk,high,open,2025-10-13T05:09:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000337,TXN0001904,ACCT000081,amount_spike,high,escalated,2025-08-16T20:16:00,Synthetic alert generated for unusual amount spike.
+ALERT000338,TXN0001907,ACCT000685,mule_activity,medium,in_review,2025-11-04T18:51:00,Synthetic alert generated for mule account style behaviour.
+ALERT000339,TXN0001911,ACCT000534,jurisdiction_risk,high,in_review,2025-04-13T00:58:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000340,TXN0001914,ACCT000672,jurisdiction_risk,high,in_review,2025-09-07T23:04:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000341,TXN0001917,ACCT000195,account_takeover,high,in_review,2025-08-18T10:39:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000342,TXN0001919,ACCT000150,velocity_rule,medium,open,2025-05-26T10:35:00,Synthetic alert generated for high transaction velocity.
+ALERT000343,TXN0001920,ACCT000407,shared_device,high,open,2025-06-09T21:14:00,Synthetic alert generated for shared device behaviour.
+ALERT000344,TXN0001924,ACCT000332,amount_spike,medium,open,2025-03-17T15:35:00,Synthetic alert generated for unusual amount spike.
+ALERT000345,TXN0001925,ACCT000327,amount_spike,medium,open,2025-09-02T03:55:00,Synthetic alert generated for unusual amount spike.
+ALERT000346,TXN0001926,ACCT000049,velocity_rule,medium,open,2025-06-29T12:45:00,Synthetic alert generated for high transaction velocity.
+ALERT000347,TXN0001932,ACCT000048,velocity_rule,medium,escalated,2025-04-07T11:06:00,Synthetic alert generated for high transaction velocity.
+ALERT000348,TXN0001938,ACCT000009,account_takeover,high,closed_false_positive,2025-11-28T04:23:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000349,TXN0001939,ACCT000433,amount_spike,medium,open,2025-11-25T14:59:00,Synthetic alert generated for unusual amount spike.
+ALERT000350,TXN0001952,ACCT000018,rapid_movement,medium,open,2025-06-14T07:43:00,Synthetic alert generated for rapid movement of funds.
+ALERT000351,TXN0001960,ACCT000665,rapid_movement,high,escalated,2025-03-21T16:08:00,Synthetic alert generated for rapid movement of funds.
+ALERT000352,TXN0001964,ACCT000372,structuring_indicator,medium,closed_false_positive,2025-11-18T18:02:00,Synthetic alert generated for round number payments.
+ALERT000353,TXN0001966,ACCT000405,shared_device,medium,in_review,2025-03-13T02:45:00,Synthetic alert generated for shared device behaviour.
+ALERT000354,TXN0001980,ACCT000132,velocity_rule,medium,escalated,2025-09-20T16:58:00,Synthetic alert generated for high transaction velocity.
+ALERT000355,TXN0001987,ACCT000594,velocity_rule,medium,escalated,2025-11-18T13:01:00,Synthetic alert generated for high transaction velocity.
+ALERT000356,TXN0001991,ACCT000683,velocity_rule,high,open,2025-03-16T09:08:00,Synthetic alert generated for high transaction velocity.
+ALERT000357,TXN0001998,ACCT000117,rapid_movement,medium,in_review,2025-07-23T21:38:00,Synthetic alert generated for rapid movement of funds.
+ALERT000358,TXN0001999,ACCT000338,account_takeover,high,in_review,2025-08-20T11:59:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000359,TXN0002001,ACCT000344,shared_device,medium,closed_false_positive,2025-02-05T17:28:00,Synthetic alert generated for shared device behaviour.
+ALERT000360,TXN0002004,ACCT000287,shared_device,medium,in_review,2025-09-11T19:40:00,Synthetic alert generated for shared device behaviour.
+ALERT000361,TXN0002009,ACCT000386,jurisdiction_risk,high,in_review,2025-06-13T02:10:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000362,TXN0002015,ACCT000073,rapid_movement,medium,in_review,2025-09-19T11:37:00,Synthetic alert generated for rapid movement of funds.
+ALERT000363,TXN0002017,ACCT000498,new_beneficiary,medium,in_review,2025-03-18T08:42:00,Synthetic alert generated for new beneficiary risk.
+ALERT000364,TXN0002022,ACCT000675,amount_spike,medium,in_review,2025-04-01T23:00:00,Synthetic alert generated for unusual amount spike.
+ALERT000365,TXN0002025,ACCT000620,jurisdiction_risk,high,open,2025-01-27T17:05:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000366,TXN0002043,ACCT000034,new_beneficiary,medium,closed_false_positive,2025-08-02T00:48:00,Synthetic alert generated for new beneficiary risk.
+ALERT000367,TXN0002045,ACCT000169,structuring_indicator,medium,in_review,2025-01-27T18:31:00,Synthetic alert generated for round number payments.
+ALERT000368,TXN0002046,ACCT000550,new_beneficiary,high,closed_false_positive,2025-01-22T21:45:00,Synthetic alert generated for new beneficiary risk.
+ALERT000369,TXN0002048,ACCT000459,account_takeover,high,closed_false_positive,2025-05-22T17:42:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000370,TXN0002051,ACCT000498,structuring_indicator,medium,in_review,2025-07-19T16:26:00,Synthetic alert generated for round number payments.
+ALERT000371,TXN0002058,ACCT000173,mule_activity,medium,in_review,2025-01-03T17:34:00,Synthetic alert generated for mule account style behaviour.
+ALERT000372,TXN0002063,ACCT000660,jurisdiction_risk,high,closed_false_positive,2025-01-03T15:47:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000373,TXN0002066,ACCT000407,velocity_rule,high,open,2025-10-19T21:50:00,Synthetic alert generated for high transaction velocity.
+ALERT000374,TXN0002069,ACCT000336,mule_activity,medium,closed_false_positive,2025-03-05T09:24:00,Synthetic alert generated for mule account style behaviour.
+ALERT000375,TXN0002077,ACCT000062,new_beneficiary,medium,escalated,2025-03-22T19:39:00,Synthetic alert generated for new beneficiary risk.
+ALERT000376,TXN0002084,ACCT000601,structuring_indicator,medium,open,2025-02-24T06:33:00,Synthetic alert generated for round number payments.
+ALERT000377,TXN0002086,ACCT000445,rapid_movement,medium,in_review,2025-02-26T22:38:00,Synthetic alert generated for rapid movement of funds.
+ALERT000378,TXN0002087,ACCT000441,shared_device,medium,open,2025-04-06T22:47:00,Synthetic alert generated for shared device behaviour.
+ALERT000379,TXN0002092,ACCT000338,velocity_rule,medium,in_review,2025-03-22T20:07:00,Synthetic alert generated for high transaction velocity.
+ALERT000380,TXN0002095,ACCT000244,shared_device,medium,closed_false_positive,2025-04-30T00:05:00,Synthetic alert generated for shared device behaviour.
+ALERT000381,TXN0002096,ACCT000360,account_takeover,high,open,2025-01-03T21:40:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000382,TXN0002098,ACCT000124,mule_activity,medium,open,2025-07-13T03:09:00,Synthetic alert generated for mule account style behaviour.
+ALERT000383,TXN0002106,ACCT000258,jurisdiction_risk,high,open,2025-01-25T23:38:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000384,TXN0002114,ACCT000157,shared_device,medium,closed_false_positive,2025-10-11T11:32:00,Synthetic alert generated for shared device behaviour.
+ALERT000385,TXN0002117,ACCT000268,velocity_rule,medium,open,2025-09-17T00:18:00,Synthetic alert generated for high transaction velocity.
+ALERT000386,TXN0002118,ACCT000432,jurisdiction_risk,high,in_review,2025-03-06T08:59:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000387,TXN0002120,ACCT000373,rapid_movement,high,closed_false_positive,2025-01-03T03:23:00,Synthetic alert generated for rapid movement of funds.
+ALERT000388,TXN0002128,ACCT000564,structuring_indicator,medium,in_review,2025-09-30T10:45:00,Synthetic alert generated for round number payments.
+ALERT000389,TXN0002132,ACCT000406,amount_spike,medium,escalated,2025-06-05T14:17:00,Synthetic alert generated for unusual amount spike.
+ALERT000390,TXN0002134,ACCT000247,new_beneficiary,medium,closed_false_positive,2025-09-24T19:19:00,Synthetic alert generated for new beneficiary risk.
+ALERT000391,TXN0002137,ACCT000584,amount_spike,medium,open,2025-12-26T05:48:00,Synthetic alert generated for unusual amount spike.
+ALERT000392,TXN0002141,ACCT000656,new_beneficiary,high,closed_false_positive,2025-10-17T16:12:00,Synthetic alert generated for new beneficiary risk.
+ALERT000393,TXN0002149,ACCT000433,structuring_indicator,medium,in_review,2025-03-20T06:56:00,Synthetic alert generated for round number payments.
+ALERT000394,TXN0002157,ACCT000127,jurisdiction_risk,high,escalated,2025-09-08T07:00:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000395,TXN0002160,ACCT000435,amount_spike,medium,escalated,2025-07-27T09:39:00,Synthetic alert generated for unusual amount spike.
+ALERT000396,TXN0002169,ACCT000534,shared_device,medium,open,2025-11-04T08:35:00,Synthetic alert generated for shared device behaviour.
+ALERT000397,TXN0002172,ACCT000279,mule_activity,medium,open,2025-04-01T16:53:00,Synthetic alert generated for mule account style behaviour.
+ALERT000398,TXN0002174,ACCT000685,jurisdiction_risk,high,in_review,2025-11-19T06:21:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000399,TXN0002175,ACCT000567,velocity_rule,medium,open,2025-09-01T01:02:00,Synthetic alert generated for high transaction velocity.
+ALERT000400,TXN0002177,ACCT000144,shared_device,medium,in_review,2025-08-22T13:20:00,Synthetic alert generated for shared device behaviour.
+ALERT000401,TXN0002186,ACCT000420,shared_device,high,escalated,2025-06-14T07:46:00,Synthetic alert generated for shared device behaviour.
+ALERT000402,TXN0002187,ACCT000382,mule_activity,high,in_review,2025-06-17T20:55:00,Synthetic alert generated for mule account style behaviour.
+ALERT000403,TXN0002194,ACCT000240,shared_device,medium,open,2025-08-31T00:58:00,Synthetic alert generated for shared device behaviour.
+ALERT000404,TXN0002196,ACCT000180,velocity_rule,medium,open,2025-09-06T01:37:00,Synthetic alert generated for high transaction velocity.
+ALERT000405,TXN0002197,ACCT000627,new_beneficiary,medium,closed_false_positive,2025-12-17T22:41:00,Synthetic alert generated for new beneficiary risk.
+ALERT000406,TXN0002201,ACCT000358,mule_activity,high,escalated,2025-01-23T18:33:00,Synthetic alert generated for mule account style behaviour.
+ALERT000407,TXN0002204,ACCT000297,mule_activity,medium,escalated,2025-09-07T05:40:00,Synthetic alert generated for mule account style behaviour.
+ALERT000408,TXN0002209,ACCT000693,structuring_indicator,medium,open,2025-07-10T04:24:00,Synthetic alert generated for round number payments.
+ALERT000409,TXN0002215,ACCT000627,amount_spike,medium,open,2025-09-24T04:08:00,Synthetic alert generated for unusual amount spike.
+ALERT000410,TXN0002218,ACCT000284,mule_activity,medium,escalated,2025-09-23T15:33:00,Synthetic alert generated for mule account style behaviour.
+ALERT000411,TXN0002219,ACCT000001,mule_activity,medium,escalated,2025-08-16T12:45:00,Synthetic alert generated for mule account style behaviour.
+ALERT000412,TXN0002221,ACCT000228,rapid_movement,medium,open,2025-04-21T01:01:00,Synthetic alert generated for rapid movement of funds.
+ALERT000413,TXN0002227,ACCT000140,structuring_indicator,medium,open,2025-02-27T06:24:00,Synthetic alert generated for round number payments.
+ALERT000414,TXN0002230,ACCT000690,account_takeover,high,in_review,2025-01-13T20:28:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000415,TXN0002243,ACCT000691,new_beneficiary,high,open,2025-07-16T01:45:00,Synthetic alert generated for new beneficiary risk.
+ALERT000416,TXN0002250,ACCT000134,account_takeover,high,closed_false_positive,2025-02-18T04:43:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000417,TXN0002261,ACCT000286,account_takeover,high,open,2025-09-17T12:56:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000418,TXN0002262,ACCT000552,velocity_rule,medium,closed_false_positive,2025-04-28T05:26:00,Synthetic alert generated for high transaction velocity.
+ALERT000419,TXN0002264,ACCT000418,account_takeover,high,open,2025-02-21T00:12:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000420,TXN0002265,ACCT000412,velocity_rule,medium,open,2025-02-03T01:01:00,Synthetic alert generated for high transaction velocity.
+ALERT000421,TXN0002270,ACCT000621,shared_device,medium,open,2025-12-16T12:41:00,Synthetic alert generated for shared device behaviour.
+ALERT000422,TXN0002294,ACCT000100,account_takeover,high,open,2025-01-18T21:43:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000423,TXN0002297,ACCT000409,jurisdiction_risk,high,in_review,2025-02-13T04:53:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000424,TXN0002302,ACCT000599,rapid_movement,medium,open,2025-05-11T02:50:00,Synthetic alert generated for rapid movement of funds.
+ALERT000425,TXN0002304,ACCT000311,jurisdiction_risk,high,open,2025-09-20T05:54:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000426,TXN0002310,ACCT000592,shared_device,high,closed_false_positive,2025-04-25T23:49:00,Synthetic alert generated for shared device behaviour.
+ALERT000427,TXN0002312,ACCT000463,amount_spike,high,in_review,2025-07-17T15:53:00,Synthetic alert generated for unusual amount spike.
+ALERT000428,TXN0002318,ACCT000537,rapid_movement,high,in_review,2025-07-30T08:30:00,Synthetic alert generated for rapid movement of funds.
+ALERT000429,TXN0002319,ACCT000303,amount_spike,medium,open,2025-05-10T13:16:00,Synthetic alert generated for unusual amount spike.
+ALERT000430,TXN0002328,ACCT000173,mule_activity,medium,escalated,2025-11-01T06:54:00,Synthetic alert generated for mule account style behaviour.
+ALERT000431,TXN0002330,ACCT000178,shared_device,high,escalated,2025-12-29T02:25:00,Synthetic alert generated for shared device behaviour.
+ALERT000432,TXN0002334,ACCT000505,jurisdiction_risk,high,in_review,2025-02-15T15:42:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000433,TXN0002341,ACCT000569,structuring_indicator,medium,closed_false_positive,2025-01-05T09:16:00,Synthetic alert generated for round number payments.
+ALERT000434,TXN0002342,ACCT000543,account_takeover,high,closed_false_positive,2025-08-24T15:54:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000435,TXN0002353,ACCT000126,shared_device,high,escalated,2025-11-09T05:21:00,Synthetic alert generated for shared device behaviour.
+ALERT000436,TXN0002365,ACCT000418,rapid_movement,medium,closed_false_positive,2025-07-31T22:11:00,Synthetic alert generated for rapid movement of funds.
+ALERT000437,TXN0002366,ACCT000316,structuring_indicator,medium,in_review,2025-01-16T10:26:00,Synthetic alert generated for round number payments.
+ALERT000438,TXN0002367,ACCT000033,account_takeover,high,in_review,2025-08-13T18:54:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000439,TXN0002368,ACCT000138,mule_activity,medium,escalated,2025-01-01T16:17:00,Synthetic alert generated for mule account style behaviour.
+ALERT000440,TXN0002373,ACCT000205,account_takeover,high,in_review,2025-06-15T17:54:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000441,TXN0002377,ACCT000442,jurisdiction_risk,high,in_review,2025-12-21T23:07:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000442,TXN0002387,ACCT000468,shared_device,medium,open,2025-01-10T13:16:00,Synthetic alert generated for shared device behaviour.
+ALERT000443,TXN0002391,ACCT000264,rapid_movement,medium,open,2025-02-11T14:30:00,Synthetic alert generated for rapid movement of funds.
+ALERT000444,TXN0002394,ACCT000042,amount_spike,high,open,2025-06-03T04:56:00,Synthetic alert generated for unusual amount spike.
+ALERT000445,TXN0002399,ACCT000264,rapid_movement,medium,open,2025-11-17T09:04:00,Synthetic alert generated for rapid movement of funds.
+ALERT000446,TXN0002401,ACCT000645,rapid_movement,medium,in_review,2025-03-04T02:46:00,Synthetic alert generated for rapid movement of funds.
+ALERT000447,TXN0002402,ACCT000363,mule_activity,medium,in_review,2025-03-30T21:30:00,Synthetic alert generated for mule account style behaviour.
+ALERT000448,TXN0002406,ACCT000053,velocity_rule,medium,closed_false_positive,2025-07-29T19:28:00,Synthetic alert generated for high transaction velocity.
+ALERT000449,TXN0002409,ACCT000339,shared_device,medium,in_review,2025-11-06T20:53:00,Synthetic alert generated for shared device behaviour.
+ALERT000450,TXN0002411,ACCT000290,amount_spike,medium,closed_false_positive,2025-05-31T14:12:00,Synthetic alert generated for unusual amount spike.
+ALERT000451,TXN0002419,ACCT000055,account_takeover,high,open,2025-07-10T05:48:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000452,TXN0002429,ACCT000351,account_takeover,high,closed_false_positive,2025-10-27T22:57:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000453,TXN0002433,ACCT000223,velocity_rule,medium,open,2025-01-17T16:24:00,Synthetic alert generated for high transaction velocity.
+ALERT000454,TXN0002434,ACCT000700,velocity_rule,medium,open,2025-04-08T13:56:00,Synthetic alert generated for high transaction velocity.
+ALERT000455,TXN0002442,ACCT000194,account_takeover,high,in_review,2025-03-12T16:07:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000456,TXN0002446,ACCT000226,account_takeover,high,escalated,2025-07-11T11:34:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000457,TXN0002452,ACCT000430,account_takeover,high,open,2025-10-20T20:15:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000458,TXN0002457,ACCT000394,new_beneficiary,medium,open,2025-07-23T11:48:00,Synthetic alert generated for new beneficiary risk.
+ALERT000459,TXN0002462,ACCT000137,new_beneficiary,medium,open,2025-11-08T11:31:00,Synthetic alert generated for new beneficiary risk.
+ALERT000460,TXN0002464,ACCT000438,jurisdiction_risk,high,in_review,2025-04-03T19:05:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000461,TXN0002466,ACCT000540,account_takeover,high,open,2025-09-23T19:05:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000462,TXN0002467,ACCT000096,velocity_rule,medium,open,2025-04-16T18:55:00,Synthetic alert generated for high transaction velocity.
+ALERT000463,TXN0002474,ACCT000354,jurisdiction_risk,high,in_review,2025-06-24T09:11:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000464,TXN0002476,ACCT000373,new_beneficiary,medium,in_review,2025-01-08T13:36:00,Synthetic alert generated for new beneficiary risk.
+ALERT000465,TXN0002483,ACCT000482,account_takeover,high,in_review,2025-01-25T00:41:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000466,TXN0002489,ACCT000444,mule_activity,high,closed_false_positive,2025-05-26T13:33:00,Synthetic alert generated for mule account style behaviour.
+ALERT000467,TXN0002493,ACCT000305,new_beneficiary,medium,escalated,2025-12-16T12:57:00,Synthetic alert generated for new beneficiary risk.
+ALERT000468,TXN0002502,ACCT000354,account_takeover,high,open,2025-12-23T01:44:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000469,TXN0002503,ACCT000414,rapid_movement,medium,open,2025-02-27T17:55:00,Synthetic alert generated for rapid movement of funds.
+ALERT000470,TXN0002506,ACCT000063,account_takeover,high,escalated,2025-07-12T12:54:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000471,TXN0002508,ACCT000308,mule_activity,medium,in_review,2025-01-07T17:31:00,Synthetic alert generated for mule account style behaviour.
+ALERT000472,TXN0002512,ACCT000391,jurisdiction_risk,high,in_review,2025-03-02T19:52:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000473,TXN0002516,ACCT000637,account_takeover,high,in_review,2025-09-02T15:02:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000474,TXN0002518,ACCT000273,rapid_movement,high,closed_false_positive,2025-01-30T23:56:00,Synthetic alert generated for rapid movement of funds.
+ALERT000475,TXN0002520,ACCT000357,amount_spike,medium,closed_false_positive,2025-10-14T01:10:00,Synthetic alert generated for unusual amount spike.
+ALERT000476,TXN0002528,ACCT000556,velocity_rule,medium,open,2025-02-04T11:16:00,Synthetic alert generated for high transaction velocity.
+ALERT000477,TXN0002530,ACCT000228,rapid_movement,high,open,2025-06-13T19:48:00,Synthetic alert generated for rapid movement of funds.
+ALERT000478,TXN0002539,ACCT000667,new_beneficiary,medium,closed_false_positive,2025-03-29T17:19:00,Synthetic alert generated for new beneficiary risk.
+ALERT000479,TXN0002540,ACCT000455,shared_device,medium,open,2025-01-05T18:10:00,Synthetic alert generated for shared device behaviour.
+ALERT000480,TXN0002552,ACCT000697,velocity_rule,high,closed_false_positive,2025-12-19T20:28:00,Synthetic alert generated for high transaction velocity.
+ALERT000481,TXN0002570,ACCT000621,account_takeover,high,open,2025-11-09T13:51:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000482,TXN0002577,ACCT000078,new_beneficiary,medium,in_review,2025-03-16T17:11:00,Synthetic alert generated for new beneficiary risk.
+ALERT000483,TXN0002578,ACCT000052,rapid_movement,medium,closed_false_positive,2025-04-26T19:43:00,Synthetic alert generated for rapid movement of funds.
+ALERT000484,TXN0002594,ACCT000272,structuring_indicator,medium,escalated,2025-10-30T15:13:00,Synthetic alert generated for round number payments.
+ALERT000485,TXN0002608,ACCT000421,amount_spike,medium,in_review,2025-05-25T18:41:00,Synthetic alert generated for unusual amount spike.
+ALERT000486,TXN0002617,ACCT000200,structuring_indicator,medium,in_review,2025-03-30T00:44:00,Synthetic alert generated for round number payments.
+ALERT000487,TXN0002626,ACCT000515,jurisdiction_risk,high,closed_false_positive,2025-11-08T21:42:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000488,TXN0002632,ACCT000215,new_beneficiary,medium,closed_false_positive,2025-07-21T09:13:00,Synthetic alert generated for new beneficiary risk.
+ALERT000489,TXN0002634,ACCT000268,shared_device,medium,open,2025-03-16T19:44:00,Synthetic alert generated for shared device behaviour.
+ALERT000490,TXN0002638,ACCT000051,mule_activity,medium,in_review,2025-09-17T18:02:00,Synthetic alert generated for mule account style behaviour.
+ALERT000491,TXN0002643,ACCT000377,shared_device,medium,closed_false_positive,2025-03-26T02:41:00,Synthetic alert generated for shared device behaviour.
+ALERT000492,TXN0002645,ACCT000206,amount_spike,high,escalated,2025-08-04T01:47:00,Synthetic alert generated for unusual amount spike.
+ALERT000493,TXN0002651,ACCT000130,account_takeover,high,in_review,2025-01-12T09:35:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000494,TXN0002652,ACCT000574,jurisdiction_risk,high,escalated,2025-09-29T09:01:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000495,TXN0002653,ACCT000692,shared_device,medium,in_review,2025-03-10T13:14:00,Synthetic alert generated for shared device behaviour.
+ALERT000496,TXN0002656,ACCT000465,jurisdiction_risk,high,open,2025-02-04T04:09:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000497,TXN0002660,ACCT000610,amount_spike,high,escalated,2025-05-26T08:04:00,Synthetic alert generated for unusual amount spike.
+ALERT000498,TXN0002671,ACCT000124,shared_device,medium,open,2025-01-09T05:04:00,Synthetic alert generated for shared device behaviour.
+ALERT000499,TXN0002675,ACCT000292,account_takeover,high,closed_false_positive,2025-01-15T14:47:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000500,TXN0002681,ACCT000295,account_takeover,high,in_review,2025-01-08T04:53:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000501,TXN0002683,ACCT000401,amount_spike,medium,in_review,2025-01-28T07:14:00,Synthetic alert generated for unusual amount spike.
+ALERT000502,TXN0002692,ACCT000040,new_beneficiary,medium,closed_false_positive,2025-07-03T04:14:00,Synthetic alert generated for new beneficiary risk.
+ALERT000503,TXN0002697,ACCT000627,jurisdiction_risk,high,escalated,2025-05-17T04:34:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000504,TXN0002699,ACCT000142,velocity_rule,medium,escalated,2025-07-09T06:50:00,Synthetic alert generated for high transaction velocity.
+ALERT000505,TXN0002708,ACCT000368,shared_device,high,in_review,2025-10-28T10:40:00,Synthetic alert generated for shared device behaviour.
+ALERT000506,TXN0002712,ACCT000073,rapid_movement,high,closed_false_positive,2025-05-25T11:49:00,Synthetic alert generated for rapid movement of funds.
+ALERT000507,TXN0002713,ACCT000207,amount_spike,medium,closed_false_positive,2025-12-11T19:53:00,Synthetic alert generated for unusual amount spike.
+ALERT000508,TXN0002715,ACCT000029,new_beneficiary,medium,open,2025-06-19T16:29:00,Synthetic alert generated for new beneficiary risk.
+ALERT000509,TXN0002718,ACCT000084,structuring_indicator,medium,open,2025-06-05T16:03:00,Synthetic alert generated for round number payments.
+ALERT000510,TXN0002722,ACCT000016,account_takeover,high,closed_false_positive,2025-04-30T18:45:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000511,TXN0002731,ACCT000342,account_takeover,high,in_review,2025-02-24T10:45:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000512,TXN0002743,ACCT000539,amount_spike,high,open,2025-05-20T11:21:00,Synthetic alert generated for unusual amount spike.
+ALERT000513,TXN0002757,ACCT000546,structuring_indicator,medium,escalated,2025-12-23T00:31:00,Synthetic alert generated for round number payments.
+ALERT000514,TXN0002761,ACCT000160,rapid_movement,medium,in_review,2025-02-09T18:43:00,Synthetic alert generated for rapid movement of funds.
+ALERT000515,TXN0002771,ACCT000693,new_beneficiary,medium,escalated,2025-12-11T04:49:00,Synthetic alert generated for new beneficiary risk.
+ALERT000516,TXN0002773,ACCT000099,structuring_indicator,high,open,2025-04-03T20:39:00,Synthetic alert generated for round number payments.
+ALERT000517,TXN0002784,ACCT000096,amount_spike,medium,escalated,2025-01-09T19:53:00,Synthetic alert generated for unusual amount spike.
+ALERT000518,TXN0002789,ACCT000287,account_takeover,high,in_review,2025-11-15T02:31:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000519,TXN0002791,ACCT000198,new_beneficiary,medium,open,2025-07-12T17:12:00,Synthetic alert generated for new beneficiary risk.
+ALERT000520,TXN0002792,ACCT000103,mule_activity,medium,in_review,2025-07-25T04:58:00,Synthetic alert generated for mule account style behaviour.
+ALERT000521,TXN0002797,ACCT000396,shared_device,medium,in_review,2025-08-25T03:34:00,Synthetic alert generated for shared device behaviour.
+ALERT000522,TXN0002799,ACCT000444,new_beneficiary,medium,open,2025-10-29T23:34:00,Synthetic alert generated for new beneficiary risk.
+ALERT000523,TXN0002807,ACCT000345,mule_activity,medium,in_review,2025-03-07T07:40:00,Synthetic alert generated for mule account style behaviour.
+ALERT000524,TXN0002825,ACCT000044,shared_device,medium,in_review,2025-07-08T16:11:00,Synthetic alert generated for shared device behaviour.
+ALERT000525,TXN0002826,ACCT000473,structuring_indicator,medium,in_review,2025-05-19T20:50:00,Synthetic alert generated for round number payments.
+ALERT000526,TXN0002831,ACCT000115,velocity_rule,medium,open,2025-01-23T01:50:00,Synthetic alert generated for high transaction velocity.
+ALERT000527,TXN0002838,ACCT000690,rapid_movement,medium,open,2025-03-26T21:44:00,Synthetic alert generated for rapid movement of funds.
+ALERT000528,TXN0002840,ACCT000484,mule_activity,medium,in_review,2025-05-28T10:02:00,Synthetic alert generated for mule account style behaviour.
+ALERT000529,TXN0002842,ACCT000505,shared_device,high,in_review,2025-04-09T09:46:00,Synthetic alert generated for shared device behaviour.
+ALERT000530,TXN0002843,ACCT000238,jurisdiction_risk,high,open,2025-04-28T10:16:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000531,TXN0002852,ACCT000156,mule_activity,medium,in_review,2025-10-24T09:42:00,Synthetic alert generated for mule account style behaviour.
+ALERT000532,TXN0002853,ACCT000334,structuring_indicator,medium,open,2025-11-10T23:10:00,Synthetic alert generated for round number payments.
+ALERT000533,TXN0002858,ACCT000614,rapid_movement,medium,in_review,2025-11-01T11:54:00,Synthetic alert generated for rapid movement of funds.
+ALERT000534,TXN0002859,ACCT000452,account_takeover,high,closed_false_positive,2025-05-19T21:39:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000535,TXN0002868,ACCT000053,structuring_indicator,medium,open,2025-01-22T04:33:00,Synthetic alert generated for round number payments.
+ALERT000536,TXN0002872,ACCT000632,velocity_rule,high,in_review,2025-04-01T07:57:00,Synthetic alert generated for high transaction velocity.
+ALERT000537,TXN0002874,ACCT000479,new_beneficiary,medium,open,2025-12-05T01:38:00,Synthetic alert generated for new beneficiary risk.
+ALERT000538,TXN0002876,ACCT000173,rapid_movement,high,in_review,2025-10-27T23:45:00,Synthetic alert generated for rapid movement of funds.
+ALERT000539,TXN0002888,ACCT000576,structuring_indicator,medium,escalated,2025-12-22T03:23:00,Synthetic alert generated for round number payments.
+ALERT000540,TXN0002891,ACCT000250,jurisdiction_risk,high,in_review,2025-07-02T13:36:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000541,TXN0002905,ACCT000612,rapid_movement,medium,closed_false_positive,2025-06-01T16:00:00,Synthetic alert generated for rapid movement of funds.
+ALERT000542,TXN0002924,ACCT000329,shared_device,medium,in_review,2025-12-07T06:36:00,Synthetic alert generated for shared device behaviour.
+ALERT000543,TXN0002940,ACCT000101,mule_activity,medium,open,2025-05-20T01:32:00,Synthetic alert generated for mule account style behaviour.
+ALERT000544,TXN0002947,ACCT000109,mule_activity,medium,in_review,2025-10-09T17:47:00,Synthetic alert generated for mule account style behaviour.
+ALERT000545,TXN0002953,ACCT000239,structuring_indicator,high,open,2025-02-05T22:56:00,Synthetic alert generated for round number payments.
+ALERT000546,TXN0002958,ACCT000372,account_takeover,high,in_review,2025-09-06T17:25:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000547,TXN0002969,ACCT000425,shared_device,medium,open,2025-02-05T05:49:00,Synthetic alert generated for shared device behaviour.
+ALERT000548,TXN0002972,ACCT000142,shared_device,high,open,2025-04-12T08:24:00,Synthetic alert generated for shared device behaviour.
+ALERT000549,TXN0002973,ACCT000204,structuring_indicator,medium,open,2025-12-19T21:20:00,Synthetic alert generated for round number payments.
+ALERT000550,TXN0002976,ACCT000540,structuring_indicator,medium,in_review,2025-02-18T18:53:00,Synthetic alert generated for round number payments.
+ALERT000551,TXN0002980,ACCT000238,velocity_rule,high,closed_false_positive,2025-02-17T17:05:00,Synthetic alert generated for high transaction velocity.
+ALERT000552,TXN0002983,ACCT000063,mule_activity,medium,closed_false_positive,2025-06-23T22:21:00,Synthetic alert generated for mule account style behaviour.
+ALERT000553,TXN0002991,ACCT000288,amount_spike,medium,open,2025-03-04T11:05:00,Synthetic alert generated for unusual amount spike.
+ALERT000554,TXN0003004,ACCT000318,mule_activity,medium,closed_false_positive,2025-04-19T20:20:00,Synthetic alert generated for mule account style behaviour.
+ALERT000555,TXN0003007,ACCT000421,velocity_rule,medium,open,2025-04-09T20:53:00,Synthetic alert generated for high transaction velocity.
+ALERT000556,TXN0003009,ACCT000502,shared_device,medium,open,2025-05-08T00:31:00,Synthetic alert generated for shared device behaviour.
+ALERT000557,TXN0003011,ACCT000098,jurisdiction_risk,high,closed_false_positive,2025-02-09T08:04:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000558,TXN0003012,ACCT000264,amount_spike,high,in_review,2025-07-07T05:42:00,Synthetic alert generated for unusual amount spike.
+ALERT000559,TXN0003013,ACCT000695,amount_spike,medium,open,2025-03-30T06:31:00,Synthetic alert generated for unusual amount spike.
+ALERT000560,TXN0003015,ACCT000010,structuring_indicator,high,in_review,2025-09-29T07:40:00,Synthetic alert generated for round number payments.
+ALERT000561,TXN0003020,ACCT000246,shared_device,high,in_review,2025-03-23T10:19:00,Synthetic alert generated for shared device behaviour.
+ALERT000562,TXN0003033,ACCT000117,mule_activity,medium,in_review,2025-07-15T15:04:00,Synthetic alert generated for mule account style behaviour.
+ALERT000563,TXN0003034,ACCT000591,shared_device,medium,in_review,2025-02-28T22:22:00,Synthetic alert generated for shared device behaviour.
+ALERT000564,TXN0003035,ACCT000534,new_beneficiary,medium,open,2025-01-16T14:29:00,Synthetic alert generated for new beneficiary risk.
+ALERT000565,TXN0003036,ACCT000374,new_beneficiary,high,open,2025-01-12T02:13:00,Synthetic alert generated for new beneficiary risk.
+ALERT000566,TXN0003039,ACCT000434,velocity_rule,medium,in_review,2025-02-09T07:13:00,Synthetic alert generated for high transaction velocity.
+ALERT000567,TXN0003041,ACCT000356,structuring_indicator,medium,closed_false_positive,2025-06-27T20:49:00,Synthetic alert generated for round number payments.
+ALERT000568,TXN0003043,ACCT000266,amount_spike,medium,closed_false_positive,2025-02-14T14:09:00,Synthetic alert generated for unusual amount spike.
+ALERT000569,TXN0003045,ACCT000012,structuring_indicator,medium,open,2025-11-05T13:14:00,Synthetic alert generated for round number payments.
+ALERT000570,TXN0003048,ACCT000254,rapid_movement,medium,open,2025-02-07T05:03:00,Synthetic alert generated for rapid movement of funds.
+ALERT000571,TXN0003057,ACCT000353,new_beneficiary,medium,in_review,2025-02-19T23:41:00,Synthetic alert generated for new beneficiary risk.
+ALERT000572,TXN0003066,ACCT000484,structuring_indicator,medium,closed_false_positive,2025-01-18T00:10:00,Synthetic alert generated for round number payments.
+ALERT000573,TXN0003070,ACCT000062,account_takeover,high,escalated,2025-01-24T09:25:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000574,TXN0003077,ACCT000501,account_takeover,high,open,2025-03-05T18:56:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000575,TXN0003080,ACCT000435,jurisdiction_risk,high,in_review,2025-12-19T11:53:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000576,TXN0003089,ACCT000406,velocity_rule,medium,in_review,2025-08-30T00:22:00,Synthetic alert generated for high transaction velocity.
+ALERT000577,TXN0003099,ACCT000699,amount_spike,medium,open,2025-09-01T00:19:00,Synthetic alert generated for unusual amount spike.
+ALERT000578,TXN0003108,ACCT000434,mule_activity,medium,in_review,2025-08-17T04:17:00,Synthetic alert generated for mule account style behaviour.
+ALERT000579,TXN0003111,ACCT000457,account_takeover,high,closed_false_positive,2025-05-19T12:14:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000580,TXN0003115,ACCT000007,new_beneficiary,medium,in_review,2025-02-12T18:58:00,Synthetic alert generated for new beneficiary risk.
+ALERT000581,TXN0003120,ACCT000696,shared_device,medium,in_review,2025-11-09T21:28:00,Synthetic alert generated for shared device behaviour.
+ALERT000582,TXN0003121,ACCT000149,account_takeover,high,closed_false_positive,2025-03-02T01:37:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000583,TXN0003129,ACCT000424,shared_device,high,in_review,2025-12-06T22:45:00,Synthetic alert generated for shared device behaviour.
+ALERT000584,TXN0003132,ACCT000628,amount_spike,high,in_review,2025-08-15T18:42:00,Synthetic alert generated for unusual amount spike.
+ALERT000585,TXN0003136,ACCT000150,velocity_rule,high,open,2025-12-25T06:55:00,Synthetic alert generated for high transaction velocity.
+ALERT000586,TXN0003146,ACCT000108,amount_spike,high,open,2025-09-08T16:57:00,Synthetic alert generated for unusual amount spike.
+ALERT000587,TXN0003155,ACCT000389,rapid_movement,medium,in_review,2025-08-20T11:30:00,Synthetic alert generated for rapid movement of funds.
+ALERT000588,TXN0003156,ACCT000608,velocity_rule,high,escalated,2025-07-26T10:06:00,Synthetic alert generated for high transaction velocity.
+ALERT000589,TXN0003158,ACCT000546,account_takeover,high,open,2025-05-24T07:10:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000590,TXN0003164,ACCT000296,rapid_movement,medium,closed_false_positive,2025-05-26T21:43:00,Synthetic alert generated for rapid movement of funds.
+ALERT000591,TXN0003168,ACCT000227,structuring_indicator,medium,in_review,2025-07-15T16:19:00,Synthetic alert generated for round number payments.
+ALERT000592,TXN0003169,ACCT000220,amount_spike,medium,closed_false_positive,2025-06-15T20:49:00,Synthetic alert generated for unusual amount spike.
+ALERT000593,TXN0003173,ACCT000257,jurisdiction_risk,high,open,2025-06-01T20:57:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000594,TXN0003179,ACCT000362,account_takeover,high,in_review,2025-01-21T10:20:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000595,TXN0003190,ACCT000051,rapid_movement,high,in_review,2025-07-17T13:56:00,Synthetic alert generated for rapid movement of funds.
+ALERT000596,TXN0003193,ACCT000003,rapid_movement,medium,open,2025-03-24T12:22:00,Synthetic alert generated for rapid movement of funds.
+ALERT000597,TXN0003194,ACCT000157,jurisdiction_risk,high,open,2025-10-02T04:04:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000598,TXN0003210,ACCT000655,amount_spike,medium,in_review,2025-04-09T03:10:00,Synthetic alert generated for unusual amount spike.
+ALERT000599,TXN0003211,ACCT000615,mule_activity,medium,open,2025-11-23T23:51:00,Synthetic alert generated for mule account style behaviour.
+ALERT000600,TXN0003213,ACCT000377,new_beneficiary,high,escalated,2025-08-25T02:57:00,Synthetic alert generated for new beneficiary risk.
+ALERT000601,TXN0003220,ACCT000415,new_beneficiary,high,closed_false_positive,2025-04-12T01:26:00,Synthetic alert generated for new beneficiary risk.
+ALERT000602,TXN0003221,ACCT000569,new_beneficiary,medium,open,2025-01-08T21:01:00,Synthetic alert generated for new beneficiary risk.
+ALERT000603,TXN0003222,ACCT000479,shared_device,medium,open,2025-07-18T18:23:00,Synthetic alert generated for shared device behaviour.
+ALERT000604,TXN0003224,ACCT000547,account_takeover,high,open,2025-10-04T00:46:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000605,TXN0003228,ACCT000665,structuring_indicator,medium,in_review,2025-07-20T07:02:00,Synthetic alert generated for round number payments.
+ALERT000606,TXN0003231,ACCT000655,account_takeover,high,in_review,2025-12-05T22:06:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000607,TXN0003247,ACCT000080,shared_device,medium,in_review,2025-02-20T06:11:00,Synthetic alert generated for shared device behaviour.
+ALERT000608,TXN0003253,ACCT000628,mule_activity,medium,open,2025-07-19T04:58:00,Synthetic alert generated for mule account style behaviour.
+ALERT000609,TXN0003262,ACCT000183,velocity_rule,medium,in_review,2025-07-24T06:23:00,Synthetic alert generated for high transaction velocity.
+ALERT000610,TXN0003270,ACCT000501,amount_spike,high,open,2025-05-25T01:07:00,Synthetic alert generated for unusual amount spike.
+ALERT000611,TXN0003283,ACCT000228,account_takeover,high,open,2025-09-01T10:06:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000612,TXN0003289,ACCT000084,amount_spike,high,closed_false_positive,2025-08-27T19:44:00,Synthetic alert generated for unusual amount spike.
+ALERT000613,TXN0003300,ACCT000315,new_beneficiary,high,escalated,2025-03-16T09:39:00,Synthetic alert generated for new beneficiary risk.
+ALERT000614,TXN0003303,ACCT000311,amount_spike,medium,closed_false_positive,2025-10-08T17:31:00,Synthetic alert generated for unusual amount spike.
+ALERT000615,TXN0003308,ACCT000495,rapid_movement,high,open,2025-11-22T03:46:00,Synthetic alert generated for rapid movement of funds.
+ALERT000616,TXN0003324,ACCT000247,rapid_movement,high,escalated,2025-03-30T16:51:00,Synthetic alert generated for rapid movement of funds.
+ALERT000617,TXN0003325,ACCT000604,rapid_movement,medium,in_review,2025-03-05T14:37:00,Synthetic alert generated for rapid movement of funds.
+ALERT000618,TXN0003328,ACCT000056,structuring_indicator,medium,open,2025-05-30T14:28:00,Synthetic alert generated for round number payments.
+ALERT000619,TXN0003339,ACCT000530,new_beneficiary,medium,closed_false_positive,2025-08-27T22:49:00,Synthetic alert generated for new beneficiary risk.
+ALERT000620,TXN0003347,ACCT000550,structuring_indicator,medium,open,2025-08-13T07:42:00,Synthetic alert generated for round number payments.
+ALERT000621,TXN0003350,ACCT000418,amount_spike,high,open,2025-12-05T14:44:00,Synthetic alert generated for unusual amount spike.
+ALERT000622,TXN0003354,ACCT000458,structuring_indicator,medium,closed_false_positive,2025-07-25T10:16:00,Synthetic alert generated for round number payments.
+ALERT000623,TXN0003360,ACCT000331,velocity_rule,medium,open,2025-07-26T04:40:00,Synthetic alert generated for high transaction velocity.
+ALERT000624,TXN0003362,ACCT000603,mule_activity,high,in_review,2025-11-17T19:30:00,Synthetic alert generated for mule account style behaviour.
+ALERT000625,TXN0003376,ACCT000307,amount_spike,high,in_review,2025-07-30T11:37:00,Synthetic alert generated for unusual amount spike.
+ALERT000626,TXN0003382,ACCT000001,velocity_rule,medium,escalated,2025-02-12T10:58:00,Synthetic alert generated for high transaction velocity.
+ALERT000627,TXN0003384,ACCT000181,structuring_indicator,medium,open,2025-07-07T19:20:00,Synthetic alert generated for round number payments.
+ALERT000628,TXN0003386,ACCT000342,mule_activity,medium,open,2025-07-12T17:48:00,Synthetic alert generated for mule account style behaviour.
+ALERT000629,TXN0003389,ACCT000544,shared_device,medium,in_review,2025-02-05T09:45:00,Synthetic alert generated for shared device behaviour.
+ALERT000630,TXN0003394,ACCT000319,structuring_indicator,high,in_review,2025-09-04T20:47:00,Synthetic alert generated for round number payments.
+ALERT000631,TXN0003408,ACCT000621,structuring_indicator,medium,in_review,2025-02-21T05:31:00,Synthetic alert generated for round number payments.
+ALERT000632,TXN0003421,ACCT000661,new_beneficiary,high,escalated,2025-07-05T15:22:00,Synthetic alert generated for new beneficiary risk.
+ALERT000633,TXN0003424,ACCT000145,mule_activity,medium,closed_false_positive,2025-04-15T07:30:00,Synthetic alert generated for mule account style behaviour.
+ALERT000634,TXN0003427,ACCT000102,structuring_indicator,medium,closed_false_positive,2025-10-17T12:37:00,Synthetic alert generated for round number payments.
+ALERT000635,TXN0003428,ACCT000492,shared_device,medium,in_review,2025-08-21T10:28:00,Synthetic alert generated for shared device behaviour.
+ALERT000636,TXN0003432,ACCT000524,velocity_rule,medium,closed_false_positive,2025-07-17T19:37:00,Synthetic alert generated for high transaction velocity.
+ALERT000637,TXN0003433,ACCT000677,new_beneficiary,high,escalated,2025-07-14T13:02:00,Synthetic alert generated for new beneficiary risk.
+ALERT000638,TXN0003435,ACCT000109,amount_spike,medium,open,2025-11-29T23:37:00,Synthetic alert generated for unusual amount spike.
+ALERT000639,TXN0003440,ACCT000142,shared_device,high,in_review,2025-06-28T02:17:00,Synthetic alert generated for shared device behaviour.
+ALERT000640,TXN0003446,ACCT000658,rapid_movement,medium,in_review,2025-04-18T22:48:00,Synthetic alert generated for rapid movement of funds.
+ALERT000641,TXN0003451,ACCT000002,shared_device,high,in_review,2025-01-30T17:42:00,Synthetic alert generated for shared device behaviour.
+ALERT000642,TXN0003453,ACCT000053,new_beneficiary,high,in_review,2025-05-30T19:08:00,Synthetic alert generated for new beneficiary risk.
+ALERT000643,TXN0003456,ACCT000008,jurisdiction_risk,high,closed_false_positive,2025-05-25T11:20:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000644,TXN0003457,ACCT000520,new_beneficiary,medium,open,2025-08-14T20:06:00,Synthetic alert generated for new beneficiary risk.
+ALERT000645,TXN0003462,ACCT000127,rapid_movement,medium,escalated,2025-09-10T21:45:00,Synthetic alert generated for rapid movement of funds.
+ALERT000646,TXN0003469,ACCT000474,account_takeover,high,closed_false_positive,2025-05-31T21:04:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000647,TXN0003471,ACCT000377,account_takeover,high,open,2025-07-13T19:13:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000648,TXN0003486,ACCT000059,velocity_rule,medium,open,2025-07-12T04:11:00,Synthetic alert generated for high transaction velocity.
+ALERT000649,TXN0003489,ACCT000231,velocity_rule,medium,closed_false_positive,2025-06-25T07:40:00,Synthetic alert generated for high transaction velocity.
+ALERT000650,TXN0003490,ACCT000302,shared_device,medium,open,2025-03-12T23:10:00,Synthetic alert generated for shared device behaviour.
+ALERT000651,TXN0003494,ACCT000594,account_takeover,high,in_review,2025-12-29T19:59:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000652,TXN0003497,ACCT000283,velocity_rule,high,in_review,2025-12-07T00:54:00,Synthetic alert generated for high transaction velocity.
+ALERT000653,TXN0003516,ACCT000212,amount_spike,high,escalated,2025-05-15T09:18:00,Synthetic alert generated for unusual amount spike.
+ALERT000654,TXN0003520,ACCT000180,account_takeover,high,open,2025-08-07T11:53:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000655,TXN0003532,ACCT000137,rapid_movement,medium,closed_false_positive,2025-01-21T23:39:00,Synthetic alert generated for rapid movement of funds.
+ALERT000656,TXN0003538,ACCT000694,structuring_indicator,high,escalated,2025-09-25T21:49:00,Synthetic alert generated for round number payments.
+ALERT000657,TXN0003540,ACCT000325,mule_activity,medium,in_review,2025-08-08T15:38:00,Synthetic alert generated for mule account style behaviour.
+ALERT000658,TXN0003542,ACCT000476,account_takeover,high,open,2025-02-19T20:00:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000659,TXN0003551,ACCT000306,jurisdiction_risk,high,open,2025-02-20T03:44:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000660,TXN0003556,ACCT000686,velocity_rule,medium,in_review,2025-02-27T21:48:00,Synthetic alert generated for high transaction velocity.
+ALERT000661,TXN0003557,ACCT000245,jurisdiction_risk,high,open,2025-08-15T18:18:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000662,TXN0003560,ACCT000329,shared_device,medium,open,2025-10-07T20:36:00,Synthetic alert generated for shared device behaviour.
+ALERT000663,TXN0003562,ACCT000112,amount_spike,high,in_review,2025-09-24T03:45:00,Synthetic alert generated for unusual amount spike.
+ALERT000664,TXN0003567,ACCT000209,velocity_rule,high,in_review,2025-04-19T01:21:00,Synthetic alert generated for high transaction velocity.
+ALERT000665,TXN0003572,ACCT000231,rapid_movement,high,open,2025-08-03T02:08:00,Synthetic alert generated for rapid movement of funds.
+ALERT000666,TXN0003576,ACCT000330,jurisdiction_risk,high,in_review,2025-10-25T22:48:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000667,TXN0003584,ACCT000610,velocity_rule,medium,in_review,2025-07-21T15:16:00,Synthetic alert generated for high transaction velocity.
+ALERT000668,TXN0003587,ACCT000561,new_beneficiary,medium,in_review,2025-12-25T01:12:00,Synthetic alert generated for new beneficiary risk.
+ALERT000669,TXN0003590,ACCT000443,amount_spike,medium,closed_false_positive,2025-01-09T10:55:00,Synthetic alert generated for unusual amount spike.
+ALERT000670,TXN0003595,ACCT000601,mule_activity,medium,open,2025-04-29T10:48:00,Synthetic alert generated for mule account style behaviour.
+ALERT000671,TXN0003598,ACCT000454,rapid_movement,medium,in_review,2025-02-24T03:12:00,Synthetic alert generated for rapid movement of funds.
+ALERT000672,TXN0003599,ACCT000600,rapid_movement,medium,in_review,2025-09-18T00:35:00,Synthetic alert generated for rapid movement of funds.
+ALERT000673,TXN0003604,ACCT000639,jurisdiction_risk,high,escalated,2025-12-07T17:06:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000674,TXN0003614,ACCT000442,new_beneficiary,medium,in_review,2025-09-13T13:08:00,Synthetic alert generated for new beneficiary risk.
+ALERT000675,TXN0003620,ACCT000594,mule_activity,medium,open,2025-04-21T22:31:00,Synthetic alert generated for mule account style behaviour.
+ALERT000676,TXN0003624,ACCT000137,rapid_movement,medium,open,2025-07-11T01:29:00,Synthetic alert generated for rapid movement of funds.
+ALERT000677,TXN0003646,ACCT000539,velocity_rule,medium,in_review,2025-03-02T15:53:00,Synthetic alert generated for high transaction velocity.
+ALERT000678,TXN0003647,ACCT000230,account_takeover,high,escalated,2025-08-26T08:15:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000679,TXN0003653,ACCT000317,rapid_movement,medium,in_review,2025-01-26T00:10:00,Synthetic alert generated for rapid movement of funds.
+ALERT000680,TXN0003662,ACCT000235,shared_device,medium,in_review,2025-07-11T12:59:00,Synthetic alert generated for shared device behaviour.
+ALERT000681,TXN0003683,ACCT000403,mule_activity,medium,open,2025-11-15T01:36:00,Synthetic alert generated for mule account style behaviour.
+ALERT000682,TXN0003695,ACCT000468,mule_activity,medium,open,2025-11-05T00:12:00,Synthetic alert generated for mule account style behaviour.
+ALERT000683,TXN0003708,ACCT000466,shared_device,medium,closed_false_positive,2025-09-19T04:43:00,Synthetic alert generated for shared device behaviour.
+ALERT000684,TXN0003710,ACCT000188,new_beneficiary,medium,open,2025-01-01T04:10:00,Synthetic alert generated for new beneficiary risk.
+ALERT000685,TXN0003723,ACCT000413,jurisdiction_risk,high,open,2025-06-18T09:30:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000686,TXN0003724,ACCT000228,shared_device,medium,open,2025-04-30T11:39:00,Synthetic alert generated for shared device behaviour.
+ALERT000687,TXN0003733,ACCT000156,amount_spike,high,escalated,2025-04-09T08:06:00,Synthetic alert generated for unusual amount spike.
+ALERT000688,TXN0003738,ACCT000292,new_beneficiary,medium,open,2025-06-14T10:51:00,Synthetic alert generated for new beneficiary risk.
+ALERT000689,TXN0003740,ACCT000625,rapid_movement,high,open,2025-04-10T01:14:00,Synthetic alert generated for rapid movement of funds.
+ALERT000690,TXN0003745,ACCT000243,structuring_indicator,medium,in_review,2025-01-02T12:19:00,Synthetic alert generated for round number payments.
+ALERT000691,TXN0003750,ACCT000216,rapid_movement,medium,closed_false_positive,2025-09-05T07:36:00,Synthetic alert generated for rapid movement of funds.
+ALERT000692,TXN0003755,ACCT000025,rapid_movement,medium,in_review,2025-04-16T16:53:00,Synthetic alert generated for rapid movement of funds.
+ALERT000693,TXN0003757,ACCT000578,shared_device,medium,closed_false_positive,2025-08-17T12:30:00,Synthetic alert generated for shared device behaviour.
+ALERT000694,TXN0003767,ACCT000674,new_beneficiary,medium,in_review,2025-11-04T00:25:00,Synthetic alert generated for new beneficiary risk.
+ALERT000695,TXN0003768,ACCT000100,amount_spike,high,in_review,2025-04-18T00:51:00,Synthetic alert generated for unusual amount spike.
+ALERT000696,TXN0003777,ACCT000093,structuring_indicator,high,escalated,2025-03-01T03:50:00,Synthetic alert generated for round number payments.
+ALERT000697,TXN0003779,ACCT000523,account_takeover,high,open,2025-05-03T12:15:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000698,TXN0003783,ACCT000648,velocity_rule,medium,closed_false_positive,2025-05-25T05:32:00,Synthetic alert generated for high transaction velocity.
+ALERT000699,TXN0003792,ACCT000565,shared_device,medium,in_review,2025-05-23T07:55:00,Synthetic alert generated for shared device behaviour.
+ALERT000700,TXN0003793,ACCT000160,velocity_rule,high,open,2025-04-02T10:29:00,Synthetic alert generated for high transaction velocity.
+ALERT000701,TXN0003798,ACCT000541,mule_activity,medium,in_review,2025-08-06T07:28:00,Synthetic alert generated for mule account style behaviour.
+ALERT000702,TXN0003799,ACCT000645,rapid_movement,medium,in_review,2025-08-10T02:38:00,Synthetic alert generated for rapid movement of funds.
+ALERT000703,TXN0003801,ACCT000046,velocity_rule,medium,open,2025-05-18T16:04:00,Synthetic alert generated for high transaction velocity.
+ALERT000704,TXN0003803,ACCT000323,rapid_movement,medium,in_review,2025-06-03T07:51:00,Synthetic alert generated for rapid movement of funds.
+ALERT000705,TXN0003818,ACCT000242,rapid_movement,high,in_review,2025-07-19T21:24:00,Synthetic alert generated for rapid movement of funds.
+ALERT000706,TXN0003819,ACCT000170,velocity_rule,medium,closed_false_positive,2025-05-12T17:29:00,Synthetic alert generated for high transaction velocity.
+ALERT000707,TXN0003822,ACCT000465,new_beneficiary,medium,open,2025-11-28T12:05:00,Synthetic alert generated for new beneficiary risk.
+ALERT000708,TXN0003823,ACCT000337,amount_spike,medium,in_review,2025-11-20T04:56:00,Synthetic alert generated for unusual amount spike.
+ALERT000709,TXN0003831,ACCT000566,jurisdiction_risk,high,in_review,2025-04-07T07:05:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000710,TXN0003837,ACCT000216,mule_activity,medium,closed_false_positive,2025-02-01T23:26:00,Synthetic alert generated for mule account style behaviour.
+ALERT000711,TXN0003842,ACCT000207,amount_spike,medium,open,2025-10-06T02:07:00,Synthetic alert generated for unusual amount spike.
+ALERT000712,TXN0003843,ACCT000152,rapid_movement,medium,open,2025-01-04T21:34:00,Synthetic alert generated for rapid movement of funds.
+ALERT000713,TXN0003845,ACCT000486,jurisdiction_risk,high,escalated,2025-07-10T10:21:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000714,TXN0003851,ACCT000655,velocity_rule,high,open,2025-06-03T17:55:00,Synthetic alert generated for high transaction velocity.
+ALERT000715,TXN0003852,ACCT000088,structuring_indicator,medium,closed_false_positive,2025-08-27T06:30:00,Synthetic alert generated for round number payments.
+ALERT000716,TXN0003854,ACCT000610,structuring_indicator,medium,closed_false_positive,2025-05-01T15:42:00,Synthetic alert generated for round number payments.
+ALERT000717,TXN0003868,ACCT000603,rapid_movement,high,open,2025-02-10T19:33:00,Synthetic alert generated for rapid movement of funds.
+ALERT000718,TXN0003869,ACCT000028,account_takeover,high,in_review,2025-01-07T20:36:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000719,TXN0003871,ACCT000642,shared_device,medium,in_review,2025-06-07T04:46:00,Synthetic alert generated for shared device behaviour.
+ALERT000720,TXN0003873,ACCT000463,jurisdiction_risk,high,closed_false_positive,2025-05-10T11:46:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000721,TXN0003881,ACCT000567,shared_device,medium,escalated,2025-01-05T00:23:00,Synthetic alert generated for shared device behaviour.
+ALERT000722,TXN0003885,ACCT000119,jurisdiction_risk,high,in_review,2025-05-03T09:16:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000723,TXN0003896,ACCT000241,jurisdiction_risk,high,open,2025-08-07T13:56:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000724,TXN0003902,ACCT000639,rapid_movement,medium,in_review,2025-03-04T08:00:00,Synthetic alert generated for rapid movement of funds.
+ALERT000725,TXN0003912,ACCT000559,structuring_indicator,medium,open,2025-03-31T04:49:00,Synthetic alert generated for round number payments.
+ALERT000726,TXN0003930,ACCT000321,rapid_movement,medium,open,2025-12-19T06:44:00,Synthetic alert generated for rapid movement of funds.
+ALERT000727,TXN0003933,ACCT000078,structuring_indicator,medium,escalated,2025-01-11T16:15:00,Synthetic alert generated for round number payments.
+ALERT000728,TXN0003949,ACCT000187,rapid_movement,medium,open,2025-03-29T11:29:00,Synthetic alert generated for rapid movement of funds.
+ALERT000729,TXN0003952,ACCT000037,structuring_indicator,medium,open,2025-07-17T00:35:00,Synthetic alert generated for round number payments.
+ALERT000730,TXN0003956,ACCT000011,amount_spike,medium,open,2025-10-15T19:58:00,Synthetic alert generated for unusual amount spike.
+ALERT000731,TXN0003962,ACCT000071,mule_activity,high,escalated,2025-09-26T09:49:00,Synthetic alert generated for mule account style behaviour.
+ALERT000732,TXN0003966,ACCT000409,jurisdiction_risk,high,open,2025-03-12T04:17:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000733,TXN0003976,ACCT000546,jurisdiction_risk,high,closed_false_positive,2025-08-14T02:09:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000734,TXN0003978,ACCT000545,velocity_rule,high,closed_false_positive,2025-04-22T15:38:00,Synthetic alert generated for high transaction velocity.
+ALERT000735,TXN0003980,ACCT000189,account_takeover,high,closed_false_positive,2025-12-25T10:47:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000736,TXN0003982,ACCT000458,jurisdiction_risk,high,open,2025-04-07T21:50:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000737,TXN0003990,ACCT000136,amount_spike,medium,in_review,2025-03-14T17:35:00,Synthetic alert generated for unusual amount spike.
+ALERT000738,TXN0003997,ACCT000335,velocity_rule,high,open,2025-10-07T01:37:00,Synthetic alert generated for high transaction velocity.
+ALERT000739,TXN0003998,ACCT000391,amount_spike,medium,in_review,2025-01-18T22:34:00,Synthetic alert generated for unusual amount spike.
+ALERT000740,TXN0004001,ACCT000186,velocity_rule,high,closed_false_positive,2025-04-13T14:56:00,Synthetic alert generated for high transaction velocity.
+ALERT000741,TXN0004008,ACCT000103,mule_activity,high,in_review,2025-08-01T23:39:00,Synthetic alert generated for mule account style behaviour.
+ALERT000742,TXN0004009,ACCT000378,rapid_movement,high,in_review,2025-01-20T01:58:00,Synthetic alert generated for rapid movement of funds.
+ALERT000743,TXN0004012,ACCT000151,rapid_movement,medium,in_review,2025-07-23T10:52:00,Synthetic alert generated for rapid movement of funds.
+ALERT000744,TXN0004017,ACCT000374,velocity_rule,medium,closed_false_positive,2025-02-05T13:46:00,Synthetic alert generated for high transaction velocity.
+ALERT000745,TXN0004026,ACCT000025,account_takeover,high,escalated,2025-03-08T08:49:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000746,TXN0004027,ACCT000607,amount_spike,high,closed_false_positive,2025-02-10T06:01:00,Synthetic alert generated for unusual amount spike.
+ALERT000747,TXN0004028,ACCT000186,amount_spike,high,in_review,2025-10-29T08:49:00,Synthetic alert generated for unusual amount spike.
+ALERT000748,TXN0004042,ACCT000135,jurisdiction_risk,high,open,2025-06-21T00:52:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000749,TXN0004044,ACCT000195,velocity_rule,high,in_review,2025-06-07T14:52:00,Synthetic alert generated for high transaction velocity.
+ALERT000750,TXN0004046,ACCT000046,structuring_indicator,medium,in_review,2025-01-30T05:57:00,Synthetic alert generated for round number payments.
+ALERT000751,TXN0004048,ACCT000450,rapid_movement,high,in_review,2025-03-29T04:55:00,Synthetic alert generated for rapid movement of funds.
+ALERT000752,TXN0004049,ACCT000368,amount_spike,high,in_review,2025-08-06T06:34:00,Synthetic alert generated for unusual amount spike.
+ALERT000753,TXN0004054,ACCT000611,new_beneficiary,high,open,2025-05-14T05:04:00,Synthetic alert generated for new beneficiary risk.
+ALERT000754,TXN0004055,ACCT000669,amount_spike,high,closed_false_positive,2025-07-29T07:50:00,Synthetic alert generated for unusual amount spike.
+ALERT000755,TXN0004062,ACCT000262,amount_spike,high,in_review,2025-09-17T15:02:00,Synthetic alert generated for unusual amount spike.
+ALERT000756,TXN0004070,ACCT000190,new_beneficiary,medium,closed_false_positive,2025-05-08T02:04:00,Synthetic alert generated for new beneficiary risk.
+ALERT000757,TXN0004078,ACCT000351,structuring_indicator,medium,open,2025-08-18T05:04:00,Synthetic alert generated for round number payments.
+ALERT000758,TXN0004085,ACCT000360,shared_device,medium,closed_false_positive,2025-02-12T01:49:00,Synthetic alert generated for shared device behaviour.
+ALERT000759,TXN0004090,ACCT000126,velocity_rule,medium,in_review,2025-08-02T08:56:00,Synthetic alert generated for high transaction velocity.
+ALERT000760,TXN0004092,ACCT000375,amount_spike,medium,in_review,2025-01-17T15:19:00,Synthetic alert generated for unusual amount spike.
+ALERT000761,TXN0004114,ACCT000027,amount_spike,medium,open,2025-10-28T01:03:00,Synthetic alert generated for unusual amount spike.
+ALERT000762,TXN0004117,ACCT000594,amount_spike,medium,escalated,2025-10-15T21:30:00,Synthetic alert generated for unusual amount spike.
+ALERT000763,TXN0004126,ACCT000169,structuring_indicator,medium,open,2025-06-03T07:46:00,Synthetic alert generated for round number payments.
+ALERT000764,TXN0004128,ACCT000113,new_beneficiary,medium,open,2025-06-06T22:21:00,Synthetic alert generated for new beneficiary risk.
+ALERT000765,TXN0004130,ACCT000430,velocity_rule,medium,closed_false_positive,2025-10-15T22:22:00,Synthetic alert generated for high transaction velocity.
+ALERT000766,TXN0004132,ACCT000618,structuring_indicator,high,in_review,2025-10-16T19:46:00,Synthetic alert generated for round number payments.
+ALERT000767,TXN0004133,ACCT000064,new_beneficiary,high,closed_false_positive,2025-07-21T05:46:00,Synthetic alert generated for new beneficiary risk.
+ALERT000768,TXN0004142,ACCT000632,new_beneficiary,medium,escalated,2025-07-03T03:33:00,Synthetic alert generated for new beneficiary risk.
+ALERT000769,TXN0004144,ACCT000083,structuring_indicator,high,open,2025-10-12T12:29:00,Synthetic alert generated for round number payments.
+ALERT000770,TXN0004148,ACCT000543,structuring_indicator,medium,closed_false_positive,2025-09-09T20:58:00,Synthetic alert generated for round number payments.
+ALERT000771,TXN0004156,ACCT000126,structuring_indicator,medium,open,2025-08-27T14:58:00,Synthetic alert generated for round number payments.
+ALERT000772,TXN0004160,ACCT000220,account_takeover,high,escalated,2025-11-12T17:10:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000773,TXN0004164,ACCT000482,amount_spike,medium,in_review,2025-05-05T22:05:00,Synthetic alert generated for unusual amount spike.
+ALERT000774,TXN0004181,ACCT000534,new_beneficiary,high,escalated,2025-05-17T10:49:00,Synthetic alert generated for new beneficiary risk.
+ALERT000775,TXN0004184,ACCT000580,velocity_rule,high,in_review,2025-08-14T03:48:00,Synthetic alert generated for high transaction velocity.
+ALERT000776,TXN0004195,ACCT000072,account_takeover,high,in_review,2025-10-31T22:13:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000777,TXN0004212,ACCT000623,mule_activity,medium,escalated,2025-12-06T12:26:00,Synthetic alert generated for mule account style behaviour.
+ALERT000778,TXN0004222,ACCT000356,account_takeover,high,open,2025-06-06T05:17:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000779,TXN0004240,ACCT000444,account_takeover,high,open,2025-07-12T09:25:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000780,TXN0004249,ACCT000505,amount_spike,medium,closed_false_positive,2025-05-18T03:08:00,Synthetic alert generated for unusual amount spike.
+ALERT000781,TXN0004258,ACCT000054,shared_device,high,escalated,2025-03-19T09:39:00,Synthetic alert generated for shared device behaviour.
+ALERT000782,TXN0004260,ACCT000419,mule_activity,medium,in_review,2025-03-09T21:22:00,Synthetic alert generated for mule account style behaviour.
+ALERT000783,TXN0004269,ACCT000108,shared_device,medium,in_review,2025-09-17T14:24:00,Synthetic alert generated for shared device behaviour.
+ALERT000784,TXN0004278,ACCT000535,velocity_rule,medium,open,2025-05-30T23:22:00,Synthetic alert generated for high transaction velocity.
+ALERT000785,TXN0004280,ACCT000244,velocity_rule,medium,in_review,2025-09-15T10:29:00,Synthetic alert generated for high transaction velocity.
+ALERT000786,TXN0004282,ACCT000474,amount_spike,medium,closed_false_positive,2025-06-23T01:11:00,Synthetic alert generated for unusual amount spike.
+ALERT000787,TXN0004283,ACCT000042,shared_device,medium,open,2025-01-20T18:27:00,Synthetic alert generated for shared device behaviour.
+ALERT000788,TXN0004287,ACCT000055,velocity_rule,medium,open,2025-04-01T03:59:00,Synthetic alert generated for high transaction velocity.
+ALERT000789,TXN0004298,ACCT000184,rapid_movement,medium,open,2025-10-11T01:15:00,Synthetic alert generated for rapid movement of funds.
+ALERT000790,TXN0004308,ACCT000375,jurisdiction_risk,high,open,2025-07-11T00:27:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000791,TXN0004314,ACCT000186,amount_spike,medium,in_review,2025-01-09T02:11:00,Synthetic alert generated for unusual amount spike.
+ALERT000792,TXN0004341,ACCT000499,structuring_indicator,medium,open,2025-03-17T18:08:00,Synthetic alert generated for round number payments.
+ALERT000793,TXN0004344,ACCT000277,shared_device,medium,in_review,2025-05-09T04:17:00,Synthetic alert generated for shared device behaviour.
+ALERT000794,TXN0004346,ACCT000581,account_takeover,high,open,2025-01-10T14:23:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000795,TXN0004355,ACCT000574,velocity_rule,medium,closed_false_positive,2025-09-24T06:13:00,Synthetic alert generated for high transaction velocity.
+ALERT000796,TXN0004366,ACCT000525,amount_spike,high,in_review,2025-01-09T16:59:00,Synthetic alert generated for unusual amount spike.
+ALERT000797,TXN0004386,ACCT000273,amount_spike,medium,in_review,2025-03-17T11:31:00,Synthetic alert generated for unusual amount spike.
+ALERT000798,TXN0004388,ACCT000134,rapid_movement,medium,closed_false_positive,2025-12-20T17:20:00,Synthetic alert generated for rapid movement of funds.
+ALERT000799,TXN0004400,ACCT000382,jurisdiction_risk,high,open,2025-09-19T03:59:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000800,TXN0004406,ACCT000551,rapid_movement,medium,escalated,2025-12-17T17:32:00,Synthetic alert generated for rapid movement of funds.
+ALERT000801,TXN0004412,ACCT000405,mule_activity,medium,open,2025-09-10T00:41:00,Synthetic alert generated for mule account style behaviour.
+ALERT000802,TXN0004425,ACCT000621,shared_device,medium,in_review,2025-01-26T13:16:00,Synthetic alert generated for shared device behaviour.
+ALERT000803,TXN0004428,ACCT000183,rapid_movement,medium,open,2025-04-17T00:35:00,Synthetic alert generated for rapid movement of funds.
+ALERT000804,TXN0004432,ACCT000124,structuring_indicator,high,escalated,2025-09-17T09:58:00,Synthetic alert generated for round number payments.
+ALERT000805,TXN0004435,ACCT000365,mule_activity,medium,in_review,2025-03-21T12:06:00,Synthetic alert generated for mule account style behaviour.
+ALERT000806,TXN0004443,ACCT000525,rapid_movement,high,open,2025-03-10T19:18:00,Synthetic alert generated for rapid movement of funds.
+ALERT000807,TXN0004445,ACCT000583,rapid_movement,high,in_review,2025-06-03T02:50:00,Synthetic alert generated for rapid movement of funds.
+ALERT000808,TXN0004451,ACCT000479,velocity_rule,high,escalated,2025-10-20T16:08:00,Synthetic alert generated for high transaction velocity.
+ALERT000809,TXN0004458,ACCT000172,amount_spike,high,open,2025-10-07T21:11:00,Synthetic alert generated for unusual amount spike.
+ALERT000810,TXN0004462,ACCT000005,jurisdiction_risk,high,open,2025-04-18T01:34:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000811,TXN0004468,ACCT000090,mule_activity,high,open,2025-11-04T15:21:00,Synthetic alert generated for mule account style behaviour.
+ALERT000812,TXN0004483,ACCT000355,mule_activity,medium,open,2025-03-04T01:46:00,Synthetic alert generated for mule account style behaviour.
+ALERT000813,TXN0004492,ACCT000546,new_beneficiary,medium,escalated,2025-09-18T19:13:00,Synthetic alert generated for new beneficiary risk.
+ALERT000814,TXN0004497,ACCT000476,mule_activity,medium,in_review,2025-04-04T12:32:00,Synthetic alert generated for mule account style behaviour.
+ALERT000815,TXN0004504,ACCT000582,jurisdiction_risk,high,open,2025-03-08T22:17:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000816,TXN0004507,ACCT000023,rapid_movement,high,closed_false_positive,2025-12-09T02:54:00,Synthetic alert generated for rapid movement of funds.
+ALERT000817,TXN0004508,ACCT000269,new_beneficiary,high,closed_false_positive,2025-05-01T13:08:00,Synthetic alert generated for new beneficiary risk.
+ALERT000818,TXN0004511,ACCT000347,new_beneficiary,medium,escalated,2025-05-31T02:41:00,Synthetic alert generated for new beneficiary risk.
+ALERT000819,TXN0004515,ACCT000141,rapid_movement,medium,open,2025-05-12T14:17:00,Synthetic alert generated for rapid movement of funds.
+ALERT000820,TXN0004524,ACCT000660,mule_activity,high,in_review,2025-11-02T05:23:00,Synthetic alert generated for mule account style behaviour.
+ALERT000821,TXN0004535,ACCT000518,mule_activity,medium,escalated,2025-08-05T16:30:00,Synthetic alert generated for mule account style behaviour.
+ALERT000822,TXN0004537,ACCT000098,jurisdiction_risk,high,open,2025-04-11T00:58:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000823,TXN0004542,ACCT000463,amount_spike,medium,in_review,2025-05-11T09:34:00,Synthetic alert generated for unusual amount spike.
+ALERT000824,TXN0004549,ACCT000159,velocity_rule,medium,escalated,2025-09-28T16:44:00,Synthetic alert generated for high transaction velocity.
+ALERT000825,TXN0004558,ACCT000507,velocity_rule,medium,open,2025-11-19T11:13:00,Synthetic alert generated for high transaction velocity.
+ALERT000826,TXN0004561,ACCT000650,shared_device,medium,closed_false_positive,2025-08-13T07:13:00,Synthetic alert generated for shared device behaviour.
+ALERT000827,TXN0004562,ACCT000307,shared_device,high,escalated,2025-03-10T06:18:00,Synthetic alert generated for shared device behaviour.
+ALERT000828,TXN0004563,ACCT000285,structuring_indicator,medium,in_review,2025-07-24T06:26:00,Synthetic alert generated for round number payments.
+ALERT000829,TXN0004571,ACCT000137,shared_device,medium,escalated,2025-06-04T12:37:00,Synthetic alert generated for shared device behaviour.
+ALERT000830,TXN0004573,ACCT000314,jurisdiction_risk,high,closed_false_positive,2025-07-03T19:06:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000831,TXN0004579,ACCT000204,account_takeover,high,closed_false_positive,2025-02-10T08:24:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000832,TXN0004582,ACCT000246,shared_device,medium,in_review,2025-10-20T13:41:00,Synthetic alert generated for shared device behaviour.
+ALERT000833,TXN0004614,ACCT000601,jurisdiction_risk,high,open,2025-02-26T12:00:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000834,TXN0004617,ACCT000236,jurisdiction_risk,high,in_review,2025-09-21T23:11:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000835,TXN0004621,ACCT000526,rapid_movement,high,closed_false_positive,2025-12-12T09:44:00,Synthetic alert generated for rapid movement of funds.
+ALERT000836,TXN0004650,ACCT000654,structuring_indicator,high,open,2025-10-25T21:20:00,Synthetic alert generated for round number payments.
+ALERT000837,TXN0004652,ACCT000139,velocity_rule,medium,open,2025-08-30T07:25:00,Synthetic alert generated for high transaction velocity.
+ALERT000838,TXN0004653,ACCT000599,structuring_indicator,medium,in_review,2025-12-28T12:48:00,Synthetic alert generated for round number payments.
+ALERT000839,TXN0004654,ACCT000435,amount_spike,medium,in_review,2025-09-08T14:53:00,Synthetic alert generated for unusual amount spike.
+ALERT000840,TXN0004660,ACCT000088,jurisdiction_risk,high,closed_false_positive,2025-10-12T23:21:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000841,TXN0004675,ACCT000263,jurisdiction_risk,high,escalated,2025-03-23T01:49:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000842,TXN0004681,ACCT000215,jurisdiction_risk,high,open,2025-12-15T07:48:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000843,TXN0004685,ACCT000597,jurisdiction_risk,high,open,2025-08-22T21:17:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000844,TXN0004686,ACCT000129,new_beneficiary,high,closed_false_positive,2025-01-14T23:43:00,Synthetic alert generated for new beneficiary risk.
+ALERT000845,TXN0004698,ACCT000358,structuring_indicator,high,open,2025-08-05T11:44:00,Synthetic alert generated for round number payments.
+ALERT000846,TXN0004701,ACCT000120,amount_spike,medium,open,2025-01-21T13:44:00,Synthetic alert generated for unusual amount spike.
+ALERT000847,TXN0004706,ACCT000279,shared_device,medium,open,2025-09-02T05:37:00,Synthetic alert generated for shared device behaviour.
+ALERT000848,TXN0004710,ACCT000637,jurisdiction_risk,high,open,2025-06-18T15:25:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000849,TXN0004713,ACCT000329,velocity_rule,medium,in_review,2025-03-16T10:21:00,Synthetic alert generated for high transaction velocity.
+ALERT000850,TXN0004731,ACCT000063,mule_activity,high,open,2025-08-16T10:39:00,Synthetic alert generated for mule account style behaviour.
+ALERT000851,TXN0004737,ACCT000057,mule_activity,medium,in_review,2025-04-10T06:34:00,Synthetic alert generated for mule account style behaviour.
+ALERT000852,TXN0004744,ACCT000115,velocity_rule,high,closed_false_positive,2025-03-19T23:09:00,Synthetic alert generated for high transaction velocity.
+ALERT000853,TXN0004746,ACCT000595,jurisdiction_risk,high,open,2025-12-19T17:34:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000854,TXN0004752,ACCT000083,account_takeover,high,in_review,2025-01-13T05:17:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000855,TXN0004754,ACCT000351,amount_spike,medium,open,2025-12-02T06:04:00,Synthetic alert generated for unusual amount spike.
+ALERT000856,TXN0004760,ACCT000672,structuring_indicator,medium,closed_false_positive,2025-03-03T09:00:00,Synthetic alert generated for round number payments.
+ALERT000857,TXN0004763,ACCT000112,structuring_indicator,medium,open,2025-03-08T07:38:00,Synthetic alert generated for round number payments.
+ALERT000858,TXN0004772,ACCT000189,shared_device,medium,closed_false_positive,2025-10-29T22:44:00,Synthetic alert generated for shared device behaviour.
+ALERT000859,TXN0004776,ACCT000067,account_takeover,high,closed_false_positive,2025-04-19T18:42:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000860,TXN0004777,ACCT000430,structuring_indicator,medium,in_review,2025-01-30T06:56:00,Synthetic alert generated for round number payments.
+ALERT000861,TXN0004778,ACCT000054,shared_device,medium,escalated,2025-07-31T17:50:00,Synthetic alert generated for shared device behaviour.
+ALERT000862,TXN0004787,ACCT000021,rapid_movement,medium,in_review,2025-12-24T12:09:00,Synthetic alert generated for rapid movement of funds.
+ALERT000863,TXN0004796,ACCT000585,structuring_indicator,high,open,2025-06-09T04:58:00,Synthetic alert generated for round number payments.
+ALERT000864,TXN0004797,ACCT000314,structuring_indicator,medium,open,2025-09-04T07:51:00,Synthetic alert generated for round number payments.
+ALERT000865,TXN0004816,ACCT000625,shared_device,medium,closed_false_positive,2025-06-29T19:55:00,Synthetic alert generated for shared device behaviour.
+ALERT000866,TXN0004817,ACCT000013,amount_spike,medium,in_review,2025-09-12T06:59:00,Synthetic alert generated for unusual amount spike.
+ALERT000867,TXN0004821,ACCT000044,shared_device,medium,escalated,2025-07-17T20:46:00,Synthetic alert generated for shared device behaviour.
+ALERT000868,TXN0004845,ACCT000270,velocity_rule,medium,escalated,2025-09-28T17:23:00,Synthetic alert generated for high transaction velocity.
+ALERT000869,TXN0004852,ACCT000249,shared_device,medium,in_review,2025-03-23T14:21:00,Synthetic alert generated for shared device behaviour.
+ALERT000870,TXN0004854,ACCT000446,amount_spike,high,in_review,2025-06-30T13:33:00,Synthetic alert generated for unusual amount spike.
+ALERT000871,TXN0004856,ACCT000384,amount_spike,high,open,2025-08-28T14:59:00,Synthetic alert generated for unusual amount spike.
+ALERT000872,TXN0004876,ACCT000469,jurisdiction_risk,high,open,2025-08-02T21:52:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000873,TXN0004879,ACCT000269,rapid_movement,medium,open,2025-05-20T15:43:00,Synthetic alert generated for rapid movement of funds.
+ALERT000874,TXN0004880,ACCT000081,velocity_rule,medium,in_review,2025-01-19T10:11:00,Synthetic alert generated for high transaction velocity.
+ALERT000875,TXN0004884,ACCT000219,structuring_indicator,medium,open,2025-06-29T12:46:00,Synthetic alert generated for round number payments.
+ALERT000876,TXN0004890,ACCT000209,mule_activity,medium,escalated,2025-12-15T21:54:00,Synthetic alert generated for mule account style behaviour.
+ALERT000877,TXN0004905,ACCT000352,structuring_indicator,medium,escalated,2025-09-08T04:33:00,Synthetic alert generated for round number payments.
+ALERT000878,TXN0004908,ACCT000174,velocity_rule,medium,open,2025-08-30T22:18:00,Synthetic alert generated for high transaction velocity.
+ALERT000879,TXN0004909,ACCT000655,shared_device,medium,in_review,2025-06-02T00:26:00,Synthetic alert generated for shared device behaviour.
+ALERT000880,TXN0004910,ACCT000493,velocity_rule,medium,in_review,2025-02-28T05:09:00,Synthetic alert generated for high transaction velocity.
+ALERT000881,TXN0004916,ACCT000488,velocity_rule,medium,in_review,2025-03-16T05:41:00,Synthetic alert generated for high transaction velocity.
+ALERT000882,TXN0004918,ACCT000033,new_beneficiary,medium,closed_false_positive,2025-08-25T22:04:00,Synthetic alert generated for new beneficiary risk.
+ALERT000883,TXN0004919,ACCT000471,account_takeover,high,in_review,2025-01-01T08:20:00,Synthetic alert generated for account takeover style behaviour.
+ALERT000884,TXN0004922,ACCT000253,shared_device,medium,in_review,2025-12-15T13:22:00,Synthetic alert generated for shared device behaviour.
+ALERT000885,TXN0004929,ACCT000468,jurisdiction_risk,high,open,2025-09-20T11:57:00,Synthetic alert generated for high risk jurisdiction exposure.
+ALERT000886,TXN0004933,ACCT000606,shared_device,medium,open,2025-04-05T07:16:00,Synthetic alert generated for shared device behaviour.
+ALERT000887,TXN0004937,ACCT000099,velocity_rule,high,closed_false_positive,2025-03-18T19:34:00,Synthetic alert generated for high transaction velocity.
+ALERT000888,TXN0004939,ACCT000692,new_beneficiary,high,escalated,2025-10-15T11:42:00,Synthetic alert generated for new beneficiary risk.
+ALERT000889,TXN0004941,ACCT000493,shared_device,medium,in_review,2025-03-04T22:47:00,Synthetic alert generated for shared device behaviour.
+ALERT000890,TXN0004946,ACCT000626,rapid_movement,high,open,2025-09-22T09:44:00,Synthetic alert generated for rapid movement of funds.
+ALERT000891,TXN0004948,ACCT000156,amount_spike,high,in_review,2025-06-02T09:32:00,Synthetic alert generated for unusual amount spike.
+ALERT000892,TXN0004950,ACCT000434,structuring_indicator,high,in_review,2025-02-12T11:21:00,Synthetic alert generated for round number payments.
+ALERT000893,TXN0004952,ACCT000664,mule_activity,high,in_review,2025-03-30T03:09:00,Synthetic alert generated for mule account style behaviour.
+ALERT000894,TXN0004958,ACCT000218,amount_spike,medium,open,2025-02-18T17:45:00,Synthetic alert generated for unusual amount spike.
+ALERT000895,TXN0004959,ACCT000234,amount_spike,medium,escalated,2025-05-10T03:42:00,Synthetic alert generated for unusual amount spike.
+ALERT000896,TXN0004970,ACCT000682,shared_device,medium,escalated,2025-09-18T03:11:00,Synthetic alert generated for shared device behaviour.
+ALERT000897,TXN0004972,ACCT000458,structuring_indicator,medium,escalated,2025-02-02T07:46:00,Synthetic alert generated for round number payments.
+ALERT000898,TXN0004977,ACCT000667,amount_spike,medium,escalated,2025-10-05T22:12:00,Synthetic alert generated for unusual amount spike.
+ALERT000899,TXN0004979,ACCT000608,velocity_rule,medium,open,2025-09-02T21:56:00,Synthetic alert generated for high transaction velocity.
+ALERT000900,TXN0005000,ACCT000461,mule_activity,medium,open,2025-03-05T09:04:00,Synthetic alert generated for mule account style behaviour.
