@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local outputs and temporary files
+*.log
+.DS_Store
+
+# Sensitive files
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Generated data and reports should remain deliberate
+data/raw/*
+data/processed/*
+outputs/*
+reports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample/.gitkeep
+!outputs/sample/
+!outputs/sample/.gitkeep
+!reports/sample/
+!reports/sample/.gitkeep
+

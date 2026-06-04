@@ -1,0 +1,8 @@
+# Placeholder feature configuration for future fraud, AML, anomaly, graph, and NLP features.
+feature_sets:
+  fraud_detection: []
+  aml_risk_scoring: []
+  anomaly_detection: []
+  graph_risk: []
+  nlp_triage: []
+

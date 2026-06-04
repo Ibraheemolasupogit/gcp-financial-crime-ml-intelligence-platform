@@ -1,0 +1,6 @@
+# Placeholder monitoring configuration for future drift, quality, and performance checks.
+monitoring:
+  enabled: false
+  metrics: []
+  reporting_path: reports
+

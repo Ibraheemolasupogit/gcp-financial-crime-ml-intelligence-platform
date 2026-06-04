@@ -1,0 +1,9 @@
+# Placeholder governance controls for future model risk management evidence.
+controls:
+  data_lineage:
+    status: planned
+  model_validation:
+    status: planned
+  monitoring_review:
+    status: planned
+

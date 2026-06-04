@@ -1,0 +1,10 @@
+# Placeholder pipeline configuration for future local-first ML workflows.
+project:
+  name: gcp-financial-crime-ml-intelligence-platform
+  mode: local
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  outputs: outputs
+

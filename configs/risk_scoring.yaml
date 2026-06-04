@@ -1,0 +1,6 @@
+# Placeholder risk scoring configuration. No scoring logic is implemented in Milestone 1.
+risk_scoring:
+  enabled: false
+  score_bands: []
+  review_thresholds: []
+
