@@ -1,8 +1,19 @@
-# Placeholder feature configuration for future fraud, AML, anomaly, graph, and NLP features.
-feature_sets:
-  fraud_detection: []
-  aml_risk_scoring: []
-  anomaly_detection: []
-  graph_risk: []
-  nlp_triage: []
+# Feature engineering thresholds for local synthetic financial crime datasets.
+thresholds:
+  high_value_transaction_threshold: 5000
+  round_amount_multiple: 100
+  high_velocity_1h_threshold: 3
+  high_velocity_24h_threshold: 8
+  high_risk_countries:
+    - AE
+    - NG
+    - PA
+    - TR
+  new_beneficiary_days: 30
+  rapid_movement_hours: 2
+  structuring_amount_threshold: 10000
+  structuring_count_threshold: 3
 
+outputs:
+  transaction_features_path: data/processed/transaction_features.csv
+  feature_summary_path: outputs/sample/feature_summary.json

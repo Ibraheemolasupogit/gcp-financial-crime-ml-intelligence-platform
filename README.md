@@ -90,6 +90,31 @@ outputs/sample/data_quality_report.json
 
 This remains synthetic-data-only and local-first. The validation layer does not implement feature engineering, models, monitoring, dashboards, or GCP deployment.
 
+## Milestone 4: Feature Engineering and Typology Indicators
+
+Milestone 4 adds deterministic feature engineering for the synthetic transaction data. It creates transaction, velocity, customer/account, beneficiary, device, and rule-based AML typology indicator features.
+
+Build features:
+
+```bash
+python scripts/build_features.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli build-features
+```
+
+Outputs:
+
+```text
+data/processed/transaction_features.csv
+outputs/sample/feature_summary.json
+```
+
+No ML models are trained in this milestone. The feature layer remains synthetic-data-only, local-first, and pandas-based.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
@@ -104,7 +129,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 3 is a data ingestion and validation milestone. The repository contains the project scaffold, deterministic synthetic data generation, sample CSV outputs, schema validation, relationship validation, and a local data quality report.
+Milestone 4 is a feature engineering milestone. The repository contains the project scaffold, deterministic synthetic data generation, schema and relationship validation, local data quality reporting, transaction-level engineered features, and rule-based AML typology indicators.
 
 ## Quick Start
 
@@ -133,4 +158,10 @@ Validate synthetic demo data:
 
 ```bash
 python -m financial_crime_ml.cli validate-data
+```
+
+Build transaction-level features:
+
+```bash
+python -m financial_crime_ml.cli build-features
 ```

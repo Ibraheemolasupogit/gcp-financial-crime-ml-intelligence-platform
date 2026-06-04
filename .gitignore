@@ -29,9 +29,11 @@ outputs/*
 reports/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/processed/transaction_features.csv
 !data/sample/.gitkeep
 !outputs/sample/
 !outputs/sample/.gitkeep
 !outputs/sample/data_quality_report.json
+!outputs/sample/feature_summary.json
 !reports/sample/
 !reports/sample/.gitkeep
