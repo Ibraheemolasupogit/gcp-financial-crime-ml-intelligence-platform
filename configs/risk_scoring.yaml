@@ -1,6 +1,35 @@
-# Placeholder risk scoring configuration. No scoring logic is implemented in Milestone 1.
-risk_scoring:
-  enabled: false
-  score_bands: []
-  review_thresholds: []
-
+aml_risk_scoring:
+  output_path: outputs/sample/aml_risk_scores.csv
+  prioritised_alerts_output_path: outputs/sample/prioritised_alerts.csv
+  severity_bands:
+    Critical:
+      min: 90
+      max: 100
+    High:
+      min: 70
+      max: 89
+    Medium:
+      min: 40
+      max: 69
+    Low:
+      min: 10
+      max: 39
+    Info:
+      min: 0
+      max: 9
+  scoring_weights:
+    high_risk_jurisdiction_flag: 22
+    structuring_pattern_flag: 18
+    rapid_movement_flag: 18
+    mule_activity_indicator: 20
+    account_takeover_indicator: 24
+    new_beneficiary_high_value_flag: 16
+    round_amount_repetition_flag: 12
+    is_high_value_transaction: 10
+    is_cross_border_transaction: 8
+    high_velocity_flag: 12
+    synthetic_suspicious_context: 5
+  recommended_action_thresholds:
+    immediate_investigator_review: 90
+    investigator_review: 70
+    queue_for_monitoring: 40

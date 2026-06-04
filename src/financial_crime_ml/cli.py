@@ -7,6 +7,7 @@ import sys
 from financial_crime_ml.data_generation import generate_all_datasets
 from financial_crime_ml.features import load_feature_config, run_feature_pipeline
 from financial_crime_ml.ingestion import DEFAULT_REPORT_PATH, run_data_validation
+from financial_crime_ml.models.workflow import run_fraud_model_workflow
 
 STATUS_MESSAGE = "GCP Financial Crime ML Intelligence Platform scaffold is ready."
 
@@ -40,6 +41,16 @@ def main(argv: list[str] | None = None) -> None:
         print(f"Columns: {summary['number_of_columns']}")
         print(f"Feature table written to: {config.transaction_features_path}")
         print(f"Feature summary written to: {config.feature_summary_path}")
+        return
+
+    if args == ["train-fraud-model"]:
+        result = run_fraud_model_workflow()
+        metrics = result["metrics"]
+        print("Fraud model workflow completed.")
+        print(f"Model: {metrics['model_name']}")
+        print(f"F1 score: {metrics['f1_score']:.4f}")
+        print(f"Metrics written to: {result['model_metrics_path']}")
+        print(f"Prioritised alerts written to: {result['prioritised_alerts_path']}")
         return
 
     print(get_status_message())

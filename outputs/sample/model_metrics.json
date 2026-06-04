@@ -1,0 +1,28 @@
+{
+  "model_name": "LogisticRegression",
+  "target_column": "is_suspicious",
+  "feature_count": 45,
+  "training_row_count": 4000,
+  "test_row_count": 1000,
+  "precision": 0.8390804597701149,
+  "recall": 0.8111111111111111,
+  "f1_score": 0.8248587570621468,
+  "roc_auc": 0.9542140921409213,
+  "confusion_matrix": [
+    [
+      792,
+      28
+    ],
+    [
+      34,
+      146
+    ]
+  ],
+  "positive_class_rate": 0.18,
+  "threshold_used": 0.5,
+  "notes": [
+    "Baseline supervised classifier trained on synthetic engineered features.",
+    "Synthetic labels are for portfolio demonstration only.",
+    "This is not a production deployment or live financial crime control."
+  ]
+}

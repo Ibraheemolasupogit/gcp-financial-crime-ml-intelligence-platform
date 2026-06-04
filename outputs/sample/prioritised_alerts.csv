@@ -1,0 +1,1001 @@
+transaction_id,account_id,customer_id,fraud_probability,fraud_prediction,aml_risk_score,aml_risk_band,priority_score,priority_band,priority_reasons,recommended_action
+TXN0000135,ACCT000066,CUST000319,0.9999798757174119,1,65,Medium,80.75,High,Fraud probability above threshold; structuring pattern flag; high risk jurisdiction flag; round amount repetition flag,Investigator review
+TXN0001099,ACCT000219,CUST000004,0.9999931637906588,1,65,Medium,80.75,High,Fraud probability above threshold; structuring pattern flag; high risk jurisdiction flag; round amount repetition flag,Investigator review
+TXN0004144,ACCT000083,CUST000355,0.9998739461439274,1,65,Medium,80.74,High,Fraud probability above threshold; structuring pattern flag; high risk jurisdiction flag; round amount repetition flag,Investigator review
+TXN0001547,ACCT000137,CUST000128,0.999792358611038,1,65,Medium,80.74,High,Fraud probability above threshold; structuring pattern flag; high risk jurisdiction flag; round amount repetition flag,Investigator review
+TXN0001850,ACCT000033,CUST000253,0.9999999999999987,1,63,Medium,79.65,High,Fraud probability above threshold; rapid movement flag; high risk jurisdiction flag,Investigator review
+TXN0003599,ACCT000600,CUST000125,0.9999999996738682,1,63,Medium,79.65,High,Fraud probability above threshold; rapid movement flag; high risk jurisdiction flag,Investigator review
+TXN0002001,ACCT000344,CUST000004,0.9999274472724614,1,59,Medium,77.45,High,Fraud probability above threshold; high risk jurisdiction flag; account takeover indicator,Investigator review
+TXN0000703,ACCT000241,CUST000376,0.9999433970234426,1,59,Medium,77.45,High,Fraud probability above threshold; high risk jurisdiction flag; account takeover indicator,Investigator review
+TXN0003494,ACCT000594,CUST000231,0.9999053724298371,1,59,Medium,77.45,High,Fraud probability above threshold; high risk jurisdiction flag; account takeover indicator,Investigator review
+TXN0001826,ACCT000067,CUST000111,0.9999574320671805,1,59,Medium,77.45,High,Fraud probability above threshold; high risk jurisdiction flag; account takeover indicator,Investigator review
+TXN0004582,ACCT000246,CUST000011,0.9999542956762303,1,59,Medium,77.45,High,Fraud probability above threshold; high risk jurisdiction flag; account takeover indicator,Investigator review
+TXN0002797,ACCT000396,CUST000400,0.9998504225620785,1,59,Medium,77.44,High,Fraud probability above threshold; high risk jurisdiction flag; account takeover indicator,Investigator review
+TXN0002958,ACCT000372,CUST000236,0.9996126961998585,1,59,Medium,77.43,High,Fraud probability above threshold; high risk jurisdiction flag; account takeover indicator,Investigator review
+TXN0003620,ACCT000594,CUST000231,0.9999413677738347,1,55,Medium,75.25,High,Fraud probability above threshold; high risk jurisdiction flag; mule activity indicator,Investigator review
+TXN0002983,ACCT000063,CUST000394,0.9997397249144486,1,55,Medium,75.24,High,Fraud probability above threshold; high risk jurisdiction flag; mule activity indicator,Investigator review
+TXN0003683,ACCT000403,CUST000047,0.9997250049450724,1,55,Medium,75.24,High,Fraud probability above threshold; high risk jurisdiction flag; mule activity indicator,Investigator review
+TXN0002508,ACCT000308,CUST000499,0.9995488533954958,1,55,Medium,75.23,High,Fraud probability above threshold; high risk jurisdiction flag; mule activity indicator,Investigator review
+TXN0001062,ACCT000426,CUST000051,0.998470315883969,1,55,Medium,75.18,High,Fraud probability above threshold; high risk jurisdiction flag; mule activity indicator,Investigator review
+TXN0000255,ACCT000437,CUST000080,0.999999874443638,1,53,Medium,74.15,High,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Investigator review
+TXN0003228,ACCT000665,CUST000125,0.9999965332178997,1,53,Medium,74.15,High,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Investigator review
+TXN0001552,ACCT000048,CUST000025,0.9999998131123301,1,53,Medium,74.15,High,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Investigator review
+TXN0003852,ACCT000088,CUST000495,0.9999999404370086,1,53,Medium,74.15,High,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Investigator review
+TXN0002341,ACCT000569,CUST000075,0.9999998852654838,1,53,Medium,74.15,High,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Investigator review
+TXN0000942,ACCT000224,CUST000263,0.9999998923101452,1,53,Medium,74.15,High,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Investigator review
+TXN0002718,ACCT000084,CUST000038,0.9999999986566808,1,53,Medium,74.15,High,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Investigator review
+TXN0000314,ACCT000664,CUST000057,0.9999315956931538,1,51,Medium,73.05,High,Fraud probability above threshold; high risk jurisdiction flag; new beneficiary high value flag,Investigator review
+TXN0000523,ACCT000186,CUST000220,0.9999979091092175,1,43,Medium,68.65,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0000509,ACCT000283,CUST000442,0.9999969827453334,1,43,Medium,68.65,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0001039,ACCT000571,CUST000065,0.9999674853402997,1,43,Medium,68.65,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0001565,ACCT000690,CUST000233,0.9999537932235166,1,43,Medium,68.65,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0002045,ACCT000169,CUST000380,0.9999937948616838,1,43,Medium,68.65,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0001273,ACCT000335,CUST000128,0.9999910368113623,1,43,Medium,68.65,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0000154,ACCT000163,CUST000431,0.999626744221225,1,43,Medium,68.63,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0003015,ACCT000010,CUST000442,0.9989958417751178,1,43,Medium,68.6,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0001464,ACCT000035,CUST000045,0.9976253764551614,1,43,Medium,68.54,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0004653,ACCT000599,CUST000395,0.9939199127818561,1,43,Medium,68.38,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0003308,ACCT000495,CUST000067,1.0,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0003750,ACCT000216,CUST000216,0.9999999999999998,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0004621,ACCT000526,CUST000382,0.9999864324149488,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0004048,ACCT000450,CUST000253,1.0,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0002391,ACCT000264,CUST000047,0.9999946637358574,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0001998,ACCT000117,CUST000399,0.999999999999988,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0001004,ACCT000692,CUST000024,0.9999999999967542,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0001235,ACCT000441,CUST000128,0.9999999999960487,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0003799,ACCT000645,CUST000035,0.9999999999823117,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0003930,ACCT000321,CUST000307,0.9999999999786515,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0001618,ACCT000065,CUST000047,0.9999999993647006,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0000563,ACCT000693,CUST000133,0.9999999637990056,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0000621,ACCT000067,CUST000111,0.999999957957667,1,41,Medium,67.55,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0002924,ACCT000329,CUST000060,0.9999630394420284,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0003222,ACCT000479,CUST000103,0.9999214024969193,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001743,ACCT000116,CUST000366,0.9999605425849754,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001920,ACCT000407,CUST000235,0.9999115843578977,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0003120,ACCT000696,CUST000196,0.9999032039122768,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0002270,ACCT000621,CUST000116,0.9999250602169321,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0002186,ACCT000420,CUST000458,0.999937469873893,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0004778,ACCT000054,CUST000325,0.9999953522065712,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0002708,ACCT000368,CUST000441,0.9999261274693589,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0003662,ACCT000235,CUST000326,0.9999382920761396,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001577,ACCT000690,CUST000233,0.9999601091945035,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001149,ACCT000591,CUST000106,0.9999277718239866,1,37,Low,65.35,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0003231,ACCT000655,CUST000004,0.9998872188053681,1,37,Low,65.34,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0003757,ACCT000578,CUST000093,0.9998284864228538,1,37,Low,65.34,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0000702,ACCT000098,CUST000340,0.999687690247488,1,37,Low,65.34,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0004772,ACCT000189,CUST000380,0.9997549689139206,1,37,Low,65.34,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0002731,ACCT000342,CUST000500,0.999822702078563,1,37,Low,65.34,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0003428,ACCT000492,CUST000237,0.9998369856470731,1,37,Low,65.34,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0004970,ACCT000682,CUST000438,0.9998567899819671,1,37,Low,65.34,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0002675,ACCT000292,CUST000045,0.999469407430978,1,37,Low,65.33,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001776,ACCT000189,CUST000380,0.9995048344161009,1,37,Low,65.33,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0003869,ACCT000028,CUST000158,0.9994309800039621,1,37,Low,65.32,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001124,ACCT000323,CUST000437,0.9992159988052578,1,37,Low,65.31,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0000067,ACCT000134,CUST000142,0.998942214934115,1,37,Low,65.3,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001606,ACCT000184,CUST000217,0.9984533392313332,1,37,Low,65.28,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0003283,ACCT000228,CUST000053,0.9984108481914516,1,37,Low,65.28,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0002419,ACCT000055,CUST000278,0.998282718644442,1,37,Low,65.27,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001654,ACCT000147,CUST000440,0.9980512174229536,1,37,Low,65.26,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001722,ACCT000541,CUST000200,0.9999293560518846,1,35,Low,64.25,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0000721,ACCT000535,CUST000125,0.9999989859319101,1,35,Low,64.25,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0004760,ACCT000672,CUST000159,0.9997639200424149,1,35,Low,64.24,Medium,Fraud probability above threshold; structuring pattern flag; round amount repetition flag,Queue for monitoring
+TXN0001454,ACCT000054,CUST000325,0.9996947555470901,1,35,Low,64.24,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0003723,ACCT000413,CUST000345,0.9988688022264286,1,35,Low,64.2,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0000516,ACCT000180,CUST000023,0.9978810265581731,1,35,Low,64.15,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0000199,ACCT000664,CUST000057,0.9965660162803747,1,35,Low,64.1,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0004876,ACCT000469,CUST000097,0.9961403838650074,1,35,Low,64.08,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0004614,ACCT000601,CUST000104,0.9961996107283397,1,35,Low,64.08,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0000094,ACCT000495,CUST000067,0.9954764869125573,1,35,Low,64.05,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0002656,ACCT000465,CUST000372,0.9928732362616648,1,35,Low,63.93,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0000385,ACCT000420,CUST000458,0.9921260827343604,1,35,Low,63.9,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0003831,ACCT000566,CUST000127,0.9911000450727268,1,35,Low,63.85,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0003557,ACCT000245,CUST000009,0.9872165896796131,1,35,Low,63.67,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0002652,ACCT000574,CUST000309,0.9855744081211589,1,35,Low,63.6,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0004660,ACCT000088,CUST000495,0.9784733290622872,1,35,Low,63.28,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0001521,ACCT000209,CUST000269,0.999999999999625,1,33,Low,63.15,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0003462,ACCT000127,CUST000210,0.9999999999999944,1,33,Low,63.15,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0002365,ACCT000418,CUST000124,0.9999999995228377,1,33,Low,63.15,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0000959,ACCT000604,CUST000049,0.9999952738944526,1,33,Low,63.15,Medium,Fraud probability above threshold; rapid movement flag,Queue for monitoring
+TXN0001787,ACCT000421,CUST000074,0.9999868234008001,1,33,Low,63.15,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0003386,ACCT000342,CUST000500,0.9998206525658903,1,33,Low,63.14,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0001222,ACCT000109,CUST000304,0.9998379228072811,1,33,Low,63.14,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0002219,ACCT000001,CUST000473,0.9996018058130985,1,33,Low,63.13,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0002098,ACCT000124,CUST000437,0.9995078646782167,1,33,Low,63.13,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0001609,ACCT000446,CUST000065,0.9994802094873861,1,33,Low,63.13,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0002840,ACCT000484,CUST000411,0.9991901186048961,1,33,Low,63.11,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0004468,ACCT000090,CUST000424,0.9989660392850097,1,33,Low,63.1,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0004483,ACCT000355,CUST000206,0.9987267095081637,1,33,Low,63.09,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0004282,ACCT000474,CUST000031,0.9668155926468205,1,35,Low,62.76,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0003376,ACCT000307,CUST000214,0.9577175669481339,1,35,Low,62.35,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0002137,ACCT000584,CUST000463,0.9468284810840149,1,35,Low,61.86,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0002197,ACCT000627,CUST000083,0.9999504897056224,1,29,Low,60.95,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0003490,ACCT000302,CUST000192,0.9999075837112564,1,29,Low,60.95,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0001757,ACCT000178,CUST000186,0.9998526470571983,1,29,Low,60.94,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0002194,ACCT000240,CUST000019,0.9997659946649419,1,29,Low,60.94,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0004511,ACCT000347,CUST000061,0.9997404525097527,1,29,Low,60.94,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0002771,ACCT000693,CUST000133,0.9994461044792754,1,29,Low,60.93,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0003822,ACCT000465,CUST000372,0.999614835373993,1,29,Low,60.93,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0003220,ACCT000415,CUST000263,0.9993876020011984,1,29,Low,60.92,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0003057,ACCT000353,CUST000128,0.9987689375542582,1,29,Low,60.89,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0002046,ACCT000550,CUST000158,0.9981763941869839,1,29,Low,60.87,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0004919,ACCT000471,CUST000373,0.9978184972802913,1,29,Low,60.85,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0002367,ACCT000033,CUST000253,0.9976237086980361,1,29,Low,60.84,Medium,Fraud probability above threshold; account takeover indicator,Queue for monitoring
+TXN0002874,ACCT000479,CUST000103,0.9827503188813782,1,29,Low,60.17,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0000232,ACCT000676,CUST000227,0.9979283918891725,1,27,Low,59.76,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0002421,ACCT000468,CUST000304,0.9597619681603948,1,30,Low,59.69,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0000913,ACCT000543,CUST000176,0.9996766325660792,1,25,Low,58.74,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0001512,ACCT000302,CUST000192,0.9997808245778105,1,25,Low,58.74,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0004890,ACCT000209,CUST000269,0.9994113519526847,1,25,Low,58.72,Medium,Fraud probability above threshold; mule activity indicator,Queue for monitoring
+TXN0001945,ACCT000311,CUST000334,0.9310204429879082,1,30,Low,58.4,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0000678,ACCT000336,CUST000428,0.9999999999937172,1,23,Low,57.65,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0004114,ACCT000027,CUST000294,0.9992748084811608,1,23,Low,57.62,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0004054,ACCT000611,CUST000433,0.9998959682044121,1,21,Low,56.55,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0003115,ACCT000007,CUST000055,0.9996112748258357,1,21,Low,56.53,Medium,Fraud probability above threshold; new beneficiary high value flag,Queue for monitoring
+TXN0002768,ACCT000442,CUST000235,0.8876336587981856,1,30,Low,56.44,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0001657,ACCT000109,CUST000304,0.8653350855199062,1,30,Low,55.44,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0004705,ACCT000311,CUST000334,0.7928983533229498,1,30,Low,52.18,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0001200,ACCT000685,CUST000089,0.9995849446747219,1,13,Low,52.13,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0002991,ACCT000288,CUST000306,0.999303077175942,1,13,Low,52.12,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0001110,ACCT000324,CUST000075,0.9939749610253545,1,13,Low,51.88,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0004092,ACCT000375,CUST000356,0.9753281798803818,1,13,Low,51.04,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0004055,ACCT000669,CUST000410,0.973313189338506,1,13,Low,50.95,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0003574,ACCT000042,CUST000081,0.7372825116989565,1,30,Low,49.68,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0004754,ACCT000351,CUST000085,0.8728471922920902,1,13,Low,46.43,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0004379,ACCT000517,CUST000166,0.9254028633382964,1,8,Info,46.04,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0001622,ACCT000056,CUST000258,0.8449960575679951,1,13,Low,45.17,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0001853,ACCT000467,CUST000360,0.9409988648731813,1,5,Info,45.09,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0001074,ACCT000172,CUST000322,0.6229914272062679,1,30,Low,44.53,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0001919,ACCT000150,CUST000491,0.5495714020374775,1,35,Low,43.98,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0000646,ACCT000474,CUST000031,0.8153344449412452,1,13,Low,43.84,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0004798,ACCT000007,CUST000055,0.6045860513531052,1,30,Low,43.71,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0002175,ACCT000567,CUST000192,0.8122355276488186,1,13,Low,43.7,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0002785,ACCT000401,CUST000466,0.5805018185425832,1,30,Low,42.62,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0004305,ACCT000382,CUST000494,0.567652619665235,1,30,Low,42.04,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0002050,ACCT000487,CUST000457,0.558899967003848,1,30,Low,41.65,Medium,Fraud probability above threshold; high risk jurisdiction flag,Queue for monitoring
+TXN0000267,ACCT000072,CUST000346,0.8104297770376644,1,8,Info,40.87,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0002649,ACCT000311,CUST000334,0.805058988133339,1,8,Info,40.63,Medium,Fraud probability above threshold,Queue for monitoring
+TXN0003976,ACCT000546,CUST000238,0.46892890193185716,0,35,Low,40.35,Medium,high risk jurisdiction flag,Queue for monitoring
+TXN0001012,ACCT000405,CUST000094,0.44073893284102555,0,35,Low,39.08,Low,high risk jurisdiction flag,No immediate action
+TXN0000170,ACCT000627,CUST000083,0.7484920504208721,1,8,Info,38.08,Low,Fraud probability above threshold,No immediate action
+TXN0004241,ACCT000676,CUST000227,0.7442462382568495,1,8,Info,37.89,Low,Fraud probability above threshold,No immediate action
+TXN0003793,ACCT000160,CUST000369,0.4027278428184195,0,35,Low,37.37,Low,high risk jurisdiction flag,No immediate action
+TXN0002550,ACCT000390,CUST000142,0.46257273913014174,0,30,Low,37.32,Low,high risk jurisdiction flag,No immediate action
+TXN0003039,ACCT000434,CUST000161,0.62910123914638,1,13,Low,35.46,Low,Fraud probability above threshold,No immediate action
+TXN0002980,ACCT000238,CUST000466,0.3596409875449247,0,35,Low,35.43,Low,high risk jurisdiction flag,No immediate action
+TXN0004444,ACCT000311,CUST000334,0.6809812361540603,1,8,Info,35.04,Low,Fraud probability above threshold,No immediate action
+TXN0002056,ACCT000128,CUST000020,0.4030278483862955,0,30,Low,34.64,Low,high risk jurisdiction flag,No immediate action
+TXN0003655,ACCT000546,CUST000238,0.39972941389428535,0,30,Low,34.49,Low,high risk jurisdiction flag,No immediate action
+TXN0002236,ACCT000468,CUST000304,0.39639421073010683,0,30,Low,34.34,Low,high risk jurisdiction flag,No immediate action
+TXN0003159,ACCT000381,CUST000078,0.37532418246208726,0,30,Low,33.39,Low,high risk jurisdiction flag,No immediate action
+TXN0001567,ACCT000610,CUST000308,0.6695063284837194,1,5,Info,32.88,Low,Fraud probability above threshold,No immediate action
+TXN0000826,ACCT000219,CUST000004,0.2937175830373736,0,35,Low,32.47,Low,high risk jurisdiction flag,No immediate action
+TXN0000227,ACCT000667,CUST000152,0.3504769748188587,0,30,Low,32.27,Low,high risk jurisdiction flag,No immediate action
+TXN0003502,ACCT000374,CUST000161,0.33473490444545817,0,30,Low,31.56,Low,high risk jurisdiction flag,No immediate action
+TXN0004537,ACCT000098,CUST000340,0.27306803148325653,0,35,Low,31.54,Low,high risk jurisdiction flag,No immediate action
+TXN0001992,ACCT000516,CUST000056,0.3340534733349934,0,30,Low,31.53,Low,high risk jurisdiction flag,No immediate action
+TXN0001717,ACCT000465,CUST000372,0.3253357728916503,0,30,Low,31.14,Low,high risk jurisdiction flag,No immediate action
+TXN0004314,ACCT000186,CUST000220,0.5269700492851451,1,13,Low,30.86,Low,Fraud probability above threshold,No immediate action
+TXN0004103,ACCT000122,CUST000023,0.3119804946683758,0,30,Low,30.54,Low,high risk jurisdiction flag,No immediate action
+TXN0004877,ACCT000195,CUST000294,0.5775868311246579,1,8,Info,30.39,Low,Fraud probability above threshold,No immediate action
+TXN0002151,ACCT000357,CUST000238,0.30831379832130273,0,30,Low,30.37,Low,high risk jurisdiction flag,No immediate action
+TXN0003414,ACCT000493,CUST000413,0.3081421500000315,0,30,Low,30.37,Low,high risk jurisdiction flag,No immediate action
+TXN0004959,ACCT000234,CUST000206,0.6047458649186227,1,5,Info,29.96,Low,Fraud probability above threshold,No immediate action
+TXN0004237,ACCT000627,CUST000083,0.659812499071164,1,0,Info,29.69,Low,Fraud probability above threshold,No immediate action
+TXN0001937,ACCT000468,CUST000304,0.6581862585756474,1,0,Info,29.62,Low,Fraud probability above threshold,No immediate action
+TXN0004452,ACCT000048,CUST000025,0.2911558199170218,0,30,Low,29.6,Low,high risk jurisdiction flag,No immediate action
+TXN0003436,ACCT000230,CUST000208,0.5584281502883356,1,8,Info,29.53,Low,Fraud probability above threshold,No immediate action
+TXN0004718,ACCT000621,CUST000116,0.28237406293693085,0,30,Low,29.21,Low,high risk jurisdiction flag,No immediate action
+TXN0004586,ACCT000345,CUST000437,0.5471326328255947,1,8,Info,29.02,Low,Fraud probability above threshold,No immediate action
+TXN0003862,ACCT000655,CUST000004,0.5412804391321706,1,8,Info,28.76,Low,Fraud probability above threshold,No immediate action
+TXN0003752,ACCT000128,CUST000020,0.27043077867366433,0,30,Low,28.67,Low,high risk jurisdiction flag,No immediate action
+TXN0003516,ACCT000212,CUST000470,0.47743316029896843,0,13,Low,28.63,Low,No immediate priority indicators,No immediate action
+TXN0004116,ACCT000055,CUST000278,0.2625496249575647,0,30,Low,28.31,Low,high risk jurisdiction flag,No immediate action
+TXN0003488,ACCT000382,CUST000494,0.5267465258915797,1,8,Info,28.1,Low,Fraud probability above threshold,No immediate action
+TXN0003449,ACCT000198,CUST000384,0.2542913618382961,0,30,Low,27.94,Low,high risk jurisdiction flag,No immediate action
+TXN0002188,ACCT000559,CUST000321,0.2543071114260865,0,30,Low,27.94,Low,high risk jurisdiction flag,No immediate action
+TXN0002629,ACCT000672,CUST000159,0.2524564517131878,0,30,Low,27.86,Low,high risk jurisdiction flag,No immediate action
+TXN0000500,ACCT000178,CUST000186,0.5181455101888927,1,8,Info,27.72,Low,Fraud probability above threshold,No immediate action
+TXN0004386,ACCT000273,CUST000205,0.4494144197378774,0,13,Low,27.37,Low,No immediate priority indicators,No immediate action
+TXN0002862,ACCT000351,CUST000085,0.5101527224411705,1,8,Info,27.36,Low,Fraud probability above threshold,No immediate action
+TXN0003404,ACCT000057,CUST000051,0.3383978558246389,0,22,Low,27.33,Low,high risk jurisdiction flag,No immediate action
+TXN0003369,ACCT000501,CUST000310,0.2361792092091009,0,30,Low,27.13,Low,high risk jurisdiction flag,No immediate action
+TXN0000581,ACCT000469,CUST000097,0.5996464837183497,1,0,Info,26.98,Low,Fraud probability above threshold,No immediate action
+TXN0004310,ACCT000642,CUST000009,0.49751556748503817,0,8,Info,26.79,Low,No immediate priority indicators,No immediate action
+TXN0000311,ACCT000610,CUST000308,0.22280710211035662,0,30,Low,26.53,Low,high risk jurisdiction flag,No immediate action
+TXN0002114,ACCT000157,CUST000416,0.4303215580581496,0,13,Low,26.51,Low,No immediate priority indicators,No immediate action
+TXN0001388,ACCT000120,CUST000083,0.21891563544183065,0,30,Low,26.35,Low,high risk jurisdiction flag,No immediate action
+TXN0004321,ACCT000088,CUST000495,0.2163178081878765,0,30,Low,26.23,Low,high risk jurisdiction flag,No immediate action
+TXN0003353,ACCT000266,CUST000275,0.21459268474008536,0,30,Low,26.16,Low,high risk jurisdiction flag,No immediate action
+TXN0004895,ACCT000037,CUST000028,0.21090624654899706,0,30,Low,25.99,Low,high risk jurisdiction flag,No immediate action
+TXN0003271,ACCT000052,CUST000178,0.20372224361272442,0,30,Low,25.67,Low,high risk jurisdiction flag,No immediate action
+TXN0001176,ACCT000495,CUST000067,0.5038262109628909,1,5,Info,25.42,Low,Fraud probability above threshold,No immediate action
+TXN0002164,ACCT000582,CUST000190,0.19374393476075863,0,30,Low,25.22,Low,high risk jurisdiction flag,No immediate action
+TXN0001548,ACCT000632,CUST000224,0.4622624733245411,0,8,Info,25.2,Low,No immediate priority indicators,No immediate action
+TXN0004949,ACCT000156,CUST000110,0.19043753910399688,0,30,Low,25.07,Low,high risk jurisdiction flag,No immediate action
+TXN0003908,ACCT000104,CUST000247,0.4587640722172013,0,8,Info,25.04,Low,No immediate priority indicators,No immediate action
+TXN0001186,ACCT000492,CUST000237,0.4944196000235458,0,5,Info,25.0,Low,No immediate priority indicators,No immediate action
+TXN0001019,ACCT000129,CUST000223,0.18685467125475416,0,30,Low,24.91,Low,high risk jurisdiction flag,No immediate action
+TXN0000438,ACCT000096,CUST000177,0.18601935810911724,0,30,Low,24.87,Low,high risk jurisdiction flag,No immediate action
+TXN0003762,ACCT000686,CUST000426,0.1838504696199692,0,30,Low,24.77,Low,high risk jurisdiction flag,No immediate action
+TXN0003727,ACCT000081,CUST000270,0.4522903367852012,0,8,Info,24.75,Low,No immediate priority indicators,No immediate action
+TXN0003351,ACCT000261,CUST000063,0.18189773311676272,0,30,Low,24.69,Low,high risk jurisdiction flag,No immediate action
+TXN0003450,ACCT000467,CUST000360,0.1814964831916524,0,30,Low,24.67,Low,high risk jurisdiction flag,No immediate action
+TXN0002839,ACCT000572,CUST000354,0.44716793521505144,0,8,Info,24.52,Low,No immediate priority indicators,No immediate action
+TXN0001587,ACCT000539,CUST000218,0.17398659003602493,0,30,Low,24.33,Low,high risk jurisdiction flag,No immediate action
+TXN0004991,ACCT000654,CUST000169,0.17213381523632942,0,30,Low,24.25,Low,high risk jurisdiction flag,No immediate action
+TXN0000396,ACCT000535,CUST000125,0.43973094628590426,0,8,Info,24.19,Low,No immediate priority indicators,No immediate action
+TXN0004743,ACCT000040,CUST000496,0.170924306370902,0,30,Low,24.19,Low,high risk jurisdiction flag,No immediate action
+TXN0003196,ACCT000263,CUST000098,0.16809712106460184,0,30,Low,24.06,Low,high risk jurisdiction flag,No immediate action
+TXN0001806,ACCT000145,CUST000305,0.4365604219239521,0,8,Info,24.05,Low,No immediate priority indicators,No immediate action
+TXN0002152,ACCT000264,CUST000047,0.16715449766085547,0,30,Low,24.02,Low,high risk jurisdiction flag,No immediate action
+TXN0001293,ACCT000294,CUST000488,0.16656760321557254,0,30,Low,24.0,Low,high risk jurisdiction flag,No immediate action
+TXN0000246,ACCT000503,CUST000321,0.4303577513762283,0,8,Info,23.77,Low,No immediate priority indicators,No immediate action
+TXN0001047,ACCT000355,CUST000206,0.16137410716606426,0,30,Low,23.76,Low,high risk jurisdiction flag,No immediate action
+TXN0000389,ACCT000291,CUST000367,0.1566468754901209,0,30,Low,23.55,Low,high risk jurisdiction flag,No immediate action
+TXN0001845,ACCT000386,CUST000408,0.14682948731379697,0,30,Low,23.11,Low,high risk jurisdiction flag,No immediate action
+TXN0000730,ACCT000580,CUST000318,0.08105759879077339,0,35,Low,22.9,Low,high risk jurisdiction flag,No immediate action
+TXN0000418,ACCT000238,CUST000466,0.5088577739503491,1,0,Info,22.9,Low,Fraud probability above threshold,No immediate action
+TXN0000829,ACCT000220,CUST000229,0.41052211194767085,0,8,Info,22.87,Low,No immediate priority indicators,No immediate action
+TXN0000471,ACCT000180,CUST000023,0.4090011114176173,0,8,Info,22.81,Low,No immediate priority indicators,No immediate action
+TXN0001132,ACCT000647,CUST000270,0.07875702032273198,0,35,Low,22.79,Low,high risk jurisdiction flag,No immediate action
+TXN0000866,ACCT000039,CUST000409,0.139568244732556,0,30,Low,22.78,Low,high risk jurisdiction flag,No immediate action
+TXN0002196,ACCT000180,CUST000023,0.34521118482710095,0,13,Low,22.68,Low,No immediate priority indicators,No immediate action
+TXN0000258,ACCT000628,CUST000442,0.23397325474492667,0,22,Low,22.63,Low,high risk jurisdiction flag,No immediate action
+TXN0004068,ACCT000110,CUST000060,0.13443097381143712,0,30,Low,22.55,Low,high risk jurisdiction flag,No immediate action
+TXN0003409,ACCT000084,CUST000038,0.132332544373714,0,30,Low,22.45,Low,high risk jurisdiction flag,No immediate action
+TXN0003487,ACCT000351,CUST000085,0.3966447476591079,0,8,Info,22.25,Low,No immediate priority indicators,No immediate action
+TXN0001954,ACCT000002,CUST000113,0.39605415542493466,0,8,Info,22.22,Low,No immediate priority indicators,No immediate action
+TXN0004489,ACCT000281,CUST000097,0.12441379587508287,0,30,Low,22.1,Low,high risk jurisdiction flag,No immediate action
+TXN0004056,ACCT000113,CUST000320,0.39087737325109323,0,8,Info,21.99,Low,No immediate priority indicators,No immediate action
+TXN0002910,ACCT000037,CUST000028,0.11998328080385957,0,30,Low,21.9,Low,high risk jurisdiction flag,No immediate action
+TXN0001015,ACCT000690,CUST000233,0.38822398790566764,0,8,Info,21.87,Low,No immediate priority indicators,No immediate action
+TXN0004357,ACCT000113,CUST000320,0.38771110773243833,0,8,Info,21.85,Low,No immediate priority indicators,No immediate action
+TXN0000546,ACCT000611,CUST000433,0.3873965071773566,0,8,Info,21.83,Low,No immediate priority indicators,No immediate action
+TXN0004559,ACCT000645,CUST000035,0.11478675122993623,0,30,Low,21.67,Low,high risk jurisdiction flag,No immediate action
+TXN0003700,ACCT000299,CUST000282,0.11442299183162274,0,30,Low,21.65,Low,high risk jurisdiction flag,No immediate action
+TXN0004688,ACCT000526,CUST000382,0.11287397782369717,0,30,Low,21.58,Low,high risk jurisdiction flag,No immediate action
+TXN0001375,ACCT000695,CUST000161,0.10993773081493602,0,30,Low,21.45,Low,high risk jurisdiction flag,No immediate action
+TXN0000733,ACCT000581,CUST000449,0.10926035336286316,0,30,Low,21.42,Low,high risk jurisdiction flag,No immediate action
+TXN0002092,ACCT000338,CUST000018,0.316137987862611,0,13,Low,21.38,Low,No immediate priority indicators,No immediate action
+TXN0002408,ACCT000694,CUST000042,0.10706193879184525,0,30,Low,21.32,Low,high risk jurisdiction flag,No immediate action
+TXN0001710,ACCT000150,CUST000491,0.37399199602981303,0,8,Info,21.23,Low,No immediate priority indicators,No immediate action
+TXN0000103,ACCT000170,CUST000342,0.10435714739321134,0,30,Low,21.2,Low,high risk jurisdiction flag,No immediate action
+TXN0001196,ACCT000502,CUST000415,0.10336030044998074,0,30,Low,21.15,Low,high risk jurisdiction flag,No immediate action
+TXN0003988,ACCT000002,CUST000113,0.3686596101722866,0,8,Info,20.99,Low,No immediate priority indicators,No immediate action
+TXN0001581,ACCT000550,CUST000158,0.09920556311724979,0,30,Low,20.96,Low,high risk jurisdiction flag,No immediate action
+TXN0001570,ACCT000606,CUST000325,0.09520850969090389,0,30,Low,20.78,Low,high risk jurisdiction flag,No immediate action
+TXN0003061,ACCT000458,CUST000359,0.09287078198614628,0,30,Low,20.68,Low,high risk jurisdiction flag,No immediate action
+TXN0002552,ACCT000697,CUST000310,0.03035208700167833,0,35,Low,20.62,Low,high risk jurisdiction flag,No immediate action
+TXN0001363,ACCT000329,CUST000060,0.3594658264043557,0,8,Info,20.58,Low,No immediate priority indicators,No immediate action
+TXN0000753,ACCT000557,CUST000003,0.09072782963427158,0,30,Low,20.58,Low,high risk jurisdiction flag,No immediate action
+TXN0003079,ACCT000072,CUST000346,0.08953278675792982,0,30,Low,20.53,Low,high risk jurisdiction flag,No immediate action
+TXN0002242,ACCT000520,CUST000376,0.08938630961837993,0,30,Low,20.52,Low,high risk jurisdiction flag,No immediate action
+TXN0004149,ACCT000283,CUST000442,0.08821887023559861,0,30,Low,20.47,Low,high risk jurisdiction flag,No immediate action
+TXN0001148,ACCT000673,CUST000465,0.08421862294331657,0,30,Low,20.29,Low,high risk jurisdiction flag,No immediate action
+TXN0002699,ACCT000142,CUST000144,0.2918970264426662,0,13,Low,20.29,Low,No immediate priority indicators,No immediate action
+TXN0002325,ACCT000017,CUST000263,0.08377670313700741,0,30,Low,20.27,Low,high risk jurisdiction flag,No immediate action
+TXN0003294,ACCT000467,CUST000360,0.08291841853475095,0,30,Low,20.23,Low,high risk jurisdiction flag,No immediate action
+TXN0000761,ACCT000136,CUST000299,0.08277022521532479,0,30,Low,20.22,Low,high risk jurisdiction flag,No immediate action
+TXN0000108,ACCT000508,CUST000373,0.08130372688218163,0,30,Low,20.16,Low,high risk jurisdiction flag,No immediate action
+TXN0004973,ACCT000133,CUST000261,0.08078233168657095,0,30,Low,20.14,Low,high risk jurisdiction flag,No immediate action
+TXN0003319,ACCT000422,CUST000399,0.08062301880552243,0,30,Low,20.13,Low,high risk jurisdiction flag,No immediate action
+TXN0003584,ACCT000610,CUST000308,0.28685623366147256,0,13,Low,20.06,Low,No immediate priority indicators,No immediate action
+TXN0002827,ACCT000651,CUST000006,0.07897952198882485,0,30,Low,20.05,Low,high risk jurisdiction flag,No immediate action
+TXN0004380,ACCT000153,CUST000029,0.07895874426865807,0,30,Low,20.05,Low,high risk jurisdiction flag,No immediate action
+TXN0001841,ACCT000035,CUST000045,0.07786756760039813,0,30,Low,20.0,Low,high risk jurisdiction flag,No immediate action
+TXN0002928,ACCT000142,CUST000144,0.34577148593285334,0,8,Info,19.96,Low,No immediate priority indicators,No immediate action
+TXN0001366,ACCT000087,CUST000112,0.07574468522164558,0,30,Low,19.91,Low,high risk jurisdiction flag,No immediate action
+TXN0002520,ACCT000357,CUST000238,0.28357091478249347,0,13,Low,19.91,Low,No immediate priority indicators,No immediate action
+TXN0002684,ACCT000450,CUST000253,0.07535245799633833,0,30,Low,19.89,Low,high risk jurisdiction flag,No immediate action
+TXN0003156,ACCT000608,CUST000392,0.282584303013378,0,13,Low,19.87,Low,No immediate priority indicators,No immediate action
+TXN0001857,ACCT000333,CUST000412,0.07309339408845614,0,30,Low,19.79,Low,high risk jurisdiction flag,No immediate action
+TXN0003804,ACCT000504,CUST000298,0.07005289394201204,0,30,Low,19.65,Low,high risk jurisdiction flag,No immediate action
+TXN0004607,ACCT000005,CUST000267,0.3386162195257147,0,8,Info,19.64,Low,No immediate priority indicators,No immediate action
+TXN0002873,ACCT000247,CUST000217,0.0693171714422335,0,30,Low,19.62,Low,high risk jurisdiction flag,No immediate action
+TXN0001933,ACCT000310,CUST000190,0.06787253177452246,0,30,Low,19.55,Low,high risk jurisdiction flag,No immediate action
+TXN0000642,ACCT000631,CUST000036,0.06716213839596126,0,30,Low,19.52,Low,high risk jurisdiction flag,No immediate action
+TXN0004910,ACCT000493,CUST000413,0.2738458411091358,0,13,Low,19.47,Low,No immediate priority indicators,No immediate action
+TXN0001990,ACCT000469,CUST000097,0.3343256088668137,0,8,Info,19.44,Low,No immediate priority indicators,No immediate action
+TXN0000714,ACCT000635,CUST000326,0.06492603478589622,0,30,Low,19.42,Low,high risk jurisdiction flag,No immediate action
+TXN0003358,ACCT000677,CUST000373,0.06438437438556503,0,30,Low,19.4,Low,high risk jurisdiction flag,No immediate action
+TXN0002067,ACCT000063,CUST000394,0.3331871217263137,0,8,Info,19.39,Low,No immediate priority indicators,No immediate action
+TXN0001910,ACCT000469,CUST000097,0.33249349372592363,0,8,Info,19.36,Low,No immediate priority indicators,No immediate action
+TXN0000111,ACCT000155,CUST000123,0.06280341647815946,0,30,Low,19.33,Low,high risk jurisdiction flag,No immediate action
+TXN0000226,ACCT000460,CUST000438,0.061503843103932226,0,30,Low,19.27,Low,high risk jurisdiction flag,No immediate action
+TXN0002030,ACCT000341,CUST000390,0.06007044014095856,0,30,Low,19.2,Low,high risk jurisdiction flag,No immediate action
+TXN0001642,ACCT000551,CUST000208,0.05970924525801839,0,30,Low,19.19,Low,high risk jurisdiction flag,No immediate action
+TXN0002441,ACCT000690,CUST000233,0.3247014983836865,0,8,Info,19.01,Low,No immediate priority indicators,No immediate action
+TXN0004971,ACCT000465,CUST000372,0.32243361873659093,0,8,Info,18.91,Low,No immediate priority indicators,No immediate action
+TXN0004002,ACCT000653,CUST000329,0.05294363123851909,0,30,Low,18.88,Low,high risk jurisdiction flag,No immediate action
+TXN0001452,ACCT000555,CUST000425,0.052681356064895796,0,30,Low,18.87,Low,high risk jurisdiction flag,No immediate action
+TXN0003485,ACCT000020,CUST000263,0.05020424614128322,0,30,Low,18.76,Low,high risk jurisdiction flag,No immediate action
+TXN0004818,ACCT000376,CUST000043,0.04989563834722198,0,30,Low,18.75,Low,high risk jurisdiction flag,No immediate action
+TXN0002866,ACCT000121,CUST000011,0.04856932961236889,0,30,Low,18.69,Low,high risk jurisdiction flag,No immediate action
+TXN0004773,ACCT000450,CUST000253,0.047975380805850815,0,30,Low,18.66,Low,high risk jurisdiction flag,No immediate action
+TXN0002902,ACCT000060,CUST000068,0.04759408398965198,0,30,Low,18.64,Low,high risk jurisdiction flag,No immediate action
+TXN0000658,ACCT000060,CUST000068,0.04594345903099683,0,30,Low,18.57,Low,high risk jurisdiction flag,No immediate action
+TXN0004139,ACCT000339,CUST000139,0.045638468046065625,0,30,Low,18.55,Low,high risk jurisdiction flag,No immediate action
+TXN0000914,ACCT000161,CUST000065,0.04539356283772164,0,30,Low,18.54,Low,high risk jurisdiction flag,No immediate action
+TXN0003454,ACCT000500,CUST000050,0.04510480729229432,0,30,Low,18.53,Low,high risk jurisdiction flag,No immediate action
+TXN0000631,ACCT000095,CUST000426,0.2527042809140775,0,13,Low,18.52,Low,No immediate priority indicators,No immediate action
+TXN0001262,ACCT000093,CUST000264,0.04403517997478576,0,30,Low,18.48,Low,high risk jurisdiction flag,No immediate action
+TXN0004001,ACCT000186,CUST000220,0.2515342185749379,0,13,Low,18.47,Low,No immediate priority indicators,No immediate action
+TXN0001229,ACCT000069,CUST000158,0.043809665631144315,0,30,Low,18.47,Low,high risk jurisdiction flag,No immediate action
+TXN0002542,ACCT000494,CUST000328,0.043149232042231596,0,30,Low,18.44,Low,high risk jurisdiction flag,No immediate action
+TXN0001848,ACCT000216,CUST000216,0.04310453618004418,0,30,Low,18.44,Low,high risk jurisdiction flag,No immediate action
+TXN0001197,ACCT000313,CUST000150,0.04017517277597445,0,30,Low,18.31,Low,high risk jurisdiction flag,No immediate action
+TXN0004528,ACCT000673,CUST000465,0.04031774447320067,0,30,Low,18.31,Low,high risk jurisdiction flag,No immediate action
+TXN0003605,ACCT000104,CUST000247,0.040092556422471365,0,30,Low,18.3,Low,high risk jurisdiction flag,No immediate action
+TXN0001016,ACCT000613,CUST000231,0.037246430910370575,0,30,Low,18.18,Low,high risk jurisdiction flag,No immediate action
+TXN0003050,ACCT000278,CUST000055,0.03583796717100302,0,30,Low,18.11,Low,high risk jurisdiction flag,No immediate action
+TXN0000755,ACCT000582,CUST000190,0.3043328394329124,0,8,Info,18.09,Low,No immediate priority indicators,No immediate action
+TXN0003389,ACCT000544,CUST000372,0.24279777278178355,0,13,Low,18.08,Low,No immediate priority indicators,No immediate action
+TXN0003984,ACCT000104,CUST000247,0.034472123342311575,0,30,Low,18.05,Low,high risk jurisdiction flag,No immediate action
+TXN0004674,ACCT000077,CUST000290,0.03378796595507161,0,30,Low,18.02,Low,high risk jurisdiction flag,No immediate action
+TXN0003975,ACCT000601,CUST000104,0.30203795763410474,0,8,Info,17.99,Low,No immediate priority indicators,No immediate action
+TXN0003674,ACCT000007,CUST000055,0.30052738269080104,0,8,Info,17.92,Low,No immediate priority indicators,No immediate action
+TXN0002053,ACCT000617,CUST000422,0.03159157965044519,0,30,Low,17.92,Low,high risk jurisdiction flag,No immediate action
+TXN0003064,ACCT000448,CUST000466,0.030366253196089394,0,30,Low,17.87,Low,high risk jurisdiction flag,No immediate action
+TXN0001040,ACCT000174,CUST000325,0.02909118282381808,0,30,Low,17.81,Low,high risk jurisdiction flag,No immediate action
+TXN0002636,ACCT000504,CUST000298,0.028321424024627367,0,30,Low,17.77,Low,high risk jurisdiction flag,No immediate action
+TXN0001285,ACCT000410,CUST000259,0.02804900264954608,0,30,Low,17.76,Low,high risk jurisdiction flag,No immediate action
+TXN0002216,ACCT000569,CUST000075,0.29476224835962184,0,8,Info,17.66,Low,No immediate priority indicators,No immediate action
+TXN0000133,ACCT000152,CUST000370,0.02555376755727761,0,30,Low,17.65,Low,high risk jurisdiction flag,No immediate action
+TXN0002857,ACCT000254,CUST000138,0.02366187688035134,0,30,Low,17.56,Low,high risk jurisdiction flag,No immediate action
+TXN0001605,ACCT000633,CUST000457,0.29098177493544874,0,8,Info,17.49,Low,No immediate priority indicators,No immediate action
+TXN0001601,ACCT000113,CUST000320,0.29085290209790776,0,8,Info,17.49,Low,No immediate priority indicators,No immediate action
+TXN0003761,ACCT000468,CUST000304,0.2897684979900909,0,8,Info,17.44,Low,No immediate priority indicators,No immediate action
+TXN0003356,ACCT000399,CUST000325,0.016343141360069,0,30,Low,17.24,Low,high risk jurisdiction flag,No immediate action
+TXN0004407,ACCT000217,CUST000100,0.015242330446667729,0,30,Low,17.19,Low,high risk jurisdiction flag,No immediate action
+TXN0004451,ACCT000479,CUST000103,0.21998143421975364,0,13,Low,17.05,Low,No immediate priority indicators,No immediate action
+TXN0003311,ACCT000655,CUST000004,0.28032444602466733,0,8,Info,17.01,Low,No immediate priority indicators,No immediate action
+TXN0004800,ACCT000287,CUST000323,0.27880064643520797,0,8,Info,16.95,Low,No immediate priority indicators,No immediate action
+TXN0002872,ACCT000632,CUST000224,0.3143980682826511,0,5,Info,16.9,Low,No immediate priority indicators,No immediate action
+TXN0004334,ACCT000409,CUST000398,0.2765347952712322,0,8,Info,16.84,Low,No immediate priority indicators,No immediate action
+TXN0003613,ACCT000403,CUST000047,0.27537174374829876,0,8,Info,16.79,Low,No immediate priority indicators,No immediate action
+TXN0002563,ACCT000189,CUST000380,0.27520266501917917,0,8,Info,16.78,Low,No immediate priority indicators,No immediate action
+TXN0003363,ACCT000674,CUST000103,0.2743407988579661,0,8,Info,16.75,Low,No immediate priority indicators,No immediate action
+TXN0004900,ACCT000098,CUST000340,0.3690423795445759,0,0,Info,16.61,Low,No immediate priority indicators,No immediate action
+TXN0000054,ACCT000484,CUST000411,0.2692199578945111,0,8,Info,16.51,Low,No immediate priority indicators,No immediate action
+TXN0000720,ACCT000186,CUST000220,0.2684509417485409,0,8,Info,16.48,Low,No immediate priority indicators,No immediate action
+TXN0002370,ACCT000126,CUST000347,0.26500672907992867,0,8,Info,16.33,Low,No immediate priority indicators,No immediate action
+TXN0000783,ACCT000409,CUST000398,0.26307576975373637,0,8,Info,16.24,Low,No immediate priority indicators,No immediate action
+TXN0003361,ACCT000334,CUST000123,0.26260142387710633,0,8,Info,16.22,Low,No immediate priority indicators,No immediate action
+TXN0002934,ACCT000356,CUST000295,0.3570585093910515,0,0,Info,16.07,Low,No immediate priority indicators,No immediate action
+TXN0001818,ACCT000324,CUST000075,0.08544820604966841,0,22,Low,15.95,Low,high risk jurisdiction flag,No immediate action
+TXN0000240,ACCT000001,CUST000473,0.25569344121175613,0,8,Info,15.91,Low,No immediate priority indicators,No immediate action
+TXN0003863,ACCT000407,CUST000235,0.2554615310713892,0,8,Info,15.9,Low,No immediate priority indicators,No immediate action
+TXN0000930,ACCT000044,CUST000400,0.35172044921810397,0,0,Info,15.83,Low,No immediate priority indicators,No immediate action
+TXN0002750,ACCT000666,CUST000330,0.2517552611898514,0,8,Info,15.73,Low,No immediate priority indicators,No immediate action
+TXN0000307,ACCT000365,CUST000457,0.25120212862764396,0,8,Info,15.7,Low,No immediate priority indicators,No immediate action
+TXN0002011,ACCT000223,CUST000343,0.24658174823618306,0,8,Info,15.5,Low,No immediate priority indicators,No immediate action
+TXN0001881,ACCT000048,CUST000025,0.24544951037696408,0,8,Info,15.45,Low,No immediate priority indicators,No immediate action
+TXN0004634,ACCT000381,CUST000078,0.24509368495367873,0,8,Info,15.43,Low,No immediate priority indicators,No immediate action
+TXN0000050,ACCT000198,CUST000384,0.24307902699783748,0,8,Info,15.34,Low,No immediate priority indicators,No immediate action
+TXN0004168,ACCT000607,CUST000013,0.2426944651620637,0,8,Info,15.32,Low,No immediate priority indicators,No immediate action
+TXN0003087,ACCT000433,CUST000170,0.24144490551300815,0,8,Info,15.27,Low,No immediate priority indicators,No immediate action
+TXN0002003,ACCT000620,CUST000135,0.24048241909541415,0,8,Info,15.22,Low,No immediate priority indicators,No immediate action
+TXN0003872,ACCT000696,CUST000196,0.23990626347429359,0,8,Info,15.2,Low,No immediate priority indicators,No immediate action
+TXN0001525,ACCT000081,CUST000270,0.3372149176170283,0,0,Info,15.17,Low,No immediate priority indicators,No immediate action
+TXN0001206,ACCT000116,CUST000366,0.2378731369111282,0,8,Info,15.1,Low,No immediate priority indicators,No immediate action
+TXN0000148,ACCT000184,CUST000217,0.23688687481078546,0,8,Info,15.06,Low,No immediate priority indicators,No immediate action
+TXN0004547,ACCT000661,CUST000120,0.3317710896448408,0,0,Info,14.93,Low,No immediate priority indicators,No immediate action
+TXN0000475,ACCT000306,CUST000075,0.23329422589027954,0,8,Info,14.9,Low,No immediate priority indicators,No immediate action
+TXN0003423,ACCT000648,CUST000362,0.23256833100588012,0,8,Info,14.87,Low,No immediate priority indicators,No immediate action
+TXN0001463,ACCT000540,CUST000118,0.23087389332029473,0,8,Info,14.79,Low,No immediate priority indicators,No immediate action
+TXN0003101,ACCT000510,CUST000043,0.22747445687620393,0,8,Info,14.64,Low,No immediate priority indicators,No immediate action
+TXN0004541,ACCT000007,CUST000055,0.3216429315831172,0,0,Info,14.47,Low,No immediate priority indicators,No immediate action
+TXN0004719,ACCT000493,CUST000413,0.22329373095474053,0,8,Info,14.45,Low,No immediate priority indicators,No immediate action
+TXN0001979,ACCT000106,CUST000031,0.22108074922869536,0,8,Info,14.35,Low,No immediate priority indicators,No immediate action
+TXN0004514,ACCT000019,CUST000284,0.049754403037446854,0,22,Low,14.34,Low,high risk jurisdiction flag,No immediate action
+TXN0003012,ACCT000264,CUST000047,0.15946479228310254,0,13,Low,14.33,Low,No immediate priority indicators,No immediate action
+TXN0000222,ACCT000498,CUST000490,0.215926967270658,0,8,Info,14.12,Low,No immediate priority indicators,No immediate action
+TXN0004057,ACCT000252,CUST000109,0.21374852150865956,0,8,Info,14.02,Low,No immediate priority indicators,No immediate action
+TXN0000690,ACCT000100,CUST000386,0.2137127289960853,0,8,Info,14.02,Low,No immediate priority indicators,No immediate action
+TXN0000828,ACCT000056,CUST000258,0.21128309594297165,0,8,Info,13.91,Low,No immediate priority indicators,No immediate action
+TXN0003967,ACCT000356,CUST000295,0.20703123587694414,0,8,Info,13.72,Low,No immediate priority indicators,No immediate action
+TXN0003130,ACCT000693,CUST000133,0.2071234241258935,0,8,Info,13.72,Low,No immediate priority indicators,No immediate action
+TXN0002456,ACCT000334,CUST000123,0.2063481720887995,0,8,Info,13.69,Low,No immediate priority indicators,No immediate action
+TXN0003076,ACCT000361,CUST000258,0.30343897353083504,0,0,Info,13.65,Low,No immediate priority indicators,No immediate action
+TXN0002200,ACCT000667,CUST000152,0.20500395439959812,0,8,Info,13.63,Low,No immediate priority indicators,No immediate action
+TXN0004757,ACCT000180,CUST000023,0.20256453282742867,0,8,Info,13.52,Low,No immediate priority indicators,No immediate action
+TXN0004137,ACCT000300,CUST000211,0.1995952874240384,0,8,Info,13.38,Low,No immediate priority indicators,No immediate action
+TXN0003828,ACCT000360,CUST000349,0.1988111700591214,0,8,Info,13.35,Low,No immediate priority indicators,No immediate action
+TXN0000949,ACCT000244,CUST000229,0.19812779723685595,0,8,Info,13.32,Low,No immediate priority indicators,No immediate action
+TXN0001380,ACCT000516,CUST000056,0.19755836696148193,0,8,Info,13.29,Low,No immediate priority indicators,No immediate action
+TXN0001623,ACCT000197,CUST000038,0.13474817609074208,0,13,Low,13.21,Low,No immediate priority indicators,No immediate action
+TXN0004183,ACCT000337,CUST000439,0.19457463369820008,0,8,Info,13.16,Low,No immediate priority indicators,No immediate action
+TXN0000958,ACCT000286,CUST000309,0.194000723167553,0,8,Info,13.13,Low,No immediate priority indicators,No immediate action
+TXN0004268,ACCT000520,CUST000376,0.19362667971430478,0,8,Info,13.11,Low,No immediate priority indicators,No immediate action
+TXN0000679,ACCT000044,CUST000400,0.19344132705391429,0,8,Info,13.1,Low,No immediate priority indicators,No immediate action
+TXN0002824,ACCT000039,CUST000409,0.1928532881497547,0,8,Info,13.08,Low,No immediate priority indicators,No immediate action
+TXN0002585,ACCT000424,CUST000485,0.1928748326793352,0,8,Info,13.08,Low,No immediate priority indicators,No immediate action
+TXN0001387,ACCT000683,CUST000085,0.1923865241786173,0,8,Info,13.06,Low,No immediate priority indicators,No immediate action
+TXN0002467,ACCT000096,CUST000177,0.1301786272585811,0,13,Low,13.01,Low,No immediate priority indicators,No immediate action
+TXN0004306,ACCT000168,CUST000414,0.1910316021115123,0,8,Info,13.0,Low,No immediate priority indicators,No immediate action
+TXN0003588,ACCT000257,CUST000166,0.18773984186780887,0,8,Info,12.85,Low,No immediate priority indicators,No immediate action
+TXN0003899,ACCT000113,CUST000320,0.18687197782128562,0,8,Info,12.81,Low,No immediate priority indicators,No immediate action
+TXN0002047,ACCT000278,CUST000055,0.013834311272490083,0,22,Low,12.72,Low,high risk jurisdiction flag,No immediate action
+TXN0003791,ACCT000049,CUST000110,0.18419609183774432,0,8,Info,12.69,Low,No immediate priority indicators,No immediate action
+TXN0001225,ACCT000039,CUST000409,0.18430363198587113,0,8,Info,12.69,Low,No immediate priority indicators,No immediate action
+TXN0003834,ACCT000366,CUST000282,0.18383707208078767,0,8,Info,12.67,Low,No immediate priority indicators,No immediate action
+TXN0000174,ACCT000365,CUST000457,0.18318741817038842,0,8,Info,12.64,Low,No immediate priority indicators,No immediate action
+TXN0002861,ACCT000103,CUST000005,0.17952687993482064,0,8,Info,12.48,Low,No immediate priority indicators,No immediate action
+TXN0003664,ACCT000511,CUST000199,0.17933234766121628,0,8,Info,12.47,Low,No immediate priority indicators,No immediate action
+TXN0000585,ACCT000664,CUST000057,0.17941470580823923,0,8,Info,12.47,Low,No immediate priority indicators,No immediate action
+TXN0002211,ACCT000322,CUST000353,0.17824802978161924,0,8,Info,12.42,Low,No immediate priority indicators,No immediate action
+TXN0004261,ACCT000360,CUST000349,0.177744178889438,0,8,Info,12.4,Low,No immediate priority indicators,No immediate action
+TXN0004010,ACCT000446,CUST000065,0.17691184990529243,0,8,Info,12.36,Low,No immediate priority indicators,No immediate action
+TXN0003815,ACCT000299,CUST000282,0.1755766200336083,0,8,Info,12.3,Low,No immediate priority indicators,No immediate action
+TXN0002403,ACCT000430,CUST000129,0.17543734471067507,0,8,Info,12.29,Low,No immediate priority indicators,No immediate action
+TXN0000920,ACCT000189,CUST000380,0.17522399252511808,0,8,Info,12.29,Low,No immediate priority indicators,No immediate action
+TXN0002510,ACCT000647,CUST000270,0.17343955314408074,0,8,Info,12.2,Low,No immediate priority indicators,No immediate action
+TXN0000580,ACCT000413,CUST000345,0.17329536578447383,0,8,Info,12.2,Low,No immediate priority indicators,No immediate action
+TXN0001874,ACCT000576,CUST000003,0.17207997207252257,0,8,Info,12.14,Low,No immediate priority indicators,No immediate action
+TXN0004197,ACCT000099,CUST000377,0.2685592245495,0,0,Info,12.09,Low,No immediate priority indicators,No immediate action
+TXN0000843,ACCT000261,CUST000063,0.1708948998821064,0,8,Info,12.09,Low,No immediate priority indicators,No immediate action
+TXN0004661,ACCT000354,CUST000343,0.1707687887523089,0,8,Info,12.08,Low,No immediate priority indicators,No immediate action
+TXN0003759,ACCT000366,CUST000282,0.17029326718244353,0,8,Info,12.06,Low,No immediate priority indicators,No immediate action
+TXN0002311,ACCT000530,CUST000140,0.16910936078292152,0,8,Info,12.01,Low,No immediate priority indicators,No immediate action
+TXN0003016,ACCT000584,CUST000463,0.1689785275319532,0,8,Info,12.0,Low,No immediate priority indicators,No immediate action
+TXN0003317,ACCT000218,CUST000374,0.16823285193912738,0,8,Info,11.97,Low,No immediate priority indicators,No immediate action
+TXN0002122,ACCT000667,CUST000152,0.1674704657916411,0,8,Info,11.94,Low,No immediate priority indicators,No immediate action
+TXN0000881,ACCT000081,CUST000270,0.16761467737308927,0,8,Info,11.94,Low,No immediate priority indicators,No immediate action
+TXN0004866,ACCT000471,CUST000373,0.16732566558304005,0,8,Info,11.93,Low,No immediate priority indicators,No immediate action
+TXN0001700,ACCT000584,CUST000463,0.1668639026856804,0,8,Info,11.91,Low,No immediate priority indicators,No immediate action
+TXN0000610,ACCT000608,CUST000392,0.16642793263190517,0,8,Info,11.89,Low,No immediate priority indicators,No immediate action
+TXN0003357,ACCT000530,CUST000140,0.16582972904013535,0,8,Info,11.86,Low,No immediate priority indicators,No immediate action
+TXN0000042,ACCT000671,CUST000270,0.16450445137404063,0,8,Info,11.8,Low,No immediate priority indicators,No immediate action
+TXN0002083,ACCT000188,CUST000123,0.16400352577637126,0,8,Info,11.78,Low,No immediate priority indicators,No immediate action
+TXN0003329,ACCT000446,CUST000065,0.16306890691123838,0,8,Info,11.74,Low,No immediate priority indicators,No immediate action
+TXN0003917,ACCT000366,CUST000282,0.16148644578090296,0,8,Info,11.67,Low,No immediate priority indicators,No immediate action
+TXN0002258,ACCT000502,CUST000415,0.16070825149569062,0,8,Info,11.63,Low,No immediate priority indicators,No immediate action
+TXN0002705,ACCT000115,CUST000286,0.1606185934984031,0,8,Info,11.63,Low,No immediate priority indicators,No immediate action
+TXN0001322,ACCT000345,CUST000437,0.16033759536904468,0,8,Info,11.62,Low,No immediate priority indicators,No immediate action
+TXN0003242,ACCT000207,CUST000206,0.257763361100544,0,0,Info,11.6,Low,No immediate priority indicators,No immediate action
+TXN0001824,ACCT000039,CUST000409,0.1585742199012912,0,8,Info,11.54,Low,No immediate priority indicators,No immediate action
+TXN0001574,ACCT000544,CUST000372,0.15722764855807533,0,8,Info,11.48,Low,No immediate priority indicators,No immediate action
+TXN0004044,ACCT000195,CUST000294,0.09576099683524168,0,13,Low,11.46,Low,No immediate priority indicators,No immediate action
+TXN0000834,ACCT000622,CUST000299,0.1545115009595266,0,8,Info,11.35,Low,No immediate priority indicators,No immediate action
+TXN0004799,ACCT000216,CUST000216,0.1535883080247014,0,8,Info,11.31,Low,No immediate priority indicators,No immediate action
+TXN0000926,ACCT000381,CUST000078,0.15227239532988598,0,8,Info,11.25,Low,No immediate priority indicators,No immediate action
+TXN0002893,ACCT000228,CUST000053,0.15011524980361893,0,8,Info,11.16,Low,No immediate priority indicators,No immediate action
+TXN0003644,ACCT000545,CUST000297,0.24742714072286195,0,0,Info,11.13,Low,No immediate priority indicators,No immediate action
+TXN0003714,ACCT000140,CUST000462,0.1492627005487675,0,8,Info,11.12,Low,No immediate priority indicators,No immediate action
+TXN0001497,ACCT000280,CUST000064,0.24667904739001262,0,0,Info,11.1,Low,No immediate priority indicators,No immediate action
+TXN0001152,ACCT000046,CUST000444,0.1487402674701997,0,8,Info,11.09,Low,No immediate priority indicators,No immediate action
+TXN0003530,ACCT000246,CUST000011,0.14853462167607076,0,8,Info,11.08,Low,No immediate priority indicators,No immediate action
+TXN0001477,ACCT000455,CUST000341,0.14666105909901697,0,8,Info,11.0,Low,No immediate priority indicators,No immediate action
+TXN0001571,ACCT000116,CUST000366,0.14606619854161937,0,8,Info,10.97,Low,No immediate priority indicators,No immediate action
+TXN0003857,ACCT000268,CUST000165,0.14468651493782614,0,8,Info,10.91,Low,No immediate priority indicators,No immediate action
+TXN0000183,ACCT000016,CUST000350,0.14410496850526752,0,8,Info,10.88,Low,No immediate priority indicators,No immediate action
+TXN0002703,ACCT000314,CUST000484,0.1433073015104383,0,8,Info,10.85,Low,No immediate priority indicators,No immediate action
+TXN0003434,ACCT000360,CUST000349,0.24051516876128584,0,0,Info,10.82,Low,No immediate priority indicators,No immediate action
+TXN0001042,ACCT000246,CUST000011,0.14268476432084498,0,8,Info,10.82,Low,No immediate priority indicators,No immediate action
+TXN0004351,ACCT000606,CUST000325,0.14270562213217639,0,8,Info,10.82,Low,No immediate priority indicators,No immediate action
+TXN0003202,ACCT000471,CUST000373,0.141678177187879,0,8,Info,10.78,Low,No immediate priority indicators,No immediate action
+TXN0000285,ACCT000682,CUST000438,0.1416064840692239,0,8,Info,10.77,Low,No immediate priority indicators,No immediate action
+TXN0000472,ACCT000638,CUST000366,0.23877816470840585,0,0,Info,10.75,Low,No immediate priority indicators,No immediate action
+TXN0001396,ACCT000692,CUST000024,0.14111318257311067,0,8,Info,10.75,Low,No immediate priority indicators,No immediate action
+TXN0004747,ACCT000100,CUST000386,0.13964458319356413,0,8,Info,10.68,Low,No immediate priority indicators,No immediate action
+TXN0000542,ACCT000675,CUST000233,0.1393566172139128,0,8,Info,10.67,Low,No immediate priority indicators,No immediate action
+TXN0004082,ACCT000397,CUST000011,0.1393501083833409,0,8,Info,10.67,Low,No immediate priority indicators,No immediate action
+TXN0004438,ACCT000273,CUST000205,0.13906280307812663,0,8,Info,10.66,Low,No immediate priority indicators,No immediate action
+TXN0004043,ACCT000497,CUST000428,0.23594060040441558,0,0,Info,10.62,Low,No immediate priority indicators,No immediate action
+TXN0003636,ACCT000334,CUST000123,0.13797004520880884,0,8,Info,10.61,Low,No immediate priority indicators,No immediate action
+TXN0004967,ACCT000207,CUST000206,0.13746483984315683,0,8,Info,10.59,Low,No immediate priority indicators,No immediate action
+TXN0001947,ACCT000615,CUST000099,0.13736849392100206,0,8,Info,10.58,Low,No immediate priority indicators,No immediate action
+TXN0004516,ACCT000397,CUST000011,0.2343356530434443,0,0,Info,10.55,Low,No immediate priority indicators,No immediate action
+TXN0003145,ACCT000508,CUST000373,0.13605321470761647,0,8,Info,10.52,Low,No immediate priority indicators,No immediate action
+TXN0001301,ACCT000240,CUST000019,0.13403880083108755,0,8,Info,10.43,Low,No immediate priority indicators,No immediate action
+TXN0001408,ACCT000430,CUST000129,0.13396802764214225,0,8,Info,10.43,Low,No immediate priority indicators,No immediate action
+TXN0000241,ACCT000173,CUST000477,0.1334229667294791,0,8,Info,10.4,Low,No immediate priority indicators,No immediate action
+TXN0003506,ACCT000440,CUST000092,0.1333601867375398,0,8,Info,10.4,Low,No immediate priority indicators,No immediate action
+TXN0001393,ACCT000687,CUST000196,0.13264649713411228,0,8,Info,10.37,Low,No immediate priority indicators,No immediate action
+TXN0000672,ACCT000651,CUST000006,0.23027167922303707,0,0,Info,10.36,Low,No immediate priority indicators,No immediate action
+TXN0004735,ACCT000368,CUST000441,0.13194451492365356,0,8,Info,10.34,Low,No immediate priority indicators,No immediate action
+TXN0000182,ACCT000205,CUST000156,0.1311079003591043,0,8,Info,10.3,Low,No immediate priority indicators,No immediate action
+TXN0001073,ACCT000084,CUST000038,0.1305859198629191,0,8,Info,10.28,Low,No immediate priority indicators,No immediate action
+TXN0002931,ACCT000610,CUST000308,0.13070590086125816,0,8,Info,10.28,Low,No immediate priority indicators,No immediate action
+TXN0004641,ACCT000515,CUST000268,0.12926735218137936,0,8,Info,10.22,Low,No immediate priority indicators,No immediate action
+TXN0000022,ACCT000273,CUST000205,0.1286994054710089,0,8,Info,10.19,Low,No immediate priority indicators,No immediate action
+TXN0003218,ACCT000455,CUST000341,0.12752599097043088,0,8,Info,10.14,Low,No immediate priority indicators,No immediate action
+TXN0004109,ACCT000677,CUST000373,0.12704915925119808,0,8,Info,10.12,Low,No immediate priority indicators,No immediate action
+TXN0004171,ACCT000044,CUST000400,0.12617448755923302,0,8,Info,10.08,Low,No immediate priority indicators,No immediate action
+TXN0000474,ACCT000363,CUST000289,0.1253301314140991,0,8,Info,10.04,Low,No immediate priority indicators,No immediate action
+TXN0003524,ACCT000238,CUST000466,0.12511277238719926,0,8,Info,10.03,Low,No immediate priority indicators,No immediate action
+TXN0002339,ACCT000139,CUST000055,0.12472598701774437,0,8,Info,10.01,Low,No immediate priority indicators,No immediate action
+TXN0002265,ACCT000412,CUST000169,0.06313030044408778,0,13,Low,9.99,Info,No immediate priority indicators,No immediate action
+TXN0004715,ACCT000318,CUST000462,0.12401066128938716,0,8,Info,9.98,Info,No immediate priority indicators,No immediate action
+TXN0002736,ACCT000696,CUST000196,0.22121272333510256,0,0,Info,9.95,Info,No immediate priority indicators,No immediate action
+TXN0000190,ACCT000479,CUST000103,0.22048435786432308,0,0,Info,9.92,Info,No immediate priority indicators,No immediate action
+TXN0000589,ACCT000336,CUST000428,0.12274403782881509,0,8,Info,9.92,Info,No immediate priority indicators,No immediate action
+TXN0004549,ACCT000159,CUST000262,0.061362964984190825,0,13,Low,9.91,Info,No immediate priority indicators,No immediate action
+TXN0002782,ACCT000458,CUST000359,0.12168301917224228,0,8,Info,9.88,Info,No immediate priority indicators,No immediate action
+TXN0004646,ACCT000270,CUST000275,0.12160789115051984,0,8,Info,9.87,Info,No immediate priority indicators,No immediate action
+TXN0000394,ACCT000245,CUST000009,0.12141674652738772,0,8,Info,9.86,Info,No immediate priority indicators,No immediate action
+TXN0003578,ACCT000353,CUST000128,0.12062851527268444,0,8,Info,9.83,Info,No immediate priority indicators,No immediate action
+TXN0000759,ACCT000593,CUST000088,0.11936264116420862,0,8,Info,9.77,Info,No immediate priority indicators,No immediate action
+TXN0002331,ACCT000287,CUST000323,0.2171839371078317,0,0,Info,9.77,Info,No immediate priority indicators,No immediate action
+TXN0004722,ACCT000016,CUST000350,0.11903367220537081,0,8,Info,9.76,Info,No immediate priority indicators,No immediate action
+TXN0002622,ACCT000319,CUST000197,0.11852497208990583,0,8,Info,9.73,Info,No immediate priority indicators,No immediate action
+TXN0001817,ACCT000246,CUST000011,0.21629308909311107,0,0,Info,9.73,Info,No immediate priority indicators,No immediate action
+TXN0003501,ACCT000257,CUST000166,0.11730069119284217,0,8,Info,9.68,Info,No immediate priority indicators,No immediate action
+TXN0004887,ACCT000056,CUST000258,0.11718436256287008,0,8,Info,9.67,Info,No immediate priority indicators,No immediate action
+TXN0004384,ACCT000297,CUST000435,0.1167252979413728,0,8,Info,9.65,Info,No immediate priority indicators,No immediate action
+TXN0003663,ACCT000455,CUST000341,0.11649388889517577,0,8,Info,9.64,Info,No immediate priority indicators,No immediate action
+TXN0000896,ACCT000344,CUST000004,0.11645979100187555,0,8,Info,9.64,Info,No immediate priority indicators,No immediate action
+TXN0002541,ACCT000644,CUST000483,0.11643947587957623,0,8,Info,9.64,Info,No immediate priority indicators,No immediate action
+TXN0003003,ACCT000437,CUST000080,0.1162150012581886,0,8,Info,9.63,Info,No immediate priority indicators,No immediate action
+TXN0002936,ACCT000119,CUST000452,0.21401114492151183,0,0,Info,9.63,Info,No immediate priority indicators,No immediate action
+TXN0001390,ACCT000487,CUST000457,0.11442565446615215,0,8,Info,9.55,Info,No immediate priority indicators,No immediate action
+TXN0002998,ACCT000142,CUST000144,0.21221664601875045,0,0,Info,9.55,Info,No immediate priority indicators,No immediate action
+TXN0002978,ACCT000658,CUST000305,0.11356850482335913,0,8,Info,9.51,Info,No immediate priority indicators,No immediate action
+TXN0002770,ACCT000437,CUST000080,0.11323082264607925,0,8,Info,9.5,Info,No immediate priority indicators,No immediate action
+TXN0001686,ACCT000284,CUST000491,0.11274118769638419,0,8,Info,9.47,Info,No immediate priority indicators,No immediate action
+TXN0004615,ACCT000338,CUST000018,0.2101928106625572,0,0,Info,9.46,Info,No immediate priority indicators,No immediate action
+TXN0003817,ACCT000642,CUST000009,0.11190812204697716,0,8,Info,9.44,Info,No immediate priority indicators,No immediate action
+TXN0001018,ACCT000008,CUST000041,0.11205829044276712,0,8,Info,9.44,Info,No immediate priority indicators,No immediate action
+TXN0000982,ACCT000585,CUST000337,0.11169958103825867,0,8,Info,9.43,Info,No immediate priority indicators,No immediate action
+TXN0000596,ACCT000471,CUST000373,0.10970421938092968,0,8,Info,9.34,Info,No immediate priority indicators,No immediate action
+TXN0004141,ACCT000375,CUST000356,0.2071201424163905,0,0,Info,9.32,Info,No immediate priority indicators,No immediate action
+TXN0000256,ACCT000644,CUST000483,0.047802404056039006,0,13,Low,9.3,Info,No immediate priority indicators,No immediate action
+TXN0003739,ACCT000241,CUST000376,0.1086151341720256,0,8,Info,9.29,Info,No immediate priority indicators,No immediate action
+TXN0000117,ACCT000574,CUST000309,0.10780422986272165,0,8,Info,9.25,Info,No immediate priority indicators,No immediate action
+TXN0004475,ACCT000584,CUST000463,0.1068611369518154,0,8,Info,9.21,Info,No immediate priority indicators,No immediate action
+TXN0001026,ACCT000393,CUST000063,0.10660925711992762,0,8,Info,9.2,Info,No immediate priority indicators,No immediate action
+TXN0003593,ACCT000547,CUST000057,0.10593786284522165,0,8,Info,9.17,Info,No immediate priority indicators,No immediate action
+TXN0001429,ACCT000675,CUST000233,0.10581320380292043,0,8,Info,9.16,Info,No immediate priority indicators,No immediate action
+TXN0004303,ACCT000277,CUST000199,0.10537192159054373,0,8,Info,9.14,Info,No immediate priority indicators,No immediate action
+TXN0000373,ACCT000233,CUST000422,0.10496126423680566,0,8,Info,9.12,Info,No immediate priority indicators,No immediate action
+TXN0000038,ACCT000186,CUST000220,0.10449086850325813,0,8,Info,9.1,Info,No immediate priority indicators,No immediate action
+TXN0001358,ACCT000559,CUST000321,0.10423725218215518,0,8,Info,9.09,Info,No immediate priority indicators,No immediate action
+TXN0001859,ACCT000083,CUST000355,0.10285234884104213,0,8,Info,9.03,Info,No immediate priority indicators,No immediate action
+TXN0001906,ACCT000436,CUST000142,0.10228040513454753,0,8,Info,9.0,Info,No immediate priority indicators,No immediate action
+TXN0004378,ACCT000440,CUST000092,0.10207359094538633,0,8,Info,8.99,Info,No immediate priority indicators,No immediate action
+TXN0000289,ACCT000298,CUST000312,0.10157643351026138,0,8,Info,8.97,Info,No immediate priority indicators,No immediate action
+TXN0001842,ACCT000067,CUST000111,0.10124130777030999,0,8,Info,8.96,Info,No immediate priority indicators,No immediate action
+TXN0004574,ACCT000250,CUST000060,0.199069714886663,0,0,Info,8.96,Info,No immediate priority indicators,No immediate action
+TXN0004742,ACCT000695,CUST000161,0.10117636411311044,0,8,Info,8.95,Info,No immediate priority indicators,No immediate action
+TXN0000668,ACCT000683,CUST000085,0.1012167442939117,0,8,Info,8.95,Info,No immediate priority indicators,No immediate action
+TXN0001174,ACCT000099,CUST000377,0.1009467381308106,0,8,Info,8.94,Info,No immediate priority indicators,No immediate action
+TXN0003769,ACCT000080,CUST000193,0.1008222579214562,0,8,Info,8.94,Info,No immediate priority indicators,No immediate action
+TXN0004896,ACCT000161,CUST000065,0.10058034236687793,0,8,Info,8.93,Info,No immediate priority indicators,No immediate action
+TXN0001444,ACCT000039,CUST000409,0.10074072480267818,0,8,Info,8.93,Info,No immediate priority indicators,No immediate action
+TXN0002716,ACCT000501,CUST000310,0.10074144778068427,0,8,Info,8.93,Info,No immediate priority indicators,No immediate action
+TXN0003684,ACCT000362,CUST000298,0.10009843539107773,0,8,Info,8.9,Info,No immediate priority indicators,No immediate action
+TXN0003005,ACCT000696,CUST000196,0.09974739513796883,0,8,Info,8.89,Info,No immediate priority indicators,No immediate action
+TXN0002105,ACCT000145,CUST000305,0.09836460322999549,0,8,Info,8.83,Info,No immediate priority indicators,No immediate action
+TXN0003581,ACCT000010,CUST000442,0.09808674724847484,0,8,Info,8.81,Info,No immediate priority indicators,No immediate action
+TXN0004140,ACCT000121,CUST000011,0.09785693491462177,0,8,Info,8.8,Info,No immediate priority indicators,No immediate action
+TXN0000890,ACCT000576,CUST000003,0.09751683804463833,0,8,Info,8.79,Info,No immediate priority indicators,No immediate action
+TXN0003776,ACCT000208,CUST000161,0.09700772713471147,0,8,Info,8.77,Info,No immediate priority indicators,No immediate action
+TXN0004236,ACCT000587,CUST000223,0.09701623238763724,0,8,Info,8.77,Info,No immediate priority indicators,No immediate action
+TXN0004669,ACCT000127,CUST000210,0.09714170673045858,0,8,Info,8.77,Info,No immediate priority indicators,No immediate action
+TXN0002437,ACCT000363,CUST000289,0.09651129757193255,0,8,Info,8.74,Info,No immediate priority indicators,No immediate action
+TXN0003372,ACCT000458,CUST000359,0.09616313523023655,0,8,Info,8.73,Info,No immediate priority indicators,No immediate action
+TXN0004580,ACCT000580,CUST000318,0.09571604046779675,0,8,Info,8.71,Info,No immediate priority indicators,No immediate action
+TXN0004906,ACCT000285,CUST000285,0.09435854250977298,0,8,Info,8.65,Info,No immediate priority indicators,No immediate action
+TXN0000671,ACCT000161,CUST000065,0.09424998357546145,0,8,Info,8.64,Info,No immediate priority indicators,No immediate action
+TXN0002275,ACCT000608,CUST000392,0.09396866194316984,0,8,Info,8.63,Info,No immediate priority indicators,No immediate action
+TXN0000040,ACCT000249,CUST000462,0.09377221274745737,0,8,Info,8.62,Info,No immediate priority indicators,No immediate action
+TXN0002752,ACCT000233,CUST000422,0.0937766936095843,0,8,Info,8.62,Info,No immediate priority indicators,No immediate action
+TXN0000945,ACCT000106,CUST000031,0.0936007845807825,0,8,Info,8.61,Info,No immediate priority indicators,No immediate action
+TXN0000853,ACCT000073,CUST000120,0.09320111851305148,0,8,Info,8.59,Info,No immediate priority indicators,No immediate action
+TXN0004782,ACCT000198,CUST000384,0.0930815593865693,0,8,Info,8.59,Info,No immediate priority indicators,No immediate action
+TXN0003418,ACCT000599,CUST000395,0.09295530220023414,0,8,Info,8.58,Info,No immediate priority indicators,No immediate action
+TXN0000812,ACCT000114,CUST000165,0.09291900894282587,0,8,Info,8.58,Info,No immediate priority indicators,No immediate action
+TXN0001457,ACCT000639,CUST000033,0.09296241468075328,0,8,Info,8.58,Info,No immediate priority indicators,No immediate action
+TXN0004635,ACCT000084,CUST000038,0.0926141238888656,0,8,Info,8.57,Info,No immediate priority indicators,No immediate action
+TXN0001709,ACCT000542,CUST000197,0.09211172341682475,0,8,Info,8.55,Info,No immediate priority indicators,No immediate action
+TXN0004872,ACCT000145,CUST000305,0.09178712236839846,0,8,Info,8.53,Info,No immediate priority indicators,No immediate action
+TXN0002694,ACCT000287,CUST000323,0.09000442567251637,0,8,Info,8.45,Info,No immediate priority indicators,No immediate action
+TXN0004677,ACCT000085,CUST000230,0.08977921162113289,0,8,Info,8.44,Info,No immediate priority indicators,No immediate action
+TXN0002818,ACCT000233,CUST000422,0.08945323585291523,0,8,Info,8.43,Info,No immediate priority indicators,No immediate action
+TXN0001748,ACCT000544,CUST000372,0.08942559378097349,0,8,Info,8.42,Info,No immediate priority indicators,No immediate action
+TXN0000811,ACCT000297,CUST000435,0.08911495186276058,0,8,Info,8.41,Info,No immediate priority indicators,No immediate action
+TXN0003597,ACCT000394,CUST000163,0.08895435951034021,0,8,Info,8.4,Info,No immediate priority indicators,No immediate action
+TXN0001394,ACCT000012,CUST000399,0.08856183079607471,0,8,Info,8.39,Info,No immediate priority indicators,No immediate action
+TXN0001662,ACCT000475,CUST000482,0.08826772945476424,0,8,Info,8.37,Info,No immediate priority indicators,No immediate action
+TXN0004454,ACCT000258,CUST000265,0.08803228046933365,0,8,Info,8.36,Info,No immediate priority indicators,No immediate action
+TXN0000684,ACCT000205,CUST000156,0.08778664017733642,0,8,Info,8.35,Info,No immediate priority indicators,No immediate action
+TXN0002525,ACCT000158,CUST000407,0.08648149993298203,0,8,Info,8.29,Info,No immediate priority indicators,No immediate action
+TXN0004631,ACCT000345,CUST000437,0.08593423326906101,0,8,Info,8.27,Info,No immediate priority indicators,No immediate action
+TXN0004838,ACCT000429,CUST000057,0.08505435981149943,0,8,Info,8.23,Info,No immediate priority indicators,No immediate action
+TXN0004762,ACCT000325,CUST000259,0.08481801623426419,0,8,Info,8.22,Info,No immediate priority indicators,No immediate action
+TXN0000450,ACCT000170,CUST000342,0.08461615579741913,0,8,Info,8.21,Info,No immediate priority indicators,No immediate action
+TXN0004339,ACCT000490,CUST000282,0.08391671871335032,0,8,Info,8.18,Info,No immediate priority indicators,No immediate action
+TXN0003657,ACCT000580,CUST000318,0.0839838871577875,0,8,Info,8.18,Info,No immediate priority indicators,No immediate action
+TXN0000556,ACCT000365,CUST000457,0.08397149014428135,0,8,Info,8.18,Info,No immediate priority indicators,No immediate action
+TXN0000872,ACCT000415,CUST000263,0.08352480002558639,0,8,Info,8.16,Info,No immediate priority indicators,No immediate action
+TXN0004193,ACCT000312,CUST000325,0.08337316466470993,0,8,Info,8.15,Info,No immediate priority indicators,No immediate action
+TXN0004064,ACCT000361,CUST000258,0.0830590203578721,0,8,Info,8.14,Info,No immediate priority indicators,No immediate action
+TXN0003056,ACCT000101,CUST000169,0.0827629307014443,0,8,Info,8.12,Info,No immediate priority indicators,No immediate action
+TXN0004886,ACCT000695,CUST000161,0.08276904845304467,0,8,Info,8.12,Info,No immediate priority indicators,No immediate action
+TXN0002183,ACCT000090,CUST000424,0.08250655044486083,0,8,Info,8.11,Info,No immediate priority indicators,No immediate action
+TXN0001796,ACCT000372,CUST000236,0.08231663418032574,0,8,Info,8.1,Info,No immediate priority indicators,No immediate action
+TXN0001103,ACCT000412,CUST000169,0.08218845024574091,0,8,Info,8.1,Info,No immediate priority indicators,No immediate action
+TXN0003969,ACCT000696,CUST000196,0.0820175730944078,0,8,Info,8.09,Info,No immediate priority indicators,No immediate action
+TXN0002711,ACCT000447,CUST000131,0.0815086532086875,0,8,Info,8.07,Info,No immediate priority indicators,No immediate action
+TXN0004244,ACCT000647,CUST000270,0.08142394113319672,0,8,Info,8.06,Info,No immediate priority indicators,No immediate action
+TXN0002207,ACCT000210,CUST000380,0.08115881359862707,0,8,Info,8.05,Info,No immediate priority indicators,No immediate action
+TXN0003095,ACCT000314,CUST000484,0.08118486665851098,0,8,Info,8.05,Info,No immediate priority indicators,No immediate action
+TXN0000151,ACCT000166,CUST000232,0.08090812135956416,0,8,Info,8.04,Info,No immediate priority indicators,No immediate action
+TXN0002054,ACCT000330,CUST000229,0.0796458456478415,0,8,Info,7.98,Info,No immediate priority indicators,No immediate action
+TXN0000924,ACCT000615,CUST000099,0.07942288133083987,0,8,Info,7.97,Info,No immediate priority indicators,No immediate action
+TXN0003565,ACCT000066,CUST000319,0.07943591154636558,0,8,Info,7.97,Info,No immediate priority indicators,No immediate action
+TXN0001634,ACCT000236,CUST000279,0.07861179740555123,0,8,Info,7.94,Info,No immediate priority indicators,No immediate action
+TXN0003858,ACCT000306,CUST000075,0.17649234244614265,0,0,Info,7.94,Info,No immediate priority indicators,No immediate action
+TXN0000488,ACCT000200,CUST000189,0.07802886297817063,0,8,Info,7.91,Info,No immediate priority indicators,No immediate action
+TXN0000937,ACCT000158,CUST000407,0.0775124766846673,0,8,Info,7.89,Info,No immediate priority indicators,No immediate action
+TXN0000276,ACCT000433,CUST000170,0.07749804213559777,0,8,Info,7.89,Info,No immediate priority indicators,No immediate action
+TXN0000242,ACCT000369,CUST000463,0.07736818218207069,0,8,Info,7.88,Info,No immediate priority indicators,No immediate action
+TXN0004086,ACCT000651,CUST000006,0.07724965902434684,0,8,Info,7.88,Info,No immediate priority indicators,No immediate action
+TXN0003162,ACCT000549,CUST000088,0.07658411789853714,0,8,Info,7.85,Info,No immediate priority indicators,No immediate action
+TXN0003687,ACCT000424,CUST000485,0.07648439174519758,0,8,Info,7.84,Info,No immediate priority indicators,No immediate action
+TXN0001986,ACCT000457,CUST000109,0.0761787656210484,0,8,Info,7.83,Info,No immediate priority indicators,No immediate action
+TXN0000709,ACCT000573,CUST000359,0.17348633573212224,0,0,Info,7.81,Info,No immediate priority indicators,No immediate action
+TXN0000770,ACCT000047,CUST000078,0.07560400499806968,0,8,Info,7.8,Info,No immediate priority indicators,No immediate action
+TXN0004272,ACCT000194,CUST000117,0.07544900547082899,0,8,Info,7.8,Info,No immediate priority indicators,No immediate action
+TXN0003923,ACCT000388,CUST000085,0.07562702298637639,0,8,Info,7.8,Info,No immediate priority indicators,No immediate action
+TXN0003122,ACCT000037,CUST000028,0.07527028135224133,0,8,Info,7.79,Info,No immediate priority indicators,No immediate action
+TXN0003212,ACCT000509,CUST000035,0.0745642379500645,0,8,Info,7.76,Info,No immediate priority indicators,No immediate action
+TXN0004446,ACCT000426,CUST000051,0.0742755039847408,0,8,Info,7.74,Info,No immediate priority indicators,No immediate action
+TXN0003878,ACCT000241,CUST000376,0.07378687877580224,0,8,Info,7.72,Info,No immediate priority indicators,No immediate action
+TXN0002049,ACCT000051,CUST000302,0.07338471953000164,0,8,Info,7.7,Info,No immediate priority indicators,No immediate action
+TXN0000985,ACCT000596,CUST000322,0.07295731118623625,0,8,Info,7.68,Info,No immediate priority indicators,No immediate action
+TXN0002548,ACCT000031,CUST000296,0.0722168043506656,0,8,Info,7.65,Info,No immediate priority indicators,No immediate action
+TXN0000069,ACCT000428,CUST000297,0.07148473168876021,0,8,Info,7.62,Info,No immediate priority indicators,No immediate action
+TXN0003525,ACCT000623,CUST000402,0.07095945412516311,0,8,Info,7.59,Info,No immediate priority indicators,No immediate action
+TXN0003321,ACCT000065,CUST000047,0.07072756807604716,0,8,Info,7.58,Info,No immediate priority indicators,No immediate action
+TXN0000723,ACCT000129,CUST000223,0.07053205648740611,0,8,Info,7.57,Info,No immediate priority indicators,No immediate action
+TXN0004119,ACCT000130,CUST000015,0.06965413010338094,0,8,Info,7.53,Info,No immediate priority indicators,No immediate action
+TXN0001228,ACCT000389,CUST000332,0.06932433740079544,0,8,Info,7.52,Info,No immediate priority indicators,No immediate action
+TXN0003637,ACCT000267,CUST000155,0.06901968259330145,0,8,Info,7.51,Info,No immediate priority indicators,No immediate action
+TXN0001203,ACCT000694,CUST000042,0.06862580358410107,0,8,Info,7.49,Info,No immediate priority indicators,No immediate action
+TXN0003685,ACCT000387,CUST000496,0.06848157361532513,0,8,Info,7.48,Info,No immediate priority indicators,No immediate action
+TXN0002988,ACCT000441,CUST000128,0.06817856695762589,0,8,Info,7.47,Info,No immediate priority indicators,No immediate action
+TXN0003947,ACCT000175,CUST000248,0.06805502174038786,0,8,Info,7.46,Info,No immediate priority indicators,No immediate action
+TXN0004463,ACCT000211,CUST000137,0.06789805311834217,0,8,Info,7.46,Info,No immediate priority indicators,No immediate action
+TXN0003144,ACCT000134,CUST000142,0.06764271503947142,0,8,Info,7.44,Info,No immediate priority indicators,No immediate action
+TXN0001801,ACCT000699,CUST000080,0.06760798621794153,0,8,Info,7.44,Info,No immediate priority indicators,No immediate action
+TXN0001154,ACCT000629,CUST000160,0.06735738607346567,0,8,Info,7.43,Info,No immediate priority indicators,No immediate action
+TXN0000654,ACCT000249,CUST000462,0.06703476753751922,0,8,Info,7.42,Info,No immediate priority indicators,No immediate action
+TXN0001048,ACCT000602,CUST000444,0.06679242534595888,0,8,Info,7.41,Info,No immediate priority indicators,No immediate action
+TXN0001814,ACCT000365,CUST000457,0.06668532730120234,0,8,Info,7.4,Info,No immediate priority indicators,No immediate action
+TXN0000237,ACCT000551,CUST000208,0.06626733945540098,0,8,Info,7.38,Info,No immediate priority indicators,No immediate action
+TXN0003789,ACCT000485,CUST000071,0.065327918525821,0,8,Info,7.34,Info,No immediate priority indicators,No immediate action
+TXN0002190,ACCT000024,CUST000460,0.0644775291832507,0,8,Info,7.3,Info,No immediate priority indicators,No immediate action
+TXN0004868,ACCT000458,CUST000359,0.06434488221100962,0,8,Info,7.3,Info,No immediate priority indicators,No immediate action
+TXN0000498,ACCT000259,CUST000269,0.06372973141956814,0,8,Info,7.27,Info,No immediate priority indicators,No immediate action
+TXN0004596,ACCT000123,CUST000101,0.06329331347262944,0,8,Info,7.25,Info,No immediate priority indicators,No immediate action
+TXN0004990,ACCT000008,CUST000041,0.06311583796582851,0,8,Info,7.24,Info,No immediate priority indicators,No immediate action
+TXN0001031,ACCT000654,CUST000169,0.06244453365436265,0,8,Info,7.21,Info,No immediate priority indicators,No immediate action
+TXN0004122,ACCT000396,CUST000400,0.06246845159407226,0,8,Info,7.21,Info,No immediate priority indicators,No immediate action
+TXN0004556,ACCT000548,CUST000286,0.06225267003012768,0,8,Info,7.2,Info,No immediate priority indicators,No immediate action
+TXN0001051,ACCT000133,CUST000261,0.06176546101618882,0,8,Info,7.18,Info,No immediate priority indicators,No immediate action
+TXN0000316,ACCT000389,CUST000332,0.06167385230934537,0,8,Info,7.18,Info,No immediate priority indicators,No immediate action
+TXN0001805,ACCT000549,CUST000088,0.06134238003606156,0,8,Info,7.16,Info,No immediate priority indicators,No immediate action
+TXN0002495,ACCT000524,CUST000445,0.06060506700504266,0,8,Info,7.13,Info,No immediate priority indicators,No immediate action
+TXN0001407,ACCT000558,CUST000302,0.05998425174701252,0,8,Info,7.1,Info,No immediate priority indicators,No immediate action
+TXN0004255,ACCT000400,CUST000438,0.06010139491334388,0,8,Info,7.1,Info,No immediate priority indicators,No immediate action
+TXN0000760,ACCT000420,CUST000458,0.05996627833464766,0,8,Info,7.1,Info,No immediate priority indicators,No immediate action
+TXN0001846,ACCT000415,CUST000263,0.059725341982419064,0,8,Info,7.09,Info,No immediate priority indicators,No immediate action
+TXN0002801,ACCT000393,CUST000063,0.15763984648675364,0,0,Info,7.09,Info,No immediate priority indicators,No immediate action
+TXN0001718,ACCT000102,CUST000500,0.05866627351860063,0,8,Info,7.04,Info,No immediate priority indicators,No immediate action
+TXN0004807,ACCT000515,CUST000268,0.15616923590057033,0,0,Info,7.03,Info,No immediate priority indicators,No immediate action
+TXN0004683,ACCT000577,CUST000151,0.058306956640049167,0,8,Info,7.02,Info,No immediate priority indicators,No immediate action
+TXN0000972,ACCT000200,CUST000189,0.05822955722978407,0,8,Info,7.02,Info,No immediate priority indicators,No immediate action
+TXN0004995,ACCT000238,CUST000466,0.05811695391276943,0,8,Info,7.02,Info,No immediate priority indicators,No immediate action
+TXN0004204,ACCT000508,CUST000373,0.057782929566737674,0,8,Info,7.0,Info,No immediate priority indicators,No immediate action
+TXN0000205,ACCT000481,CUST000303,0.05773267614820305,0,8,Info,7.0,Info,No immediate priority indicators,No immediate action
+TXN0003098,ACCT000646,CUST000408,0.05782065091131985,0,8,Info,7.0,Info,No immediate priority indicators,No immediate action
+TXN0004320,ACCT000592,CUST000488,0.05738874417182218,0,8,Info,6.98,Info,No immediate priority indicators,No immediate action
+TXN0001746,ACCT000333,CUST000412,0.057242295562658224,0,8,Info,6.98,Info,No immediate priority indicators,No immediate action
+TXN0001151,ACCT000572,CUST000354,0.057256349322677785,0,8,Info,6.98,Info,No immediate priority indicators,No immediate action
+TXN0002238,ACCT000689,CUST000065,0.05715407507385644,0,8,Info,6.97,Info,No immediate priority indicators,No immediate action
+TXN0002627,ACCT000202,CUST000191,0.05681977038985326,0,8,Info,6.96,Info,No immediate priority indicators,No immediate action
+TXN0000343,ACCT000177,CUST000262,0.056439454050333876,0,8,Info,6.94,Info,No immediate priority indicators,No immediate action
+TXN0003014,ACCT000224,CUST000263,0.056165090589727816,0,8,Info,6.93,Info,No immediate priority indicators,No immediate action
+TXN0003813,ACCT000049,CUST000110,0.05606345214895674,0,8,Info,6.92,Info,No immediate priority indicators,No immediate action
+TXN0004989,ACCT000193,CUST000443,0.05549750318377828,0,8,Info,6.9,Info,No immediate priority indicators,No immediate action
+TXN0002469,ACCT000238,CUST000466,0.1526395436930024,0,0,Info,6.87,Info,No immediate priority indicators,No immediate action
+TXN0001170,ACCT000234,CUST000206,0.05462861321177748,0,8,Info,6.86,Info,No immediate priority indicators,No immediate action
+TXN0000083,ACCT000294,CUST000488,0.05439296939101445,0,8,Info,6.85,Info,No immediate priority indicators,No immediate action
+TXN0002073,ACCT000619,CUST000253,0.05436348216314005,0,8,Info,6.85,Info,No immediate priority indicators,No immediate action
+TXN0003656,ACCT000192,CUST000294,0.05403814675867675,0,8,Info,6.83,Info,No immediate priority indicators,No immediate action
+TXN0001980,ACCT000132,CUST000280,0.09058984702523029,0,5,Info,6.83,Info,No immediate priority indicators,No immediate action
+TXN0000991,ACCT000365,CUST000457,0.05375630014482826,0,8,Info,6.82,Info,No immediate priority indicators,No immediate action
+TXN0001180,ACCT000205,CUST000156,0.053516906003717495,0,8,Info,6.81,Info,No immediate priority indicators,No immediate action
+TXN0001745,ACCT000087,CUST000112,0.05362381607352389,0,8,Info,6.81,Info,No immediate priority indicators,No immediate action
+TXN0001798,ACCT000574,CUST000309,0.05332606722630734,0,8,Info,6.8,Info,No immediate priority indicators,No immediate action
+TXN0003569,ACCT000281,CUST000097,0.053342186612485104,0,8,Info,6.8,Info,No immediate priority indicators,No immediate action
+TXN0000899,ACCT000644,CUST000483,0.053076467933773436,0,8,Info,6.79,Info,No immediate priority indicators,No immediate action
+TXN0002080,ACCT000012,CUST000399,0.053039296871017494,0,8,Info,6.79,Info,No immediate priority indicators,No immediate action
+TXN0004859,ACCT000065,CUST000047,0.052507442929277635,0,8,Info,6.76,Info,No immediate priority indicators,No immediate action
+TXN0003612,ACCT000529,CUST000265,0.051833400604219856,0,8,Info,6.73,Info,No immediate priority indicators,No immediate action
+TXN0000849,ACCT000102,CUST000500,0.051606239271617955,0,8,Info,6.72,Info,No immediate priority indicators,No immediate action
+TXN0001428,ACCT000087,CUST000112,0.0514665864237304,0,8,Info,6.72,Info,No immediate priority indicators,No immediate action
+TXN0002929,ACCT000272,CUST000111,0.14936736939709283,0,0,Info,6.72,Info,No immediate priority indicators,No immediate action
+TXN0002260,ACCT000584,CUST000463,0.05121160092265765,0,8,Info,6.7,Info,No immediate priority indicators,No immediate action
+TXN0003459,ACCT000504,CUST000298,0.050074256414921595,0,8,Info,6.65,Info,No immediate priority indicators,No immediate action
+TXN0003827,ACCT000283,CUST000442,0.049282413171481305,0,8,Info,6.62,Info,No immediate priority indicators,No immediate action
+TXN0000592,ACCT000572,CUST000354,0.04826789465396484,0,8,Info,6.57,Info,No immediate priority indicators,No immediate action
+TXN0003127,ACCT000554,CUST000134,0.04800967303195442,0,8,Info,6.56,Info,No immediate priority indicators,No immediate action
+TXN0000697,ACCT000163,CUST000431,0.04771568727063407,0,8,Info,6.55,Info,No immediate priority indicators,No immediate action
+TXN0004481,ACCT000265,CUST000158,0.04750031631602678,0,8,Info,6.54,Info,No immediate priority indicators,No immediate action
+TXN0002999,ACCT000316,CUST000029,0.0474728716931507,0,8,Info,6.54,Info,No immediate priority indicators,No immediate action
+TXN0002985,ACCT000387,CUST000496,0.04735098874519086,0,8,Info,6.53,Info,No immediate priority indicators,No immediate action
+TXN0002057,ACCT000653,CUST000329,0.04717276873236061,0,8,Info,6.52,Info,No immediate priority indicators,No immediate action
+TXN0000833,ACCT000255,CUST000073,0.047158647552536924,0,8,Info,6.52,Info,No immediate priority indicators,No immediate action
+TXN0004694,ACCT000675,CUST000233,0.04708384039581622,0,8,Info,6.52,Info,No immediate priority indicators,No immediate action
+TXN0000478,ACCT000388,CUST000085,0.04687317239430536,0,8,Info,6.51,Info,No immediate priority indicators,No immediate action
+TXN0004189,ACCT000140,CUST000462,0.04666082628867933,0,8,Info,6.5,Info,No immediate priority indicators,No immediate action
+TXN0004372,ACCT000485,CUST000071,0.04669846424822571,0,8,Info,6.5,Info,No immediate priority indicators,No immediate action
+TXN0000191,ACCT000547,CUST000057,0.046451261671934085,0,8,Info,6.49,Info,No immediate priority indicators,No immediate action
+TXN0002657,ACCT000609,CUST000304,0.04608641888452034,0,8,Info,6.47,Info,No immediate priority indicators,No immediate action
+TXN0004791,ACCT000566,CUST000127,0.045646185980338,0,8,Info,6.45,Info,No immediate priority indicators,No immediate action
+TXN0002203,ACCT000491,CUST000025,0.04558694963149447,0,8,Info,6.45,Info,No immediate priority indicators,No immediate action
+TXN0003287,ACCT000560,CUST000189,0.04520587423113001,0,8,Info,6.43,Info,No immediate priority indicators,No immediate action
+TXN0001233,ACCT000449,CUST000468,0.04507320759634596,0,8,Info,6.43,Info,No immediate priority indicators,No immediate action
+TXN0002986,ACCT000155,CUST000123,0.044987431889274274,0,8,Info,6.42,Info,No immediate priority indicators,No immediate action
+TXN0002307,ACCT000310,CUST000190,0.04468666495435578,0,8,Info,6.41,Info,No immediate priority indicators,No immediate action
+TXN0003829,ACCT000460,CUST000438,0.04473144836370118,0,8,Info,6.41,Info,No immediate priority indicators,No immediate action
+TXN0001871,ACCT000629,CUST000160,0.044752447172766795,0,8,Info,6.41,Info,No immediate priority indicators,No immediate action
+TXN0001071,ACCT000398,CUST000479,0.04439364459396505,0,8,Info,6.4,Info,No immediate priority indicators,No immediate action
+TXN0004051,ACCT000696,CUST000196,0.044379422474494105,0,8,Info,6.4,Info,No immediate priority indicators,No immediate action
+TXN0000802,ACCT000515,CUST000268,0.04408889744506648,0,8,Info,6.38,Info,No immediate priority indicators,No immediate action
+TXN0004223,ACCT000144,CUST000340,0.04398028814527761,0,8,Info,6.38,Info,No immediate priority indicators,No immediate action
+TXN0001536,ACCT000514,CUST000295,0.04389279091728338,0,8,Info,6.38,Info,No immediate priority indicators,No immediate action
+TXN0002071,ACCT000423,CUST000328,0.043732390215199105,0,8,Info,6.37,Info,No immediate priority indicators,No immediate action
+TXN0003157,ACCT000212,CUST000470,0.04354995933449688,0,8,Info,6.36,Info,No immediate priority indicators,No immediate action
+TXN0004238,ACCT000199,CUST000360,0.042962727759486376,0,8,Info,6.33,Info,No immediate priority indicators,No immediate action
+TXN0000909,ACCT000478,CUST000081,0.04267196350409849,0,8,Info,6.32,Info,No immediate priority indicators,No immediate action
+TXN0003142,ACCT000630,CUST000187,0.042651090384758505,0,8,Info,6.32,Info,No immediate priority indicators,No immediate action
+TXN0002097,ACCT000151,CUST000465,0.04210820193399237,0,8,Info,6.29,Info,No immediate priority indicators,No immediate action
+TXN0004564,ACCT000300,CUST000211,0.04174301693034682,0,8,Info,6.28,Info,No immediate priority indicators,No immediate action
+TXN0001403,ACCT000500,CUST000050,0.04177890109722389,0,8,Info,6.28,Info,No immediate priority indicators,No immediate action
+TXN0001468,ACCT000510,CUST000043,0.04172409404880321,0,8,Info,6.28,Info,No immediate priority indicators,No immediate action
+TXN0001395,ACCT000330,CUST000229,0.13953305145893188,0,0,Info,6.28,Info,No immediate priority indicators,No immediate action
+TXN0002223,ACCT000123,CUST000101,0.04150467859279443,0,8,Info,6.27,Info,No immediate priority indicators,No immediate action
+TXN0001858,ACCT000491,CUST000025,0.040851430953360295,0,8,Info,6.24,Info,No immediate priority indicators,No immediate action
+TXN0004083,ACCT000024,CUST000460,0.04064852830553131,0,8,Info,6.23,Info,No immediate priority indicators,No immediate action
+TXN0002081,ACCT000423,CUST000328,0.04071639407078166,0,8,Info,6.23,Info,No immediate priority indicators,No immediate action
+TXN0004632,ACCT000586,CUST000383,0.04019173772492866,0,8,Info,6.21,Info,No immediate priority indicators,No immediate action
+TXN0003493,ACCT000313,CUST000150,0.0400106461512345,0,8,Info,6.2,Info,No immediate priority indicators,No immediate action
+TXN0003214,ACCT000370,CUST000334,0.039652925229943785,0,8,Info,6.18,Info,No immediate priority indicators,No immediate action
+TXN0001560,ACCT000389,CUST000332,0.03929588627798549,0,8,Info,6.17,Info,No immediate priority indicators,No immediate action
+TXN0004740,ACCT000160,CUST000369,0.03943622291291649,0,8,Info,6.17,Info,No immediate priority indicators,No immediate action
+TXN0003112,ACCT000300,CUST000211,0.03894643572001306,0,8,Info,6.15,Info,No immediate priority indicators,No immediate action
+TXN0003809,ACCT000294,CUST000488,0.13637467348051419,0,0,Info,6.14,Info,No immediate priority indicators,No immediate action
+TXN0002059,ACCT000439,CUST000497,0.038576394810623145,0,8,Info,6.14,Info,No immediate priority indicators,No immediate action
+TXN0001437,ACCT000291,CUST000367,0.038622971847847284,0,8,Info,6.14,Info,No immediate priority indicators,No immediate action
+TXN0004605,ACCT000634,CUST000205,0.03851678355930198,0,8,Info,6.13,Info,No immediate priority indicators,No immediate action
+TXN0004595,ACCT000466,CUST000050,0.03845253642531117,0,8,Info,6.13,Info,No immediate priority indicators,No immediate action
+TXN0004976,ACCT000678,CUST000274,0.03836348958309508,0,8,Info,6.13,Info,No immediate priority indicators,No immediate action
+TXN0002593,ACCT000436,CUST000142,0.03816427675794309,0,8,Info,6.12,Info,No immediate priority indicators,No immediate action
+TXN0004429,ACCT000585,CUST000337,0.03832483401523225,0,8,Info,6.12,Info,No immediate priority indicators,No immediate action
+TXN0001751,ACCT000355,CUST000206,0.13569229996676246,0,0,Info,6.11,Info,No immediate priority indicators,No immediate action
+TXN0002144,ACCT000427,CUST000372,0.03782995484163377,0,8,Info,6.1,Info,No immediate priority indicators,No immediate action
+TXN0004367,ACCT000625,CUST000070,0.03777518767515294,0,8,Info,6.1,Info,No immediate priority indicators,No immediate action
+TXN0004196,ACCT000410,CUST000259,0.037573408587703645,0,8,Info,6.09,Info,No immediate priority indicators,No immediate action
+TXN0004523,ACCT000646,CUST000408,0.037325685954450245,0,8,Info,6.08,Info,No immediate priority indicators,No immediate action
+TXN0001460,ACCT000422,CUST000399,0.03740750311668592,0,8,Info,6.08,Info,No immediate priority indicators,No immediate action
+TXN0001399,ACCT000312,CUST000325,0.03742464226560964,0,8,Info,6.08,Info,No immediate priority indicators,No immediate action
+TXN0002704,ACCT000629,CUST000160,0.03706073102407586,0,8,Info,6.07,Info,No immediate priority indicators,No immediate action
+TXN0002728,ACCT000504,CUST000298,0.036837680302169565,0,8,Info,6.06,Info,No immediate priority indicators,No immediate action
+TXN0003152,ACCT000133,CUST000261,0.036733143120487685,0,8,Info,6.05,Info,No immediate priority indicators,No immediate action
+TXN0004207,ACCT000396,CUST000400,0.03650372315937368,0,8,Info,6.04,Info,No immediate priority indicators,No immediate action
+TXN0001829,ACCT000512,CUST000388,0.036190487991440444,0,8,Info,6.03,Info,No immediate priority indicators,No immediate action
+TXN0000744,ACCT000496,CUST000106,0.03609310315167551,0,8,Info,6.02,Info,No immediate priority indicators,No immediate action
+TXN0004202,ACCT000170,CUST000342,0.13373610512218317,0,0,Info,6.02,Info,No immediate priority indicators,No immediate action
+TXN0000808,ACCT000125,CUST000104,0.03543830001776836,0,8,Info,5.99,Info,No immediate priority indicators,No immediate action
+TXN0000625,ACCT000473,CUST000249,0.03540401501895868,0,8,Info,5.99,Info,No immediate priority indicators,No immediate action
+TXN0004157,ACCT000379,CUST000329,0.034976564511334,0,8,Info,5.97,Info,No immediate priority indicators,No immediate action
+TXN0003547,ACCT000075,CUST000357,0.034798704136884344,0,8,Info,5.97,Info,No immediate priority indicators,No immediate action
+TXN0000789,ACCT000213,CUST000232,0.034374386180773014,0,8,Info,5.95,Info,No immediate priority indicators,No immediate action
+TXN0004927,ACCT000373,CUST000369,0.034321194169964334,0,8,Info,5.94,Info,No immediate priority indicators,No immediate action
+TXN0000614,ACCT000560,CUST000189,0.03411255713073494,0,8,Info,5.94,Info,No immediate priority indicators,No immediate action
+TXN0004431,ACCT000527,CUST000225,0.03391059960195686,0,8,Info,5.93,Info,No immediate priority indicators,No immediate action
+TXN0000560,ACCT000528,CUST000350,0.03387066655419511,0,8,Info,5.92,Info,No immediate priority indicators,No immediate action
+TXN0003638,ACCT000193,CUST000443,0.033876450500317026,0,8,Info,5.92,Info,No immediate priority indicators,No immediate action
+TXN0000469,ACCT000092,CUST000290,0.03377007484838834,0,8,Info,5.92,Info,No immediate priority indicators,No immediate action
+TXN0002748,ACCT000389,CUST000332,0.03335558029547528,0,8,Info,5.9,Info,No immediate priority indicators,No immediate action
+TXN0000017,ACCT000392,CUST000210,0.03331643067704573,0,8,Info,5.9,Info,No immediate priority indicators,No immediate action
+TXN0000005,ACCT000058,CUST000130,0.033147615122061276,0,8,Info,5.89,Info,No immediate priority indicators,No immediate action
+TXN0003864,ACCT000070,CUST000109,0.03281415223284463,0,8,Info,5.88,Info,No immediate priority indicators,No immediate action
+TXN0001311,ACCT000248,CUST000125,0.032690735847085095,0,8,Info,5.87,Info,No immediate priority indicators,No immediate action
+TXN0003097,ACCT000459,CUST000306,0.032682600053767864,0,8,Info,5.87,Info,No immediate priority indicators,No immediate action
+TXN0003517,ACCT000489,CUST000434,0.03225296842067981,0,8,Info,5.85,Info,No immediate priority indicators,No immediate action
+TXN0002832,ACCT000050,CUST000378,0.03196226544555607,0,8,Info,5.84,Info,No immediate priority indicators,No immediate action
+TXN0001653,ACCT000306,CUST000075,0.12969945751812012,0,0,Info,5.84,Info,No immediate priority indicators,No immediate action
+TXN0003461,ACCT000613,CUST000231,0.03210411591358895,0,8,Info,5.84,Info,No immediate priority indicators,No immediate action
+TXN0003535,ACCT000548,CUST000286,0.03195667685455213,0,8,Info,5.84,Info,No immediate priority indicators,No immediate action
+TXN0004495,ACCT000027,CUST000294,0.0317423868283804,0,8,Info,5.83,Info,No immediate priority indicators,No immediate action
+TXN0001985,ACCT000673,CUST000465,0.03151374733752494,0,8,Info,5.82,Info,No immediate priority indicators,No immediate action
+TXN0002121,ACCT000320,CUST000284,0.03133459324148103,0,8,Info,5.81,Info,No immediate priority indicators,No immediate action
+TXN0000102,ACCT000317,CUST000204,0.031233899237095675,0,8,Info,5.81,Info,No immediate priority indicators,No immediate action
+TXN0000352,ACCT000196,CUST000033,0.031351618145335124,0,8,Info,5.81,Info,No immediate priority indicators,No immediate action
+TXN0004851,ACCT000038,CUST000421,0.031121955849029267,0,8,Info,5.8,Info,No immediate priority indicators,No immediate action
+TXN0004567,ACCT000527,CUST000225,0.031077218149337497,0,8,Info,5.8,Info,No immediate priority indicators,No immediate action
+TXN0001272,ACCT000378,CUST000123,0.03114516826454385,0,8,Info,5.8,Info,No immediate priority indicators,No immediate action
+TXN0004047,ACCT000445,CUST000127,0.030897367209275307,0,8,Info,5.79,Info,No immediate priority indicators,No immediate action
+TXN0003447,ACCT000485,CUST000071,0.030937281084154576,0,8,Info,5.79,Info,No immediate priority indicators,No immediate action
+TXN0002029,ACCT000004,CUST000363,0.030731404081489833,0,8,Info,5.78,Info,No immediate priority indicators,No immediate action
+TXN0001288,ACCT000036,CUST000338,0.030695119753329423,0,8,Info,5.78,Info,No immediate priority indicators,No immediate action
+TXN0004071,ACCT000445,CUST000127,0.030576844687932314,0,8,Info,5.78,Info,No immediate priority indicators,No immediate action
+TXN0000747,ACCT000625,CUST000070,0.030528337607900153,0,8,Info,5.77,Info,No immediate priority indicators,No immediate action
+TXN0004206,ACCT000551,CUST000208,0.030477162283393918,0,8,Info,5.77,Info,No immediate priority indicators,No immediate action
+TXN0004225,ACCT000689,CUST000065,0.030222371238448738,0,8,Info,5.76,Info,No immediate priority indicators,No immediate action
+TXN0002042,ACCT000552,CUST000071,0.030275768791653633,0,8,Info,5.76,Info,No immediate priority indicators,No immediate action
+TXN0001283,ACCT000041,CUST000143,0.030120455337652865,0,8,Info,5.76,Info,No immediate priority indicators,No immediate action
+TXN0001304,ACCT000673,CUST000465,0.02997037500781097,0,8,Info,5.75,Info,No immediate priority indicators,No immediate action
+TXN0001397,ACCT000192,CUST000294,0.02988046128734726,0,8,Info,5.74,Info,No immediate priority indicators,No immediate action
+TXN0002285,ACCT000260,CUST000001,0.029625140664633287,0,8,Info,5.73,Info,No immediate priority indicators,No immediate action
+TXN0002882,ACCT000472,CUST000121,0.029431090225897766,0,8,Info,5.72,Info,No immediate priority indicators,No immediate action
+TXN0000131,ACCT000500,CUST000050,0.02916830955502555,0,8,Info,5.71,Info,No immediate priority indicators,No immediate action
+TXN0001469,ACCT000038,CUST000421,0.02914465414725733,0,8,Info,5.71,Info,No immediate priority indicators,No immediate action
+TXN0000297,ACCT000343,CUST000278,0.028989727459708813,0,8,Info,5.7,Info,No immediate priority indicators,No immediate action
+TXN0003797,ACCT000629,CUST000160,0.02892119218119922,0,8,Info,5.7,Info,No immediate priority indicators,No immediate action
+TXN0000996,ACCT000614,CUST000309,0.028557705886464786,0,8,Info,5.69,Info,No immediate priority indicators,No immediate action
+TXN0004151,ACCT000271,CUST000166,0.028552851952418908,0,8,Info,5.68,Info,No immediate priority indicators,No immediate action
+TXN0000994,ACCT000511,CUST000199,0.02849265790661708,0,8,Info,5.68,Info,No immediate priority indicators,No immediate action
+TXN0002781,ACCT000341,CUST000390,0.028440644990381368,0,8,Info,5.68,Info,No immediate priority indicators,No immediate action
+TXN0002070,ACCT000187,CUST000380,0.02768857832215752,0,8,Info,5.65,Info,No immediate priority indicators,No immediate action
+TXN0003398,ACCT000162,CUST000111,0.027766314389891904,0,8,Info,5.65,Info,No immediate priority indicators,No immediate action
+TXN0003676,ACCT000551,CUST000208,0.02786327451442143,0,8,Info,5.65,Info,No immediate priority indicators,No immediate action
+TXN0003951,ACCT000539,CUST000218,0.12526321764115467,0,0,Info,5.64,Info,No immediate priority indicators,No immediate action
+TXN0004862,ACCT000320,CUST000284,0.027470462625624113,0,8,Info,5.64,Info,No immediate priority indicators,No immediate action
+TXN0001049,ACCT000461,CUST000088,0.027524342538261925,0,8,Info,5.64,Info,No immediate priority indicators,No immediate action
+TXN0004016,ACCT000645,CUST000035,0.02709491931715905,0,8,Info,5.62,Info,No immediate priority indicators,No immediate action
+TXN0003621,ACCT000379,CUST000329,0.026622656531131182,0,8,Info,5.6,Info,No immediate priority indicators,No immediate action
+TXN0002027,ACCT000076,CUST000270,0.026029928649639874,0,8,Info,5.57,Info,No immediate priority indicators,No immediate action
+TXN0001355,ACCT000681,CUST000196,0.025990481885722293,0,8,Info,5.57,Info,No immediate priority indicators,No immediate action
+TXN0001632,ACCT000102,CUST000500,0.02567209543399303,0,8,Info,5.56,Info,No immediate priority indicators,No immediate action
+TXN0004944,ACCT000436,CUST000142,0.025495198623193858,0,8,Info,5.55,Info,No immediate priority indicators,No immediate action
+TXN0001350,ACCT000038,CUST000421,0.02533967735483145,0,8,Info,5.54,Info,No immediate priority indicators,No immediate action
+TXN0004739,ACCT000489,CUST000434,0.025312168065113105,0,8,Info,5.54,Info,No immediate priority indicators,No immediate action
+TXN0002545,ACCT000359,CUST000172,0.02508375962627113,0,8,Info,5.53,Info,No immediate priority indicators,No immediate action
+TXN0003143,ACCT000528,CUST000350,0.024608520116386198,0,8,Info,5.51,Info,No immediate priority indicators,No immediate action
+TXN0004855,ACCT000609,CUST000304,0.024657429992177703,0,8,Info,5.51,Info,No immediate priority indicators,No immediate action
+TXN0001467,ACCT000558,CUST000302,0.024668206065465156,0,8,Info,5.51,Info,No immediate priority indicators,No immediate action
+TXN0004687,ACCT000480,CUST000306,0.024278579833895166,0,8,Info,5.49,Info,No immediate priority indicators,No immediate action
+TXN0001754,ACCT000208,CUST000161,0.024146798940732298,0,8,Info,5.49,Info,No immediate priority indicators,No immediate action
+TXN0002336,ACCT000208,CUST000161,0.023777055129943922,0,8,Info,5.47,Info,No immediate priority indicators,No immediate action
+TXN0004805,ACCT000371,CUST000394,0.02352383115691713,0,8,Info,5.46,Info,No immediate priority indicators,No immediate action
+TXN0000838,ACCT000367,CUST000360,0.05980897186792291,0,5,Info,5.44,Info,No immediate priority indicators,No immediate action
+TXN0000464,ACCT000185,CUST000272,0.022876991916541797,0,8,Info,5.43,Info,No immediate priority indicators,No immediate action
+TXN0001659,ACCT000260,CUST000001,0.022865703366962156,0,8,Info,5.43,Info,No immediate priority indicators,No immediate action
+TXN0002523,ACCT000032,CUST000473,0.022816670114008307,0,8,Info,5.43,Info,No immediate priority indicators,No immediate action
+TXN0002800,ACCT000531,CUST000439,0.022735072564800323,0,8,Info,5.42,Info,No immediate priority indicators,No immediate action
+TXN0000567,ACCT000447,CUST000131,0.022604672896580625,0,8,Info,5.42,Info,No immediate priority indicators,No immediate action
+TXN0003754,ACCT000066,CUST000319,0.022470536093743693,0,8,Info,5.41,Info,No immediate priority indicators,No immediate action
+TXN0001147,ACCT000191,CUST000186,0.021947622435061397,0,8,Info,5.39,Info,No immediate priority indicators,No immediate action
+TXN0004606,ACCT000289,CUST000273,0.02177356767081218,0,8,Info,5.38,Info,No immediate priority indicators,No immediate action
+TXN0003848,ACCT000682,CUST000438,0.02147574455037456,0,8,Info,5.37,Info,No immediate priority indicators,No immediate action
+TXN0001923,ACCT000646,CUST000408,0.020404478945220447,0,8,Info,5.32,Info,No immediate priority indicators,No immediate action
+TXN0002631,ACCT000689,CUST000065,0.02055417594864051,0,8,Info,5.32,Info,No immediate priority indicators,No immediate action
+TXN0003118,ACCT000646,CUST000408,0.02000677781606347,0,8,Info,5.3,Info,No immediate priority indicators,No immediate action
+TXN0004288,ACCT000581,CUST000449,0.11785516519230102,0,0,Info,5.3,Info,No immediate priority indicators,No immediate action
+TXN0003102,ACCT000612,CUST000248,0.019265320667530263,0,8,Info,5.27,Info,No immediate priority indicators,No immediate action
+TXN0002904,ACCT000089,CUST000405,0.01934660607811724,0,8,Info,5.27,Info,No immediate priority indicators,No immediate action
+TXN0002436,ACCT000641,CUST000159,0.019062629861069998,0,8,Info,5.26,Info,No immediate priority indicators,No immediate action
+TXN0004624,ACCT000069,CUST000158,0.018921895362685,0,8,Info,5.25,Info,No immediate priority indicators,No immediate action
+TXN0004891,ACCT000451,CUST000201,0.018555064549251862,0,8,Info,5.23,Info,No immediate priority indicators,No immediate action
+TXN0003751,ACCT000041,CUST000143,0.018043196956644966,0,8,Info,5.21,Info,No immediate priority indicators,No immediate action
+TXN0003691,ACCT000500,CUST000050,0.017655489288547797,0,8,Info,5.19,Info,No immediate priority indicators,No immediate action
+TXN0004849,ACCT000579,CUST000289,0.017463194306118347,0,8,Info,5.19,Info,No immediate priority indicators,No immediate action
+TXN0001865,ACCT000199,CUST000360,0.017258068012130385,0,8,Info,5.18,Info,No immediate priority indicators,No immediate action
+TXN0001378,ACCT000164,CUST000226,0.016980159090884246,0,8,Info,5.16,Info,No immediate priority indicators,No immediate action
+TXN0000449,ACCT000388,CUST000085,0.01640794738707324,0,8,Info,5.14,Info,No immediate priority indicators,No immediate action
+TXN0003993,ACCT000511,CUST000199,0.01617053756186599,0,8,Info,5.13,Info,No immediate priority indicators,No immediate action
+TXN0002320,ACCT000146,CUST000028,0.016102240136429462,0,8,Info,5.12,Info,No immediate priority indicators,No immediate action
+TXN0004493,ACCT000317,CUST000204,0.01596781858049889,0,8,Info,5.12,Info,No immediate priority indicators,No immediate action
+TXN0000137,ACCT000146,CUST000028,0.01542851898599506,0,8,Info,5.09,Info,No immediate priority indicators,No immediate action
+TXN0004522,ACCT000214,CUST000331,0.015381504028876766,0,8,Info,5.09,Info,No immediate priority indicators,No immediate action
+TXN0001490,ACCT000255,CUST000073,0.015309556315503972,0,8,Info,5.09,Info,No immediate priority indicators,No immediate action
+TXN0003619,ACCT000141,CUST000377,0.015173895363612558,0,8,Info,5.08,Info,No immediate priority indicators,No immediate action
+TXN0002534,ACCT000118,CUST000092,0.015061243983268618,0,8,Info,5.08,Info,No immediate priority indicators,No immediate action
+TXN0004256,ACCT000043,CUST000150,0.01505712763470375,0,8,Info,5.08,Info,No immediate priority indicators,No immediate action
+TXN0004831,ACCT000152,CUST000370,0.014568031003133345,0,8,Info,5.06,Info,No immediate priority indicators,No immediate action
+TXN0002234,ACCT000557,CUST000003,0.014513070442787324,0,8,Info,5.05,Info,No immediate priority indicators,No immediate action
+TXN0000465,ACCT000445,CUST000127,0.013152861501221089,0,8,Info,4.99,Info,No immediate priority indicators,No immediate action
+TXN0004721,ACCT000041,CUST000143,0.012950863502567696,0,8,Info,4.98,Info,No immediate priority indicators,No immediate action
+TXN0003928,ACCT000504,CUST000298,0.012904776892502466,0,8,Info,4.98,Info,No immediate priority indicators,No immediate action
+TXN0000039,ACCT000494,CUST000328,0.012880565008944111,0,8,Info,4.98,Info,No immediate priority indicators,No immediate action
+TXN0004496,ACCT000428,CUST000297,0.11055606270535066,0,0,Info,4.98,Info,No immediate priority indicators,No immediate action
+TXN0002426,ACCT000626,CUST000123,0.012756650942431176,0,8,Info,4.97,Info,No immediate priority indicators,No immediate action
+TXN0002371,ACCT000388,CUST000085,0.012247446218549441,0,8,Info,4.95,Info,No immediate priority indicators,No immediate action
+TXN0002010,ACCT000472,CUST000121,0.011275522957735618,0,8,Info,4.91,Info,No immediate priority indicators,No immediate action
+TXN0001146,ACCT000091,CUST000041,0.010917576213911089,0,8,Info,4.89,Info,No immediate priority indicators,No immediate action
+TXN0000024,ACCT000410,CUST000259,0.010479530660245174,0,8,Info,4.87,Info,No immediate priority indicators,No immediate action
+TXN0001909,ACCT000292,CUST000045,0.005500361178829083,0,8,Info,4.65,Info,No immediate priority indicators,No immediate action
+TXN0001993,ACCT000241,CUST000376,0.10248122810191912,0,0,Info,4.61,Info,No immediate priority indicators,No immediate action
+TXN0000539,ACCT000426,CUST000051,0.10082936018127416,0,0,Info,4.54,Info,No immediate priority indicators,No immediate action
+TXN0003763,ACCT000620,CUST000135,0.0026255103384111265,0,8,Info,4.52,Info,No immediate priority indicators,No immediate action
+TXN0004300,ACCT000591,CUST000106,0.09646968143525975,0,0,Info,4.34,Info,No immediate priority indicators,No immediate action
+TXN0001177,ACCT000475,CUST000482,0.09644344718402405,0,0,Info,4.34,Info,No immediate priority indicators,No immediate action
+TXN0000142,ACCT000319,CUST000197,0.09546051159263365,0,0,Info,4.3,Info,No immediate priority indicators,No immediate action
+TXN0000777,ACCT000375,CUST000356,0.09305875727708618,0,0,Info,4.19,Info,No immediate priority indicators,No immediate action
+TXN0001425,ACCT000647,CUST000270,0.08775293988720141,0,0,Info,3.95,Info,No immediate priority indicators,No immediate action
+TXN0003248,ACCT000008,CUST000041,0.08586150185463563,0,0,Info,3.86,Info,No immediate priority indicators,No immediate action
+TXN0003438,ACCT000073,CUST000120,0.08464873514320599,0,0,Info,3.81,Info,No immediate priority indicators,No immediate action
+TXN0001234,ACCT000539,CUST000218,0.08259827972915015,0,0,Info,3.72,Info,No immediate priority indicators,No immediate action
+TXN0001155,ACCT000089,CUST000405,0.08149805445573328,0,0,Info,3.67,Info,No immediate priority indicators,No immediate action
+TXN0004808,ACCT000182,CUST000394,0.0812858629492329,0,0,Info,3.66,Info,No immediate priority indicators,No immediate action
+TXN0001243,ACCT000651,CUST000006,0.07741741075053941,0,0,Info,3.48,Info,No immediate priority indicators,No immediate action
+TXN0000608,ACCT000429,CUST000057,0.07668020939329888,0,0,Info,3.45,Info,No immediate priority indicators,No immediate action
+TXN0003558,ACCT000196,CUST000033,0.07661600887392322,0,0,Info,3.45,Info,No immediate priority indicators,No immediate action
+TXN0002566,ACCT000227,CUST000262,0.07663142656200612,0,0,Info,3.45,Info,No immediate priority indicators,No immediate action
+TXN0003305,ACCT000352,CUST000295,0.07646670154507305,0,0,Info,3.44,Info,No immediate priority indicators,No immediate action
+TXN0000002,ACCT000072,CUST000346,0.07562112649943263,0,0,Info,3.4,Info,No immediate priority indicators,No immediate action
+TXN0004788,ACCT000249,CUST000462,0.07333968776186299,0,0,Info,3.3,Info,No immediate priority indicators,No immediate action
+TXN0002278,ACCT000252,CUST000109,0.07233233993698479,0,0,Info,3.25,Info,No immediate priority indicators,No immediate action
+TXN0001254,ACCT000585,CUST000337,0.07129748362202043,0,0,Info,3.21,Info,No immediate priority indicators,No immediate action
+TXN0004455,ACCT000092,CUST000290,0.0697439523816586,0,0,Info,3.14,Info,No immediate priority indicators,No immediate action
+TXN0004037,ACCT000539,CUST000218,0.0695007887337252,0,0,Info,3.13,Info,No immediate priority indicators,No immediate action
+TXN0004768,ACCT000129,CUST000223,0.0693296726327907,0,0,Info,3.12,Info,No immediate priority indicators,No immediate action
+TXN0003893,ACCT000487,CUST000457,0.06857694477354732,0,0,Info,3.09,Info,No immediate priority indicators,No immediate action
+TXN0002848,ACCT000506,CUST000123,0.06778322140448828,0,0,Info,3.05,Info,No immediate priority indicators,No immediate action
+TXN0004882,ACCT000092,CUST000290,0.06711896781412355,0,0,Info,3.02,Info,No immediate priority indicators,No immediate action
+TXN0004059,ACCT000361,CUST000258,0.06561971940964101,0,0,Info,2.95,Info,No immediate priority indicators,No immediate action
+TXN0003232,ACCT000677,CUST000373,0.06534537355866704,0,0,Info,2.94,Info,No immediate priority indicators,No immediate action
+TXN0003309,ACCT000499,CUST000377,0.06338454045625401,0,0,Info,2.85,Info,No immediate priority indicators,No immediate action
+TXN0002557,ACCT000129,CUST000223,0.06321978867377465,0,0,Info,2.84,Info,No immediate priority indicators,No immediate action
+TXN0003472,ACCT000668,CUST000391,0.06295253043182937,0,0,Info,2.83,Info,No immediate priority indicators,No immediate action
+TXN0000784,ACCT000083,CUST000355,0.06014474255197161,0,0,Info,2.71,Info,No immediate priority indicators,No immediate action
+TXN0001739,ACCT000395,CUST000270,0.059987046939835406,0,0,Info,2.7,Info,No immediate priority indicators,No immediate action
+TXN0004224,ACCT000201,CUST000312,0.05981067324542838,0,0,Info,2.69,Info,No immediate priority indicators,No immediate action
+TXN0003627,ACCT000529,CUST000265,0.05836118244339969,0,0,Info,2.63,Info,No immediate priority indicators,No immediate action
+TXN0003786,ACCT000654,CUST000169,0.058153788780999305,0,0,Info,2.62,Info,No immediate priority indicators,No immediate action
+TXN0004325,ACCT000166,CUST000232,0.057261063108418914,0,0,Info,2.58,Info,No immediate priority indicators,No immediate action
+TXN0002702,ACCT000026,CUST000051,0.056828931100744655,0,0,Info,2.56,Info,No immediate priority indicators,No immediate action
+TXN0004557,ACCT000652,CUST000454,0.05618466140378922,0,0,Info,2.53,Info,No immediate priority indicators,No immediate action
+TXN0000951,ACCT000630,CUST000187,0.05372565064038236,0,0,Info,2.42,Info,No immediate priority indicators,No immediate action
+TXN0000988,ACCT000387,CUST000496,0.05344555136679052,0,0,Info,2.41,Info,No immediate priority indicators,No immediate action
+TXN0000332,ACCT000093,CUST000264,0.05268530320631986,0,0,Info,2.37,Info,No immediate priority indicators,No immediate action
+TXN0003217,ACCT000668,CUST000391,0.052245596085212245,0,0,Info,2.35,Info,No immediate priority indicators,No immediate action
+TXN0000012,ACCT000410,CUST000259,0.0514008264424832,0,0,Info,2.31,Info,No immediate priority indicators,No immediate action
+TXN0003261,ACCT000041,CUST000143,0.050985955230230855,0,0,Info,2.29,Info,No immediate priority indicators,No immediate action
+TXN0003894,ACCT000596,CUST000322,0.048842255681240884,0,0,Info,2.2,Info,No immediate priority indicators,No immediate action
+TXN0000767,ACCT000163,CUST000431,0.047441874016491595,0,0,Info,2.13,Info,No immediate priority indicators,No immediate action
+TXN0001171,ACCT000549,CUST000088,0.044641026541790654,0,0,Info,2.01,Info,No immediate priority indicators,No immediate action
+TXN0004679,ACCT000450,CUST000253,0.042986797864512975,0,0,Info,1.93,Info,No immediate priority indicators,No immediate action
+TXN0003977,ACCT000464,CUST000140,0.04218762085002208,0,0,Info,1.9,Info,No immediate priority indicators,No immediate action
+TXN0003909,ACCT000349,CUST000302,0.04083836471387554,0,0,Info,1.84,Info,No immediate priority indicators,No immediate action
+TXN0001310,ACCT000525,CUST000245,0.04045398345124672,0,0,Info,1.82,Info,No immediate priority indicators,No immediate action
+TXN0003405,ACCT000107,CUST000226,0.04011548782938618,0,0,Info,1.81,Info,No immediate priority indicators,No immediate action
+TXN0001511,ACCT000449,CUST000468,0.03974117268789174,0,0,Info,1.79,Info,No immediate priority indicators,No immediate action
+TXN0004198,ACCT000554,CUST000134,0.03939092026374002,0,0,Info,1.77,Info,No immediate priority indicators,No immediate action
+TXN0001289,ACCT000289,CUST000273,0.03792375716370139,0,0,Info,1.71,Info,No immediate priority indicators,No immediate action
+TXN0000215,ACCT000427,CUST000372,0.0376697927006645,0,0,Info,1.7,Info,No immediate priority indicators,No immediate action
+TXN0004275,ACCT000247,CUST000217,0.03615429395647358,0,0,Info,1.63,Info,No immediate priority indicators,No immediate action
+TXN0000742,ACCT000051,CUST000302,0.03561389813705237,0,0,Info,1.6,Info,No immediate priority indicators,No immediate action
+TXN0002355,ACCT000687,CUST000196,0.03516294900702369,0,0,Info,1.58,Info,No immediate priority indicators,No immediate action
+TXN0001220,ACCT000132,CUST000280,0.033124695852655726,0,0,Info,1.49,Info,No immediate priority indicators,No immediate action
+TXN0002322,ACCT000343,CUST000278,0.030931057120122573,0,0,Info,1.39,Info,No immediate priority indicators,No immediate action
+TXN0004911,ACCT000050,CUST000378,0.02947549122255556,0,0,Info,1.33,Info,No immediate priority indicators,No immediate action
+TXN0004214,ACCT000536,CUST000046,0.02935822526467912,0,0,Info,1.32,Info,No immediate priority indicators,No immediate action
+TXN0001788,ACCT000185,CUST000272,0.028662750182673877,0,0,Info,1.29,Info,No immediate priority indicators,No immediate action
+TXN0002182,ACCT000341,CUST000390,0.028213057179465324,0,0,Info,1.27,Info,No immediate priority indicators,No immediate action
+TXN0004243,ACCT000086,CUST000370,0.027989391225446015,0,0,Info,1.26,Info,No immediate priority indicators,No immediate action
+TXN0002153,ACCT000624,CUST000221,0.027688294317572918,0,0,Info,1.25,Info,No immediate priority indicators,No immediate action
+TXN0004780,ACCT000528,CUST000350,0.027097512618064562,0,0,Info,1.22,Info,No immediate priority indicators,No immediate action
+TXN0000781,ACCT000008,CUST000041,0.026660824808672927,0,0,Info,1.2,Info,No immediate priority indicators,No immediate action
+TXN0002231,ACCT000514,CUST000295,0.026086437577633192,0,0,Info,1.17,Info,No immediate priority indicators,No immediate action
+TXN0004665,ACCT000089,CUST000405,0.025935349195048907,0,0,Info,1.17,Info,No immediate priority indicators,No immediate action
+TXN0001056,ACCT000031,CUST000296,0.025031727845697557,0,0,Info,1.13,Info,No immediate priority indicators,No immediate action
+TXN0003293,ACCT000239,CUST000113,0.024463905014447195,0,0,Info,1.1,Info,No immediate priority indicators,No immediate action
+TXN0002170,ACCT000221,CUST000490,0.023447854301061537,0,0,Info,1.06,Info,No immediate priority indicators,No immediate action
+TXN0000645,ACCT000225,CUST000108,0.0228346338174689,0,0,Info,1.03,Info,No immediate priority indicators,No immediate action
+TXN0003741,ACCT000554,CUST000134,0.021134603751165652,0,0,Info,0.95,Info,No immediate priority indicators,No immediate action
+TXN0002359,ACCT000449,CUST000468,0.020593592152232602,0,0,Info,0.93,Info,No immediate priority indicators,No immediate action
+TXN0004104,ACCT000681,CUST000196,0.01983768686793241,0,0,Info,0.89,Info,No immediate priority indicators,No immediate action
+TXN0002569,ACCT000601,CUST000104,0.019273091182940866,0,0,Info,0.87,Info,No immediate priority indicators,No immediate action
+TXN0002725,ACCT000649,CUST000049,0.01859770374937181,0,0,Info,0.84,Info,No immediate priority indicators,No immediate action
+TXN0002514,ACCT000251,CUST000441,0.017459629507447755,0,0,Info,0.79,Info,No immediate priority indicators,No immediate action
+TXN0002555,ACCT000192,CUST000294,0.015913298951110735,0,0,Info,0.72,Info,No immediate priority indicators,No immediate action
+TXN0003063,ACCT000203,CUST000139,0.01595343518855958,0,0,Info,0.72,Info,No immediate priority indicators,No immediate action
+TXN0003680,ACCT000343,CUST000278,0.01519150823454954,0,0,Info,0.68,Info,No immediate priority indicators,No immediate action
+TXN0001688,ACCT000427,CUST000372,0.013417590339293836,0,0,Info,0.6,Info,No immediate priority indicators,No immediate action
+TXN0001282,ACCT000225,CUST000108,0.009808879722306554,0,0,Info,0.44,Info,No immediate priority indicators,No immediate action

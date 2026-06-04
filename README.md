@@ -115,6 +115,34 @@ outputs/sample/feature_summary.json
 
 No ML models are trained in this milestone. The feature layer remains synthetic-data-only, local-first, and pandas-based.
 
+## Milestone 5: Fraud Classifier and AML Risk Scoring
+
+Milestone 5 adds a first supervised fraud classification baseline and deterministic AML risk scoring. It trains a lightweight scikit-learn logistic regression model on the engineered transaction feature table, writes fraud predictions and model metrics, scores AML risk using transparent typology indicators, and creates prioritised alert output.
+
+Run the workflow:
+
+```bash
+python scripts/train_fraud_model.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli train-fraud-model
+```
+
+Outputs:
+
+```text
+outputs/sample/model_metrics.json
+outputs/sample/fraud_predictions.csv
+outputs/sample/aml_risk_scores.csv
+outputs/sample/prioritised_alerts.csv
+reports/sample/model_card.md
+```
+
+No live deployment, model registry, serving API, graph model, anomaly detector, or NLP classifier is included in this milestone.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
@@ -129,7 +157,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 4 is a feature engineering milestone. The repository contains the project scaffold, deterministic synthetic data generation, schema and relationship validation, local data quality reporting, transaction-level engineered features, and rule-based AML typology indicators.
+Milestone 5 is an initial modelling and scoring milestone. The repository contains the project scaffold, deterministic synthetic data generation, schema and relationship validation, local data quality reporting, engineered transaction features, a baseline fraud classifier, deterministic AML risk scoring, prioritised alerts, and an initial model card.
 
 ## Quick Start
 
@@ -164,4 +192,10 @@ Build transaction-level features:
 
 ```bash
 python -m financial_crime_ml.cli build-features
+```
+
+Train the fraud model and generate AML risk outputs:
+
+```bash
+python -m financial_crime_ml.cli train-fraud-model
 ```

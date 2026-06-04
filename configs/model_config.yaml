@@ -1,9 +1,24 @@
-# Placeholder model configuration. No models are implemented in Milestone 1.
-models:
-  fraud_detection:
-    enabled: false
-  aml_risk_scoring:
-    enabled: false
-  anomaly_detection:
-    enabled: false
-
+fraud_classifier:
+  random_seed: 42
+  test_size: 0.2
+  target_column: is_suspicious
+  model_type: logistic_regression
+  prediction_threshold: 0.5
+  input_path: data/processed/transaction_features.csv
+  metrics_output_path: outputs/sample/model_metrics.json
+  predictions_output_path: outputs/sample/fraud_predictions.csv
+  model_card_output_path: reports/sample/model_card.md
+  excluded_columns:
+    - transaction_id
+    - account_id
+    - customer_id
+    - beneficiary_id
+    - device_id
+    - suspicious_pattern
+    - transaction_timestamp
+    - currency
+    - transaction_type
+    - merchant_category
+    - origin_country
+    - destination_country
+    - channel

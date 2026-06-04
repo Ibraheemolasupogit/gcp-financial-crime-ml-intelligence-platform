@@ -35,5 +35,10 @@ reports/*
 !outputs/sample/.gitkeep
 !outputs/sample/data_quality_report.json
 !outputs/sample/feature_summary.json
+!outputs/sample/model_metrics.json
+!outputs/sample/fraud_predictions.csv
+!outputs/sample/aml_risk_scores.csv
+!outputs/sample/prioritised_alerts.csv
 !reports/sample/
 !reports/sample/.gitkeep
+!reports/sample/model_card.md
