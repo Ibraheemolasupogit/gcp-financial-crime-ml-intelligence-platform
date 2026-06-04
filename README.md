@@ -66,6 +66,30 @@ python -m financial_crime_ml.cli generate-data
 
 The generated files are synthetic demonstration artefacts only. They must not be interpreted as real customer behaviour or real financial crime intelligence.
 
+## Milestone 3: Data Ingestion and Validation
+
+Milestone 3 adds a local ingestion and validation layer for the synthetic datasets. It loads the CSV files from `data/sample/`, validates explicit dataset schemas, checks foreign-key style relationships, and writes a data quality report.
+
+Run validation:
+
+```bash
+python scripts/validate_demo_data.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli validate-data
+```
+
+The validation report is written to:
+
+```text
+outputs/sample/data_quality_report.json
+```
+
+This remains synthetic-data-only and local-first. The validation layer does not implement feature engineering, models, monitoring, dashboards, or GCP deployment.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
@@ -80,7 +104,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 2 is a synthetic data generation milestone. The repository contains the project scaffold plus deterministic generators and sample CSV outputs for synthetic customers, accounts, transactions, beneficiaries, devices, alerts, and case notes.
+Milestone 3 is a data ingestion and validation milestone. The repository contains the project scaffold, deterministic synthetic data generation, sample CSV outputs, schema validation, relationship validation, and a local data quality report.
 
 ## Quick Start
 
@@ -103,4 +127,10 @@ Generate synthetic demo data:
 
 ```bash
 python -m financial_crime_ml.cli generate-data
+```
+
+Validate synthetic demo data:
+
+```bash
+python -m financial_crime_ml.cli validate-data
 ```

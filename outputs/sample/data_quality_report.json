@@ -1,0 +1,100 @@
+{
+  "overall_status": "passed",
+  "schema_validation_status": "passed",
+  "relationship_validation_status": "passed",
+  "row_counts": {
+    "customers": 500,
+    "accounts": 700,
+    "transactions": 5000,
+    "beneficiaries": 800,
+    "devices": 600,
+    "alerts": 900,
+    "case_notes": 900
+  },
+  "column_counts": {
+    "customers": 7,
+    "accounts": 7,
+    "transactions": 14,
+    "beneficiaries": 5,
+    "devices": 5,
+    "alerts": 8,
+    "case_notes": 5
+  },
+  "missing_value_counts": {
+    "customers": {
+      "customer_id": 0,
+      "customer_type": 0,
+      "age_band_or_business_type": 0,
+      "country": 0,
+      "risk_band": 0,
+      "onboarding_date": 0,
+      "kyc_status": 0
+    },
+    "accounts": {
+      "account_id": 0,
+      "customer_id": 0,
+      "account_type": 0,
+      "open_date": 0,
+      "account_status": 0,
+      "base_currency": 0,
+      "branch_region": 0
+    },
+    "transactions": {
+      "transaction_id": 0,
+      "account_id": 0,
+      "beneficiary_id": 0,
+      "device_id": 0,
+      "transaction_timestamp": 0,
+      "amount": 0,
+      "currency": 0,
+      "transaction_type": 0,
+      "merchant_category": 0,
+      "origin_country": 0,
+      "destination_country": 0,
+      "channel": 0,
+      "is_suspicious": 0,
+      "suspicious_pattern": 0
+    },
+    "beneficiaries": {
+      "beneficiary_id": 0,
+      "beneficiary_country": 0,
+      "beneficiary_type": 0,
+      "first_seen_date": 0,
+      "risk_band": 0
+    },
+    "devices": {
+      "device_id": 0,
+      "device_type": 0,
+      "ip_country": 0,
+      "first_seen_date": 0,
+      "device_risk_band": 0
+    },
+    "alerts": {
+      "alert_id": 0,
+      "transaction_id": 0,
+      "account_id": 0,
+      "alert_type": 0,
+      "alert_severity": 0,
+      "alert_status": 0,
+      "alert_timestamp": 0,
+      "alert_reason": 0
+    },
+    "case_notes": {
+      "case_note_id": 0,
+      "alert_id": 0,
+      "note_timestamp": 0,
+      "note_text": 0,
+      "typology_label": 0
+    }
+  },
+  "duplicate_primary_key_counts": {
+    "customers": 0,
+    "accounts": 0,
+    "transactions": 0,
+    "beneficiaries": 0,
+    "devices": 0,
+    "alerts": 0,
+    "case_notes": 0
+  },
+  "validation_issues": []
+}

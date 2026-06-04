@@ -32,6 +32,6 @@ reports/*
 !data/sample/.gitkeep
 !outputs/sample/
 !outputs/sample/.gitkeep
+!outputs/sample/data_quality_report.json
 !reports/sample/
 !reports/sample/.gitkeep
-
