@@ -39,6 +39,10 @@ reports/*
 !outputs/sample/fraud_predictions.csv
 !outputs/sample/aml_risk_scores.csv
 !outputs/sample/prioritised_alerts.csv
+!outputs/sample/anomaly_scores.csv
+!outputs/sample/high_risk_anomalies.csv
+!outputs/sample/anomaly_summary.json
 !reports/sample/
 !reports/sample/.gitkeep
 !reports/sample/model_card.md
+!reports/sample/anomaly_detection_report.md

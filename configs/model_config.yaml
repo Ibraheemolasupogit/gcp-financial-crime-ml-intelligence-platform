@@ -22,3 +22,29 @@ fraud_classifier:
     - origin_country
     - destination_country
     - channel
+
+anomaly_detection:
+  anomaly_model_type: isolation_forest
+  contamination: 0.08
+  random_seed: 42
+  input_path: data/processed/transaction_features.csv
+  anomaly_scores_output_path: outputs/sample/anomaly_scores.csv
+  high_risk_anomalies_output_path: outputs/sample/high_risk_anomalies.csv
+  anomaly_summary_output_path: outputs/sample/anomaly_summary.json
+  anomaly_report_output_path: reports/sample/anomaly_detection_report.md
+  max_high_risk_anomalies: 100
+  excluded_columns:
+    - transaction_id
+    - account_id
+    - customer_id
+    - beneficiary_id
+    - device_id
+    - suspicious_pattern
+    - transaction_timestamp
+    - is_suspicious
+    - currency
+    - transaction_type
+    - merchant_category
+    - origin_country
+    - destination_country
+    - channel

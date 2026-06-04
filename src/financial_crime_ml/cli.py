@@ -8,6 +8,7 @@ from financial_crime_ml.data_generation import generate_all_datasets
 from financial_crime_ml.features import load_feature_config, run_feature_pipeline
 from financial_crime_ml.ingestion import DEFAULT_REPORT_PATH, run_data_validation
 from financial_crime_ml.models.workflow import run_fraud_model_workflow
+from financial_crime_ml.monitoring import run_anomaly_detection_workflow
 
 STATUS_MESSAGE = "GCP Financial Crime ML Intelligence Platform scaffold is ready."
 
@@ -51,6 +52,16 @@ def main(argv: list[str] | None = None) -> None:
         print(f"F1 score: {metrics['f1_score']:.4f}")
         print(f"Metrics written to: {result['model_metrics_path']}")
         print(f"Prioritised alerts written to: {result['prioritised_alerts_path']}")
+        return
+
+    if args == ["run-anomaly-detection"]:
+        result = run_anomaly_detection_workflow()
+        summary = result["summary"]
+        print("Anomaly detection completed.")
+        print(f"Anomalies: {summary['anomaly_count']}")
+        print(f"Anomaly rate: {summary['anomaly_rate']:.4f}")
+        print(f"Anomaly scores written to: {result['anomaly_scores_path']}")
+        print(f"Report written to: {result['anomaly_report_path']}")
         return
 
     print(get_status_message())

@@ -143,6 +143,33 @@ reports/sample/model_card.md
 
 No live deployment, model registry, serving API, graph model, anomaly detector, or NLP classifier is included in this milestone.
 
+## Milestone 6: Anomaly Detection
+
+Milestone 6 adds an unsupervised anomaly detection layer using scikit-learn `IsolationForest` on the engineered transaction feature table. It excludes labels and identifiers from training, writes anomaly scores, ranks high-risk anomalies, and generates a markdown anomaly report.
+
+Run anomaly detection:
+
+```bash
+python scripts/run_anomaly_detection.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli run-anomaly-detection
+```
+
+Outputs:
+
+```text
+outputs/sample/anomaly_scores.csv
+outputs/sample/high_risk_anomalies.csv
+outputs/sample/anomaly_summary.json
+reports/sample/anomaly_detection_report.md
+```
+
+This remains local-first and synthetic-data-only. Graph/network modelling and NLP are intentionally deferred to later milestones.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
@@ -157,7 +184,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 5 is an initial modelling and scoring milestone. The repository contains the project scaffold, deterministic synthetic data generation, schema and relationship validation, local data quality reporting, engineered transaction features, a baseline fraud classifier, deterministic AML risk scoring, prioritised alerts, and an initial model card.
+Milestone 6 is an anomaly detection milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, a baseline fraud classifier, AML risk scoring, prioritised alerts, model governance artefacts, and unsupervised anomaly detection.
 
 ## Quick Start
 
@@ -198,4 +225,10 @@ Train the fraud model and generate AML risk outputs:
 
 ```bash
 python -m financial_crime_ml.cli train-fraud-model
+```
+
+Run anomaly detection:
+
+```bash
+python -m financial_crime_ml.cli run-anomaly-detection
 ```

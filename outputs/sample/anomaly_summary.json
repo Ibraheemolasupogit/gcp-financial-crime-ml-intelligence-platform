@@ -1,0 +1,32 @@
+{
+  "row_count": 5000,
+  "feature_count": 45,
+  "anomaly_count": 400,
+  "anomaly_rate": 0.08,
+  "band_counts": {
+    "Critical": 50,
+    "High": 200,
+    "Info": 3500,
+    "Low": 750,
+    "Medium": 500
+  },
+  "top_reason_codes": {
+    "CROSS_BORDER_TRANSACTION": 327,
+    "HIGH_VALUE_TRANSACTION": 155,
+    "HIGH_RISK_JURISDICTION": 145,
+    "ROUND_AMOUNT_PATTERN": 113,
+    "RAPID_MOVEMENT": 108,
+    "ACCOUNT_TAKEOVER_SIGNAL": 49,
+    "DEVICE_RISK_SIGNAL": 43,
+    "MULE_ACTIVITY_SIGNAL": 12,
+    "NEW_BENEFICIARY_HIGH_VALUE": 5
+  },
+  "suspicious_overlap_count": 293,
+  "suspicious_overlap_rate": 0.7325,
+  "aml_high_or_critical_overlap_count": 9,
+  "notes": [
+    "IsolationForest anomaly detection uses engineered numeric and boolean features.",
+    "The supervised target is excluded from anomaly model training.",
+    "Outputs are synthetic-data-only and intended for local portfolio demonstration."
+  ]
+}

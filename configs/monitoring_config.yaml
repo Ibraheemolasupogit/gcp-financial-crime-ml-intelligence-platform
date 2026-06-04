@@ -1,6 +1,16 @@
-# Placeholder monitoring configuration for future drift, quality, and performance checks.
 monitoring:
-  enabled: false
-  metrics: []
+  enabled: true
+  metrics:
+    - anomaly_count
+    - anomaly_rate
+    - anomaly_band_distribution
+    - suspicious_label_overlap
   reporting_path: reports
 
+anomaly_detection:
+  anomaly_score_percentile_thresholds:
+    Critical: 99
+    High: 95
+    Medium: 85
+    Low: 70
+    Info: 0
