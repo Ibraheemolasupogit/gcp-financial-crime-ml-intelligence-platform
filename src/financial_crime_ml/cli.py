@@ -16,6 +16,7 @@ from financial_crime_ml.monitoring import (
     run_network_risk_workflow,
     run_nlp_triage_workflow,
 )
+from financial_crime_ml.project_readiness import run_final_project_check
 
 STATUS_MESSAGE = "GCP Financial Crime ML Intelligence Platform scaffold is ready."
 
@@ -114,6 +115,17 @@ def main(argv: list[str] | None = None) -> None:
         print(f"Documentation validation status: {result.status}")
         print(f"Documents checked: {result.docs_checked}")
         print(f"Mermaid diagrams checked: {result.diagrams_checked}")
+        print(f"Issues: {len(result.issues)}")
+        for issue in result.issues:
+            print(f"- {issue}")
+        if not result.passed:
+            raise SystemExit(1)
+        return
+
+    if args == ["final-check"]:
+        result = run_final_project_check()
+        print(f"Final project check status: {result.status}")
+        print(f"Checks run: {result.checks_run}")
         print(f"Issues: {len(result.issues)}")
         for issue in result.issues:
             print(f"- {issue}")

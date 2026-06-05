@@ -1,338 +1,69 @@
 # GCP Financial Crime ML Intelligence Platform
 
-A local-first, GCP-aligned machine learning intelligence platform for financial crime analytics. The project is designed as a professional portfolio implementation of fraud detection, AML risk scoring, anomaly detection, graph and network risk modelling, NLP-assisted alert triage, monitoring, governance evidence, and cloud reference architecture.
+A local-first, GCP-aligned machine learning intelligence platform for synthetic financial crime analytics, covering fraud detection, AML risk scoring, anomaly detection, graph risk, NLP alert triage, monitoring, governance evidence, and cloud architecture design.
 
-Milestone 2 adds deterministic synthetic financial crime data generation. It does not include production models, live cloud integrations, dashboards, or real data.
+## Problem Statement
 
-## Problem Context
+Financial institutions need to detect suspicious behaviour across customers, accounts, transactions, beneficiaries, devices, alerts, and case narratives. Financial crime teams must prioritise noisy alert queues, identify emerging typologies, explain risk decisions, monitor model behaviour, and retain evidence for governance and audit review.
 
-Financial institutions need to detect suspicious behaviour across large volumes of transactions, customers, accounts, alerts, and network relationships. Traditional rule-based systems can be brittle, noisy, and difficult to adapt as typologies evolve. Machine learning can support financial crime teams by improving risk prioritisation, surfacing anomalous patterns, identifying connected-party exposure, and helping analysts triage alert narratives.
+This repository demonstrates those engineering patterns using synthetic data only. It is designed for public portfolio review and does not contain real customer data, credentials, secrets, production infrastructure, or live financial crime intelligence.
 
-This project is structured around those engineering problems while keeping the implementation synthetic, reproducible, and safe for public demonstration.
+## Why This Project Matters
 
-## Why GCP
+Financial crime ML systems need more than a classifier. They need governed data ingestion, deterministic feature engineering, transparent scoring, unsupervised risk discovery, network analysis, text triage, monitoring, auditability, and human review controls. This project shows how those components fit together in a practical local implementation while mapping clearly to a future GCP production architecture.
 
-Google Cloud Platform is relevant to this domain because financial crime workloads often require scalable data processing, governed feature pipelines, model training and serving, secure analytics, auditability, and monitoring. This repository is local-first for development, but its architecture and documentation are aligned to GCP services such as BigQuery, Vertex AI, Cloud Composer, Cloud Storage, Pub/Sub, Dataflow, and Cloud Monitoring.
+## Key Capabilities
 
-No live GCP resources or credentials are required for the current milestones.
+- Deterministic synthetic financial crime data generation
+- Data ingestion, schema validation, relationship checks, and data quality reporting
+- Transaction, velocity, customer, account, beneficiary, device, and typology features
+- Supervised fraud classification baseline using scikit-learn
+- Transparent AML risk scoring and prioritised alert generation
+- Isolation Forest anomaly detection with reason codes
+- NetworkX graph and network risk modelling
+- Lightweight NLP alert triage and synthetic case-note classification
+- Drift, prediction, risk distribution, and alert quality monitoring
+- Governance evidence pack, model risk assessment, audit log, and lifecycle traceability
+- GCP reference architecture, deployment blueprint, operations runbook, and service mapping
 
-## Intended Platform Capabilities
+## Architecture Overview
 
-The planned platform capabilities include:
-
-- Synthetic financial crime data generation and management
-- Fraud detection model workflows
-- AML customer and entity risk scoring
-- Transaction and behavioural anomaly detection
-- Graph and network-based risk modelling
-- NLP-assisted alert triage and case summarisation
-- Model monitoring and drift reporting
-- Model risk governance evidence packs
-- GCP-aligned reference architecture and deployment design
-
-## Milestone-Based Build Approach
-
-The project will be built incrementally to keep scope controlled and each milestone reviewable. Milestone 1 created the professional project scaffold, package skeleton, configuration placeholders, documentation placeholders, diagram placeholders, CI workflow, and basic tests.
-
-Future milestones will add data generation, feature engineering, modelling, evaluation, monitoring, governance artefacts, and cloud-aligned architecture examples in deliberate stages.
-
-## Milestone 2: Synthetic Data Generation
-
-Milestone 2 generates fully synthetic sample datasets under `data/sample/` for future fraud detection, AML risk scoring, anomaly detection, graph risk modelling, NLP alert triage, monitoring, and governance evidence workflows.
-
-Generated datasets:
-
-- `customers.csv`
-- `accounts.csv`
-- `transactions.csv`
-- `beneficiaries.csv`
-- `devices.csv`
-- `alerts.csv`
-- `case_notes.csv`
-
-The generator is deterministic when a random seed is provided in `configs/pipeline_config.yaml`. It simulates normal activity and suspicious patterns such as high transaction velocity, round-number payments, unusual amount spikes, new beneficiary risk, high-risk jurisdiction exposure, rapid movement of funds, shared device behaviour, mule-account style behaviour, account takeover style behaviour, and synthetic suspicious case-note narratives.
-
-Generate the sample data:
-
-```bash
-python scripts/generate_demo_data.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli generate-data
-```
-
-The generated files are synthetic demonstration artefacts only. They must not be interpreted as real customer behaviour or real financial crime intelligence.
-
-## Milestone 3: Data Ingestion and Validation
-
-Milestone 3 adds a local ingestion and validation layer for the synthetic datasets. It loads the CSV files from `data/sample/`, validates explicit dataset schemas, checks foreign-key style relationships, and writes a data quality report.
-
-Run validation:
-
-```bash
-python scripts/validate_demo_data.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli validate-data
-```
-
-The validation report is written to:
+The local workflow is organised as a synthetic ML lifecycle:
 
 ```text
-outputs/sample/data_quality_report.json
+synthetic data -> validation -> features -> models and scoring -> risk outputs -> monitoring -> governance evidence -> GCP blueprint
 ```
 
-This remains synthetic-data-only and local-first. The validation layer does not implement feature engineering, models, monitoring, dashboards, or GCP deployment.
-
-## Milestone 4: Feature Engineering and Typology Indicators
-
-Milestone 4 adds deterministic feature engineering for the synthetic transaction data. It creates transaction, velocity, customer/account, beneficiary, device, and rule-based AML typology indicator features.
-
-Build features:
-
-```bash
-python scripts/build_features.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli build-features
-```
-
-Outputs:
-
-```text
-data/processed/transaction_features.csv
-outputs/sample/feature_summary.json
-```
-
-No ML models are trained in this milestone. The feature layer remains synthetic-data-only, local-first, and pandas-based.
-
-## Milestone 5: Fraud Classifier and AML Risk Scoring
-
-Milestone 5 adds a first supervised fraud classification baseline and deterministic AML risk scoring. It trains a lightweight scikit-learn logistic regression model on the engineered transaction feature table, writes fraud predictions and model metrics, scores AML risk using transparent typology indicators, and creates prioritised alert output.
-
-Run the workflow:
-
-```bash
-python scripts/train_fraud_model.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli train-fraud-model
-```
-
-Outputs:
-
-```text
-outputs/sample/model_metrics.json
-outputs/sample/fraud_predictions.csv
-outputs/sample/aml_risk_scores.csv
-outputs/sample/prioritised_alerts.csv
-reports/sample/model_card.md
-```
-
-No live deployment, model registry, serving API, graph model, anomaly detector, or NLP classifier is included in this milestone.
-
-## Milestone 6: Anomaly Detection
-
-Milestone 6 adds an unsupervised anomaly detection layer using scikit-learn `IsolationForest` on the engineered transaction feature table. It excludes labels and identifiers from training, writes anomaly scores, ranks high-risk anomalies, and generates a markdown anomaly report.
-
-Run anomaly detection:
-
-```bash
-python scripts/run_anomaly_detection.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli run-anomaly-detection
-```
-
-Outputs:
-
-```text
-outputs/sample/anomaly_scores.csv
-outputs/sample/high_risk_anomalies.csv
-outputs/sample/anomaly_summary.json
-reports/sample/anomaly_detection_report.md
-```
-
-This remains local-first and synthetic-data-only. Graph/network modelling and NLP are intentionally deferred to later milestones.
-
-## Milestone 7: Graph and Network Risk Modelling
-
-Milestone 7 adds a NetworkX-based graph risk layer connecting customers, accounts, transactions, beneficiaries, and devices. It creates graph features, identifies shared-device and shared-beneficiary risk, detects connected-component clusters, scores network risk, and writes high-risk network outputs.
-
-Run network risk modelling:
-
-```bash
-python scripts/run_network_risk.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli run-network-risk
-```
-
-Outputs:
-
-```text
-outputs/sample/network_risk_scores.csv
-outputs/sample/high_risk_networks.csv
-outputs/sample/network_summary.json
-reports/sample/network_risk_report.md
-```
-
-This remains local-first and synthetic-data-only. NLP, agentic AI, dashboards, graph databases, and cloud deployment are intentionally deferred.
-
-## Milestone 8: NLP Alert Triage
-
-Milestone 8 adds lightweight NLP alert triage and case-note typology classification using synthetic alert reasons and case notes. It uses transparent preprocessing and rule-based typology tagging, then creates alert triage scores and suggested review queues.
-
-Run NLP triage:
-
-```bash
-python scripts/run_nlp_triage.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli run-nlp-triage
-```
-
-Outputs:
-
-```text
-outputs/sample/nlp_case_note_classifications.csv
-outputs/sample/nlp_alert_triage.csv
-outputs/sample/nlp_summary.json
-reports/sample/nlp_alert_triage_report.md
-```
-
-This remains lightweight, local-first, and synthetic-data-only. LLMs, agentic AI, Hugging Face transformers, dashboards, and cloud deployment are intentionally deferred.
-
-## Milestone 9: Monitoring and Drift Reporting
-
-Milestone 9 adds local monitoring and drift reporting across transaction features, fraud predictions, AML risk scores, anomaly scores, network risk scores, prioritised alerts, and NLP triage outputs.
-
-Run monitoring:
-
-```bash
-python scripts/run_monitoring.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli run-monitoring
-```
-
-Outputs:
-
-```text
-outputs/sample/data_drift_summary.csv
-outputs/sample/prediction_monitoring_summary.json
-outputs/sample/alert_quality_summary.json
-outputs/sample/monitoring_summary.json
-reports/sample/model_monitoring_report.md
-```
-
-This remains local-first and synthetic-data-only. No live GCP monitoring, dashboard, API, registry, or retraining automation is included.
-
-## Milestone 10: Governance Evidence Pack
-
-Milestone 10 adds governance controls, model risk assessment, evidence inventory, audit logging, lifecycle traceability, and governance markdown reports across the full synthetic ML lifecycle.
-
-Generate the governance pack:
-
-```bash
-python scripts/generate_governance_pack.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli generate-governance-pack
-```
-
-Outputs:
-
-```text
-outputs/sample/governance_control_checklist.json
-outputs/sample/model_risk_assessment.json
-outputs/sample/evidence_inventory.json
-outputs/sample/audit_log.jsonl
-outputs/sample/lifecycle_traceability.json
-reports/sample/governance_evidence_pack.md
-reports/sample/model_risk_management_report.md
-```
-
-This remains local-first, synthetic-data-only, and not production deployment.
-
-## Milestone 11: GCP Reference Architecture and Deployment Blueprint
-
-Milestone 11 adds a professional GCP reference architecture and deployment blueprint for the platform. It documents how the local synthetic lifecycle maps conceptually to services such as Cloud Storage, BigQuery, Pub/Sub, Dataflow, Vertex AI, Cloud Logging, Cloud Monitoring, Dataplex-style governance, and Looker Studio source-layer reporting.
-
-Validate the architecture documentation:
-
-```bash
-python scripts/validate_docs.py
-```
-
-Or use the package CLI:
-
-```bash
-python -m financial_crime_ml.cli validate-docs
-```
-
-Blueprint artifacts:
-
-```text
-docs/gcp_reference_architecture.md
-docs/distributed_systems_design.md
-docs/deployment_blueprint.md
-docs/security_and_governance_mapping.md
-docs/operations_runbook.md
-docs/gcp_service_mapping.md
-diagrams/gcp_reference_architecture.mmd
-diagrams/ml_lifecycle.mmd
-diagrams/governance_workflow.mmd
-diagrams/distributed_dataflow.mmd
-diagrams/deployment_phases.mmd
-```
-
-This milestone is documentation and blueprint only. It does not deploy live GCP infrastructure, create credentials, create APIs, run Vertex AI pipelines, create BigQuery tables, or implement dashboards.
-
-## Synthetic Data Only
-
-This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
-
-## Local-First, GCP-Aligned
-
-Development is intended to run locally first using standard Python tooling. GCP alignment is expressed through architecture, configuration design, pipeline boundaries, documentation, service mapping, governance controls, and future deployment references rather than live cloud dependencies.
-
-## Portfolio Positioning
-
-This project demonstrates financial crime ML engineering with a focus on scalable ML pipeline design, model governance, monitoring, and GCP-aligned production thinking. It is intended to show practical engineering judgement across fraud detection, AML analytics, anomaly detection, graph risk, NLP triage, MLOps, and regulatory control awareness.
-
-## Current Status
-
-Milestone 11 is a GCP reference architecture and deployment blueprint milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, fraud classification, AML scoring, anomaly detection, network risk modelling, NLP case-note triage, monitoring reports, model risk governance evidence, and cloud-aligned architecture documentation.
-
-## Quick Start
+The platform is intentionally batch-oriented and local-first. Each stage writes explicit artifacts under `data/processed/`, `outputs/sample/`, or `reports/sample/`, making the workflow easy to inspect and reproduce.
+
+Key architecture documents:
+
+- `docs/architecture_narrative.md`
+- `docs/gcp_reference_architecture.md`
+- `docs/distributed_systems_design.md`
+- `docs/deployment_blueprint.md`
+- `docs/security_and_governance_mapping.md`
+- `docs/operations_runbook.md`
+- `docs/gcp_service_mapping.md`
+
+## GCP Service Mapping Summary
+
+| Local capability | GCP-aligned production concept |
+| --- | --- |
+| Synthetic CSV landing data | Cloud Storage landing bucket |
+| Data validation and quality reports | BigQuery checks / Dataplex-style governance |
+| Transaction feature table | BigQuery feature tables / Vertex AI Feature Store concept |
+| Fraud classifier training | Vertex AI Training |
+| Model metrics and model card | Vertex AI Experiments / Model Registry metadata concept |
+| AML scoring and alert prioritisation | Dataflow, BigQuery scheduled scoring, or Cloud Run batch jobs |
+| Anomaly and NLP batch scoring | Vertex AI batch prediction or Cloud Run jobs |
+| Network risk modelling | Dataproc, BigQuery graph-style features, or Cloud Run at demo scale |
+| Monitoring and drift outputs | Vertex AI Model Monitoring concept, Cloud Logging, BigQuery monitoring tables |
+| Governance evidence pack | Cloud Storage evidence bucket, BigQuery audit tables, Dataplex-style metadata |
+
+No live GCP infrastructure is deployed by this repository.
+
+## Local Quickstart
 
 ```bash
 python3.11 -m venv .venv
@@ -340,71 +71,155 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python -m pip install -e .
-make test
+python -m ruff check .
+python -m pytest
 ```
 
-Run the scaffold status command:
+If your environment uses `python3` rather than `python`, run the equivalent `python3` commands.
+
+## End-to-End Demo
+
+Run the full local workflow:
 
 ```bash
-financial-crime-ml
+bash scripts/run_all_local.sh
 ```
 
-Generate synthetic demo data:
+Or run each stage manually:
 
 ```bash
-python -m financial_crime_ml.cli generate-data
+python3 scripts/generate_demo_data.py
+python3 scripts/validate_demo_data.py
+python3 scripts/build_features.py
+python3 scripts/train_fraud_model.py
+python3 scripts/run_anomaly_detection.py
+python3 scripts/run_network_risk.py
+python3 scripts/run_nlp_triage.py
+python3 scripts/run_monitoring.py
+python3 scripts/generate_governance_pack.py
+python3 scripts/validate_docs.py
+python3 scripts/final_project_check.py
 ```
 
-Validate synthetic demo data:
+Equivalent CLI commands are available:
 
 ```bash
-python -m financial_crime_ml.cli validate-data
+python3 -m financial_crime_ml.cli generate-data
+python3 -m financial_crime_ml.cli validate-data
+python3 -m financial_crime_ml.cli build-features
+python3 -m financial_crime_ml.cli train-fraud-model
+python3 -m financial_crime_ml.cli run-anomaly-detection
+python3 -m financial_crime_ml.cli run-network-risk
+python3 -m financial_crime_ml.cli run-nlp-triage
+python3 -m financial_crime_ml.cli run-monitoring
+python3 -m financial_crime_ml.cli generate-governance-pack
+python3 -m financial_crime_ml.cli validate-docs
+python3 -m financial_crime_ml.cli final-check
 ```
 
-Build transaction-level features:
+Detailed walkthrough: `docs/end_to_end_walkthrough.md`.
 
-```bash
-python -m financial_crime_ml.cli build-features
+## Sample Outputs
+
+Important generated artifacts include:
+
+- `data/sample/*.csv`: synthetic customers, accounts, transactions, beneficiaries, devices, alerts, and case notes
+- `outputs/sample/data_quality_report.json`: schema, quality, and relationship validation report
+- `data/processed/transaction_features.csv`: transaction-level engineered feature table
+- `outputs/sample/model_metrics.json`: fraud classifier metrics
+- `outputs/sample/fraud_predictions.csv`: fraud probabilities and predictions
+- `outputs/sample/aml_risk_scores.csv`: deterministic AML scores and reason codes
+- `outputs/sample/prioritised_alerts.csv`: combined fraud and AML alert priority output
+- `outputs/sample/anomaly_scores.csv`: anomaly scores, ranks, bands, and reason codes
+- `outputs/sample/network_risk_scores.csv`: graph/network risk scores and cluster indicators
+- `outputs/sample/nlp_alert_triage.csv`: alert-level NLP triage output
+- `outputs/sample/monitoring_summary.json`: monitoring status and key observations
+- `outputs/sample/governance_control_checklist.json`: governance control evidence
+- `reports/sample/model_card.md`: model card for the fraud classifier
+- `reports/sample/model_monitoring_report.md`: monitoring report
+- `reports/sample/governance_evidence_pack.md`: consolidated governance evidence pack
+- `reports/sample/model_risk_management_report.md`: model risk management summary
+
+Detailed output guide: `docs/sample_outputs_guide.md`.
+
+## Model Governance and Controls
+
+The repository includes model governance artifacts designed to reflect financial services model risk expectations:
+
+- Explicit synthetic data and non-production caveats
+- Data validation and relationship checks
+- Transparent feature and rule documentation
+- Model card and model metrics
+- AML, anomaly, network, and NLP reason codes
+- Drift and alert quality monitoring summaries
+- Governance control checklist
+- Model risk assessment
+- Evidence inventory
+- Deterministic local audit log
+- Lifecycle traceability summary
+- Human-in-the-loop review requirement
+- No autonomous final decisioning
+
+## Repository Structure
+
+```text
+configs/                  Configuration files for generation, features, scoring, monitoring, governance
+data/sample/              Synthetic demo datasets
+data/processed/           Engineered feature table
+diagrams/                 Mermaid architecture and lifecycle diagrams
+docs/                     Architecture, modelling, monitoring, governance, and walkthrough documentation
+outputs/sample/           Generated JSON and CSV outputs
+reports/sample/           Generated markdown reports and model cards
+scripts/                  Local workflow scripts
+src/financial_crime_ml/   Python package source
+tests/                    Pytest test suite
 ```
 
-Train the fraud model and generate AML risk outputs:
+## Milestone Summary
 
-```bash
-python -m financial_crime_ml.cli train-fraud-model
-```
+| Milestone | Scope |
+| --- | --- |
+| 1 | Professional Python project scaffold |
+| 2 | Synthetic financial crime data generation |
+| 3 | Data ingestion and validation |
+| 4 | Feature engineering and typology indicators |
+| 5 | Fraud classifier, AML risk scoring, and prioritised alerts |
+| 6 | Anomaly detection |
+| 7 | Graph and network risk modelling |
+| 8 | NLP alert triage and case-note classification |
+| 9 | Monitoring and drift reporting |
+| 10 | Governance evidence pack and model risk controls |
+| 11 | GCP reference architecture and deployment blueprint |
+| 12 | Final portfolio polish and end-to-end walkthrough |
 
-Run anomaly detection:
+## Portfolio Positioning
 
-```bash
-python -m financial_crime_ml.cli run-anomaly-detection
-```
+This project demonstrates financial crime ML engineering, scalable pipeline design, transparent scoring, monitoring, model governance, and GCP-aligned production thinking. It is intended to show practical Python engineering across the full synthetic ML lifecycle rather than a narrow notebook-only model exercise.
 
-Run network risk modelling:
+## Synthetic Data Disclaimer
 
-```bash
-python -m financial_crime_ml.cli run-network-risk
-```
+All datasets and outputs are synthetic demonstration artifacts. They must not be interpreted as real customer behaviour, real alerts, real typologies, real financial crime intelligence, or production model evidence.
 
-Run NLP alert triage:
+## Non-Production Disclaimer
 
-```bash
-python -m financial_crime_ml.cli run-nlp-triage
-```
+This repository is not production deployment. It does not create cloud infrastructure, service accounts, credentials, APIs, BigQuery tables, Pub/Sub topics, Dataflow jobs, Vertex AI pipelines, dashboards, model registry integrations, or live monitoring services.
 
-Run monitoring:
+## Limitations
 
-```bash
-python -m financial_crime_ml.cli run-monitoring
-```
+- Synthetic data cannot represent the full complexity of real financial crime behaviour.
+- Model metrics are demonstration metrics and not evidence of production suitability.
+- Rule-based AML, network, and NLP logic is intentionally transparent and lightweight.
+- Monitoring is local and file-based, not a live operational service.
+- GCP alignment is documented as architecture and deployment planning only.
+- Human investigation, validation, governance approval, and compliance review would be required before any production use.
 
-Generate governance evidence:
+## Future Enhancements
 
-```bash
-python -m financial_crime_ml.cli generate-governance-pack
-```
-
-Validate GCP architecture documentation:
-
-```bash
-python -m financial_crime_ml.cli validate-docs
-```
+- Infrastructure-as-code examples in a separate, non-credentialed deployment milestone
+- Containerised batch workflow packaging
+- BigQuery SQL feature engineering examples
+- Vertex AI training pipeline prototype
+- Looker Studio-ready reporting layer
+- Investigator feedback loop design
+- Model registry and approval workflow integration
+- Expanded fairness, explainability, and typology evaluation documentation
