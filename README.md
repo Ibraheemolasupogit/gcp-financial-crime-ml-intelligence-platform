@@ -197,6 +197,33 @@ reports/sample/network_risk_report.md
 
 This remains local-first and synthetic-data-only. NLP, agentic AI, dashboards, graph databases, and cloud deployment are intentionally deferred.
 
+## Milestone 8: NLP Alert Triage
+
+Milestone 8 adds lightweight NLP alert triage and case-note typology classification using synthetic alert reasons and case notes. It uses transparent preprocessing and rule-based typology tagging, then creates alert triage scores and suggested review queues.
+
+Run NLP triage:
+
+```bash
+python scripts/run_nlp_triage.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli run-nlp-triage
+```
+
+Outputs:
+
+```text
+outputs/sample/nlp_case_note_classifications.csv
+outputs/sample/nlp_alert_triage.csv
+outputs/sample/nlp_summary.json
+reports/sample/nlp_alert_triage_report.md
+```
+
+This remains lightweight, local-first, and synthetic-data-only. LLMs, agentic AI, Hugging Face transformers, dashboards, and cloud deployment are intentionally deferred.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
@@ -211,7 +238,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 7 is a graph/network risk milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, a baseline fraud classifier, AML risk scoring, prioritised alerts, model governance artefacts, anomaly detection, and network risk modelling.
+Milestone 8 is an NLP alert triage milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, fraud classification, AML scoring, anomaly detection, network risk modelling, and lightweight NLP case-note triage.
 
 ## Quick Start
 
@@ -264,4 +291,10 @@ Run network risk modelling:
 
 ```bash
 python -m financial_crime_ml.cli run-network-risk
+```
+
+Run NLP alert triage:
+
+```bash
+python -m financial_crime_ml.cli run-nlp-triage
 ```

@@ -8,7 +8,11 @@ from financial_crime_ml.data_generation import generate_all_datasets
 from financial_crime_ml.features import load_feature_config, run_feature_pipeline
 from financial_crime_ml.ingestion import DEFAULT_REPORT_PATH, run_data_validation
 from financial_crime_ml.models.workflow import run_fraud_model_workflow
-from financial_crime_ml.monitoring import run_anomaly_detection_workflow, run_network_risk_workflow
+from financial_crime_ml.monitoring import (
+    run_anomaly_detection_workflow,
+    run_network_risk_workflow,
+    run_nlp_triage_workflow,
+)
 
 STATUS_MESSAGE = "GCP Financial Crime ML Intelligence Platform scaffold is ready."
 
@@ -73,6 +77,16 @@ def main(argv: list[str] | None = None) -> None:
         print(f"High-risk network rows: {summary['high_risk_network_count']}")
         print(f"Network scores written to: {result['network_risk_scores_path']}")
         print(f"Report written to: {result['network_report_path']}")
+        return
+
+    if args == ["run-nlp-triage"]:
+        result = run_nlp_triage_workflow()
+        summary = result["summary"]
+        print("NLP alert triage completed.")
+        print(f"Alerts triaged: {summary['alert_count']}")
+        print(f"Case notes classified: {summary['case_note_count']}")
+        print(f"Alert triage written to: {result['alert_triage_path']}")
+        print(f"Report written to: {result['nlp_report_path']}")
         return
 
     print(get_status_message())

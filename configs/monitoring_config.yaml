@@ -8,6 +8,8 @@ monitoring:
     - network_risk_band_distribution
     - connected_component_count
     - high_risk_network_count
+    - nlp_typology_distribution
+    - nlp_triage_band_distribution
   reporting_path: reports
 
 anomaly_detection:
@@ -21,3 +23,10 @@ anomaly_detection:
 network_risk:
   component_summary_enabled: true
   reason_code_summary_enabled: true
+
+nlp_alert_triage:
+  optional_enrichment_paths:
+    prioritised_alerts: outputs/sample/prioritised_alerts.csv
+    aml_risk_scores: outputs/sample/aml_risk_scores.csv
+    anomaly_scores: outputs/sample/anomaly_scores.csv
+    network_risk_scores: outputs/sample/network_risk_scores.csv

@@ -1,0 +1,901 @@
+case_note_id,alert_id,note_text,predicted_typology,typology_confidence,typology_reasons,original_typology_label
+NOTE000001,ALERT000001,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000002,ALERT000002,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000003,ALERT000003,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000004,ALERT000004,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000005,ALERT000005,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000006,ALERT000006,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000007,ALERT000007,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000008,ALERT000008,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000009,ALERT000009,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000010,ALERT000010,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000011,ALERT000011,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000012,ALERT000012,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000013,ALERT000013,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000014,ALERT000014,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000015,ALERT000015,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000016,ALERT000016,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000017,ALERT000017,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000018,ALERT000018,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000019,ALERT000019,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000020,ALERT000020,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000021,ALERT000021,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000022,ALERT000022,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000023,ALERT000023,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000024,ALERT000024,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000025,ALERT000025,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000026,ALERT000026,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000027,ALERT000027,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000028,ALERT000028,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000029,ALERT000029,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000030,ALERT000030,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000031,ALERT000031,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000032,ALERT000032,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000033,ALERT000033,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000034,ALERT000034,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000035,ALERT000035,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000036,ALERT000036,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000037,ALERT000037,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000038,ALERT000038,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000039,ALERT000039,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000040,ALERT000040,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000041,ALERT000041,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000042,ALERT000042,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000043,ALERT000043,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000044,ALERT000044,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000045,ALERT000045,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000046,ALERT000046,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000047,ALERT000047,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000048,ALERT000048,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000049,ALERT000049,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000050,ALERT000050,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000051,ALERT000051,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000052,ALERT000052,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000053,ALERT000053,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000054,ALERT000054,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000055,ALERT000055,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000056,ALERT000056,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000057,ALERT000057,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000058,ALERT000058,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000059,ALERT000059,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000060,ALERT000060,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000061,ALERT000061,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000062,ALERT000062,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000063,ALERT000063,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000064,ALERT000064,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000065,ALERT000065,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000066,ALERT000066,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000067,ALERT000067,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000068,ALERT000068,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000069,ALERT000069,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000070,ALERT000070,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000071,ALERT000071,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000072,ALERT000072,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000073,ALERT000073,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000074,ALERT000074,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000075,ALERT000075,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000076,ALERT000076,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000077,ALERT000077,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000078,ALERT000078,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000079,ALERT000079,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000080,ALERT000080,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000081,ALERT000081,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000082,ALERT000082,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000083,ALERT000083,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000084,ALERT000084,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000085,ALERT000085,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000086,ALERT000086,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000087,ALERT000087,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000088,ALERT000088,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000089,ALERT000089,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000090,ALERT000090,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000091,ALERT000091,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000092,ALERT000092,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000093,ALERT000093,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000094,ALERT000094,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000095,ALERT000095,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000096,ALERT000096,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000097,ALERT000097,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000098,ALERT000098,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000099,ALERT000099,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000100,ALERT000100,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000101,ALERT000101,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000102,ALERT000102,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000103,ALERT000103,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000104,ALERT000104,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000105,ALERT000105,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000106,ALERT000106,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000107,ALERT000107,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000108,ALERT000108,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000109,ALERT000109,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000110,ALERT000110,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000111,ALERT000111,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000112,ALERT000112,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000113,ALERT000113,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000114,ALERT000114,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000115,ALERT000115,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000116,ALERT000116,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000117,ALERT000117,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000118,ALERT000118,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000119,ALERT000119,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000120,ALERT000120,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000121,ALERT000121,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000122,ALERT000122,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000123,ALERT000123,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000124,ALERT000124,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000125,ALERT000125,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000126,ALERT000126,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000127,ALERT000127,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000128,ALERT000128,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000129,ALERT000129,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000130,ALERT000130,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000131,ALERT000131,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000132,ALERT000132,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000133,ALERT000133,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000134,ALERT000134,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000135,ALERT000135,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000136,ALERT000136,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000137,ALERT000137,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000138,ALERT000138,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000139,ALERT000139,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000140,ALERT000140,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000141,ALERT000141,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000142,ALERT000142,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000143,ALERT000143,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000144,ALERT000144,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000145,ALERT000145,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000146,ALERT000146,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000147,ALERT000147,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000148,ALERT000148,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000149,ALERT000149,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000150,ALERT000150,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000151,ALERT000151,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000152,ALERT000152,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000153,ALERT000153,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000154,ALERT000154,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000155,ALERT000155,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000156,ALERT000156,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000157,ALERT000157,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000158,ALERT000158,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000159,ALERT000159,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000160,ALERT000160,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000161,ALERT000161,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000162,ALERT000162,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000163,ALERT000163,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000164,ALERT000164,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000165,ALERT000165,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000166,ALERT000166,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000167,ALERT000167,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000168,ALERT000168,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000169,ALERT000169,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000170,ALERT000170,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000171,ALERT000171,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000172,ALERT000172,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000173,ALERT000173,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000174,ALERT000174,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000175,ALERT000175,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000176,ALERT000176,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000177,ALERT000177,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000178,ALERT000178,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000179,ALERT000179,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000180,ALERT000180,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000181,ALERT000181,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000182,ALERT000182,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000183,ALERT000183,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000184,ALERT000184,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000185,ALERT000185,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000186,ALERT000186,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000187,ALERT000187,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000188,ALERT000188,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000189,ALERT000189,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000190,ALERT000190,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000191,ALERT000191,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000192,ALERT000192,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000193,ALERT000193,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000194,ALERT000194,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000195,ALERT000195,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000196,ALERT000196,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000197,ALERT000197,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000198,ALERT000198,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000199,ALERT000199,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000200,ALERT000200,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000201,ALERT000201,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000202,ALERT000202,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000203,ALERT000203,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000204,ALERT000204,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000205,ALERT000205,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000206,ALERT000206,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000207,ALERT000207,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000208,ALERT000208,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000209,ALERT000209,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000210,ALERT000210,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000211,ALERT000211,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000212,ALERT000212,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000213,ALERT000213,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000214,ALERT000214,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000215,ALERT000215,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000216,ALERT000216,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000217,ALERT000217,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000218,ALERT000218,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000219,ALERT000219,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000220,ALERT000220,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000221,ALERT000221,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000222,ALERT000222,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000223,ALERT000223,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000224,ALERT000224,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000225,ALERT000225,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000226,ALERT000226,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000227,ALERT000227,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000228,ALERT000228,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000229,ALERT000229,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000230,ALERT000230,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000231,ALERT000231,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000232,ALERT000232,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000233,ALERT000233,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000234,ALERT000234,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000235,ALERT000235,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000236,ALERT000236,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000237,ALERT000237,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000238,ALERT000238,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000239,ALERT000239,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000240,ALERT000240,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000241,ALERT000241,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000242,ALERT000242,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000243,ALERT000243,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000244,ALERT000244,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000245,ALERT000245,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000246,ALERT000246,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000247,ALERT000247,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000248,ALERT000248,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000249,ALERT000249,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000250,ALERT000250,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000251,ALERT000251,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000252,ALERT000252,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000253,ALERT000253,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000254,ALERT000254,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000255,ALERT000255,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000256,ALERT000256,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000257,ALERT000257,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000258,ALERT000258,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000259,ALERT000259,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000260,ALERT000260,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000261,ALERT000261,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000262,ALERT000262,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000263,ALERT000263,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000264,ALERT000264,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000265,ALERT000265,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000266,ALERT000266,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000267,ALERT000267,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000268,ALERT000268,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000269,ALERT000269,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000270,ALERT000270,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000271,ALERT000271,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000272,ALERT000272,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000273,ALERT000273,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000274,ALERT000274,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000275,ALERT000275,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000276,ALERT000276,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000277,ALERT000277,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000278,ALERT000278,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000279,ALERT000279,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000280,ALERT000280,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000281,ALERT000281,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000282,ALERT000282,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000283,ALERT000283,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000284,ALERT000284,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000285,ALERT000285,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000286,ALERT000286,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000287,ALERT000287,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000288,ALERT000288,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000289,ALERT000289,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000290,ALERT000290,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000291,ALERT000291,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000292,ALERT000292,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000293,ALERT000293,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000294,ALERT000294,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000295,ALERT000295,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000296,ALERT000296,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000297,ALERT000297,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000298,ALERT000298,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000299,ALERT000299,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000300,ALERT000300,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000301,ALERT000301,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000302,ALERT000302,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000303,ALERT000303,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000304,ALERT000304,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000305,ALERT000305,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000306,ALERT000306,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000307,ALERT000307,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000308,ALERT000308,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000309,ALERT000309,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000310,ALERT000310,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000311,ALERT000311,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000312,ALERT000312,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000313,ALERT000313,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000314,ALERT000314,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000315,ALERT000315,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000316,ALERT000316,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000317,ALERT000317,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000318,ALERT000318,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000319,ALERT000319,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000320,ALERT000320,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000321,ALERT000321,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000322,ALERT000322,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000323,ALERT000323,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000324,ALERT000324,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000325,ALERT000325,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000326,ALERT000326,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000327,ALERT000327,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000328,ALERT000328,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000329,ALERT000329,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000330,ALERT000330,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000331,ALERT000331,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000332,ALERT000332,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000333,ALERT000333,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000334,ALERT000334,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000335,ALERT000335,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000336,ALERT000336,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000337,ALERT000337,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000338,ALERT000338,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000339,ALERT000339,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000340,ALERT000340,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000341,ALERT000341,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000342,ALERT000342,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000343,ALERT000343,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000344,ALERT000344,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000345,ALERT000345,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000346,ALERT000346,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000347,ALERT000347,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000348,ALERT000348,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000349,ALERT000349,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000350,ALERT000350,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000351,ALERT000351,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000352,ALERT000352,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000353,ALERT000353,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000354,ALERT000354,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000355,ALERT000355,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000356,ALERT000356,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000357,ALERT000357,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000358,ALERT000358,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000359,ALERT000359,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000360,ALERT000360,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000361,ALERT000361,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000362,ALERT000362,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000363,ALERT000363,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000364,ALERT000364,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000365,ALERT000365,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000366,ALERT000366,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000367,ALERT000367,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000368,ALERT000368,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000369,ALERT000369,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000370,ALERT000370,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000371,ALERT000371,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000372,ALERT000372,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000373,ALERT000373,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000374,ALERT000374,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000375,ALERT000375,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000376,ALERT000376,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000377,ALERT000377,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000378,ALERT000378,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000379,ALERT000379,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000380,ALERT000380,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000381,ALERT000381,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000382,ALERT000382,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000383,ALERT000383,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000384,ALERT000384,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000385,ALERT000385,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000386,ALERT000386,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000387,ALERT000387,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000388,ALERT000388,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000389,ALERT000389,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000390,ALERT000390,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000391,ALERT000391,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000392,ALERT000392,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000393,ALERT000393,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000394,ALERT000394,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000395,ALERT000395,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000396,ALERT000396,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000397,ALERT000397,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000398,ALERT000398,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000399,ALERT000399,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000400,ALERT000400,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000401,ALERT000401,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000402,ALERT000402,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000403,ALERT000403,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000404,ALERT000404,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000405,ALERT000405,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000406,ALERT000406,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000407,ALERT000407,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000408,ALERT000408,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000409,ALERT000409,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000410,ALERT000410,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000411,ALERT000411,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000412,ALERT000412,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000413,ALERT000413,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000414,ALERT000414,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000415,ALERT000415,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000416,ALERT000416,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000417,ALERT000417,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000418,ALERT000418,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000419,ALERT000419,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000420,ALERT000420,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000421,ALERT000421,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000422,ALERT000422,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000423,ALERT000423,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000424,ALERT000424,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000425,ALERT000425,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000426,ALERT000426,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000427,ALERT000427,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000428,ALERT000428,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000429,ALERT000429,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000430,ALERT000430,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000431,ALERT000431,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000432,ALERT000432,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000433,ALERT000433,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000434,ALERT000434,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000435,ALERT000435,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000436,ALERT000436,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000437,ALERT000437,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000438,ALERT000438,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000439,ALERT000439,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000440,ALERT000440,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000441,ALERT000441,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000442,ALERT000442,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000443,ALERT000443,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000444,ALERT000444,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000445,ALERT000445,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000446,ALERT000446,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000447,ALERT000447,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000448,ALERT000448,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000449,ALERT000449,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000450,ALERT000450,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000451,ALERT000451,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000452,ALERT000452,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000453,ALERT000453,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000454,ALERT000454,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000455,ALERT000455,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000456,ALERT000456,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000457,ALERT000457,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000458,ALERT000458,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000459,ALERT000459,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000460,ALERT000460,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000461,ALERT000461,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000462,ALERT000462,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000463,ALERT000463,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000464,ALERT000464,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000465,ALERT000465,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000466,ALERT000466,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000467,ALERT000467,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000468,ALERT000468,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000469,ALERT000469,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000470,ALERT000470,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000471,ALERT000471,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000472,ALERT000472,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000473,ALERT000473,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000474,ALERT000474,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000475,ALERT000475,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000476,ALERT000476,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000477,ALERT000477,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000478,ALERT000478,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000479,ALERT000479,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000480,ALERT000480,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000481,ALERT000481,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000482,ALERT000482,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000483,ALERT000483,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000484,ALERT000484,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000485,ALERT000485,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000486,ALERT000486,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000487,ALERT000487,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000488,ALERT000488,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000489,ALERT000489,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000490,ALERT000490,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000491,ALERT000491,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000492,ALERT000492,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000493,ALERT000493,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000494,ALERT000494,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000495,ALERT000495,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000496,ALERT000496,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000497,ALERT000497,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000498,ALERT000498,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000499,ALERT000499,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000500,ALERT000500,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000501,ALERT000501,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000502,ALERT000502,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000503,ALERT000503,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000504,ALERT000504,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000505,ALERT000505,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000506,ALERT000506,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000507,ALERT000507,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000508,ALERT000508,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000509,ALERT000509,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000510,ALERT000510,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000511,ALERT000511,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000512,ALERT000512,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000513,ALERT000513,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000514,ALERT000514,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000515,ALERT000515,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000516,ALERT000516,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000517,ALERT000517,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000518,ALERT000518,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000519,ALERT000519,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000520,ALERT000520,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000521,ALERT000521,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000522,ALERT000522,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000523,ALERT000523,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000524,ALERT000524,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000525,ALERT000525,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000526,ALERT000526,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000527,ALERT000527,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000528,ALERT000528,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000529,ALERT000529,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000530,ALERT000530,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000531,ALERT000531,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000532,ALERT000532,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000533,ALERT000533,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000534,ALERT000534,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000535,ALERT000535,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000536,ALERT000536,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000537,ALERT000537,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000538,ALERT000538,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000539,ALERT000539,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000540,ALERT000540,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000541,ALERT000541,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000542,ALERT000542,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000543,ALERT000543,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000544,ALERT000544,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000545,ALERT000545,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000546,ALERT000546,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000547,ALERT000547,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000548,ALERT000548,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000549,ALERT000549,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000550,ALERT000550,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000551,ALERT000551,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000552,ALERT000552,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000553,ALERT000553,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000554,ALERT000554,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000555,ALERT000555,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000556,ALERT000556,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000557,ALERT000557,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000558,ALERT000558,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000559,ALERT000559,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000560,ALERT000560,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000561,ALERT000561,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000562,ALERT000562,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000563,ALERT000563,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000564,ALERT000564,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000565,ALERT000565,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000566,ALERT000566,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000567,ALERT000567,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000568,ALERT000568,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000569,ALERT000569,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000570,ALERT000570,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000571,ALERT000571,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000572,ALERT000572,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000573,ALERT000573,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000574,ALERT000574,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000575,ALERT000575,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000576,ALERT000576,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000577,ALERT000577,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000578,ALERT000578,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000579,ALERT000579,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000580,ALERT000580,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000581,ALERT000581,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000582,ALERT000582,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000583,ALERT000583,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000584,ALERT000584,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000585,ALERT000585,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000586,ALERT000586,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000587,ALERT000587,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000588,ALERT000588,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000589,ALERT000589,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000590,ALERT000590,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000591,ALERT000591,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000592,ALERT000592,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000593,ALERT000593,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000594,ALERT000594,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000595,ALERT000595,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000596,ALERT000596,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000597,ALERT000597,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000598,ALERT000598,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000599,ALERT000599,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000600,ALERT000600,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000601,ALERT000601,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000602,ALERT000602,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000603,ALERT000603,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000604,ALERT000604,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000605,ALERT000605,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000606,ALERT000606,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000607,ALERT000607,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000608,ALERT000608,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000609,ALERT000609,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000610,ALERT000610,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000611,ALERT000611,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000612,ALERT000612,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000613,ALERT000613,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000614,ALERT000614,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000615,ALERT000615,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000616,ALERT000616,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000617,ALERT000617,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000618,ALERT000618,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000619,ALERT000619,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000620,ALERT000620,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000621,ALERT000621,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000622,ALERT000622,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000623,ALERT000623,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000624,ALERT000624,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000625,ALERT000625,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000626,ALERT000626,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000627,ALERT000627,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000628,ALERT000628,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000629,ALERT000629,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000630,ALERT000630,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000631,ALERT000631,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000632,ALERT000632,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000633,ALERT000633,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000634,ALERT000634,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000635,ALERT000635,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000636,ALERT000636,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000637,ALERT000637,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000638,ALERT000638,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000639,ALERT000639,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000640,ALERT000640,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000641,ALERT000641,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000642,ALERT000642,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000643,ALERT000643,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000644,ALERT000644,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000645,ALERT000645,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000646,ALERT000646,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000647,ALERT000647,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000648,ALERT000648,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000649,ALERT000649,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000650,ALERT000650,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000651,ALERT000651,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000652,ALERT000652,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000653,ALERT000653,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000654,ALERT000654,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000655,ALERT000655,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000656,ALERT000656,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000657,ALERT000657,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000658,ALERT000658,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000659,ALERT000659,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000660,ALERT000660,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000661,ALERT000661,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000662,ALERT000662,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000663,ALERT000663,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000664,ALERT000664,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000665,ALERT000665,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000666,ALERT000666,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000667,ALERT000667,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000668,ALERT000668,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000669,ALERT000669,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000670,ALERT000670,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000671,ALERT000671,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000672,ALERT000672,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000673,ALERT000673,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000674,ALERT000674,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000675,ALERT000675,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000676,ALERT000676,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000677,ALERT000677,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000678,ALERT000678,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000679,ALERT000679,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000680,ALERT000680,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000681,ALERT000681,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000682,ALERT000682,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000683,ALERT000683,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000684,ALERT000684,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000685,ALERT000685,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000686,ALERT000686,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000687,ALERT000687,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000688,ALERT000688,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000689,ALERT000689,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000690,ALERT000690,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000691,ALERT000691,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000692,ALERT000692,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000693,ALERT000693,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000694,ALERT000694,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000695,ALERT000695,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000696,ALERT000696,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000697,ALERT000697,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000698,ALERT000698,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000699,ALERT000699,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000700,ALERT000700,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000701,ALERT000701,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000702,ALERT000702,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000703,ALERT000703,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000704,ALERT000704,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000705,ALERT000705,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000706,ALERT000706,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000707,ALERT000707,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000708,ALERT000708,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000709,ALERT000709,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000710,ALERT000710,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000711,ALERT000711,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000712,ALERT000712,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000713,ALERT000713,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000714,ALERT000714,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000715,ALERT000715,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000716,ALERT000716,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000717,ALERT000717,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000718,ALERT000718,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000719,ALERT000719,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000720,ALERT000720,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000721,ALERT000721,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000722,ALERT000722,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000723,ALERT000723,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000724,ALERT000724,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000725,ALERT000725,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000726,ALERT000726,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000727,ALERT000727,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000728,ALERT000728,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000729,ALERT000729,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000730,ALERT000730,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000731,ALERT000731,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000732,ALERT000732,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000733,ALERT000733,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000734,ALERT000734,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000735,ALERT000735,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000736,ALERT000736,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000737,ALERT000737,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000738,ALERT000738,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000739,ALERT000739,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000740,ALERT000740,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000741,ALERT000741,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000742,ALERT000742,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000743,ALERT000743,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000744,ALERT000744,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000745,ALERT000745,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000746,ALERT000746,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000747,ALERT000747,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000748,ALERT000748,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000749,ALERT000749,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000750,ALERT000750,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000751,ALERT000751,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000752,ALERT000752,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000753,ALERT000753,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000754,ALERT000754,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000755,ALERT000755,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000756,ALERT000756,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000757,ALERT000757,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000758,ALERT000758,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000759,ALERT000759,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000760,ALERT000760,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000761,ALERT000761,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000762,ALERT000762,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000763,ALERT000763,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000764,ALERT000764,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000765,ALERT000765,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000766,ALERT000766,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000767,ALERT000767,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000768,ALERT000768,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000769,ALERT000769,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000770,ALERT000770,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000771,ALERT000771,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000772,ALERT000772,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000773,ALERT000773,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000774,ALERT000774,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000775,ALERT000775,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000776,ALERT000776,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000777,ALERT000777,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000778,ALERT000778,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000779,ALERT000779,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000780,ALERT000780,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000781,ALERT000781,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000782,ALERT000782,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000783,ALERT000783,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000784,ALERT000784,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000785,ALERT000785,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000786,ALERT000786,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000787,ALERT000787,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000788,ALERT000788,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000789,ALERT000789,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000790,ALERT000790,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000791,ALERT000791,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000792,ALERT000792,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000793,ALERT000793,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000794,ALERT000794,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000795,ALERT000795,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000796,ALERT000796,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000797,ALERT000797,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000798,ALERT000798,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000799,ALERT000799,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000800,ALERT000800,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000801,ALERT000801,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000802,ALERT000802,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000803,ALERT000803,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000804,ALERT000804,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000805,ALERT000805,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000806,ALERT000806,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000807,ALERT000807,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000808,ALERT000808,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000809,ALERT000809,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000810,ALERT000810,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000811,ALERT000811,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000812,ALERT000812,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000813,ALERT000813,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000814,ALERT000814,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000815,ALERT000815,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000816,ALERT000816,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000817,ALERT000817,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000818,ALERT000818,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000819,ALERT000819,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000820,ALERT000820,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000821,ALERT000821,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000822,ALERT000822,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000823,ALERT000823,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000824,ALERT000824,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000825,ALERT000825,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000826,ALERT000826,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000827,ALERT000827,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000828,ALERT000828,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000829,ALERT000829,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000830,ALERT000830,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000831,ALERT000831,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000832,ALERT000832,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000833,ALERT000833,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000834,ALERT000834,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000835,ALERT000835,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000836,ALERT000836,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000837,ALERT000837,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000838,ALERT000838,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000839,ALERT000839,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000840,ALERT000840,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000841,ALERT000841,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000842,ALERT000842,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000843,ALERT000843,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000844,ALERT000844,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000845,ALERT000845,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000846,ALERT000846,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000847,ALERT000847,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000848,ALERT000848,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000849,ALERT000849,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000850,ALERT000850,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000851,ALERT000851,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000852,ALERT000852,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000853,ALERT000853,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000854,ALERT000854,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000855,ALERT000855,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000856,ALERT000856,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000857,ALERT000857,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000858,ALERT000858,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000859,ALERT000859,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000860,ALERT000860,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000861,ALERT000861,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000862,ALERT000862,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000863,ALERT000863,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000864,ALERT000864,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000865,ALERT000865,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000866,ALERT000866,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000867,ALERT000867,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000868,ALERT000868,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000869,ALERT000869,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000870,ALERT000870,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000871,ALERT000871,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000872,ALERT000872,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000873,ALERT000873,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000874,ALERT000874,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000875,ALERT000875,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000876,ALERT000876,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000877,ALERT000877,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000878,ALERT000878,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000879,ALERT000879,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000880,ALERT000880,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000881,ALERT000881,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000882,ALERT000882,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000883,ALERT000883,Synthetic review notes unusual access pattern and payment behaviour.,account_takeover,0.9,KEYWORD:unusual access,account_takeover_style_behaviour
+NOTE000884,ALERT000884,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000885,ALERT000885,Synthetic review notes exposure to a higher-risk destination country.,high_risk_jurisdiction,0.9,"KEYWORD:higher-risk, KEYWORD:destination country",high_risk_jurisdiction_exposure
+NOTE000886,ALERT000886,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000887,ALERT000887,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000888,ALERT000888,Synthetic review notes payment to a recently observed beneficiary.,shared_beneficiary,0.75,ORIGINAL_LABEL_HINT:new_beneficiary_risk,new_beneficiary_risk
+NOTE000889,ALERT000889,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000890,ALERT000890,Synthetic review notes rapid inbound and outbound movement of funds.,rapid_movement,0.9,"KEYWORD:rapid inbound, KEYWORD:outbound movement",rapid_movement_of_funds
+NOTE000891,ALERT000891,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000892,ALERT000892,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000893,ALERT000893,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour
+NOTE000894,ALERT000894,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000895,ALERT000895,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000896,ALERT000896,Synthetic review notes device reuse across multiple account relationships.,shared_device,0.9,"KEYWORD:device reuse, KEYWORD:multiple account",shared_device_behaviour
+NOTE000897,ALERT000897,Synthetic review notes repeated round-number payments requiring review.,structuring,0.9,"KEYWORD:round-number, KEYWORD:repeated round",round_number_payments
+NOTE000898,ALERT000898,Synthetic review notes a material increase against expected account activity.,unknown,0.75,ORIGINAL_LABEL_HINT:unusual_amount_spike,unusual_amount_spike
+NOTE000899,ALERT000899,Synthetic review notes repeated transfers in a short time window.,rapid_movement,0.9,KEYWORD:short time window,high_transaction_velocity
+NOTE000900,ALERT000900,Synthetic review notes behaviour consistent with mule-account typologies.,mule_account,0.9,"KEYWORD:mule, KEYWORD:mule-account",mule_account_style_behaviour

@@ -55,3 +55,37 @@ network_risk_scoring:
     high_risk_network: 14
     aml_high_or_critical: 10
     anomaly_flag: 8
+
+nlp_alert_triage:
+  band_thresholds:
+    Critical: 90
+    High: 70
+    Medium: 40
+    Low: 10
+    Info: 0
+  typology_base_scores:
+    mule_account: 75
+    account_takeover: 80
+    high_risk_jurisdiction: 70
+    structuring: 65
+    rapid_movement: 68
+    shared_device: 60
+    shared_beneficiary: 58
+    low_risk: 10
+    unknown: 20
+  enrichment_weights:
+    prioritised_alert_high_or_critical: 10
+    aml_high_or_critical: 10
+    anomaly_flag: 8
+    network_high_or_critical: 10
+    severe_alert: 8
+  suggested_review_queue_mapping:
+    mule_account: AML review
+    account_takeover: Fraud review
+    high_risk_jurisdiction: AML review
+    structuring: Financial crime investigation
+    rapid_movement: Financial crime investigation
+    shared_device: Network risk review
+    shared_beneficiary: Network risk review
+    low_risk: No immediate action
+    unknown: Monitoring queue

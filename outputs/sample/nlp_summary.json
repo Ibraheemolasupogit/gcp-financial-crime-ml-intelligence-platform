@@ -1,0 +1,43 @@
+{
+  "alert_count": 900,
+  "case_note_count": 900,
+  "typology_distribution": {
+    "rapid_movement": 212,
+    "structuring": 113,
+    "unknown": 109,
+    "account_takeover": 101,
+    "shared_device": 99,
+    "high_risk_jurisdiction": 95,
+    "mule_account": 88,
+    "shared_beneficiary": 83
+  },
+  "triage_band_counts": {
+    "High": 525,
+    "Critical": 210,
+    "Low": 104,
+    "Medium": 61
+  },
+  "top_triage_reasons": {
+    "NETWORK_HIGH_OR_CRITICAL": 898,
+    "HIGH_ALERT_SEVERITY": 385,
+    "ANOMALY_OVERLAP": 293,
+    "TYPOLOGY:rapid_movement": 212,
+    "TYPOLOGY:structuring": 113,
+    "KEYWORD:round-number, KEYWORD:repeated round": 113,
+    "TYPOLOGY:unknown": 109,
+    "ORIGINAL_LABEL_HINT:unusual_amount_spike": 109,
+    "KEYWORD:rapid inbound, KEYWORD:outbound movement": 108,
+    "KEYWORD:short time window": 104
+  },
+  "enrichment_sources_used": [
+    "prioritised_alerts",
+    "aml_risk_scores",
+    "anomaly_scores",
+    "network_risk_scores"
+  ],
+  "notes": [
+    "NLP triage is lightweight and rule-based.",
+    "No LLMs, transformers, agents, dashboards, or APIs are used.",
+    "Outputs are synthetic-data-only and intended for local portfolio demonstration."
+  ]
+}
