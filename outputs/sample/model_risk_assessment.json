@@ -1,0 +1,243 @@
+[
+  {
+    "model_or_component_name": "synthetic data generator",
+    "component_type": "data_generation",
+    "purpose": "Generate safe synthetic financial crime demonstration data.",
+    "inherent_risk_level": "Medium",
+    "residual_risk_level": "Low",
+    "key_risks": [
+      "Synthetic patterns may be over-regular or unrealistic."
+    ],
+    "mitigating_controls": [
+      "Synthetic data caveat",
+      "No real customer data",
+      "Deterministic seed"
+    ],
+    "evidence_sources": [
+      "data/sample/customers.csv",
+      "docs/data_dictionary.md"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  },
+  {
+    "model_or_component_name": "data validation layer",
+    "component_type": "data_validation",
+    "purpose": "Validate schemas, required values, and relationships.",
+    "inherent_risk_level": "Medium",
+    "residual_risk_level": "Low",
+    "key_risks": [
+      "Validation is local and file-based only."
+    ],
+    "mitigating_controls": [
+      "Schema checks",
+      "Relationship checks",
+      "Quality report"
+    ],
+    "evidence_sources": [
+      "outputs/sample/data_quality_report.json",
+      "docs/data_validation.md"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  },
+  {
+    "model_or_component_name": "feature engineering layer",
+    "component_type": "feature_engineering",
+    "purpose": "Create transaction, behaviour, typology, and risk features.",
+    "inherent_risk_level": "Medium",
+    "residual_risk_level": "Medium",
+    "key_risks": [
+      "Feature logic may encode synthetic assumptions."
+    ],
+    "mitigating_controls": [
+      "Feature documentation",
+      "Feature summary",
+      "Tests"
+    ],
+    "evidence_sources": [
+      "outputs/sample/feature_summary.json",
+      "docs/feature_engineering.md"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  },
+  {
+    "model_or_component_name": "fraud classifier",
+    "component_type": "supervised_model",
+    "purpose": "Baseline supervised suspicious transaction classifier.",
+    "inherent_risk_level": "High",
+    "residual_risk_level": "Medium",
+    "key_risks": [
+      "Synthetic labels",
+      "Not calibrated",
+      "Potential overfitting"
+    ],
+    "mitigating_controls": [
+      "Model card",
+      "Metrics",
+      "Holdout split"
+    ],
+    "evidence_sources": [
+      "reports/sample/model_card.md",
+      "outputs/sample/model_metrics.json"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  },
+  {
+    "model_or_component_name": "AML risk scoring",
+    "component_type": "deterministic_scoring",
+    "purpose": "Transparent deterministic AML risk scoring.",
+    "inherent_risk_level": "High",
+    "residual_risk_level": "Medium",
+    "key_risks": [
+      "Rule weights are illustrative",
+      "No production tuning"
+    ],
+    "mitigating_controls": [
+      "Reason codes",
+      "Configurable weights",
+      "Documentation"
+    ],
+    "evidence_sources": [
+      "outputs/sample/aml_risk_scores.csv",
+      "docs/aml_risk_scoring.md"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  },
+  {
+    "model_or_component_name": "anomaly detection",
+    "component_type": "unsupervised_model",
+    "purpose": "IsolationForest-based anomaly discovery.",
+    "inherent_risk_level": "High",
+    "residual_risk_level": "Medium",
+    "key_risks": [
+      "Unsupervised output may be hard to validate",
+      "Synthetic distribution"
+    ],
+    "mitigating_controls": [
+      "Reason codes",
+      "Report",
+      "No target leakage"
+    ],
+    "evidence_sources": [
+      "outputs/sample/anomaly_scores.csv",
+      "reports/sample/anomaly_detection_report.md"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  },
+  {
+    "model_or_component_name": "network risk scoring",
+    "component_type": "network_model",
+    "purpose": "Graph and shared-relationship risk scoring.",
+    "inherent_risk_level": "High",
+    "residual_risk_level": "Medium",
+    "key_risks": [
+      "Synthetic network density",
+      "Simple component logic"
+    ],
+    "mitigating_controls": [
+      "Network report",
+      "Reason codes",
+      "NetworkX implementation"
+    ],
+    "evidence_sources": [
+      "outputs/sample/network_risk_scores.csv",
+      "reports/sample/network_risk_report.md"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  },
+  {
+    "model_or_component_name": "NLP alert triage",
+    "component_type": "nlp_triage",
+    "purpose": "Rule-based case-note typology classification and alert triage.",
+    "inherent_risk_level": "Medium",
+    "residual_risk_level": "Medium",
+    "key_risks": [
+      "Keyword rules are limited",
+      "Synthetic text is regular"
+    ],
+    "mitigating_controls": [
+      "Keyword explainability",
+      "Triage report",
+      "Human review"
+    ],
+    "evidence_sources": [
+      "outputs/sample/nlp_alert_triage.csv",
+      "reports/sample/nlp_alert_triage_report.md"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  },
+  {
+    "model_or_component_name": "monitoring and drift reporting",
+    "component_type": "monitoring",
+    "purpose": "Local drift, risk distribution, and alert quality reporting.",
+    "inherent_risk_level": "Medium",
+    "residual_risk_level": "Low",
+    "key_risks": [
+      "Static local report only",
+      "No live monitoring service"
+    ],
+    "mitigating_controls": [
+      "Monitoring report",
+      "Drift summary",
+      "Alert quality summary"
+    ],
+    "evidence_sources": [
+      "outputs/sample/monitoring_summary.json",
+      "reports/sample/model_monitoring_report.md"
+    ],
+    "human_review_required": true,
+    "production_readiness_status": "portfolio_demo_only",
+    "limitations": [
+      "Synthetic-data-only demonstration.",
+      "Not validated for production financial crime operations.",
+      "Requires formal governance before operational use."
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+"""Lifecycle traceability map generation."""
+
+from __future__ import annotations
+
+
+def build_lifecycle_traceability() -> dict[str, dict[str, list[str]]]:
+    """Map lifecycle stages to artefacts, controls, and limitations."""
+    return {
+        "data_generation": {
+            "input_artifacts": ["configs/pipeline_config.yaml"],
+            "output_artifacts": ["data/sample/*.csv"],
+            "config_artifacts": ["configs/pipeline_config.yaml"],
+            "documentation_artifacts": ["docs/data_dictionary.md"],
+            "risk_controls": ["Synthetic data caveat", "No real customer data"],
+            "limitations": ["Synthetic patterns are illustrative."],
+        },
+        "data_validation": {
+            "input_artifacts": ["data/sample/*.csv"],
+            "output_artifacts": ["outputs/sample/data_quality_report.json"],
+            "config_artifacts": ["src/financial_crime_ml/ingestion/schemas.py"],
+            "documentation_artifacts": ["docs/data_validation.md"],
+            "risk_controls": ["Schema validation", "Relationship validation"],
+            "limitations": ["Local file validation only."],
+        },
+        "feature_engineering": {
+            "input_artifacts": ["data/sample/*.csv"],
+            "output_artifacts": ["data/processed/transaction_features.csv"],
+            "config_artifacts": ["configs/feature_config.yaml"],
+            "documentation_artifacts": ["docs/feature_engineering.md"],
+            "risk_controls": ["Feature documentation", "Deterministic thresholds"],
+            "limitations": ["Synthetic feature assumptions."],
+        },
+        "supervised_fraud_model": {
+            "input_artifacts": ["data/processed/transaction_features.csv"],
+            "output_artifacts": [
+                "outputs/sample/model_metrics.json",
+                "outputs/sample/fraud_predictions.csv",
+            ],
+            "config_artifacts": ["configs/model_config.yaml"],
+            "documentation_artifacts": ["docs/modelling.md", "reports/sample/model_card.md"],
+            "risk_controls": ["Holdout metrics", "Model card", "Human review"],
+            "limitations": ["Not production ready."],
+        },
+        "aml_risk_scoring": {
+            "input_artifacts": ["data/processed/transaction_features.csv"],
+            "output_artifacts": ["outputs/sample/aml_risk_scores.csv"],
+            "config_artifacts": ["configs/risk_scoring.yaml"],
+            "documentation_artifacts": ["docs/aml_risk_scoring.md"],
+            "risk_controls": ["Transparent weights", "Reason codes"],
+            "limitations": ["Illustrative deterministic rules."],
+        },
+        "anomaly_detection": {
+            "input_artifacts": ["data/processed/transaction_features.csv"],
+            "output_artifacts": ["outputs/sample/anomaly_scores.csv"],
+            "config_artifacts": ["configs/model_config.yaml"],
+            "documentation_artifacts": ["docs/anomaly_detection.md"],
+            "risk_controls": ["Target excluded", "Reason codes"],
+            "limitations": ["Unsupervised synthetic baseline."],
+        },
+        "network_risk_modelling": {
+            "input_artifacts": ["data/sample/*.csv"],
+            "output_artifacts": ["outputs/sample/network_risk_scores.csv"],
+            "config_artifacts": ["configs/risk_scoring.yaml"],
+            "documentation_artifacts": ["docs/network_risk_modelling.md"],
+            "risk_controls": ["Network reason codes", "Network report"],
+            "limitations": ["No graph database or entity resolution."],
+        },
+        "nlp_alert_triage": {
+            "input_artifacts": ["data/sample/alerts.csv", "data/sample/case_notes.csv"],
+            "output_artifacts": ["outputs/sample/nlp_alert_triage.csv"],
+            "config_artifacts": ["configs/model_config.yaml", "configs/risk_scoring.yaml"],
+            "documentation_artifacts": ["docs/nlp_alert_triage.md"],
+            "risk_controls": ["Keyword explainability", "Human review"],
+            "limitations": ["No LLM or deep learning."],
+        },
+        "monitoring": {
+            "input_artifacts": ["outputs/sample/*.json", "outputs/sample/*.csv"],
+            "output_artifacts": ["outputs/sample/monitoring_summary.json"],
+            "config_artifacts": ["configs/monitoring_config.yaml"],
+            "documentation_artifacts": ["docs/monitoring_strategy.md"],
+            "risk_controls": ["Drift checks", "Alert quality monitoring"],
+            "limitations": ["No live monitoring service."],
+        },
+        "governance": {
+            "input_artifacts": ["configs/*.yaml", "outputs/sample/*", "reports/sample/*"],
+            "output_artifacts": ["reports/sample/governance_evidence_pack.md"],
+            "config_artifacts": ["configs/governance_controls.yaml"],
+            "documentation_artifacts": ["docs/governance_evidence_pack.md"],
+            "risk_controls": ["Controls checklist", "Audit log", "Traceability"],
+            "limitations": ["No live approval workflow."],
+        },
+    }

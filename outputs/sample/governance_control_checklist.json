@@ -1,0 +1,211 @@
+[
+  {
+    "control_id": "GOV-001",
+    "control_name": "Synthetic Data Governance",
+    "control_category": "data governance",
+    "control_description": "Confirm all datasets are synthetic and safe for public demonstration.",
+    "evidence_source": "data/sample/customers.csv",
+    "status": "passed",
+    "owner_role": "Data Governance Lead",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-002",
+    "control_name": "Synthetic Data Caveat",
+    "control_category": "synthetic data caveat",
+    "control_description": "Document that outputs must not be interpreted as real customer behaviour.",
+    "evidence_source": "README.md",
+    "status": "passed",
+    "owner_role": "Financial Crime Compliance",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-003",
+    "control_name": "Data Validation Evidence",
+    "control_category": "data validation",
+    "control_description": "Retain schema and relationship validation evidence.",
+    "evidence_source": "outputs/sample/data_quality_report.json",
+    "status": "passed",
+    "owner_role": "Data Governance Lead",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-004",
+    "control_name": "Feature Engineering Documentation",
+    "control_category": "feature engineering documentation",
+    "control_description": "Document engineered features and typology indicators.",
+    "evidence_source": "docs/feature_engineering.md",
+    "status": "passed",
+    "owner_role": "Financial Crime ML Owner",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-005",
+    "control_name": "Model Development Evidence",
+    "control_category": "model development",
+    "control_description": "Retain baseline model configuration and training workflow evidence.",
+    "evidence_source": "configs/model_config.yaml",
+    "status": "passed",
+    "owner_role": "Financial Crime ML Owner",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-006",
+    "control_name": "Model Performance Evidence",
+    "control_category": "model performance",
+    "control_description": "Retain metrics for the supervised fraud classifier.",
+    "evidence_source": "outputs/sample/model_metrics.json",
+    "status": "passed",
+    "owner_role": "Model Risk Manager",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-007",
+    "control_name": "AML Scoring Transparency",
+    "control_category": "AML risk scoring transparency",
+    "control_description": "Document deterministic AML scoring weights, bands, and reasons.",
+    "evidence_source": "docs/aml_risk_scoring.md",
+    "status": "passed",
+    "owner_role": "Financial Crime Compliance",
+    "review_frequency": "Quarterly",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-008",
+    "control_name": "Anomaly Explainability",
+    "control_category": "anomaly detection explainability",
+    "control_description": "Retain anomaly reason-code and limitation evidence.",
+    "evidence_source": "reports/sample/anomaly_detection_report.md",
+    "status": "passed",
+    "owner_role": "Model Risk Manager",
+    "review_frequency": "Quarterly",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-009",
+    "control_name": "Network Risk Explainability",
+    "control_category": "graph/network risk explainability",
+    "control_description": "Retain graph design, reason-code, and network risk evidence.",
+    "evidence_source": "reports/sample/network_risk_report.md",
+    "status": "passed",
+    "owner_role": "Model Risk Manager",
+    "review_frequency": "Quarterly",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-010",
+    "control_name": "NLP Triage Explainability",
+    "control_category": "NLP triage explainability",
+    "control_description": "Retain keyword rules, typology labels, and triage reason evidence.",
+    "evidence_source": "reports/sample/nlp_alert_triage_report.md",
+    "status": "passed",
+    "owner_role": "Model Risk Manager",
+    "review_frequency": "Quarterly",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-011",
+    "control_name": "Monitoring And Drift Reporting",
+    "control_category": "monitoring and drift reporting",
+    "control_description": "Retain monitoring summary and drift report outputs.",
+    "evidence_source": "outputs/sample/monitoring_summary.json",
+    "status": "passed",
+    "owner_role": "Financial Crime ML Owner",
+    "review_frequency": "Ongoing",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-012",
+    "control_name": "Human-In-The-Loop Review",
+    "control_category": "human-in-the-loop review",
+    "control_description": "Require human review before any decisioning interpretation.",
+    "evidence_source": "configs/governance_controls.yaml",
+    "status": "passed",
+    "owner_role": "Financial Crime Compliance",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-013",
+    "control_name": "Audit Logging",
+    "control_category": "audit logging",
+    "control_description": "Generate static audit log for local workflow traceability.",
+    "evidence_source": "outputs/sample/audit_log.jsonl",
+    "status": "passed",
+    "owner_role": "ML Engineering Lead",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-014",
+    "control_name": "Limitations And Exclusions",
+    "control_category": "limitations and exclusions",
+    "control_description": "Document non-goals and excluded production capabilities.",
+    "evidence_source": "docs/limitations.md",
+    "status": "passed",
+    "owner_role": "Model Risk Manager",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-015",
+    "control_name": "Responsible AI Controls",
+    "control_category": "responsible AI controls",
+    "control_description": "Confirm no autonomous final decisioning and explainable local workflows.",
+    "evidence_source": "configs/governance_controls.yaml",
+    "status": "passed",
+    "owner_role": "Model Risk Manager",
+    "review_frequency": "Quarterly",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-016",
+    "control_name": "No Autonomous Final Decisioning",
+    "control_category": "no autonomous final decisioning",
+    "control_description": "Confirm outputs are triage support and not final decisions.",
+    "evidence_source": "reports/sample/governance_evidence_pack.md",
+    "status": "passed",
+    "owner_role": "Financial Crime Compliance",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-017",
+    "control_name": "Security And Secrets Hygiene",
+    "control_category": "security and secrets hygiene",
+    "control_description": "Confirm no secrets, real credentials, or live integrations are required.",
+    "evidence_source": ".gitignore",
+    "status": "passed",
+    "owner_role": "Security Owner",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-018",
+    "control_name": "Reproducibility",
+    "control_category": "reproducibility",
+    "control_description": "Retain deterministic seeds and local script entry points.",
+    "evidence_source": "configs/pipeline_config.yaml",
+    "status": "passed",
+    "owner_role": "ML Engineering Lead",
+    "review_frequency": "Per release",
+    "notes": "Evidence available."
+  },
+  {
+    "control_id": "GOV-019",
+    "control_name": "Regulatory And Model Risk Awareness",
+    "control_category": "regulatory/model risk awareness",
+    "control_description": "Document financial services model risk assumptions and controls.",
+    "evidence_source": "docs/model_risk_management.md",
+    "status": "passed",
+    "owner_role": "Model Risk Manager",
+    "review_frequency": "Annually",
+    "notes": "Evidence available."
+  }
+]

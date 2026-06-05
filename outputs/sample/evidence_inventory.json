@@ -1,0 +1,281 @@
+[
+  {
+    "artifact_name": "customers dataset",
+    "artifact_path": "data/sample/customers.csv",
+    "artifact_type": "dataset",
+    "lifecycle_stage": "data_generation",
+    "description": "customers dataset evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "accounts dataset",
+    "artifact_path": "data/sample/accounts.csv",
+    "artifact_type": "dataset",
+    "lifecycle_stage": "data_generation",
+    "description": "accounts dataset evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "transactions dataset",
+    "artifact_path": "data/sample/transactions.csv",
+    "artifact_type": "dataset",
+    "lifecycle_stage": "data_generation",
+    "description": "transactions dataset evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "data quality report",
+    "artifact_path": "outputs/sample/data_quality_report.json",
+    "artifact_type": "validation_report",
+    "lifecycle_stage": "data_validation",
+    "description": "data quality report evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "feature table",
+    "artifact_path": "data/processed/transaction_features.csv",
+    "artifact_type": "dataset",
+    "lifecycle_stage": "feature_engineering",
+    "description": "feature table evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "feature summary",
+    "artifact_path": "outputs/sample/feature_summary.json",
+    "artifact_type": "summary",
+    "lifecycle_stage": "feature_engineering",
+    "description": "feature summary evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "model metrics",
+    "artifact_path": "outputs/sample/model_metrics.json",
+    "artifact_type": "metrics",
+    "lifecycle_stage": "supervised_fraud_model",
+    "description": "model metrics evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "fraud predictions",
+    "artifact_path": "outputs/sample/fraud_predictions.csv",
+    "artifact_type": "predictions",
+    "lifecycle_stage": "supervised_fraud_model",
+    "description": "fraud predictions evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "AML scores",
+    "artifact_path": "outputs/sample/aml_risk_scores.csv",
+    "artifact_type": "scores",
+    "lifecycle_stage": "aml_risk_scoring",
+    "description": "AML scores evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "prioritised alerts",
+    "artifact_path": "outputs/sample/prioritised_alerts.csv",
+    "artifact_type": "triage_output",
+    "lifecycle_stage": "aml_risk_scoring",
+    "description": "prioritised alerts evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "anomaly scores",
+    "artifact_path": "outputs/sample/anomaly_scores.csv",
+    "artifact_type": "scores",
+    "lifecycle_stage": "anomaly_detection",
+    "description": "anomaly scores evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "high risk anomalies",
+    "artifact_path": "outputs/sample/high_risk_anomalies.csv",
+    "artifact_type": "ranking",
+    "lifecycle_stage": "anomaly_detection",
+    "description": "high risk anomalies evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "network risk scores",
+    "artifact_path": "outputs/sample/network_risk_scores.csv",
+    "artifact_type": "scores",
+    "lifecycle_stage": "network_risk_modelling",
+    "description": "network risk scores evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "high risk networks",
+    "artifact_path": "outputs/sample/high_risk_networks.csv",
+    "artifact_type": "ranking",
+    "lifecycle_stage": "network_risk_modelling",
+    "description": "high risk networks evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "NLP alert triage",
+    "artifact_path": "outputs/sample/nlp_alert_triage.csv",
+    "artifact_type": "triage_output",
+    "lifecycle_stage": "nlp_alert_triage",
+    "description": "NLP alert triage evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "case note classifications",
+    "artifact_path": "outputs/sample/nlp_case_note_classifications.csv",
+    "artifact_type": "classification_output",
+    "lifecycle_stage": "nlp_alert_triage",
+    "description": "case note classifications evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "monitoring summary",
+    "artifact_path": "outputs/sample/monitoring_summary.json",
+    "artifact_type": "summary",
+    "lifecycle_stage": "monitoring",
+    "description": "monitoring summary evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "prediction monitoring",
+    "artifact_path": "outputs/sample/prediction_monitoring_summary.json",
+    "artifact_type": "summary",
+    "lifecycle_stage": "monitoring",
+    "description": "prediction monitoring evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "alert quality summary",
+    "artifact_path": "outputs/sample/alert_quality_summary.json",
+    "artifact_type": "summary",
+    "lifecycle_stage": "monitoring",
+    "description": "alert quality summary evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "model card",
+    "artifact_path": "reports/sample/model_card.md",
+    "artifact_type": "markdown_report",
+    "lifecycle_stage": "governance",
+    "description": "model card evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "monitoring report",
+    "artifact_path": "reports/sample/model_monitoring_report.md",
+    "artifact_type": "markdown_report",
+    "lifecycle_stage": "monitoring",
+    "description": "monitoring report evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "anomaly report",
+    "artifact_path": "reports/sample/anomaly_detection_report.md",
+    "artifact_type": "markdown_report",
+    "lifecycle_stage": "anomaly_detection",
+    "description": "anomaly report evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "network report",
+    "artifact_path": "reports/sample/network_risk_report.md",
+    "artifact_type": "markdown_report",
+    "lifecycle_stage": "network_risk_modelling",
+    "description": "network report evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "NLP report",
+    "artifact_path": "reports/sample/nlp_alert_triage_report.md",
+    "artifact_type": "markdown_report",
+    "lifecycle_stage": "nlp_alert_triage",
+    "description": "NLP report evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "model config",
+    "artifact_path": "configs/model_config.yaml",
+    "artifact_type": "config",
+    "lifecycle_stage": "configuration",
+    "description": "model config evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "risk scoring config",
+    "artifact_path": "configs/risk_scoring.yaml",
+    "artifact_type": "config",
+    "lifecycle_stage": "configuration",
+    "description": "risk scoring config evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "monitoring config",
+    "artifact_path": "configs/monitoring_config.yaml",
+    "artifact_type": "config",
+    "lifecycle_stage": "configuration",
+    "description": "monitoring config evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "governance config",
+    "artifact_path": "configs/governance_controls.yaml",
+    "artifact_type": "config",
+    "lifecycle_stage": "configuration",
+    "description": "governance config evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "data dictionary",
+    "artifact_path": "docs/data_dictionary.md",
+    "artifact_type": "documentation",
+    "lifecycle_stage": "documentation",
+    "description": "data dictionary evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "model risk management docs",
+    "artifact_path": "docs/model_risk_management.md",
+    "artifact_type": "documentation",
+    "lifecycle_stage": "documentation",
+    "description": "model risk management docs evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  },
+  {
+    "artifact_name": "monitoring docs",
+    "artifact_path": "docs/monitoring_strategy.md",
+    "artifact_type": "documentation",
+    "lifecycle_stage": "documentation",
+    "description": "monitoring docs evidence.",
+    "exists": true,
+    "evidence_relevance": "Governance traceability"
+  }
+]

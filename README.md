@@ -252,6 +252,36 @@ reports/sample/model_monitoring_report.md
 
 This remains local-first and synthetic-data-only. No live GCP monitoring, dashboard, API, registry, or retraining automation is included.
 
+## Milestone 10: Governance Evidence Pack
+
+Milestone 10 adds governance controls, model risk assessment, evidence inventory, audit logging, lifecycle traceability, and governance markdown reports across the full synthetic ML lifecycle.
+
+Generate the governance pack:
+
+```bash
+python scripts/generate_governance_pack.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli generate-governance-pack
+```
+
+Outputs:
+
+```text
+outputs/sample/governance_control_checklist.json
+outputs/sample/model_risk_assessment.json
+outputs/sample/evidence_inventory.json
+outputs/sample/audit_log.jsonl
+outputs/sample/lifecycle_traceability.json
+reports/sample/governance_evidence_pack.md
+reports/sample/model_risk_management_report.md
+```
+
+This remains local-first, synthetic-data-only, and not production deployment.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
@@ -266,7 +296,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 9 is a monitoring and drift reporting milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, fraud classification, AML scoring, anomaly detection, network risk modelling, NLP case-note triage, and local monitoring reports.
+Milestone 10 is a governance evidence milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, fraud classification, AML scoring, anomaly detection, network risk modelling, NLP case-note triage, monitoring reports, and model risk governance evidence.
 
 ## Quick Start
 
@@ -331,4 +361,10 @@ Run monitoring:
 
 ```bash
 python -m financial_crime_ml.cli run-monitoring
+```
+
+Generate governance evidence:
+
+```bash
+python -m financial_crime_ml.cli generate-governance-pack
 ```

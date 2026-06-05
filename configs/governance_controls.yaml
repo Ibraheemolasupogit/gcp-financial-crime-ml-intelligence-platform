@@ -1,9 +1,43 @@
-# Placeholder governance controls for future model risk management evidence.
-controls:
-  data_lineage:
-    status: planned
-  model_validation:
-    status: planned
-  monitoring_review:
-    status: planned
-
+governance:
+  allowed_statuses:
+    - passed
+    - warning
+    - failed
+    - not_applicable
+  production_readiness_statuses:
+    - portfolio_demo_only
+    - not_production_ready
+    - production_candidate_with_controls
+  owner_roles:
+    data_governance: Data Governance Lead
+    model_owner: Financial Crime ML Owner
+    model_risk: Model Risk Manager
+    compliance: Financial Crime Compliance
+    engineering: ML Engineering Lead
+    security: Security Owner
+  review_frequencies:
+    per_release: Per release
+    quarterly: Quarterly
+    annually: Annually
+    ongoing: Ongoing
+  human_review_policy:
+    autonomous_final_decisioning_allowed: false
+    required_review_role: Financial Crime Investigator
+    policy_statement: Outputs are triage and decision-support artefacts only.
+  responsible_ai_controls:
+    - Synthetic data only
+    - Human review required
+    - No autonomous final decisioning
+    - Explainable scoring and reason codes
+    - Limitations documented
+    - No real customer data or credentials
+  required_evidence_paths:
+    data_quality: outputs/sample/data_quality_report.json
+    feature_summary: outputs/sample/feature_summary.json
+    model_metrics: outputs/sample/model_metrics.json
+    monitoring_summary: outputs/sample/monitoring_summary.json
+    model_card: reports/sample/model_card.md
+    monitoring_report: reports/sample/model_monitoring_report.md
+    anomaly_report: reports/sample/anomaly_detection_report.md
+    network_report: reports/sample/network_risk_report.md
+    nlp_report: reports/sample/nlp_alert_triage_report.md

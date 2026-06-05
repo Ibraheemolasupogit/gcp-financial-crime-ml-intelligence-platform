@@ -6,6 +6,7 @@ import sys
 
 from financial_crime_ml.data_generation import generate_all_datasets
 from financial_crime_ml.features import load_feature_config, run_feature_pipeline
+from financial_crime_ml.governance import run_governance_pack_workflow
 from financial_crime_ml.ingestion import DEFAULT_REPORT_PATH, run_data_validation
 from financial_crime_ml.models.workflow import run_fraud_model_workflow
 from financial_crime_ml.monitoring import (
@@ -97,6 +98,14 @@ def main(argv: list[str] | None = None) -> None:
         print(f"Overall status: {summary['overall_status']}")
         print(f"Total drifted features: {summary['total_drifted_features']}")
         print(f"Report written to: {result['monitoring_report_path']}")
+        return
+
+    if args == ["generate-governance-pack"]:
+        result = run_governance_pack_workflow()
+        print("Governance evidence pack generated.")
+        print(f"Controls: {result['control_count']}")
+        print(f"Risk assessments: {result['assessment_count']}")
+        print(f"Evidence pack written to: {result['governance_evidence_pack_path']}")
         return
 
     print(get_status_message())

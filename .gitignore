@@ -52,6 +52,11 @@ reports/*
 !outputs/sample/prediction_monitoring_summary.json
 !outputs/sample/alert_quality_summary.json
 !outputs/sample/monitoring_summary.json
+!outputs/sample/governance_control_checklist.json
+!outputs/sample/model_risk_assessment.json
+!outputs/sample/evidence_inventory.json
+!outputs/sample/audit_log.jsonl
+!outputs/sample/lifecycle_traceability.json
 !reports/sample/
 !reports/sample/.gitkeep
 !reports/sample/model_card.md
@@ -59,3 +64,5 @@ reports/*
 !reports/sample/network_risk_report.md
 !reports/sample/nlp_alert_triage_report.md
 !reports/sample/model_monitoring_report.md
+!reports/sample/governance_evidence_pack.md
+!reports/sample/model_risk_management_report.md
