@@ -1,6 +1,13 @@
 flowchart TD
-    A["Model Proposal"] --> B["Validation Evidence"]
-    B --> C["Risk Review"]
-    C --> D["Approval Decision"]
-    D --> E["Ongoing Monitoring"]
-
+    A["Model or scoring component evidence"] --> B["Model card and metric review"]
+    B --> C["Risk assessment"]
+    C --> D{"Approval gate"}
+    D -->|"Approved for controlled use"| E["Batch scoring with human-in-the-loop review"]
+    D -->|"More evidence required"| F["Remediation and validation"]
+    F --> B
+    E --> G["Monitoring and drift review"]
+    G --> H{"Monitoring status"}
+    H -->|"Passed"| I["Continue controlled operation"]
+    H -->|"Warning or failed"| J["Escalation and governance review"]
+    I --> K["Audit evidence retention"]
+    J --> K

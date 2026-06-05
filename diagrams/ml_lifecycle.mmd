@@ -1,6 +1,16 @@
 flowchart TD
-    A["Data Preparation"] --> B["Feature Engineering"]
-    B --> C["Training and Evaluation"]
-    C --> D["Monitoring"]
-    D --> E["Governance Review"]
-
+    A["Synthetic data generation"] --> B["Data ingestion and validation"]
+    B --> C["Feature engineering and typology indicators"]
+    C --> D["Fraud classifier training"]
+    C --> E["AML risk scoring"]
+    C --> F["Anomaly detection"]
+    C --> G["Network risk modelling"]
+    H["Synthetic alerts and case notes"] --> I["NLP alert triage"]
+    D --> J["Prioritised alerts"]
+    E --> J
+    F --> J
+    G --> J
+    I --> J
+    J --> K["Model monitoring and drift reporting"]
+    K --> L["Governance evidence pack"]
+    L --> M["Human review and model risk controls"]

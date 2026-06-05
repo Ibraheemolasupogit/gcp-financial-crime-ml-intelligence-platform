@@ -1,0 +1,15 @@
+flowchart LR
+    A["Transaction events"] --> B["Pub/Sub topics"]
+    B --> C["Dataflow validation and enrichment"]
+    C --> D["BigQuery curated tables"]
+    C --> E["Dead-letter topic and rejected records"]
+    D --> F["BigQuery feature tables"]
+    F --> G["Vertex AI training and batch prediction"]
+    F --> H["Dataflow or Cloud Run batch scoring"]
+    G --> I["Risk score tables"]
+    H --> I
+    I --> J["Prioritised alert outputs"]
+    J --> K["Investigator review workflow"]
+    I --> L["Cloud Logging and monitoring tables"]
+    E --> L
+    L --> M["Governance and audit evidence"]

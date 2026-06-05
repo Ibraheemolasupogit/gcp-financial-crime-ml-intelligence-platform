@@ -1,0 +1,12 @@
+flowchart TD
+    P0["Phase 0: Local demo repository"] --> P1["Phase 1: Cloud Storage and BigQuery foundation"]
+    P1 --> P2["Phase 2: Batch feature engineering"]
+    P2 --> P3["Phase 3: Vertex AI training and evaluation"]
+    P3 --> P4["Phase 4: Batch scoring and alert prioritisation"]
+    P4 --> P5["Phase 5: Monitoring and governance evidence"]
+    P5 --> P6["Phase 6: Controlled dashboard and investigator review"]
+    P6 --> P7["Phase 7: Optional streaming extension"]
+    P3 --> G1["Approval and validation gate"]
+    G1 --> P4
+    P5 --> G2["Monitoring and model risk review"]
+    G2 --> P6

@@ -282,13 +282,47 @@ reports/sample/model_risk_management_report.md
 
 This remains local-first, synthetic-data-only, and not production deployment.
 
+## Milestone 11: GCP Reference Architecture and Deployment Blueprint
+
+Milestone 11 adds a professional GCP reference architecture and deployment blueprint for the platform. It documents how the local synthetic lifecycle maps conceptually to services such as Cloud Storage, BigQuery, Pub/Sub, Dataflow, Vertex AI, Cloud Logging, Cloud Monitoring, Dataplex-style governance, and Looker Studio source-layer reporting.
+
+Validate the architecture documentation:
+
+```bash
+python scripts/validate_docs.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli validate-docs
+```
+
+Blueprint artifacts:
+
+```text
+docs/gcp_reference_architecture.md
+docs/distributed_systems_design.md
+docs/deployment_blueprint.md
+docs/security_and_governance_mapping.md
+docs/operations_runbook.md
+docs/gcp_service_mapping.md
+diagrams/gcp_reference_architecture.mmd
+diagrams/ml_lifecycle.mmd
+diagrams/governance_workflow.mmd
+diagrams/distributed_dataflow.mmd
+diagrams/deployment_phases.mmd
+```
+
+This milestone is documentation and blueprint only. It does not deploy live GCP infrastructure, create credentials, create APIs, run Vertex AI pipelines, create BigQuery tables, or implement dashboards.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
 
 ## Local-First, GCP-Aligned
 
-Development is intended to run locally first using standard Python tooling. GCP alignment is expressed through architecture, configuration design, pipeline boundaries, documentation, and future deployment references rather than live cloud dependencies in the early milestones.
+Development is intended to run locally first using standard Python tooling. GCP alignment is expressed through architecture, configuration design, pipeline boundaries, documentation, service mapping, governance controls, and future deployment references rather than live cloud dependencies.
 
 ## Portfolio Positioning
 
@@ -296,7 +330,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 10 is a governance evidence milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, fraud classification, AML scoring, anomaly detection, network risk modelling, NLP case-note triage, monitoring reports, and model risk governance evidence.
+Milestone 11 is a GCP reference architecture and deployment blueprint milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, fraud classification, AML scoring, anomaly detection, network risk modelling, NLP case-note triage, monitoring reports, model risk governance evidence, and cloud-aligned architecture documentation.
 
 ## Quick Start
 
@@ -367,4 +401,10 @@ Generate governance evidence:
 
 ```bash
 python -m financial_crime_ml.cli generate-governance-pack
+```
+
+Validate GCP architecture documentation:
+
+```bash
+python -m financial_crime_ml.cli validate-docs
 ```

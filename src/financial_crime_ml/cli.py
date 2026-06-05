@@ -5,6 +5,7 @@ from __future__ import annotations
 import sys
 
 from financial_crime_ml.data_generation import generate_all_datasets
+from financial_crime_ml.docs_validation import validate_architecture_docs
 from financial_crime_ml.features import load_feature_config, run_feature_pipeline
 from financial_crime_ml.governance import run_governance_pack_workflow
 from financial_crime_ml.ingestion import DEFAULT_REPORT_PATH, run_data_validation
@@ -106,6 +107,18 @@ def main(argv: list[str] | None = None) -> None:
         print(f"Controls: {result['control_count']}")
         print(f"Risk assessments: {result['assessment_count']}")
         print(f"Evidence pack written to: {result['governance_evidence_pack_path']}")
+        return
+
+    if args == ["validate-docs"]:
+        result = validate_architecture_docs()
+        print(f"Documentation validation status: {result.status}")
+        print(f"Documents checked: {result.docs_checked}")
+        print(f"Mermaid diagrams checked: {result.diagrams_checked}")
+        print(f"Issues: {len(result.issues)}")
+        for issue in result.issues:
+            print(f"- {issue}")
+        if not result.passed:
+            raise SystemExit(1)
         return
 
     print(get_status_message())

@@ -1,6 +1,18 @@
 flowchart LR
-    A["Cloud Storage"] --> B["BigQuery"]
-    B --> C["Vertex AI"]
-    C --> D["Cloud Monitoring"]
-    D --> E["Governance Evidence"]
-
+    A["Synthetic or approved source files"] --> B["Cloud Storage landing bucket"]
+    B --> C["Data validation and quality checks"]
+    C --> D["BigQuery curated financial crime tables"]
+    D --> E["Feature engineering batch layer"]
+    E --> F["BigQuery feature tables"]
+    F --> G["Vertex AI Training"]
+    G --> H["Model metrics and model registry metadata concept"]
+    F --> I["Batch scoring jobs"]
+    I --> J["Fraud, AML, anomaly, network, and NLP risk outputs"]
+    J --> K["Prioritised alert tables"]
+    K --> L["Human-in-the-loop investigator review"]
+    J --> M["Monitoring and drift reports"]
+    M --> N["Cloud Logging and BigQuery monitoring tables"]
+    H --> O["Governance evidence bucket"]
+    M --> O
+    L --> O
+    O --> P["Audit and model risk review"]
