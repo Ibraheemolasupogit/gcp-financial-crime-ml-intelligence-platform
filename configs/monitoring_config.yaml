@@ -5,6 +5,9 @@ monitoring:
     - anomaly_rate
     - anomaly_band_distribution
     - suspicious_label_overlap
+    - network_risk_band_distribution
+    - connected_component_count
+    - high_risk_network_count
   reporting_path: reports
 
 anomaly_detection:
@@ -14,3 +17,7 @@ anomaly_detection:
     Medium: 85
     Low: 70
     Info: 0
+
+network_risk:
+  component_summary_enabled: true
+  reason_code_summary_enabled: true

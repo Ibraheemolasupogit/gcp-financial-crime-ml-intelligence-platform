@@ -8,7 +8,7 @@ from financial_crime_ml.data_generation import generate_all_datasets
 from financial_crime_ml.features import load_feature_config, run_feature_pipeline
 from financial_crime_ml.ingestion import DEFAULT_REPORT_PATH, run_data_validation
 from financial_crime_ml.models.workflow import run_fraud_model_workflow
-from financial_crime_ml.monitoring import run_anomaly_detection_workflow
+from financial_crime_ml.monitoring import run_anomaly_detection_workflow, run_network_risk_workflow
 
 STATUS_MESSAGE = "GCP Financial Crime ML Intelligence Platform scaffold is ready."
 
@@ -62,6 +62,17 @@ def main(argv: list[str] | None = None) -> None:
         print(f"Anomaly rate: {summary['anomaly_rate']:.4f}")
         print(f"Anomaly scores written to: {result['anomaly_scores_path']}")
         print(f"Report written to: {result['anomaly_report_path']}")
+        return
+
+    if args == ["run-network-risk"]:
+        result = run_network_risk_workflow()
+        summary = result["summary"]
+        print("Network risk workflow completed.")
+        print(f"Nodes: {summary['node_count']}")
+        print(f"Edges: {summary['edge_count']}")
+        print(f"High-risk network rows: {summary['high_risk_network_count']}")
+        print(f"Network scores written to: {result['network_risk_scores_path']}")
+        print(f"Report written to: {result['network_report_path']}")
         return
 
     print(get_status_message())

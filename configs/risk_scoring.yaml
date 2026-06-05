@@ -33,3 +33,25 @@ aml_risk_scoring:
     immediate_investigator_review: 90
     investigator_review: 70
     queue_for_monitoring: 40
+
+network_risk_scoring:
+  output_path: outputs/sample/network_risk_scores.csv
+  high_risk_networks_output_path: outputs/sample/high_risk_networks.csv
+  network_summary_output_path: outputs/sample/network_summary.json
+  network_report_output_path: reports/sample/network_risk_report.md
+  max_high_risk_networks: 100
+  thresholds:
+    shared_device_account_threshold: 2
+    shared_beneficiary_account_threshold: 2
+    large_component_threshold: 25
+    suspicious_cluster_rate_threshold: 0.2
+    high_risk_network_score_threshold: 70
+  scoring_weights:
+    shared_device: 20
+    shared_beneficiary: 18
+    suspicious_cluster: 20
+    large_component: 10
+    mule_network: 18
+    high_risk_network: 14
+    aml_high_or_critical: 10
+    anomaly_flag: 8

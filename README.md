@@ -170,6 +170,33 @@ reports/sample/anomaly_detection_report.md
 
 This remains local-first and synthetic-data-only. Graph/network modelling and NLP are intentionally deferred to later milestones.
 
+## Milestone 7: Graph and Network Risk Modelling
+
+Milestone 7 adds a NetworkX-based graph risk layer connecting customers, accounts, transactions, beneficiaries, and devices. It creates graph features, identifies shared-device and shared-beneficiary risk, detects connected-component clusters, scores network risk, and writes high-risk network outputs.
+
+Run network risk modelling:
+
+```bash
+python scripts/run_network_risk.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli run-network-risk
+```
+
+Outputs:
+
+```text
+outputs/sample/network_risk_scores.csv
+outputs/sample/high_risk_networks.csv
+outputs/sample/network_summary.json
+reports/sample/network_risk_report.md
+```
+
+This remains local-first and synthetic-data-only. NLP, agentic AI, dashboards, graph databases, and cloud deployment are intentionally deferred.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
@@ -184,7 +211,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 6 is an anomaly detection milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, a baseline fraud classifier, AML risk scoring, prioritised alerts, model governance artefacts, and unsupervised anomaly detection.
+Milestone 7 is a graph/network risk milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, a baseline fraud classifier, AML risk scoring, prioritised alerts, model governance artefacts, anomaly detection, and network risk modelling.
 
 ## Quick Start
 
@@ -231,4 +258,10 @@ Run anomaly detection:
 
 ```bash
 python -m financial_crime_ml.cli run-anomaly-detection
+```
+
+Run network risk modelling:
+
+```bash
+python -m financial_crime_ml.cli run-network-risk
 ```

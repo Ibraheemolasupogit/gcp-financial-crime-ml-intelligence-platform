@@ -42,7 +42,11 @@ reports/*
 !outputs/sample/anomaly_scores.csv
 !outputs/sample/high_risk_anomalies.csv
 !outputs/sample/anomaly_summary.json
+!outputs/sample/network_risk_scores.csv
+!outputs/sample/high_risk_networks.csv
+!outputs/sample/network_summary.json
 !reports/sample/
 !reports/sample/.gitkeep
 !reports/sample/model_card.md
 !reports/sample/anomaly_detection_report.md
+!reports/sample/network_risk_report.md

@@ -1,0 +1,44 @@
+{
+  "node_count": 7600,
+  "edge_count": 25644,
+  "node_type_counts": {
+    "customer": 500,
+    "account": 700,
+    "beneficiary": 800,
+    "device": 600,
+    "transaction": 5000
+  },
+  "edge_type_counts": {
+    "OWNS": 700,
+    "SENDS": 5000,
+    "USES": 4962,
+    "PAYS": 4982,
+    "TO": 5000,
+    "USED": 5000
+  },
+  "connected_component_count": 131,
+  "largest_component_size": 7470,
+  "network_risk_band_counts": {
+    "Medium": 3995,
+    "High": 996,
+    "Critical": 9
+  },
+  "top_network_risk_reasons": {
+    "SHARED_DEVICE": 4997,
+    "DEVICE_USED_BY_MULTIPLE_ACCOUNTS": 4997,
+    "SHARED_BENEFICIARY": 4992,
+    "BENEFICIARY_PAID_BY_MULTIPLE_ACCOUNTS": 4992,
+    "DEVICE_LINKED_TO_SUSPICIOUS_ACTIVITY": 3912,
+    "BENEFICIARY_LINKED_TO_HIGH_RISK_ACTIVITY": 3658,
+    "MULE_NETWORK_INDICATOR": 898,
+    "BENEFICIARY_LINKED_TO_HIGH_VALUE_ACTIVITY": 74
+  },
+  "high_risk_network_count": 1005,
+  "aml_high_or_critical_overlap_count": 9,
+  "anomaly_overlap_count": 100,
+  "notes": [
+    "Network risk uses a simple heterogeneous NetworkX graph.",
+    "Shared devices and shared beneficiaries are deterministic network indicators.",
+    "Outputs are synthetic-data-only and intended for local portfolio demonstration."
+  ]
+}
