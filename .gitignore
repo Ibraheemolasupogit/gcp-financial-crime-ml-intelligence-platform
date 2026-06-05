@@ -48,9 +48,14 @@ reports/*
 !outputs/sample/nlp_case_note_classifications.csv
 !outputs/sample/nlp_alert_triage.csv
 !outputs/sample/nlp_summary.json
+!outputs/sample/data_drift_summary.csv
+!outputs/sample/prediction_monitoring_summary.json
+!outputs/sample/alert_quality_summary.json
+!outputs/sample/monitoring_summary.json
 !reports/sample/
 !reports/sample/.gitkeep
 !reports/sample/model_card.md
 !reports/sample/anomaly_detection_report.md
 !reports/sample/network_risk_report.md
 !reports/sample/nlp_alert_triage_report.md
+!reports/sample/model_monitoring_report.md

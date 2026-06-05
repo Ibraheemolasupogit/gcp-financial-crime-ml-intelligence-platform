@@ -224,6 +224,34 @@ reports/sample/nlp_alert_triage_report.md
 
 This remains lightweight, local-first, and synthetic-data-only. LLMs, agentic AI, Hugging Face transformers, dashboards, and cloud deployment are intentionally deferred.
 
+## Milestone 9: Monitoring and Drift Reporting
+
+Milestone 9 adds local monitoring and drift reporting across transaction features, fraud predictions, AML risk scores, anomaly scores, network risk scores, prioritised alerts, and NLP triage outputs.
+
+Run monitoring:
+
+```bash
+python scripts/run_monitoring.py
+```
+
+Or use the package CLI:
+
+```bash
+python -m financial_crime_ml.cli run-monitoring
+```
+
+Outputs:
+
+```text
+outputs/sample/data_drift_summary.csv
+outputs/sample/prediction_monitoring_summary.json
+outputs/sample/alert_quality_summary.json
+outputs/sample/monitoring_summary.json
+reports/sample/model_monitoring_report.md
+```
+
+This remains local-first and synthetic-data-only. No live GCP monitoring, dashboard, API, registry, or retraining automation is included.
+
 ## Synthetic Data Only
 
 This repository uses synthetic data only. It must not contain real customer data, transaction data, alerts, credentials, secrets, or confidential financial crime intelligence.
@@ -238,7 +266,7 @@ This project demonstrates financial crime ML engineering with a focus on scalabl
 
 ## Current Status
 
-Milestone 8 is an NLP alert triage milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, fraud classification, AML scoring, anomaly detection, network risk modelling, and lightweight NLP case-note triage.
+Milestone 9 is a monitoring and drift reporting milestone. The repository contains the project scaffold, deterministic synthetic data generation, validation, feature engineering, fraud classification, AML scoring, anomaly detection, network risk modelling, NLP case-note triage, and local monitoring reports.
 
 ## Quick Start
 
@@ -297,4 +325,10 @@ Run NLP alert triage:
 
 ```bash
 python -m financial_crime_ml.cli run-nlp-triage
+```
+
+Run monitoring:
+
+```bash
+python -m financial_crime_ml.cli run-monitoring
 ```

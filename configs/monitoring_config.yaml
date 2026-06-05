@@ -30,3 +30,28 @@ nlp_alert_triage:
     aml_risk_scores: outputs/sample/aml_risk_scores.csv
     anomaly_scores: outputs/sample/anomaly_scores.csv
     network_risk_scores: outputs/sample/network_risk_scores.csv
+
+model_monitoring:
+  baseline_fraction: 0.7
+  drift_percent_change_threshold: 0.25
+  missing_rate_change_threshold: 0.05
+  drift_score_threshold: 0.1
+  high_priority_bands:
+    - Critical
+    - High
+  optional_input_paths:
+    transaction_features: data/processed/transaction_features.csv
+    fraud_predictions: outputs/sample/fraud_predictions.csv
+    aml_risk_scores: outputs/sample/aml_risk_scores.csv
+    prioritised_alerts: outputs/sample/prioritised_alerts.csv
+    anomaly_scores: outputs/sample/anomaly_scores.csv
+    high_risk_anomalies: outputs/sample/high_risk_anomalies.csv
+    network_risk_scores: outputs/sample/network_risk_scores.csv
+    high_risk_networks: outputs/sample/high_risk_networks.csv
+    nlp_alert_triage: outputs/sample/nlp_alert_triage.csv
+  output_paths:
+    data_drift_summary: outputs/sample/data_drift_summary.csv
+    prediction_monitoring_summary: outputs/sample/prediction_monitoring_summary.json
+    alert_quality_summary: outputs/sample/alert_quality_summary.json
+    monitoring_summary: outputs/sample/monitoring_summary.json
+    monitoring_report: reports/sample/model_monitoring_report.md

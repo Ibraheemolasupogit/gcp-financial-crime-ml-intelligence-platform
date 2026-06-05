@@ -1,0 +1,38 @@
+{
+  "total_prioritised_alerts": 1000,
+  "priority_band_distribution": {
+    "Info": 494,
+    "Low": 350,
+    "Medium": 130,
+    "High": 26
+  },
+  "AML_high_critical_count": 9,
+  "anomaly_high_critical_count": 250,
+  "network_high_critical_count": 1005,
+  "NLP_high_critical_count": 735,
+  "duplicate_transaction_alert_count": 7100,
+  "top_reason_codes": {
+    "SHARED_DEVICE": 4997,
+    "DEVICE_USED_BY_MULTIPLE_ACCOUNTS": 4997,
+    "SHARED_BENEFICIARY": 4992,
+    "BENEFICIARY_PAID_BY_MULTIPLE_ACCOUNTS": 4992,
+    "CROSS_BORDER_TRANSACTION": 4253,
+    "DEVICE_LINKED_TO_SUSPICIOUS_ACTIVITY": 3912,
+    "BENEFICIARY_LINKED_TO_HIGH_RISK_ACTIVITY": 3658,
+    "HIGH_RISK_JURISDICTION": 907,
+    "MULE_NETWORK_INDICATOR": 898,
+    "NETWORK_HIGH_OR_CRITICAL": 898,
+    "No immediate priority indicators": 696,
+    "NO_DOMINANT_REASON": 593,
+    "DEVICE_RISK_SIGNAL": 409,
+    "HIGH_ALERT_SEVERITY": 385,
+    "ANOMALY_OVERLAP": 293
+  },
+  "recommended_monitoring_observations": [
+    "Review concentration of high and critical alert bands.",
+    "Compare duplicate transaction coverage across alert-like outputs.",
+    "Use reason-code distribution to identify recurring operational drivers.",
+    "Multiple monitoring outputs reference the same transactions."
+  ],
+  "high_priority_alert_count": 26
+}

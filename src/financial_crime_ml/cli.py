@@ -10,6 +10,7 @@ from financial_crime_ml.ingestion import DEFAULT_REPORT_PATH, run_data_validatio
 from financial_crime_ml.models.workflow import run_fraud_model_workflow
 from financial_crime_ml.monitoring import (
     run_anomaly_detection_workflow,
+    run_monitoring_workflow,
     run_network_risk_workflow,
     run_nlp_triage_workflow,
 )
@@ -87,6 +88,15 @@ def main(argv: list[str] | None = None) -> None:
         print(f"Case notes classified: {summary['case_note_count']}")
         print(f"Alert triage written to: {result['alert_triage_path']}")
         print(f"Report written to: {result['nlp_report_path']}")
+        return
+
+    if args == ["run-monitoring"]:
+        result = run_monitoring_workflow()
+        summary = result["monitoring_summary"]
+        print("Monitoring workflow completed.")
+        print(f"Overall status: {summary['overall_status']}")
+        print(f"Total drifted features: {summary['total_drifted_features']}")
+        print(f"Report written to: {result['monitoring_report_path']}")
         return
 
     print(get_status_message())

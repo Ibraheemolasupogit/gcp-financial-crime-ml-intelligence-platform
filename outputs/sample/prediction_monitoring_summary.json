@@ -1,0 +1,103 @@
+{
+  "fraud": {
+    "status": "available",
+    "row_count": 1000,
+    "fraud_probability": {
+      "count": 1000,
+      "mean": 0.2578307369177641,
+      "min": 0.0026255103384111,
+      "p50": 0.1014088706402856,
+      "p95": 0.9999278510353815,
+      "max": 1.0
+    },
+    "fraud_prediction_rate": 0.174
+  },
+  "aml": {
+    "status": "available",
+    "row_count": 5000,
+    "aml_risk_score": {
+      "count": 5000,
+      "mean": 14.6564,
+      "min": 0.0,
+      "p50": 8.0,
+      "p95": 37.20000000000073,
+      "max": 77.0
+    },
+    "aml_risk_band_counts": {
+      "Info": 3451,
+      "Low": 1299,
+      "Medium": 241,
+      "High": 9
+    }
+  },
+  "anomaly": {
+    "status": "available",
+    "row_count": 5000,
+    "anomaly_score": {
+      "count": 5000,
+      "mean": 23.80232708,
+      "min": 0.0,
+      "p50": 20.05265,
+      "p95": 57.04709500000002,
+      "max": 100.0
+    },
+    "is_anomaly_rate": 0.08,
+    "anomaly_band_counts": {
+      "Info": 3500,
+      "Low": 750,
+      "Medium": 500,
+      "High": 200,
+      "Critical": 50
+    }
+  },
+  "network": {
+    "status": "available",
+    "row_count": 5000,
+    "network_risk_score": {
+      "count": 5000,
+      "mean": 65.85,
+      "min": 42.0,
+      "p50": 62.0,
+      "p95": 88.0,
+      "max": 98.0
+    },
+    "network_risk_band_counts": {
+      "Medium": 3995,
+      "High": 996,
+      "Critical": 9
+    }
+  },
+  "nlp": {
+    "status": "available",
+    "row_count": 900,
+    "nlp_triage_score": {
+      "count": 900,
+      "mean": 78.52777777777777,
+      "min": 30.0,
+      "p50": 85.0,
+      "p95": 98.0,
+      "max": 100.0
+    },
+    "nlp_triage_band_counts": {
+      "High": 525,
+      "Critical": 210,
+      "Low": 104,
+      "Medium": 61
+    },
+    "predicted_typology_distribution": {
+      "rapid_movement": 212,
+      "structuring": 113,
+      "unknown": 109,
+      "account_takeover": 101,
+      "shared_device": 99,
+      "high_risk_jurisdiction": 95,
+      "mule_account": 88,
+      "shared_beneficiary": 83
+    }
+  },
+  "missing_optional_sources": [],
+  "overall_notes": [
+    "Prediction and risk monitoring uses local output artefacts only.",
+    "Missing optional files are reported but do not fail the workflow."
+  ]
+}

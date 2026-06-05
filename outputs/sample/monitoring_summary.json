@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-05T01:54:09+00:00",
+  "input_sources_used": [
+    "transaction_features",
+    "fraud_predictions",
+    "aml_risk_scores",
+    "prioritised_alerts",
+    "anomaly_scores",
+    "high_risk_anomalies",
+    "network_risk_scores",
+    "high_risk_networks",
+    "nlp_alert_triage"
+  ],
+  "data_drift_status": "warning",
+  "prediction_monitoring_status": "passed",
+  "alert_quality_status": "passed",
+  "total_drifted_features": 4,
+  "high_priority_alert_count": 26,
+  "monitoring_observations": [
+    "4 drifted features detected.",
+    "26 high-priority alerts found.",
+    "Review monitoring trends before any model or rule changes."
+  ],
+  "limitations": [
+    "Local monitoring uses static synthetic artefacts.",
+    "No live service, cloud integration, dashboard, registry, or retraining automation is implemented.",
+    "Thresholds are simple demonstration defaults and require governance review in real systems."
+  ],
+  "overall_status": "passed"
+}
